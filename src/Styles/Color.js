@@ -8,6 +8,6 @@ export const color = [
     headerIcon: '#ffffff',
     tiles: '#E0ECDE',
     tileText: '#ffffff',
-    tilesIcon: '#2D6974',
+    tileIcon: '#2D6974',
   },
 ];
