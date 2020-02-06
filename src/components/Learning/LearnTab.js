@@ -1,18 +1,22 @@
 import React, {Component} from 'react';
 import {Text, View, FlatList} from 'react-native';
 import CharacterGroup from '../Learning/CharacterGroup';
+import {defaultCharacterGroups} from './../../storage/defaultCharacterGroups';
+import {initData, getData} from './../../storage/initData';
 
 export default class LearnTab extends Component {
   render() {
-    let groupList = [
-      {name: 'Hiragana', id: 1},
-      {name: 'Katakana', id: 2},
-      {name: 'Kanji', id: 3},
-    ];
+    if (getData('dataIsStored') == null) {
+      initData();
+    } else {
+      console.warn('data is already stored');
+    }
+    // initData();
+    // getData('Hiragana');
     return (
       <View>
         <FlatList
-          data={groupList}
+          data={defaultCharacterGroups}
           renderItem={({item}) => <CharacterGroup name={item.name} />}
         />
       </View>
