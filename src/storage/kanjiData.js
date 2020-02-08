@@ -1,7 +1,7 @@
 export const kanjiData = [
     {
       "kanji": "一",
-      "kname": 1,
+      "name": 1,
       "kstroke": 1,
       "kmeaning": "one",
       "kgrade": 1,
@@ -58,7 +58,7 @@ export const kanjiData = [
     },
     {
       "kanji": "何",
-      "kname": "nani",
+      "name": "nani",
       "kstroke": 7,
       "kmeaning": "what, how many",
       "kgrade": 2,
@@ -123,7 +123,7 @@ export const kanjiData = [
     },
     {
       "kanji": "七",
-      "kname": 7,
+      "name": 7,
       "kstroke": 2,
       "kmeaning": "seven",
       "kgrade": 1,
@@ -176,7 +176,7 @@ export const kanjiData = [
     },
     {
       "kanji": "飼",
-      "kname": "shi-ka(u)",
+      "name": "shi-ka(u)",
       "kstroke": 13,
       "kmeaning": "raise animals",
       "kgrade": 5,
@@ -221,7 +221,7 @@ export const kanjiData = [
     },
     {
       "kanji": "示",
-      "kname": "ji-shime(su)",
+      "name": "ji-shime(su)",
       "kstroke": 5,
       "kmeaning": "show",
       "kgrade": 5,
@@ -286,7 +286,7 @@ export const kanjiData = [
     },
     {
       "kanji": "述",
-      "kname": "jutsu-no(beru)",
+      "name": "jutsu-no(beru)",
       "kstroke": 8,
       "kmeaning": "state, mention, refer to, explain",
       "kgrade": 5,
@@ -347,7 +347,7 @@ export const kanjiData = [
     },
     {
       "kanji": "序",
-      "kname": "jo(ban)",
+      "name": "jo(ban)",
       "kstroke": 7,
       "kmeaning": "introductory part, order, preface",
       "kgrade": 5,
@@ -392,7 +392,7 @@ export const kanjiData = [
     },
     {
       "kanji": "織",
-      "kname": "(so)shiki",
+      "name": "(so)shiki",
       "kstroke": 18,
       "kmeaning": "weave",
       "kgrade": 5,
@@ -445,7 +445,7 @@ export const kanjiData = [
     },
     {
       "kanji": "税",
-      "kname": "zei(kin)",
+      "name": "zei(kin)",
       "kstroke": 12,
       "kmeaning": "tax",
       "kgrade": 5,
@@ -514,7 +514,7 @@ export const kanjiData = [
     },
     {
       "kanji": "舌",
-      "kname": "zetsu-shita",
+      "name": "zetsu-shita",
       "kstroke": 6,
       "kmeaning": "tongue",
       "kgrade": 5,
@@ -567,7 +567,7 @@ export const kanjiData = [
     },
     {
       "kanji": "銭",
-      "kname": "zeni",
+      "name": "zeni",
       "kstroke": 14,
       "kmeaning": "money",
       "kgrade": 5,
@@ -624,7 +624,7 @@ export const kanjiData = [
     },
     {
       "kanji": "祖",
-      "kname": "so(sen)",
+      "name": "so(sen)",
       "kstroke": 9,
       "kmeaning": "ancestor",
       "kgrade": 5,
@@ -669,7 +669,7 @@ export const kanjiData = [
     },
     {
       "kanji": "測",
-      "kname": "soku-haka(ru)",
+      "name": "soku-haka(ru)",
       "kstroke": 12,
       "kmeaning": "measure, conjecture",
       "kgrade": 5,
@@ -730,7 +730,7 @@ export const kanjiData = [
     },
     {
       "kanji": "八",
-      "kname": 8,
+      "name": 8,
       "kstroke": 2,
       "kmeaning": "eight",
       "kgrade": 1,
@@ -791,7 +791,7 @@ export const kanjiData = [
     },
     {
       "kanji": "属",
-      "kname": "(sho)zoku",
+      "name": "(sho)zoku",
       "kstroke": 12,
       "kmeaning": "belong to",
       "kgrade": 5,
@@ -848,7 +848,7 @@ export const kanjiData = [
     },
     {
       "kanji": "損",
-      "kname": "son(gai)",
+      "name": "son(gai)",
       "kstroke": 13,
       "kmeaning": "loss, damage, harm",
       "kgrade": 5,
@@ -913,7 +913,7 @@ export const kanjiData = [
     },
     {
       "kanji": "退",
-      "kname": "shirizo(ku)",
+      "name": "shirizo(ku)",
       "kstroke": 9,
       "kmeaning": "retreat, drive away, repel",
       "kgrade": 5,
@@ -982,7 +982,7 @@ export const kanjiData = [
     },
     {
       "kanji": "銅",
-      "kname": "dou(zou)",
+      "name": "dou(zou)",
       "kstroke": 14,
       "kmeaning": "copper",
       "kgrade": 5,
@@ -1023,7 +1023,7 @@ export const kanjiData = [
     },
     {
       "kanji": "徳",
-      "kname": "(dou)toku",
+      "name": "(dou)toku",
       "kstroke": 14,
       "kmeaning": "virtue",
       "kgrade": 5,
@@ -1068,7 +1068,7 @@ export const kanjiData = [
     },
     {
       "kanji": "犯",
-      "kname": "han(nin)",
+      "name": "han(nin)",
       "kstroke": 5,
       "kmeaning": "offense, commit (a crime), violate, defy",
       "kgrade": 5,
@@ -1129,7 +1129,7 @@ export const kanjiData = [
     },
     {
       "kanji": "版",
-      "kname": "han(ga)",
+      "name": "han(ga)",
       "kstroke": 8,
       "kmeaning": "printing plate, publishing, edition",
       "kgrade": 5,
@@ -1198,7 +1198,7 @@ export const kanjiData = [
     },
     {
       "kanji": "俵",
-      "kname": "tawara",
+      "name": "tawara",
       "kstroke": 10,
       "kmeaning": "straw sack",
       "kgrade": 5,
@@ -1239,7 +1239,7 @@ export const kanjiData = [
     },
     {
       "kanji": "婦",
-      "kname": "(fuu)fu",
+      "name": "(fuu)fu",
       "kstroke": 11,
       "kmeaning": "adult woman",
       "kgrade": 5,
@@ -1296,7 +1296,7 @@ export const kanjiData = [
     },
     {
       "kanji": "富",
-      "kname": "tomi",
+      "name": "tomi",
       "kstroke": 12,
       "kmeaning": "rich, wealth",
       "kgrade": 5,
@@ -1349,7 +1349,7 @@ export const kanjiData = [
     },
     {
       "kanji": "九",
-      "kname": 9,
+      "name": 9,
       "kstroke": 2,
       "kmeaning": "nine",
       "kgrade": 1,
@@ -1402,7 +1402,7 @@ export const kanjiData = [
     },
     {
       "kanji": "武",
-      "kname": "bu(ryoku)",
+      "name": "bu(ryoku)",
       "kstroke": 8,
       "kmeaning": "military",
       "kgrade": 5,
@@ -1455,7 +1455,7 @@ export const kanjiData = [
     },
     {
       "kanji": "複",
-      "kname": "fuku(suu)",
+      "name": "fuku(suu)",
       "kstroke": 14,
       "kmeaning": "compound, double, multiple",
       "kgrade": 5,
@@ -1504,7 +1504,7 @@ export const kanjiData = [
     },
     {
       "kanji": "墓",
-      "kname": "haka",
+      "name": "haka",
       "kstroke": 13,
       "kmeaning": "grave, tomb",
       "kgrade": 5,
@@ -1549,7 +1549,7 @@ export const kanjiData = [
     },
     {
       "kanji": "報",
-      "kname": "(yo)hou",
+      "name": "(yo)hou",
       "kstroke": 12,
       "kmeaning": "inform, require, news, report, reward",
       "kgrade": 5,
@@ -1618,7 +1618,7 @@ export const kanjiData = [
     },
     {
       "kanji": "防",
-      "kname": "fuse(gu)",
+      "name": "fuse(gu)",
       "kstroke": 7,
       "kmeaning": "prevent, protect from",
       "kgrade": 5,
@@ -1687,7 +1687,7 @@ export const kanjiData = [
     },
     {
       "kanji": "貿",
-      "kname": "bou(ekifuu)",
+      "name": "bou(ekifuu)",
       "kstroke": 12,
       "kmeaning": "trade, exchange",
       "kgrade": 5,
@@ -1720,7 +1720,7 @@ export const kanjiData = [
     },
     {
       "kanji": "務",
-      "kname": "(nin)mu",
+      "name": "(nin)mu",
       "kstroke": 11,
       "kmeaning": "duty, work, serve",
       "kgrade": 5,
@@ -1789,7 +1789,7 @@ export const kanjiData = [
     },
     {
       "kanji": "綿",
-      "kname": "men-wata",
+      "name": "men-wata",
       "kstroke": 14,
       "kmeaning": "cotton",
       "kgrade": 5,
@@ -1842,7 +1842,7 @@ export const kanjiData = [
     },
     {
       "kanji": "余",
-      "kname": "yo(keina)",
+      "name": "yo(keina)",
       "kstroke": 7,
       "kmeaning": "remaining, excess",
       "kgrade": 5,
@@ -1911,7 +1911,7 @@ export const kanjiData = [
     },
     {
       "kanji": "略",
-      "kname": "(sen)ryaku",
+      "name": "(sen)ryaku",
       "kstroke": 11,
       "kmeaning": "abridged, strategy, omit, abbreviate",
       "kgrade": 5,
@@ -1976,7 +1976,7 @@ export const kanjiData = [
     },
     {
       "kanji": "十",
-      "kname": 10,
+      "name": 10,
       "kstroke": 2,
       "kmeaning": "ten",
       "kgrade": 1,
@@ -2045,7 +2045,7 @@ export const kanjiData = [
     },
     {
       "kanji": "領",
-      "kname": "(daitou)ryou",
+      "name": "(daitou)ryou",
       "kstroke": 14,
       "kmeaning": "territory, govern, rule",
       "kgrade": 5,
@@ -2114,7 +2114,7 @@ export const kanjiData = [
     },
     {
       "kanji": "域",
-      "kname": "(chi)iki",
+      "name": "(chi)iki",
       "kstroke": 11,
       "kmeaning": "bounded area, region",
       "kgrade": 6,
@@ -2163,7 +2163,7 @@ export const kanjiData = [
     },
     {
       "kanji": "宇",
-      "kname": "u(jicha)",
+      "name": "u(jicha)",
       "kstroke": 6,
       "kmeaning": "universe",
       "kgrade": 6,
@@ -2192,7 +2192,7 @@ export const kanjiData = [
     },
     {
       "kanji": "沿",
-      "kname": "en-so(u)",
+      "name": "en-so(u)",
       "kstroke": 8,
       "kmeaning": "along",
       "kgrade": 6,
@@ -2241,7 +2241,7 @@ export const kanjiData = [
     },
     {
       "kanji": "灰",
-      "kname": "kai-hai",
+      "name": "kai-hai",
       "kstroke": 6,
       "kmeaning": "ash",
       "kgrade": 6,
@@ -2286,7 +2286,7 @@ export const kanjiData = [
     },
     {
       "kanji": "閣",
-      "kname": "kaku(ryou)",
+      "name": "kaku(ryou)",
       "kstroke": 14,
       "kmeaning": "tower, tall magnificent building, cabinet",
       "kgrade": 6,
@@ -2347,7 +2347,7 @@ export const kanjiData = [
     },
     {
       "kanji": "割",
-      "kname": "wa(ru)",
+      "name": "wa(ru)",
       "kstroke": 12,
       "kmeaning": "divide, split",
       "kgrade": 6,
@@ -2416,7 +2416,7 @@ export const kanjiData = [
     },
     {
       "kanji": "株",
-      "kname": "kabu(shiki)",
+      "name": "kabu(shiki)",
       "kstroke": 10,
       "kmeaning": "stock, share, stump",
       "kgrade": 6,
@@ -2473,7 +2473,7 @@ export const kanjiData = [
     },
     {
       "kanji": "干",
-      "kname": "kan-ho(su)",
+      "name": "kan-ho(su)",
       "kstroke": 3,
       "kmeaning": "dry",
       "kgrade": 6,
@@ -2534,7 +2534,7 @@ export const kanjiData = [
     },
     {
       "kanji": "巻",
-      "kname": "kan-ma(ku)",
+      "name": "kan-ma(ku)",
       "kstroke": 9,
       "kmeaning": "roll up, volume, wind",
       "kgrade": 6,
@@ -2595,7 +2595,7 @@ export const kanjiData = [
     },
     {
       "kanji": "待",
-      "kname": "ma(tsu)",
+      "name": "ma(tsu)",
       "kstroke": 9,
       "kmeaning": "wait",
       "kgrade": 3,
@@ -2644,7 +2644,7 @@ export const kanjiData = [
     },
     {
       "kanji": "看",
-      "kname": "kan(gofu)",
+      "name": "kan(gofu)",
       "kstroke": 9,
       "kmeaning": "watch, care for",
       "kgrade": 6,
@@ -2689,7 +2689,7 @@ export const kanjiData = [
     },
     {
       "kanji": "危",
-      "kname": "abu(nai)",
+      "name": "abu(nai)",
       "kstroke": 6,
       "kmeaning": "dangerous",
       "kgrade": 6,
@@ -2746,7 +2746,7 @@ export const kanjiData = [
     },
     {
       "kanji": "揮",
-      "kname": "(shi)ki(bou)",
+      "name": "(shi)ki(bou)",
       "kstroke": 12,
       "kmeaning": "wield, direct, command",
       "kgrade": 6,
@@ -2787,7 +2787,7 @@ export const kanjiData = [
     },
     {
       "kanji": "貴",
-      "kname": "ki-touto(i)",
+      "name": "ki-touto(i)",
       "kstroke": 12,
       "kmeaning": "noble, your honorable, valuable, respect",
       "kgrade": 6,
@@ -2844,7 +2844,7 @@ export const kanjiData = [
     },
     {
       "kanji": "郷",
-      "kname": "(ko)kyou",
+      "name": "(ko)kyou",
       "kstroke": 11,
       "kmeaning": "hometown",
       "kgrade": 6,
@@ -2901,7 +2901,7 @@ export const kanjiData = [
     },
     {
       "kanji": "警",
-      "kname": "kei(satsu)",
+      "name": "kei(satsu)",
       "kstroke": 19,
       "kmeaning": "guard against, warn, admonish",
       "kgrade": 6,
@@ -2966,7 +2966,7 @@ export const kanjiData = [
     },
     {
       "kanji": "穴",
-      "kname": "ana",
+      "name": "ana",
       "kstroke": 5,
       "kmeaning": "hole, cave",
       "kgrade": 6,
@@ -3003,7 +3003,7 @@ export const kanjiData = [
     },
     {
       "kanji": "絹",
-      "kname": "kinu",
+      "name": "kinu",
       "kstroke": 13,
       "kmeaning": "silk",
       "kgrade": 6,
@@ -3044,7 +3044,7 @@ export const kanjiData = [
     },
     {
       "kanji": "憲",
-      "kname": "(gou)ken(teki)",
+      "name": "(gou)ken(teki)",
       "kstroke": 16,
       "kmeaning": "constitution",
       "kgrade": 6,
@@ -3089,7 +3089,7 @@ export const kanjiData = [
     },
     {
       "kanji": "源",
-      "kname": "minamoto",
+      "name": "minamoto",
       "kstroke": 13,
       "kmeaning": "source, origin",
       "kgrade": 6,
@@ -3154,7 +3154,7 @@ export const kanjiData = [
     },
     {
       "kanji": "堂",
-      "kname": "(shoku)dou",
+      "name": "(shoku)dou",
       "kstroke": 11,
       "kmeaning": "hall",
       "kgrade": 4,
@@ -3187,7 +3187,7 @@ export const kanjiData = [
     },
     {
       "kanji": "己",
-      "kname": "onore",
+      "name": "onore",
       "kstroke": 3,
       "kmeaning": "oneself, self",
       "kgrade": 6,
@@ -3228,7 +3228,7 @@ export const kanjiData = [
     },
     {
       "kanji": "后",
-      "kname": "(koutai)gou",
+      "name": "(koutai)gou",
       "kstroke": 6,
       "kmeaning": "empress",
       "kgrade": 6,
@@ -3261,7 +3261,7 @@ export const kanjiData = [
     },
     {
       "kanji": "孝",
-      "kname": "(oya)kou(kou)",
+      "name": "(oya)kou(kou)",
       "kstroke": 7,
       "kmeaning": "filial piety",
       "kgrade": 6,
@@ -3298,7 +3298,7 @@ export const kanjiData = [
     },
     {
       "kanji": "紅",
-      "kname": "beni",
+      "name": "beni",
       "kstroke": 9,
       "kmeaning": "crimson, deep red, rouge",
       "kgrade": 6,
@@ -3359,7 +3359,7 @@ export const kanjiData = [
     },
     {
       "kanji": "鋼",
-      "kname": "hagane",
+      "name": "hagane",
       "kstroke": 16,
       "kmeaning": "steel",
       "kgrade": 6,
@@ -3408,7 +3408,7 @@ export const kanjiData = [
     },
     {
       "kanji": "刻",
-      "kname": "kiza(mu)",
+      "name": "kiza(mu)",
       "kstroke": 8,
       "kmeaning": "engrave, carve, chop up, point of time",
       "kgrade": 6,
@@ -3477,7 +3477,7 @@ export const kanjiData = [
     },
     {
       "kanji": "穀",
-      "kname": "koku(motsu)",
+      "name": "koku(motsu)",
       "kstroke": 14,
       "kmeaning": "cereal, grain",
       "kgrade": 6,
@@ -3518,7 +3518,7 @@ export const kanjiData = [
     },
     {
       "kanji": "砂",
-      "kname": "suna",
+      "name": "suna",
       "kstroke": 9,
       "kmeaning": "sand",
       "kgrade": 6,
@@ -3587,7 +3587,7 @@ export const kanjiData = [
     },
     {
       "kanji": "裁",
-      "kname": "sai-saba(ku)",
+      "name": "sai-saba(ku)",
       "kstroke": 12,
       "kmeaning": "cut out, judge",
       "kgrade": 6,
@@ -3656,7 +3656,7 @@ export const kanjiData = [
     },
     {
       "kanji": "策",
-      "kname": "(zengo)saku",
+      "name": "(zengo)saku",
       "kstroke": 12,
       "kmeaning": "scheme, measure, plan, means, policy",
       "kgrade": 6,
@@ -3705,7 +3705,7 @@ export const kanjiData = [
     },
     {
       "kanji": "話",
-      "kname": "wa-hana(su)",
+      "name": "wa-hana(su)",
       "kstroke": 13,
       "kmeaning": "speak",
       "kgrade": 2,
@@ -3766,7 +3766,7 @@ export const kanjiData = [
     },
     {
       "kanji": "蚕",
-      "kname": "kaiko",
+      "name": "kaiko",
       "kstroke": 10,
       "kmeaning": "silkworm",
       "kgrade": 6,
@@ -3803,7 +3803,7 @@ export const kanjiData = [
     },
     {
       "kanji": "至",
-      "kname": "shi-ita(ru)",
+      "name": "shi-ita(ru)",
       "kstroke": 6,
       "kmeaning": "come to, arrive, lead to",
       "kgrade": 6,
@@ -3860,7 +3860,7 @@ export const kanjiData = [
     },
     {
       "kanji": "姿",
-      "kname": "sugata",
+      "name": "sugata",
       "kstroke": 9,
       "kmeaning": "figure, form, shape, appearance, posture",
       "kgrade": 6,
@@ -3909,7 +3909,7 @@ export const kanjiData = [
     },
     {
       "kanji": "視",
-      "kname": "shi(ya)",
+      "name": "shi(ya)",
       "kstroke": 11,
       "kmeaning": "regard, consider, see, vision",
       "kgrade": 6,
@@ -3978,7 +3978,7 @@ export const kanjiData = [
     },
     {
       "kanji": "磁",
-      "kname": "ji(ryoku)",
+      "name": "ji(ryoku)",
       "kstroke": 14,
       "kmeaning": "magnetism, magnetic",
       "kgrade": 6,
@@ -4027,7 +4027,7 @@ export const kanjiData = [
     },
     {
       "kanji": "樹",
-      "kname": "ju(moku)",
+      "name": "ju(moku)",
       "kstroke": 16,
       "kmeaning": "standing tree, bush",
       "kgrade": 6,
@@ -4084,7 +4084,7 @@ export const kanjiData = [
     },
     {
       "kanji": "宗",
-      "kname": "shuu(kyou)",
+      "name": "shuu(kyou)",
       "kstroke": 8,
       "kmeaning": "religious sect, religion",
       "kgrade": 6,
@@ -4133,7 +4133,7 @@ export const kanjiData = [
     },
     {
       "kanji": "就",
-      "kname": "shuu-tsu(ku)",
+      "name": "shuu-tsu(ku)",
       "kstroke": 12,
       "kmeaning": "set about, engage (in an occupation), employ",
       "kgrade": 6,
@@ -4190,7 +4190,7 @@ export const kanjiData = [
     },
     {
       "kanji": "衆",
-      "kname": "(min)shuu",
+      "name": "(min)shuu",
       "kstroke": 12,
       "kmeaning": "multitude, populace",
       "kgrade": 6,
@@ -4243,7 +4243,7 @@ export const kanjiData = [
     },
     {
       "kanji": "縦",
-      "kname": "tate",
+      "name": "tate",
       "kstroke": 16,
       "kmeaning": "vertical",
       "kgrade": 6,
@@ -4288,7 +4288,7 @@ export const kanjiData = [
     },
     {
       "kanji": "開",
-      "kname": "kai-hira(ku)",
+      "name": "kai-hira(ku)",
       "kstroke": 12,
       "kmeaning": "open",
       "kgrade": 3,
@@ -4349,7 +4349,7 @@ export const kanjiData = [
     },
     {
       "kanji": "縮",
-      "kname": "chiji(mu)",
+      "name": "chiji(mu)",
       "kstroke": 17,
       "kmeaning": "shrink",
       "kgrade": 6,
@@ -4418,7 +4418,7 @@ export const kanjiData = [
     },
     {
       "kanji": "処",
-      "kname": "sho(chi)",
+      "name": "sho(chi)",
       "kstroke": 5,
       "kmeaning": "deal with, treat",
       "kgrade": 6,
@@ -4475,7 +4475,7 @@ export const kanjiData = [
     },
     {
       "kanji": "署",
-      "kname": "(shoubou)sho",
+      "name": "(shoubou)sho",
       "kstroke": 13,
       "kmeaning": "public-service station",
       "kgrade": 6,
@@ -4528,7 +4528,7 @@ export const kanjiData = [
     },
     {
       "kanji": "諸",
-      "kname": "sho(koku)",
+      "name": "sho(koku)",
       "kstroke": 15,
       "kmeaning": "various",
       "kgrade": 6,
@@ -4577,7 +4577,7 @@ export const kanjiData = [
     },
     {
       "kanji": "傷",
-      "kname": "shou-kizu",
+      "name": "shou-kizu",
       "kstroke": 13,
       "kmeaning": "wound, injury, hurt",
       "kgrade": 6,
@@ -4646,7 +4646,7 @@ export const kanjiData = [
     },
     {
       "kanji": "蒸",
-      "kname": "mu(su)",
+      "name": "mu(su)",
       "kstroke": 13,
       "kmeaning": "steam, evaporate",
       "kgrade": 6,
@@ -4699,7 +4699,7 @@ export const kanjiData = [
     },
     {
       "kanji": "針",
-      "kname": "shin-hari",
+      "name": "shin-hari",
       "kstroke": 10,
       "kmeaning": "needle",
       "kgrade": 6,
@@ -4764,7 +4764,7 @@ export const kanjiData = [
     },
     {
       "kanji": "仁",
-      "kname": "(kyou)nin",
+      "name": "(kyou)nin",
       "kstroke": 4,
       "kmeaning": "benevolence, virtue, charity",
       "kgrade": 6,
@@ -4801,7 +4801,7 @@ export const kanjiData = [
     },
     {
       "kanji": "垂",
-      "kname": "sui-ta(reru)",
+      "name": "sui-ta(reru)",
       "kstroke": 8,
       "kmeaning": "hang down, drip",
       "kgrade": 6,
@@ -4854,7 +4854,7 @@ export const kanjiData = [
     },
     {
       "kanji": "寸",
-      "kname": "sun",
+      "name": "sun",
       "kstroke": 3,
       "kmeaning": "a bit of, unit of length",
       "kgrade": 6,
@@ -4911,7 +4911,7 @@ export const kanjiData = [
     },
     {
       "kanji": "閉",
-      "kname": "hei-toji(ru)",
+      "name": "hei-toji(ru)",
       "kstroke": 11,
       "kmeaning": "close",
       "kgrade": 6,
@@ -4964,7 +4964,7 @@ export const kanjiData = [
     },
     {
       "kanji": "盛",
-      "kname": "saka(nna)",
+      "name": "saka(nna)",
       "kstroke": 11,
       "kmeaning": "prosperous, flourish, serve food",
       "kgrade": 6,
@@ -5033,7 +5033,7 @@ export const kanjiData = [
     },
     {
       "kanji": "誠",
-      "kname": "sei(jitsuna)",
+      "name": "sei(jitsuna)",
       "kstroke": 13,
       "kmeaning": "sincerity, truth, reality, fidelity",
       "kgrade": 6,
@@ -5078,7 +5078,7 @@ export const kanjiData = [
     },
     {
       "kanji": "宣",
-      "kname": "sen(den)",
+      "name": "sen(den)",
       "kstroke": 9,
       "kmeaning": "proclaim, announce",
       "kgrade": 6,
@@ -5127,7 +5127,7 @@ export const kanjiData = [
     },
     {
       "kanji": "泉",
-      "kname": "izumi",
+      "name": "izumi",
       "kstroke": 9,
       "kmeaning": "spring, fountain",
       "kgrade": 6,
@@ -5168,7 +5168,7 @@ export const kanjiData = [
     },
     {
       "kanji": "染",
-      "kname": "sen-so(meru)",
+      "name": "sen-so(meru)",
       "kstroke": 9,
       "kmeaning": "dye",
       "kgrade": 6,
@@ -5237,7 +5237,7 @@ export const kanjiData = [
     },
     {
       "kanji": "善",
-      "kname": "zen-yo(i)",
+      "name": "zen-yo(i)",
       "kstroke": 12,
       "kmeaning": "good",
       "kgrade": 6,
@@ -5298,7 +5298,7 @@ export const kanjiData = [
     },
     {
       "kanji": "奏",
-      "kname": "kana(deru)",
+      "name": "kana(deru)",
       "kstroke": 9,
       "kmeaning": "play music",
       "kgrade": 6,
@@ -5351,7 +5351,7 @@ export const kanjiData = [
     },
     {
       "kanji": "装",
-      "kname": "(hou)sou(shi)",
+      "name": "(hou)sou(shi)",
       "kstroke": 12,
       "kmeaning": "dress, fit out, wear, pretend",
       "kgrade": 6,
@@ -5420,7 +5420,7 @@ export const kanjiData = [
     },
     {
       "kanji": "層",
-      "kname": "(kou)sou(biru)",
+      "name": "(kou)sou(biru)",
       "kstroke": 14,
       "kmeaning": "stratum, layer, level",
       "kgrade": 6,
@@ -5473,7 +5473,7 @@ export const kanjiData = [
     },
     {
       "kanji": "操",
-      "kname": "ayatsu(ru)",
+      "name": "ayatsu(ru)",
       "kstroke": 16,
       "kmeaning": "manipulate, operate, chastity",
       "kgrade": 6,
@@ -5526,7 +5526,7 @@ export const kanjiData = [
     },
     {
       "kanji": "友",
-      "kname": "yuu-tomo",
+      "name": "yuu-tomo",
       "kstroke": 4,
       "kmeaning": "friend",
       "kgrade": 2,
@@ -5563,7 +5563,7 @@ export const kanjiData = [
     },
     {
       "kanji": "臓",
-      "kname": "zou(motsu)",
+      "name": "zou(motsu)",
       "kstroke": 19,
       "kmeaning": "internal organ",
       "kgrade": 6,
@@ -5612,7 +5612,7 @@ export const kanjiData = [
     },
     {
       "kanji": "誕",
-      "kname": "tan(joubi)",
+      "name": "tan(joubi)",
       "kstroke": 15,
       "kmeaning": "be born, birth",
       "kgrade": 6,
@@ -5649,7 +5649,7 @@ export const kanjiData = [
     },
     {
       "kanji": "暖",
-      "kname": "dan-atata(maru)",
+      "name": "dan-atata(maru)",
       "kstroke": 13,
       "kmeaning": "warm",
       "kgrade": 6,
@@ -5710,7 +5710,7 @@ export const kanjiData = [
     },
     {
       "kanji": "宙",
-      "kname": "chuu(gaeri)",
+      "name": "chuu(gaeri)",
       "kstroke": 8,
       "kmeaning": "space, midair",
       "kgrade": 6,
@@ -5747,7 +5747,7 @@ export const kanjiData = [
     },
     {
       "kanji": "庁",
-      "kname": "(keishi)chou",
+      "name": "(keishi)chou",
       "kstroke": 5,
       "kmeaning": "government agency",
       "kgrade": 6,
@@ -5796,7 +5796,7 @@ export const kanjiData = [
     },
     {
       "kanji": "頂",
-      "kname": "chou-itada(ku)",
+      "name": "chou-itada(ku)",
       "kstroke": 11,
       "kmeaning": "summit, receive humbly",
       "kgrade": 6,
@@ -5857,7 +5857,7 @@ export const kanjiData = [
     },
     {
       "kanji": "潮",
-      "kname": "chou-shio",
+      "name": "chou-shio",
       "kstroke": 15,
       "kmeaning": "tide",
       "kgrade": 6,
@@ -5918,7 +5918,7 @@ export const kanjiData = [
     },
     {
       "kanji": "賃",
-      "kname": "(ya)chin",
+      "name": "(ya)chin",
       "kstroke": 13,
       "kmeaning": "wage, charges, fare, fee",
       "kgrade": 6,
@@ -5971,7 +5971,7 @@ export const kanjiData = [
     },
     {
       "kanji": "討",
-      "kname": "tou-u(tsu)",
+      "name": "tou-u(tsu)",
       "kstroke": 10,
       "kmeaning": "attack, study, examine, discuss",
       "kgrade": 6,
@@ -6024,7 +6024,7 @@ export const kanjiData = [
     },
     {
       "kanji": "党",
-      "kname": "(minshu)tou",
+      "name": "(minshu)tou",
       "kstroke": 10,
       "kmeaning": "party, faction",
       "kgrade": 6,
@@ -6093,7 +6093,7 @@ export const kanjiData = [
     },
     {
       "kanji": "上",
-      "kname": "jou-ue",
+      "name": "jou-ue",
       "kstroke": 3,
       "kmeaning": "up",
       "kgrade": 1,
@@ -6162,7 +6162,7 @@ export const kanjiData = [
     },
     {
       "kanji": "達",
-      "kname": "tatsu-tachi",
+      "name": "tatsu-tachi",
       "kstroke": 12,
       "kmeaning": "attain, suffix for plural",
       "kgrade": 4,
@@ -6219,7 +6219,7 @@ export const kanjiData = [
     },
     {
       "kanji": "糖",
-      "kname": "(budou)tou",
+      "name": "(budou)tou",
       "kstroke": 16,
       "kmeaning": "sugar",
       "kgrade": 6,
@@ -6272,7 +6272,7 @@ export const kanjiData = [
     },
     {
       "kanji": "納",
-      "kname": "nou-osa(meru)",
+      "name": "nou-osa(meru)",
       "kstroke": 10,
       "kmeaning": "pay, accept, put away, supply",
       "kgrade": 6,
@@ -6341,7 +6341,7 @@ export const kanjiData = [
     },
     {
       "kanji": "脳",
-      "kname": "(zu)nou",
+      "name": "(zu)nou",
       "kstroke": 11,
       "kmeaning": "brain",
       "kgrade": 6,
@@ -6410,7 +6410,7 @@ export const kanjiData = [
     },
     {
       "kanji": "拝",
-      "kname": "oga(mu)",
+      "name": "oga(mu)",
       "kstroke": 8,
       "kmeaning": "worship, humbly, pray, venerate",
       "kgrade": 6,
@@ -6471,7 +6471,7 @@ export const kanjiData = [
     },
     {
       "kanji": "肺",
-      "kname": "hai(katsuryou)",
+      "name": "hai(katsuryou)",
       "kstroke": 9,
       "kmeaning": "lung",
       "kgrade": 6,
@@ -6512,7 +6512,7 @@ export const kanjiData = [
     },
     {
       "kanji": "俳",
-      "kname": "hai(ku)",
+      "name": "hai(ku)",
       "kstroke": 10,
       "kmeaning": "haiku, actor",
       "kgrade": 6,
@@ -6549,7 +6549,7 @@ export const kanjiData = [
     },
     {
       "kanji": "班",
-      "kname": "han(chou)",
+      "name": "han(chou)",
       "kstroke": 10,
       "kmeaning": "squad, group",
       "kgrade": 6,
@@ -6598,7 +6598,7 @@ export const kanjiData = [
     },
     {
       "kanji": "秘",
-      "kname": "hi(mitsu)",
+      "name": "hi(mitsu)",
       "kstroke": 10,
       "kmeaning": "secret",
       "kgrade": 6,
@@ -6663,7 +6663,7 @@ export const kanjiData = [
     },
     {
       "kanji": "腹",
-      "kname": "fuku-hara",
+      "name": "fuku-hara",
       "kstroke": 13,
       "kmeaning": "belly, heart, mind",
       "kgrade": 6,
@@ -6728,7 +6728,7 @@ export const kanjiData = [
     },
     {
       "kanji": "奮",
-      "kname": "fun(sensuru)",
+      "name": "fun(sensuru)",
       "kstroke": 16,
       "kmeaning": "rouse up, be enlivened",
       "kgrade": 6,
@@ -6773,7 +6773,7 @@ export const kanjiData = [
     },
     {
       "kanji": "手",
-      "kname": "te",
+      "name": "te",
       "kstroke": 4,
       "kmeaning": "hand",
       "kgrade": 1,
@@ -6838,7 +6838,7 @@ export const kanjiData = [
     },
     {
       "kanji": "陛",
-      "kname": "(tennou)hei(ka)",
+      "name": "(tennou)hei(ka)",
       "kstroke": 10,
       "kmeaning": "imperial palace steps",
       "kgrade": 6,
@@ -6879,7 +6879,7 @@ export const kanjiData = [
     },
     {
       "kanji": "補",
-      "kname": "ogina(u)",
+      "name": "ogina(u)",
       "kstroke": 12,
       "kmeaning": "supplement, supply, make up for",
       "kgrade": 6,
@@ -6948,7 +6948,7 @@ export const kanjiData = [
     },
     {
       "kanji": "宝",
-      "kname": "takara",
+      "name": "takara",
       "kstroke": 8,
       "kmeaning": "treasure",
       "kgrade": 6,
@@ -7009,7 +7009,7 @@ export const kanjiData = [
     },
     {
       "kanji": "棒",
-      "kname": "(ai)bou",
+      "name": "(ai)bou",
       "kstroke": 12,
       "kmeaning": "rod, stick, pole",
       "kgrade": 6,
@@ -7066,7 +7066,7 @@ export const kanjiData = [
     },
     {
       "kanji": "幕",
-      "kname": "(uchi)maku",
+      "name": "(uchi)maku",
       "kstroke": 13,
       "kmeaning": "curtain, shogunate",
       "kgrade": 6,
@@ -7123,7 +7123,7 @@ export const kanjiData = [
     },
     {
       "kanji": "密",
-      "kname": "mitsu(do)",
+      "name": "mitsu(do)",
       "kstroke": 11,
       "kmeaning": "close, secret, dense, fine",
       "kgrade": 6,
@@ -7192,7 +7192,7 @@ export const kanjiData = [
     },
     {
       "kanji": "盟",
-      "kname": "(ka)mei(suru)",
+      "name": "(ka)mei(suru)",
       "kstroke": 13,
       "kmeaning": "alliance, oath",
       "kgrade": 6,
@@ -7233,7 +7233,7 @@ export const kanjiData = [
     },
     {
       "kanji": "模",
-      "kname": "mo(you)",
+      "name": "mo(you)",
       "kstroke": 14,
       "kmeaning": "pattern, imitate, copy, model",
       "kgrade": 6,
@@ -7286,7 +7286,7 @@ export const kanjiData = [
     },
     {
       "kanji": "郵",
-      "kname": "yuu(bin)",
+      "name": "yuu(bin)",
       "kstroke": 11,
       "kmeaning": "mail",
       "kgrade": 6,
@@ -7331,7 +7331,7 @@ export const kanjiData = [
     },
     {
       "kanji": "幼",
-      "kname": "osana(i)",
+      "name": "osana(i)",
       "kstroke": 5,
       "kmeaning": "very young, infantile",
       "kgrade": 6,
@@ -7396,7 +7396,7 @@ export const kanjiData = [
     },
     {
       "kanji": "紙",
-      "kname": "shi-kami",
+      "name": "shi-kami",
       "kstroke": 10,
       "kmeaning": "paper",
       "kgrade": 2,
@@ -7441,7 +7441,7 @@ export const kanjiData = [
     },
     {
       "kanji": "翌",
-      "kname": "yoku(jitsu)",
+      "name": "yoku(jitsu)",
       "kstroke": 11,
       "kmeaning": "the following, the next",
       "kgrade": 6,
@@ -7490,7 +7490,7 @@ export const kanjiData = [
     },
     {
       "kanji": "卵",
-      "kname": "tamago",
+      "name": "tamago",
       "kstroke": 7,
       "kmeaning": "egg",
       "kgrade": 6,
@@ -7547,7 +7547,7 @@ export const kanjiData = [
     },
     {
       "kanji": "覧",
-      "kname": "(ten)ran(kai)",
+      "name": "(ten)ran(kai)",
       "kstroke": 17,
       "kmeaning": "look over, see",
       "kgrade": 6,
@@ -7600,7 +7600,7 @@ export const kanjiData = [
     },
     {
       "kanji": "裏",
-      "kname": "ri-ura",
+      "name": "ri-ura",
       "kstroke": 13,
       "kmeaning": "rear, reverse side, back",
       "kgrade": 6,
@@ -7665,7 +7665,7 @@ export const kanjiData = [
     },
     {
       "kanji": "臨",
-      "kname": "rin-nozo(mu)",
+      "name": "rin-nozo(mu)",
       "kstroke": 18,
       "kmeaning": "be present at, face, confront",
       "kgrade": 6,
@@ -7718,7 +7718,7 @@ export const kanjiData = [
     },
     {
       "kanji": "朗",
-      "kname": "hoga(rakana)",
+      "name": "hoga(rakana)",
       "kstroke": 10,
       "kmeaning": "cheerful, clear, bright",
       "kgrade": 6,
@@ -7759,7 +7759,7 @@ export const kanjiData = [
     },
     {
       "kanji": "依",
-      "kname": "i(raisuru)",
+      "name": "i(raisuru)",
       "kstroke": 8,
       "kmeaning": "depend on",
       "kgrade": "n/a",
@@ -7804,7 +7804,7 @@ export const kanjiData = [
     },
     {
       "kanji": "違",
-      "kname": "i-chiga(u)",
+      "name": "i-chiga(u)",
       "kstroke": 13,
       "kmeaning": "differ, violate, different, be mistaken",
       "kgrade": "n/a",
@@ -7865,7 +7865,7 @@ export const kanjiData = [
     },
     {
       "kanji": "鋭",
-      "kname": "ei-surudo(i)",
+      "name": "ei-surudo(i)",
       "kstroke": 15,
       "kmeaning": "sharp",
       "kgrade": "n/a",
@@ -7914,7 +7914,7 @@ export const kanjiData = [
     },
     {
       "kanji": "煙",
-      "kname": "kemu(i)",
+      "name": "kemu(i)",
       "kstroke": 13,
       "kmeaning": "smoke",
       "kgrade": "n/a",
@@ -7971,7 +7971,7 @@ export const kanjiData = [
     },
     {
       "kanji": "書",
-      "kname": "sho-ka(ku)",
+      "name": "sho-ka(ku)",
       "kstroke": 10,
       "kmeaning": "write, book",
       "kgrade": 2,
@@ -8036,7 +8036,7 @@ export const kanjiData = [
     },
     {
       "kanji": "汚",
-      "kname": "yogo(su)",
+      "name": "yogo(su)",
       "kstroke": 6,
       "kmeaning": "dirty",
       "kgrade": "n/a",
@@ -8105,7 +8105,7 @@ export const kanjiData = [
     },
     {
       "kanji": "押",
-      "kname": "ou-o(saeru)",
+      "name": "ou-o(saeru)",
       "kstroke": 8,
       "kmeaning": "push",
       "kgrade": "n/a",
@@ -8158,7 +8158,7 @@ export const kanjiData = [
     },
     {
       "kanji": "欧",
-      "kname": "(sei)ou",
+      "name": "(sei)ou",
       "kstroke": 8,
       "kmeaning": "Europe",
       "kgrade": "n/a",
@@ -8203,7 +8203,7 @@ export const kanjiData = [
     },
     {
       "kanji": "菓",
-      "kname": "(o)ka(shi)",
+      "name": "(o)ka(shi)",
       "kstroke": 11,
       "kmeaning": "confectionery, cake",
       "kgrade": "n/a",
@@ -8248,7 +8248,7 @@ export const kanjiData = [
     },
     {
       "kanji": "靴",
-      "kname": "kutsu",
+      "name": "kutsu",
       "kstroke": 13,
       "kmeaning": "shoes",
       "kgrade": "n/a",
@@ -8313,7 +8313,7 @@ export const kanjiData = [
     },
     {
       "kanji": "掛",
-      "kname": "(mi)ka(ke)",
+      "name": "(mi)ka(ke)",
       "kstroke": 11,
       "kmeaning": "set, hang",
       "kgrade": "n/a",
@@ -8378,7 +8378,7 @@ export const kanjiData = [
     },
     {
       "kanji": "汗",
-      "kname": "ase",
+      "name": "ase",
       "kstroke": 6,
       "kmeaning": "sweat",
       "kgrade": "n/a",
@@ -8427,7 +8427,7 @@ export const kanjiData = [
     },
     {
       "kanji": "缶",
-      "kname": "kan(zume)",
+      "name": "kan(zume)",
       "kstroke": 6,
       "kmeaning": "can",
       "kgrade": "n/a",
@@ -8464,7 +8464,7 @@ export const kanjiData = [
     },
     {
       "kanji": "患",
-      "kname": "kan-wazura(u)",
+      "name": "kan-wazura(u)",
       "kstroke": 11,
       "kmeaning": "affected by disease, be ill, suffer",
       "kgrade": "n/a",
@@ -8505,7 +8505,7 @@ export const kanjiData = [
     },
     {
       "kanji": "幾",
-      "kname": "iku(tsu)",
+      "name": "iku(tsu)",
       "kstroke": 12,
       "kmeaning": "how many/much, some",
       "kgrade": "n/a",
@@ -8554,7 +8554,7 @@ export const kanjiData = [
     },
     {
       "kanji": "秋",
-      "kname": "aki",
+      "name": "aki",
       "kstroke": 9,
       "kmeaning": "autumn",
       "kgrade": 2,
@@ -8591,7 +8591,7 @@ export const kanjiData = [
     },
     {
       "kanji": "詰",
-      "kname": "kitsu-tsu(meru)",
+      "name": "kitsu-tsu(meru)",
       "kstroke": 13,
       "kmeaning": "reprimand, stuff, closely packed, cram",
       "kgrade": "n/a",
@@ -8644,7 +8644,7 @@ export const kanjiData = [
     },
     {
       "kanji": "叫",
-      "kname": "sake(bu)",
+      "name": "sake(bu)",
       "kstroke": 6,
       "kmeaning": "shout, scream",
       "kgrade": "n/a",
@@ -8681,7 +8681,7 @@ export const kanjiData = [
     },
     {
       "kanji": "況",
-      "kname": "(kin)kyou",
+      "name": "(kin)kyou",
       "kstroke": 8,
       "kmeaning": "conditions, situation, circumstances",
       "kgrade": "n/a",
@@ -8734,7 +8734,7 @@ export const kanjiData = [
     },
     {
       "kanji": "挟",
-      "kname": "hasa(maru)",
+      "name": "hasa(maru)",
       "kstroke": 9,
       "kmeaning": "hold between, interpose",
       "kgrade": "n/a",
@@ -8771,7 +8771,7 @@ export const kanjiData = [
     },
     {
       "kanji": "偶",
-      "kname": "guu(zen)",
+      "name": "guu(zen)",
       "kstroke": 11,
       "kmeaning": "by chance, even number, (married)couple",
       "kgrade": "n/a",
@@ -8812,7 +8812,7 @@ export const kanjiData = [
     },
     {
       "kanji": "隅",
-      "kname": "guu-sumi",
+      "name": "guu-sumi",
       "kstroke": 12,
       "kmeaning": "nook, corner",
       "kgrade": "n/a",
@@ -8853,7 +8853,7 @@ export const kanjiData = [
     },
     {
       "kanji": "掘",
-      "kname": "kutsu-ho(ru)",
+      "name": "kutsu-ho(ru)",
       "kstroke": 11,
       "kmeaning": "dig",
       "kgrade": "n/a",
@@ -8906,7 +8906,7 @@ export const kanjiData = [
     },
     {
       "kanji": "傾",
-      "kname": "katamu(ku)",
+      "name": "katamu(ku)",
       "kstroke": 13,
       "kmeaning": "incline, lean, tilt",
       "kgrade": "n/a",
@@ -8967,7 +8967,7 @@ export const kanjiData = [
     },
     {
       "kanji": "軒",
-      "kname": "noki",
+      "name": "noki",
       "kstroke": 10,
       "kmeaning": "eaves, counter for houses",
       "kgrade": "n/a",
@@ -9020,7 +9020,7 @@ export const kanjiData = [
     },
     {
       "kanji": "枯",
-      "kname": "ka(reha)",
+      "name": "ka(reha)",
       "kstroke": 9,
       "kmeaning": "wither, blight",
       "kgrade": "n/a",
@@ -9069,7 +9069,7 @@ export const kanjiData = [
     },
     {
       "kanji": "山",
-      "kname": "yama",
+      "name": "yama",
       "kstroke": 3,
       "kmeaning": "mountain",
       "kgrade": 1,
@@ -9118,7 +9118,7 @@ export const kanjiData = [
     },
     {
       "kanji": "雇",
-      "kname": "yato(u)",
+      "name": "yato(u)",
       "kstroke": 12,
       "kmeaning": "employ, charter, hire",
       "kgrade": "n/a",
@@ -9163,7 +9163,7 @@ export const kanjiData = [
     },
     {
       "kanji": "更",
-      "kname": "kou-sara(ni)",
+      "name": "kou-sara(ni)",
       "kstroke": 7,
       "kmeaning": "renew, again, further, furthermore",
       "kgrade": "n/a",
@@ -9224,7 +9224,7 @@ export const kanjiData = [
     },
     {
       "kanji": "肯",
-      "kname": "kou(teiteki)",
+      "name": "kou(teiteki)",
       "kstroke": 8,
       "kmeaning": "assent, agree to, consent",
       "kgrade": "n/a",
@@ -9253,7 +9253,7 @@ export const kanjiData = [
     },
     {
       "kanji": "荒",
-      "kname": "a(reru)",
+      "name": "a(reru)",
       "kstroke": 9,
       "kmeaning": "wild, violent, rough, devastate",
       "kgrade": "n/a",
@@ -9314,7 +9314,7 @@ export const kanjiData = [
     },
     {
       "kanji": "郊",
-      "kname": "kou(gaijuutaku)",
+      "name": "kou(gaijuutaku)",
       "kstroke": 9,
       "kmeaning": "suburb, outskirts",
       "kgrade": "n/a",
@@ -9343,7 +9343,7 @@ export const kanjiData = [
     },
     {
       "kanji": "香",
-      "kname": "kou-kao(ri)",
+      "name": "kou-kao(ri)",
       "kstroke": 9,
       "kmeaning": "sweet smell, fragrance, aroma",
       "kgrade": "n/a",
@@ -9400,7 +9400,7 @@ export const kanjiData = [
     },
     {
       "kanji": "硬",
-      "kname": "kou-kata(i)",
+      "name": "kou-kata(i)",
       "kstroke": 12,
       "kmeaning": "hard, firm",
       "kgrade": "n/a",
@@ -9453,7 +9453,7 @@ export const kanjiData = [
     },
     {
       "kanji": "込",
-      "kname": "(nori)ko(mu)",
+      "name": "(nori)ko(mu)",
       "kstroke": 5,
       "kmeaning": "move inward, include, be congested",
       "kgrade": "n/a",
@@ -9518,7 +9518,7 @@ export const kanjiData = [
     },
     {
       "kanji": "歳",
-      "kname": "sai(getsu)",
+      "name": "sai(getsu)",
       "kstroke": 13,
       "kmeaning": "year, age suffix",
       "kgrade": "n/a",
@@ -9579,7 +9579,7 @@ export const kanjiData = [
     },
     {
       "kanji": "咲",
-      "kname": "(gobu)za(ki)",
+      "name": "(gobu)za(ki)",
       "kstroke": 9,
       "kmeaning": "bloom",
       "kgrade": "n/a",
@@ -9624,7 +9624,7 @@ export const kanjiData = [
     },
     {
       "kanji": "雪",
-      "kname": "setsu-yuki",
+      "name": "setsu-yuki",
       "kstroke": 11,
       "kmeaning": "snow",
       "kgrade": 2,
@@ -9681,7 +9681,7 @@ export const kanjiData = [
     },
     {
       "kanji": "脂",
-      "kname": "shi-abura",
+      "name": "shi-abura",
       "kstroke": 10,
       "kmeaning": "fat, grease",
       "kgrade": "n/a",
@@ -9730,7 +9730,7 @@ export const kanjiData = [
     },
     {
       "kanji": "湿",
-      "kname": "shitsu-shime(ru)",
+      "name": "shitsu-shime(ru)",
       "kstroke": 12,
       "kmeaning": "damp, moisten, humid",
       "kgrade": "n/a",
@@ -9779,7 +9779,7 @@ export const kanjiData = [
     },
     {
       "kanji": "舟",
-      "kname": "shuu-fune",
+      "name": "shuu-fune",
       "kstroke": 6,
       "kmeaning": "small boat, ship",
       "kgrade": "n/a",
@@ -9824,7 +9824,7 @@ export const kanjiData = [
     },
     {
       "kanji": "柔",
-      "kname": "juu-yawa(rakai)",
+      "name": "juu-yawa(rakai)",
       "kstroke": 9,
       "kmeaning": "soft",
       "kgrade": "n/a",
@@ -9861,7 +9861,7 @@ export const kanjiData = [
     },
     {
       "kanji": "緒",
-      "kname": "sho-o",
+      "name": "sho-o",
       "kstroke": 14,
       "kmeaning": "outset, cord, strap, beginning, thong",
       "kgrade": "n/a",
@@ -9910,7 +9910,7 @@ export const kanjiData = [
     },
     {
       "kanji": "召",
-      "kname": "me(su)",
+      "name": "me(su)",
       "kstroke": 5,
       "kmeaning": "summon, wear, call",
       "kgrade": "n/a",
@@ -9959,7 +9959,7 @@ export const kanjiData = [
     },
     {
       "kanji": "床",
-      "kname": "yuka",
+      "name": "yuka",
       "kstroke": 7,
       "kmeaning": "bed, floor",
       "kgrade": "n/a",
@@ -10020,7 +10020,7 @@ export const kanjiData = [
     },
     {
       "kanji": "昇",
-      "kname": "shou-nobo(ru)",
+      "name": "shou-nobo(ru)",
       "kstroke": 8,
       "kmeaning": "ascend, rise, be promoted",
       "kgrade": "n/a",
@@ -10073,7 +10073,7 @@ export const kanjiData = [
     },
     {
       "kanji": "畳",
-      "kname": "tatami",
+      "name": "tatami",
       "kstroke": 12,
       "kmeaning": "tatami, fold up",
       "kgrade": "n/a",
@@ -10122,7 +10122,7 @@ export const kanjiData = [
     },
     {
       "kanji": "触",
-      "kname": "shoku-sawa(ru)",
+      "name": "shoku-sawa(ru)",
       "kstroke": 13,
       "kmeaning": "touch",
       "kgrade": "n/a",
@@ -10191,7 +10191,7 @@ export const kanjiData = [
     },
     {
       "kanji": "雨",
-      "kname": "u-ame",
+      "name": "u-ame",
       "kstroke": 8,
       "kmeaning": "rain",
       "kgrade": 1,
@@ -10252,7 +10252,7 @@ export const kanjiData = [
     },
     {
       "kanji": "伸",
-      "kname": "shin-no(biru)",
+      "name": "shin-no(biru)",
       "kstroke": 7,
       "kmeaning": "stretch, lengthen, grow",
       "kgrade": "n/a",
@@ -10305,7 +10305,7 @@ export const kanjiData = [
     },
     {
       "kanji": "吹",
-      "kname": "sui-fu(ku)",
+      "name": "sui-fu(ku)",
       "kstroke": 7,
       "kmeaning": "blow",
       "kgrade": "n/a",
@@ -10358,7 +10358,7 @@ export const kanjiData = [
     },
     {
       "kanji": "姓",
-      "kname": "(dou)sei(doumei)",
+      "name": "(dou)sei(doumei)",
       "kstroke": 8,
       "kmeaning": "surname",
       "kgrade": "n/a",
@@ -10403,7 +10403,7 @@ export const kanjiData = [
     },
     {
       "kanji": "隻",
-      "kname": "seki(gan)",
+      "name": "seki(gan)",
       "kstroke": 10,
       "kmeaning": "one of a pair, counter for ships",
       "kgrade": "n/a",
@@ -10436,7 +10436,7 @@ export const kanjiData = [
     },
     {
       "kanji": "跡",
-      "kname": "seki-ato",
+      "name": "seki-ato",
       "kstroke": 13,
       "kmeaning": "trace, mark, remains, ruins, tracks",
       "kgrade": "n/a",
@@ -10497,7 +10497,7 @@ export const kanjiData = [
     },
     {
       "kanji": "籍",
-      "kname": "(koku)seki",
+      "name": "(koku)seki",
       "kstroke": 20,
       "kmeaning": "register",
       "kgrade": "n/a",
@@ -10550,7 +10550,7 @@ export const kanjiData = [
     },
     {
       "kanji": "占",
-      "kname": "urana(u)",
+      "name": "urana(u)",
       "kstroke": 5,
       "kmeaning": "occupy, tell fortunes, hold",
       "kgrade": "n/a",
@@ -10611,7 +10611,7 @@ export const kanjiData = [
     },
     {
       "kanji": "双",
-      "kname": "futa(go)",
+      "name": "futa(go)",
       "kstroke": 4,
       "kmeaning": "set of two, pair, both",
       "kgrade": "n/a",
@@ -10656,7 +10656,7 @@ export const kanjiData = [
     },
     {
       "kanji": "捜",
-      "kname": "sou-saga(su)",
+      "name": "sou-saga(su)",
       "kstroke": 10,
       "kmeaning": "look for, search, seek",
       "kgrade": "n/a",
@@ -10697,7 +10697,7 @@ export const kanjiData = [
     },
     {
       "kanji": "掃",
-      "kname": "sou-ha(ku)",
+      "name": "sou-ha(ku)",
       "kstroke": 11,
       "kmeaning": "sweep",
       "kgrade": "n/a",
@@ -10742,7 +10742,7 @@ export const kanjiData = [
     },
     {
       "kanji": "当",
-      "kname": "a(taru)",
+      "name": "a(taru)",
       "kstroke": 6,
       "kmeaning": "present, hit",
       "kgrade": 2,
@@ -10807,7 +10807,7 @@ export const kanjiData = [
     },
     {
       "kanji": "燥",
-      "kname": "(mumikan)sou",
+      "name": "(mumikan)sou",
       "kstroke": 17,
       "kmeaning": "dry up",
       "kgrade": "n/a",
@@ -10844,7 +10844,7 @@ export const kanjiData = [
     },
     {
       "kanji": "憎",
-      "kname": "niku(mu)",
+      "name": "niku(mu)",
       "kstroke": 14,
       "kmeaning": "hate, hatred, hateful",
       "kgrade": "n/a",
@@ -10905,7 +10905,7 @@ export const kanjiData = [
     },
     {
       "kanji": "贈",
-      "kname": "oku(rimono)",
+      "name": "oku(rimono)",
       "kstroke": 18,
       "kmeaning": "present a gift, give, bestow",
       "kgrade": "n/a",
@@ -10954,7 +10954,7 @@ export const kanjiData = [
     },
     {
       "kanji": "袋",
-      "kname": "fukuro",
+      "name": "fukuro",
       "kstroke": 11,
       "kmeaning": "bag, sack",
       "kgrade": "n/a",
@@ -11015,7 +11015,7 @@ export const kanjiData = [
     },
     {
       "kanji": "替",
-      "kname": "(ryou)gae",
+      "name": "(ryou)gae",
       "kstroke": 12,
       "kmeaning": "replace",
       "kgrade": "n/a",
@@ -11072,7 +11072,7 @@ export const kanjiData = [
     },
     {
       "kanji": "濯",
-      "kname": "(sen)taku(ki)",
+      "name": "(sen)taku(ki)",
       "kstroke": 17,
       "kmeaning": "rinse",
       "kgrade": "n/a",
@@ -11105,7 +11105,7 @@ export const kanjiData = [
     },
     {
       "kanji": "畜",
-      "kname": "(boku)chiku",
+      "name": "(boku)chiku",
       "kstroke": 10,
       "kmeaning": "livestock, animal raising",
       "kgrade": "n/a",
@@ -11146,7 +11146,7 @@ export const kanjiData = [
     },
     {
       "kanji": "駐",
-      "kname": "chuu(rinjou)",
+      "name": "chuu(rinjou)",
       "kstroke": 15,
       "kmeaning": "stationed, stop, reside",
       "kgrade": "n/a",
@@ -11203,7 +11203,7 @@ export const kanjiData = [
     },
     {
       "kanji": "超",
-      "kname": "chou-ko(eru)",
+      "name": "chou-ko(eru)",
       "kstroke": 12,
       "kmeaning": "surpass, exceed",
       "kgrade": "n/a",
@@ -11260,7 +11260,7 @@ export const kanjiData = [
     },
     {
       "kanji": "沈",
-      "kname": "shizu(mu)",
+      "name": "shizu(mu)",
       "kstroke": 7,
       "kmeaning": "sink",
       "kgrade": "n/a",
@@ -11317,7 +11317,7 @@ export const kanjiData = [
     },
     {
       "kanji": "飲",
-      "kname": "in-no(mu)",
+      "name": "in-no(mu)",
       "kstroke": 12,
       "kmeaning": "drink",
       "kgrade": 3,
@@ -11362,7 +11362,7 @@ export const kanjiData = [
     },
     {
       "kanji": "珍",
-      "kname": "mezura(shii)",
+      "name": "mezura(shii)",
       "kstroke": 9,
       "kmeaning": "rare, unusual",
       "kgrade": "n/a",
@@ -11411,7 +11411,7 @@ export const kanjiData = [
     },
     {
       "kanji": "泥",
-      "kname": "doro",
+      "name": "doro",
       "kstroke": 8,
       "kmeaning": "mud",
       "kgrade": "n/a",
@@ -11468,7 +11468,7 @@ export const kanjiData = [
     },
     {
       "kanji": "滴",
-      "kname": "teki-shizuku",
+      "name": "teki-shizuku",
       "kstroke": 14,
       "kmeaning": "drop, drip, trickle",
       "kgrade": "n/a",
@@ -11513,7 +11513,7 @@ export const kanjiData = [
     },
     {
       "kanji": "殿",
-      "kname": "tono",
+      "name": "tono",
       "kstroke": 13,
       "kmeaning": "palace, hall, lord, formal honorific title",
       "kgrade": "n/a",
@@ -11566,7 +11566,7 @@ export const kanjiData = [
     },
     {
       "kanji": "塗",
-      "kname": "nu(ru)",
+      "name": "nu(ru)",
       "kstroke": 13,
       "kmeaning": "apply on a surface, paint",
       "kgrade": "n/a",
@@ -11615,7 +11615,7 @@ export const kanjiData = [
     },
     {
       "kanji": "逃",
-      "kname": "ni(geru)",
+      "name": "ni(geru)",
       "kstroke": 9,
       "kmeaning": "escape, run away, set free, miss",
       "kgrade": "n/a",
@@ -11680,7 +11680,7 @@ export const kanjiData = [
     },
     {
       "kanji": "塔",
-      "kname": "(kansei)tou",
+      "name": "(kansei)tou",
       "kstroke": 12,
       "kmeaning": "tower",
       "kgrade": "n/a",
@@ -11733,7 +11733,7 @@ export const kanjiData = [
     },
     {
       "kanji": "筒",
-      "kname": "tsutsu",
+      "name": "tsutsu",
       "kstroke": 12,
       "kmeaning": "tube, pipe",
       "kgrade": "n/a",
@@ -11782,7 +11782,7 @@ export const kanjiData = [
     },
     {
       "kanji": "鈍",
-      "kname": "nibu(i)",
+      "name": "nibu(i)",
       "kstroke": 12,
       "kmeaning": "dull, slow-witted, blunt, dim",
       "kgrade": "n/a",
@@ -11831,7 +11831,7 @@ export const kanjiData = [
     },
     {
       "kanji": "軟",
-      "kname": "nan-yawa(rakai)",
+      "name": "nan-yawa(rakai)",
       "kstroke": 11,
       "kmeaning": "soft",
       "kgrade": "n/a",
@@ -11884,7 +11884,7 @@ export const kanjiData = [
     },
     {
       "kanji": "下",
-      "kname": "ge-shita",
+      "name": "ge-shita",
       "kstroke": 3,
       "kmeaning": "down",
       "kgrade": 1,
@@ -11949,7 +11949,7 @@ export const kanjiData = [
     },
     {
       "kanji": "知",
-      "kname": "shi(ru)",
+      "name": "shi(ru)",
       "kstroke": 8,
       "kmeaning": "know",
       "kgrade": 2,
@@ -12010,7 +12010,7 @@ export const kanjiData = [
     },
     {
       "kanji": "悩",
-      "kname": "naya(mu)",
+      "name": "naya(mu)",
       "kstroke": 10,
       "kmeaning": "suffer, be troubled, afflict",
       "kgrade": "n/a",
@@ -12055,7 +12055,7 @@ export const kanjiData = [
     },
     {
       "kanji": "濃",
-      "kname": "nou-ko(i)",
+      "name": "nou-ko(i)",
       "kstroke": 16,
       "kmeaning": "thick, dark",
       "kgrade": "n/a",
@@ -12108,7 +12108,7 @@ export const kanjiData = [
     },
     {
       "kanji": "泊",
-      "kname": "haku-to(maru)",
+      "name": "haku-to(maru)",
       "kstroke": 8,
       "kmeaning": "stay overnight, lodge",
       "kgrade": "n/a",
@@ -12157,7 +12157,7 @@ export const kanjiData = [
     },
     {
       "kanji": "薄",
-      "kname": "usu(meru)",
+      "name": "usu(meru)",
       "kstroke": 16,
       "kmeaning": "thin, weak, light, fade, dilute",
       "kgrade": "n/a",
@@ -12222,7 +12222,7 @@ export const kanjiData = [
     },
     {
       "kanji": "爆",
-      "kname": "baku(dan)",
+      "name": "baku(dan)",
       "kstroke": 19,
       "kmeaning": "explode",
       "kgrade": "n/a",
@@ -12283,7 +12283,7 @@ export const kanjiData = [
     },
     {
       "kanji": "肌",
-      "kname": "hada(gi)",
+      "name": "hada(gi)",
       "kstroke": 6,
       "kmeaning": "skin",
       "kgrade": "n/a",
@@ -12340,7 +12340,7 @@ export const kanjiData = [
     },
     {
       "kanji": "髪",
-      "kname": "hatsu-kami",
+      "name": "hatsu-kami",
       "kstroke": 14,
       "kmeaning": "hair (on the head)",
       "kgrade": "n/a",
@@ -12405,7 +12405,7 @@ export const kanjiData = [
     },
     {
       "kanji": "販",
-      "kname": "han(baisuru)",
+      "name": "han(baisuru)",
       "kstroke": 11,
       "kmeaning": "engage in sales, sell",
       "kgrade": "n/a",
@@ -12446,7 +12446,7 @@ export const kanjiData = [
     },
     {
       "kanji": "瓶",
-      "kname": "bin(zume)",
+      "name": "bin(zume)",
       "kstroke": 11,
       "kmeaning": "bottle",
       "kgrade": "n/a",
@@ -12487,7 +12487,7 @@ export const kanjiData = [
     },
     {
       "kanji": "浮",
-      "kname": "u(kabu)",
+      "name": "u(kabu)",
       "kstroke": 10,
       "kmeaning": "float, rise to the surface",
       "kgrade": "n/a",
@@ -12556,7 +12556,7 @@ export const kanjiData = [
     },
     {
       "kanji": "前",
-      "kname": "mae",
+      "name": "mae",
       "kstroke": 9,
       "kmeaning": "before, front",
       "kgrade": 2,
@@ -12617,7 +12617,7 @@ export const kanjiData = [
     },
     {
       "kanji": "膚",
-      "kname": "(hi)fu(byou)",
+      "name": "(hi)fu(byou)",
       "kstroke": 15,
       "kmeaning": "skin",
       "kgrade": "n/a",
@@ -12650,7 +12650,7 @@ export const kanjiData = [
     },
     {
       "kanji": "舞",
-      "kname": "ma(u)",
+      "name": "ma(u)",
       "kstroke": 15,
       "kmeaning": "dance",
       "kgrade": "n/a",
@@ -12707,7 +12707,7 @@ export const kanjiData = [
     },
     {
       "kanji": "封",
-      "kname": "fuu(sho)",
+      "name": "fuu(sho)",
       "kstroke": 9,
       "kmeaning": "seal",
       "kgrade": "n/a",
@@ -12768,7 +12768,7 @@ export const kanjiData = [
     },
     {
       "kanji": "幅",
-      "kname": "fuku-haba",
+      "name": "fuku-haba",
       "kstroke": 12,
       "kmeaning": "width, breadth, range",
       "kgrade": "n/a",
@@ -12817,7 +12817,7 @@ export const kanjiData = [
     },
     {
       "kanji": "沸",
-      "kname": "futsu-wa(ku)",
+      "name": "futsu-wa(ku)",
       "kstroke": 8,
       "kmeaning": "boil, seethe",
       "kgrade": "n/a",
@@ -12866,7 +12866,7 @@ export const kanjiData = [
     },
     {
       "kanji": "捕",
-      "kname": "ho-to(raeru)",
+      "name": "ho-to(raeru)",
       "kstroke": 10,
       "kmeaning": "catch, grasp, capture",
       "kgrade": "n/a",
@@ -12923,7 +12923,7 @@ export const kanjiData = [
     },
     {
       "kanji": "抱",
-      "kname": "kaka(eru)",
+      "name": "kaka(eru)",
       "kstroke": 8,
       "kmeaning": "hug, embrace, hold in one's arm",
       "kgrade": "n/a",
@@ -12980,7 +12980,7 @@ export const kanjiData = [
     },
     {
       "kanji": "帽",
-      "kname": "(beree)bou",
+      "name": "(beree)bou",
       "kstroke": 12,
       "kmeaning": "headgear, cap, hat",
       "kgrade": "n/a",
@@ -13021,7 +13021,7 @@ export const kanjiData = [
     },
     {
       "kanji": "磨",
-      "kname": "ma-miga(ku)",
+      "name": "ma-miga(ku)",
       "kstroke": 16,
       "kmeaning": "polish, brush",
       "kgrade": "n/a",
@@ -13058,7 +13058,7 @@ export const kanjiData = [
     },
     {
       "kanji": "埋",
-      "kname": "u(maru)",
+      "name": "u(maru)",
       "kstroke": 10,
       "kmeaning": "bury, fill up",
       "kgrade": "n/a",
@@ -13111,7 +13111,7 @@ export const kanjiData = [
     },
     {
       "kanji": "後",
-      "kname": "ushi(ro)",
+      "name": "ushi(ro)",
       "kstroke": 9,
       "kmeaning": "after, back",
       "kgrade": 2,
@@ -13168,7 +13168,7 @@ export const kanjiData = [
     },
     {
       "kanji": "溶",
-      "kname": "you-to(keru)",
+      "name": "you-to(keru)",
       "kstroke": 13,
       "kmeaning": "dissolve, melt",
       "kgrade": "n/a",
@@ -13225,7 +13225,7 @@ export const kanjiData = [
     },
     {
       "kanji": "腰",
-      "kname": "koshi",
+      "name": "koshi",
       "kstroke": 13,
       "kmeaning": "waist, loins, hips, small of back",
       "kgrade": "n/a",
@@ -13282,7 +13282,7 @@ export const kanjiData = [
     },
     {
       "kanji": "踊",
-      "kname": "you-odo(ru)",
+      "name": "you-odo(ru)",
       "kstroke": 14,
       "kmeaning": "dance",
       "kgrade": "n/a",
@@ -13319,7 +13319,7 @@ export const kanjiData = [
     },
     {
       "kanji": "粒",
-      "kname": "tsubu",
+      "name": "tsubu",
       "kstroke": 11,
       "kmeaning": "grain",
       "kgrade": "n/a",
@@ -13372,7 +13372,7 @@ export const kanjiData = [
     },
     {
       "kanji": "了",
-      "kname": "(kan)ryou(suru)",
+      "name": "(kan)ryou(suru)",
       "kstroke": 2,
       "kmeaning": "finish, complete, understand",
       "kgrade": "n/a",
@@ -13421,7 +13421,7 @@ export const kanjiData = [
     },
     {
       "kanji": "涼",
-      "kname": "suzu(mu)",
+      "name": "suzu(mu)",
       "kstroke": 11,
       "kmeaning": "cool",
       "kgrade": "n/a",
@@ -13462,7 +13462,7 @@ export const kanjiData = [
     },
     {
       "kanji": "療",
-      "kname": "(i)ryou(hoken)",
+      "name": "(i)ryou(hoken)",
       "kstroke": 17,
       "kmeaning": "treat",
       "kgrade": "n/a",
@@ -13511,7 +13511,7 @@ export const kanjiData = [
     },
     {
       "kanji": "涙",
-      "kname": "namida",
+      "name": "namida",
       "kstroke": 10,
       "kmeaning": "tear",
       "kgrade": "n/a",
@@ -13568,7 +13568,7 @@ export const kanjiData = [
     },
     {
       "kanji": "零",
-      "kname": "rei(do)",
+      "name": "rei(do)",
       "kstroke": 13,
       "kmeaning": "zero",
       "kgrade": "n/a",
@@ -13613,7 +13613,7 @@ export const kanjiData = [
     },
     {
       "kanji": "齢",
-      "kname": "(rou)rei",
+      "name": "(rou)rei",
       "kstroke": 17,
       "kmeaning": "age",
       "kgrade": "n/a",
@@ -13658,7 +13658,7 @@ export const kanjiData = [
     },
     {
       "kanji": "授",
-      "kname": "sazu(karu)",
+      "name": "sazu(karu)",
       "kstroke": 11,
       "kmeaning": "confer",
       "kgrade": 5,
@@ -13707,7 +13707,7 @@ export const kanjiData = [
     },
     {
       "kanji": "湾",
-      "kname": "(mekishiko)wan",
+      "name": "(mekishiko)wan",
       "kstroke": 12,
       "kmeaning": "bay",
       "kgrade": "n/a",
@@ -13756,7 +13756,7 @@ export const kanjiData = [
     },
     {
       "kanji": "腕",
-      "kname": "ude",
+      "name": "ude",
       "kstroke": 12,
       "kmeaning": "arm",
       "kgrade": "n/a",
@@ -13821,7 +13821,7 @@ export const kanjiData = [
     },
     {
       "kanji": "離",
-      "kname": "ri-hana(reru)",
+      "name": "ri-hana(reru)",
       "kstroke": 18,
       "kmeaning": "separate, leave, keep apart",
       "kgrade": "n/a",
@@ -13886,7 +13886,7 @@ export const kanjiData = [
     },
     {
       "kanji": "々",
-      "kname": "(yama)yama",
+      "name": "(yama)yama",
       "kstroke": 3,
       "kmeaning": "symbol of repetition",
       "kgrade": "n/a",
@@ -13927,7 +13927,7 @@ export const kanjiData = [
     },
     {
       "kanji": "脱",
-      "kname": "nu(geru)",
+      "name": "nu(geru)",
       "kstroke": 11,
       "kmeaning": "remove, escape from, undress, drop out",
       "kgrade": "n/a",
@@ -13992,7 +13992,7 @@ export const kanjiData = [
     },
     {
       "kanji": "較",
-      "kname": "(hi)kaku(suru)",
+      "name": "(hi)kaku(suru)",
       "kstroke": 13,
       "kmeaning": "compare",
       "kgrade": "n/a",
@@ -14025,7 +14025,7 @@ export const kanjiData = [
     },
     {
       "kanji": "業",
-      "kname": "gyou-waza",
+      "name": "gyou-waza",
       "kstroke": 13,
       "kmeaning": "work, business, industry",
       "kgrade": 3,
@@ -14090,7 +14090,7 @@ export const kanjiData = [
     },
     {
       "kanji": "遅",
-      "kname": "oso(i)",
+      "name": "oso(i)",
       "kstroke": 12,
       "kmeaning": "slow, late",
       "kgrade": "n/a",
@@ -14131,7 +14131,7 @@ export const kanjiData = [
     },
     {
       "kanji": "思",
-      "kname": "shi-omo(u)",
+      "name": "shi-omo(u)",
       "kstroke": 9,
       "kmeaning": "think",
       "kgrade": 2,
@@ -14180,7 +14180,7 @@ export const kanjiData = [
     },
     {
       "kanji": "夜",
-      "kname": "yoru",
+      "name": "yoru",
       "kstroke": 8,
       "kmeaning": "night",
       "kgrade": 2,
@@ -14241,7 +14241,7 @@ export const kanjiData = [
     },
     {
       "kanji": "映",
-      "kname": "ei-utsu(ru)",
+      "name": "ei-utsu(ru)",
       "kstroke": 9,
       "kmeaning": "reflect, project",
       "kgrade": 6,
@@ -14294,7 +14294,7 @@ export const kanjiData = [
     },
     {
       "kanji": "画",
-      "kname": "(ei)ga",
+      "name": "(ei)ga",
       "kstroke": 8,
       "kmeaning": "picture",
       "kgrade": 2,
@@ -14347,7 +14347,7 @@ export const kanjiData = [
     },
     {
       "kanji": "中",
-      "kname": "chuu-naka",
+      "name": "chuu-naka",
       "kstroke": 4,
       "kmeaning": "middle, in",
       "kgrade": 1,
@@ -14416,7 +14416,7 @@ export const kanjiData = [
     },
     {
       "kanji": "出",
-      "kname": "de(ru)",
+      "name": "de(ru)",
       "kstroke": 5,
       "kmeaning": "go out, put out",
       "kgrade": 1,
@@ -14481,7 +14481,7 @@ export const kanjiData = [
     },
     {
       "kanji": "電",
-      "kname": "den(wa)",
+      "name": "den(wa)",
       "kstroke": 13,
       "kmeaning": "electricity",
       "kgrade": 2,
@@ -14542,7 +14542,7 @@ export const kanjiData = [
     },
     {
       "kanji": "会",
-      "kname": "kai-a(u)",
+      "name": "kai-a(u)",
       "kstroke": 6,
       "kmeaning": "meet, society",
       "kgrade": 2,
@@ -14607,7 +14607,7 @@ export const kanjiData = [
     },
     {
       "kanji": "物",
-      "kname": "butsu-mono",
+      "name": "butsu-mono",
       "kstroke": 8,
       "kmeaning": "thing",
       "kgrade": 3,
@@ -14676,7 +14676,7 @@ export const kanjiData = [
     },
     {
       "kanji": "返",
-      "kname": "hen-kae(su)",
+      "name": "hen-kae(su)",
       "kstroke": 7,
       "kmeaning": "return",
       "kgrade": 3,
@@ -14725,7 +14725,7 @@ export const kanjiData = [
     },
     {
       "kanji": "簡",
-      "kname": "kan(tan)",
+      "name": "kan(tan)",
       "kstroke": 18,
       "kmeaning": "simple, brief",
       "kgrade": 6,
@@ -14766,7 +14766,7 @@ export const kanjiData = [
     },
     {
       "kanji": "単",
-      "kname": "tan(i)",
+      "name": "tan(i)",
       "kstroke": 9,
       "kmeaning": "single",
       "kgrade": 4,
@@ -14811,7 +14811,7 @@ export const kanjiData = [
     },
     {
       "kanji": "直",
-      "kname": "choku-nao(ru)",
+      "name": "choku-nao(ru)",
       "kstroke": 8,
       "kmeaning": "straight, fix, repair",
       "kgrade": 2,
@@ -14876,7 +14876,7 @@ export const kanjiData = [
     },
     {
       "kanji": "習",
-      "kname": "shuu-nara(u)",
+      "name": "shuu-nara(u)",
       "kstroke": 11,
       "kmeaning": "learn, custom",
       "kgrade": 3,
@@ -14933,7 +14933,7 @@ export const kanjiData = [
     },
     {
       "kanji": "困",
-      "kname": "koma(ru)",
+      "name": "koma(ru)",
       "kstroke": 7,
       "kmeaning": "be in trouble",
       "kgrade": 6,
@@ -14970,7 +14970,7 @@ export const kanjiData = [
     },
     {
       "kanji": "右",
-      "kname": "migi",
+      "name": "migi",
       "kstroke": 5,
       "kmeaning": "right",
       "kgrade": 1,
@@ -15015,7 +15015,7 @@ export const kanjiData = [
     },
     {
       "kanji": "持",
-      "kname": "ji-mo(tsu)",
+      "name": "ji-mo(tsu)",
       "kstroke": 9,
       "kmeaning": "hold",
       "kgrade": 3,
@@ -15068,7 +15068,7 @@ export const kanjiData = [
     },
     {
       "kanji": "調",
-      "kname": "shira(beru)",
+      "name": "shira(beru)",
       "kstroke": 15,
       "kmeaning": "tone, investigate, prepare",
       "kgrade": 3,
@@ -15133,7 +15133,7 @@ export const kanjiData = [
     },
     {
       "kanji": "引",
-      "kname": "in-hi(ku)",
+      "name": "in-hi(ku)",
       "kstroke": 4,
       "kmeaning": "draw, pull",
       "kgrade": 2,
@@ -15182,7 +15182,7 @@ export const kanjiData = [
     },
     {
       "kanji": "聞",
-      "kname": "bun-ki(ku)",
+      "name": "bun-ki(ku)",
       "kstroke": 14,
       "kmeaning": "hear, listen, ask",
       "kgrade": 2,
@@ -15223,7 +15223,7 @@ export const kanjiData = [
     },
     {
       "kanji": "野",
-      "kname": "ya-no",
+      "name": "ya-no",
       "kstroke": 11,
       "kmeaning": "field",
       "kgrade": 2,
@@ -15276,7 +15276,7 @@ export const kanjiData = [
     },
     {
       "kanji": "村",
-      "kname": "son-mura",
+      "name": "son-mura",
       "kstroke": 7,
       "kmeaning": "village",
       "kgrade": 1,
@@ -15317,7 +15317,7 @@ export const kanjiData = [
     },
     {
       "kanji": "背",
-      "kname": "somu(ku)",
+      "name": "somu(ku)",
       "kstroke": 9,
       "kmeaning": "back",
       "kgrade": 6,
@@ -15374,7 +15374,7 @@ export const kanjiData = [
     },
     {
       "kanji": "高",
-      "kname": "taka(i)",
+      "name": "taka(i)",
       "kstroke": 10,
       "kmeaning": "high",
       "kgrade": 2,
@@ -15435,7 +15435,7 @@ export const kanjiData = [
     },
     {
       "kanji": "低",
-      "kname": "hiku(i)",
+      "name": "hiku(i)",
       "kstroke": 7,
       "kmeaning": "low",
       "kgrade": 4,
@@ -15484,7 +15484,7 @@ export const kanjiData = [
     },
     {
       "kanji": "長",
-      "kname": "chou-naga(i)",
+      "name": "chou-naga(i)",
       "kstroke": 8,
       "kmeaning": "long, chief",
       "kgrade": 2,
@@ -15549,7 +15549,7 @@ export const kanjiData = [
     },
     {
       "kanji": "左",
-      "kname": "hidari",
+      "name": "hidari",
       "kstroke": 5,
       "kmeaning": "left",
       "kgrade": 1,
@@ -15590,7 +15590,7 @@ export const kanjiData = [
     },
     {
       "kanji": "短",
-      "kname": "mijika(i)",
+      "name": "mijika(i)",
       "kstroke": 12,
       "kmeaning": "short",
       "kgrade": 3,
@@ -15631,7 +15631,7 @@ export const kanjiData = [
     },
     {
       "kanji": "着",
-      "kname": "chaku-ki(ru)",
+      "name": "chaku-ki(ru)",
       "kstroke": 12,
       "kmeaning": "put on, arrive, stick",
       "kgrade": 3,
@@ -15692,7 +15692,7 @@ export const kanjiData = [
     },
     {
       "kanji": "楽",
-      "kname": "tano(shii)",
+      "name": "tano(shii)",
       "kstroke": 13,
       "kmeaning": "pleasure, comfortable, music",
       "kgrade": 2,
@@ -15749,7 +15749,7 @@ export const kanjiData = [
     },
     {
       "kanji": "川",
-      "kname": "sen-kawa",
+      "name": "sen-kawa",
       "kstroke": 3,
       "kmeaning": "river",
       "kgrade": 1,
@@ -15794,7 +15794,7 @@ export const kanjiData = [
     },
     {
       "kanji": "質",
-      "kname": "shitsu(mon)",
+      "name": "shitsu(mon)",
       "kstroke": 15,
       "kmeaning": "quality, matter",
       "kgrade": 5,
@@ -15855,7 +15855,7 @@ export const kanjiData = [
     },
     {
       "kanji": "問",
-      "kname": "to(u)",
+      "name": "to(u)",
       "kstroke": 11,
       "kmeaning": "question",
       "kgrade": 3,
@@ -15900,7 +15900,7 @@ export const kanjiData = [
     },
     {
       "kanji": "以",
-      "kname": "i(nai)",
+      "name": "i(nai)",
       "kstroke": 5,
       "kmeaning": "to the ... of, by means of",
       "kgrade": 4,
@@ -15953,7 +15953,7 @@ export const kanjiData = [
     },
     {
       "kanji": "多",
-      "kname": "ta-oo(i)",
+      "name": "ta-oo(i)",
       "kstroke": 6,
       "kmeaning": "many",
       "kgrade": 2,
@@ -15998,7 +15998,7 @@ export const kanjiData = [
     },
     {
       "kanji": "若",
-      "kname": "waka(i)",
+      "name": "waka(i)",
       "kstroke": 8,
       "kmeaning": "young",
       "kgrade": 6,
@@ -16051,7 +16051,7 @@ export const kanjiData = [
     },
     {
       "kanji": "太",
-      "kname": "futo(i)",
+      "name": "futo(i)",
       "kstroke": 4,
       "kmeaning": "great, thick",
       "kgrade": 2,
@@ -16100,7 +16100,7 @@ export const kanjiData = [
     },
     {
       "kanji": "色",
-      "kname": "shoku-iro",
+      "name": "shoku-iro",
       "kstroke": 6,
       "kmeaning": "color",
       "kgrade": 2,
@@ -16145,7 +16145,7 @@ export const kanjiData = [
     },
     {
       "kanji": "止",
-      "kname": "shi-to(maru)",
+      "name": "shi-to(maru)",
       "kstroke": 4,
       "kmeaning": "stop",
       "kgrade": 2,
@@ -16198,7 +16198,7 @@ export const kanjiData = [
     },
     {
       "kanji": "遠",
-      "kname": "too(i)",
+      "name": "too(i)",
       "kstroke": 13,
       "kmeaning": "distant, far",
       "kgrade": 2,
@@ -16247,7 +16247,7 @@ export const kanjiData = [
     },
     {
       "kanji": "忙",
-      "kname": "isoga(shii)",
+      "name": "isoga(shii)",
       "kstroke": 6,
       "kmeaning": "busy",
       "kgrade": "n/a",
@@ -16280,7 +16280,7 @@ export const kanjiData = [
     },
     {
       "kanji": "借",
-      "kname": "ka(riru)",
+      "name": "ka(riru)",
       "kstroke": 10,
       "kmeaning": "borrow",
       "kgrade": 4,
@@ -16317,7 +16317,7 @@ export const kanjiData = [
     },
     {
       "kanji": "茶",
-      "kname": "cha",
+      "name": "cha",
       "kstroke": 9,
       "kmeaning": "tea",
       "kgrade": 2,
@@ -16366,7 +16366,7 @@ export const kanjiData = [
     },
     {
       "kanji": "入",
-      "kname": "hai(ru)",
+      "name": "hai(ru)",
       "kstroke": 2,
       "kmeaning": "enter, put in",
       "kgrade": 1,
@@ -16427,7 +16427,7 @@ export const kanjiData = [
     },
     {
       "kanji": "新",
-      "kname": "atara(shii)",
+      "name": "atara(shii)",
       "kstroke": 13,
       "kmeaning": "new",
       "kgrade": 2,
@@ -16492,7 +16492,7 @@ export const kanjiData = [
     },
     {
       "kanji": "教",
-      "kname": "oshi(eru)",
+      "name": "oshi(eru)",
       "kstroke": 11,
       "kmeaning": "teach, religion",
       "kgrade": 2,
@@ -16557,7 +16557,7 @@ export const kanjiData = [
     },
     {
       "kanji": "味",
-      "kname": "aji(wau)",
+      "name": "aji(wau)",
       "kstroke": 8,
       "kmeaning": "taste",
       "kgrade": 3,
@@ -16610,7 +16610,7 @@ export const kanjiData = [
     },
     {
       "kanji": "白",
-      "kname": "shiro(i)",
+      "name": "shiro(i)",
       "kstroke": 5,
       "kmeaning": "white",
       "kgrade": 1,
@@ -16663,7 +16663,7 @@ export const kanjiData = [
     },
     {
       "kanji": "女",
-      "kname": "onna",
+      "name": "onna",
       "kstroke": 3,
       "kmeaning": "woman",
       "kgrade": 1,
@@ -16720,7 +16720,7 @@ export const kanjiData = [
     },
     {
       "kanji": "青",
-      "kname": "ao",
+      "name": "ao",
       "kstroke": 8,
       "kmeaning": "blue",
       "kgrade": 1,
@@ -16769,7 +16769,7 @@ export const kanjiData = [
     },
     {
       "kanji": "黒",
-      "kname": "kuro",
+      "name": "kuro",
       "kstroke": 11,
       "kmeaning": "black",
       "kgrade": 2,
@@ -16814,7 +16814,7 @@ export const kanjiData = [
     },
     {
       "kanji": "方",
-      "kname": "hou-kata",
+      "name": "hou-kata",
       "kstroke": 4,
       "kmeaning": "direction, way, square",
       "kgrade": 2,
@@ -16871,7 +16871,7 @@ export const kanjiData = [
     },
     {
       "kanji": "運",
-      "kname": "hako(bu)",
+      "name": "hako(bu)",
       "kstroke": 12,
       "kmeaning": "carry, move, fortune",
       "kgrade": 3,
@@ -16928,7 +16928,7 @@ export const kanjiData = [
     },
     {
       "kanji": "動",
-      "kname": "ugo(ku)",
+      "name": "ugo(ku)",
       "kstroke": 11,
       "kmeaning": "move",
       "kgrade": 3,
@@ -16997,7 +16997,7 @@ export const kanjiData = [
     },
     {
       "kanji": "体",
-      "kname": "karada",
+      "name": "karada",
       "kstroke": 7,
       "kmeaning": "body, form",
       "kgrade": 2,
@@ -17054,7 +17054,7 @@ export const kanjiData = [
     },
     {
       "kanji": "痛",
-      "kname": "ita(i)",
+      "name": "ita(i)",
       "kstroke": 12,
       "kmeaning": "pain",
       "kgrade": 6,
@@ -17107,7 +17107,7 @@ export const kanjiData = [
     },
     {
       "kanji": "元",
-      "kname": "gen-moto",
+      "name": "gen-moto",
       "kstroke": 4,
       "kmeaning": "origin",
       "kgrade": 2,
@@ -17160,7 +17160,7 @@ export const kanjiData = [
     },
     {
       "kanji": "気",
-      "kname": "ki(mochi)",
+      "name": "ki(mochi)",
       "kstroke": 6,
       "kmeaning": "gas, spirit",
       "kgrade": 1,
@@ -17225,7 +17225,7 @@ export const kanjiData = [
     },
     {
       "kanji": "変",
-      "kname": "hen-ka(waru)",
+      "name": "hen-ka(waru)",
       "kstroke": 9,
       "kmeaning": "change, abnormal",
       "kgrade": 4,
@@ -17278,7 +17278,7 @@ export const kanjiData = [
     },
     {
       "kanji": "男",
-      "kname": "otoko",
+      "name": "otoko",
       "kstroke": 7,
       "kmeaning": "man",
       "kgrade": 1,
@@ -17315,7 +17315,7 @@ export const kanjiData = [
     },
     {
       "kanji": "疲",
-      "kname": "hi-tsuka(reru)",
+      "name": "hi-tsuka(reru)",
       "kstroke": 10,
       "kmeaning": "tired",
       "kgrade": "n/a",
@@ -17352,7 +17352,7 @@ export const kanjiData = [
     },
     {
       "kanji": "寝",
-      "kname": "shin-ne(ru)",
+      "name": "shin-ne(ru)",
       "kstroke": 13,
       "kmeaning": "go to sleep",
       "kgrade": "n/a",
@@ -17397,7 +17397,7 @@ export const kanjiData = [
     },
     {
       "kanji": "天",
-      "kname": "ten-ama",
+      "name": "ten-ama",
       "kstroke": 4,
       "kmeaning": "heaven",
       "kgrade": 1,
@@ -17458,7 +17458,7 @@ export const kanjiData = [
     },
     {
       "kanji": "頭",
-      "kname": "atama",
+      "name": "atama",
       "kstroke": 16,
       "kmeaning": "head",
       "kgrade": 2,
@@ -17515,7 +17515,7 @@ export const kanjiData = [
     },
     {
       "kanji": "図",
-      "kname": "zu-haka(ru)",
+      "name": "zu-haka(ru)",
       "kstroke": 7,
       "kmeaning": "drawing",
       "kgrade": 2,
@@ -17564,7 +17564,7 @@ export const kanjiData = [
     },
     {
       "kanji": "館",
-      "kname": "kan-tate(mono)",
+      "name": "kan-tate(mono)",
       "kstroke": 16,
       "kmeaning": "public building",
       "kgrade": 3,
@@ -17621,7 +17621,7 @@ export const kanjiData = [
     },
     {
       "kanji": "探",
-      "kname": "tan-saga(su)",
+      "name": "tan-saga(su)",
       "kstroke": 11,
       "kmeaning": "probe, search",
       "kgrade": 6,
@@ -17662,7 +17662,7 @@ export const kanjiData = [
     },
     {
       "kanji": "失",
-      "kname": "ushina(u)",
+      "name": "ushina(u)",
       "kstroke": 5,
       "kmeaning": "lose, slip",
       "kgrade": 4,
@@ -17715,7 +17715,7 @@ export const kanjiData = [
     },
     {
       "kanji": "礼",
-      "kname": "rei(gi)",
+      "name": "rei(gi)",
       "kstroke": 5,
       "kmeaning": "etiquette, rite, courtesy, gratitude",
       "kgrade": 3,
@@ -17764,7 +17764,7 @@ export const kanjiData = [
     },
     {
       "kanji": "少",
-      "kname": "suko(shi)",
+      "name": "suko(shi)",
       "kstroke": 4,
       "kmeaning": "little",
       "kgrade": 2,
@@ -17825,7 +17825,7 @@ export const kanjiData = [
     },
     {
       "kanji": "人",
-      "kname": "nin-hito",
+      "name": "nin-hito",
       "kstroke": 2,
       "kmeaning": "human being, person",
       "kgrade": 1,
@@ -17894,7 +17894,7 @@ export const kanjiData = [
     },
     {
       "kanji": "自",
-      "kname": "mizuka(ra)",
+      "name": "mizuka(ra)",
       "kstroke": 6,
       "kmeaning": "self",
       "kgrade": 2,
@@ -17955,7 +17955,7 @@ export const kanjiData = [
     },
     {
       "kanji": "由",
-      "kname": "(ji)yuu",
+      "name": "(ji)yuu",
       "kstroke": 5,
       "kmeaning": "reason",
       "kgrade": 3,
@@ -18000,7 +18000,7 @@ export const kanjiData = [
     },
     {
       "kanji": "無",
-      "kname": "mu-na(i)",
+      "name": "mu-na(i)",
       "kstroke": 12,
       "kmeaning": "without, nothing",
       "kgrade": 4,
@@ -18065,7 +18065,7 @@ export const kanjiData = [
     },
     {
       "kanji": "理",
-      "kname": "ri(yuu)",
+      "name": "ri(yuu)",
       "kstroke": 11,
       "kmeaning": "reason, basic principle",
       "kgrade": 2,
@@ -18130,7 +18130,7 @@ export const kanjiData = [
     },
     {
       "kanji": "言",
-      "kname": "gen-i(u)",
+      "name": "gen-i(u)",
       "kstroke": 7,
       "kmeaning": "say, speech",
       "kgrade": 2,
@@ -18195,7 +18195,7 @@ export const kanjiData = [
     },
     {
       "kanji": "度",
-      "kname": "do-tabi",
+      "name": "do-tabi",
       "kstroke": 9,
       "kmeaning": "degree, time",
       "kgrade": 3,
@@ -18260,7 +18260,7 @@ export const kanjiData = [
     },
     {
       "kanji": "集",
-      "kname": "tsudo(u)",
+      "name": "tsudo(u)",
       "kstroke": 12,
       "kmeaning": "collect",
       "kgrade": 3,
@@ -18321,7 +18321,7 @@ export const kanjiData = [
     },
     {
       "kanji": "音",
-      "kname": "oto",
+      "name": "oto",
       "kstroke": 9,
       "kmeaning": "sound",
       "kgrade": 1,
@@ -18386,7 +18386,7 @@ export const kanjiData = [
     },
     {
       "kanji": "決",
-      "kname": "ketsu-ki(meru)",
+      "name": "ketsu-ki(meru)",
       "kstroke": 7,
       "kmeaning": "decide",
       "kgrade": 3,
@@ -18443,7 +18443,7 @@ export const kanjiData = [
     },
     {
       "kanji": "事",
-      "kname": "ji-koto",
+      "name": "ji-koto",
       "kstroke": 8,
       "kmeaning": "affair, abstract thing",
       "kgrade": 3,
@@ -18508,7 +18508,7 @@ export const kanjiData = [
     },
     {
       "kanji": "二",
-      "kname": 2,
+      "name": 2,
       "kstroke": 2,
       "kmeaning": "two",
       "kgrade": 1,
@@ -18549,7 +18549,7 @@ export const kanjiData = [
     },
     {
       "kanji": "見",
-      "kname": "ken-mi(ru)",
+      "name": "ken-mi(ru)",
       "kstroke": 7,
       "kmeaning": "see",
       "kgrade": 1,
@@ -18614,7 +18614,7 @@ export const kanjiData = [
     },
     {
       "kanji": "切",
-      "kname": "setsu-ki(ru)",
+      "name": "setsu-ki(ru)",
       "kstroke": 4,
       "kmeaning": "cut",
       "kgrade": 2,
@@ -18675,7 +18675,7 @@ export const kanjiData = [
     },
     {
       "kanji": "符",
-      "kname": "fu(gou)",
+      "name": "fu(gou)",
       "kstroke": 11,
       "kmeaning": "symbol",
       "kgrade": "n/a",
@@ -18716,7 +18716,7 @@ export const kanjiData = [
     },
     {
       "kanji": "悪",
-      "kname": "waru(i)",
+      "name": "waru(i)",
       "kstroke": 11,
       "kmeaning": "bad, evil",
       "kgrade": 3,
@@ -18777,7 +18777,7 @@ export const kanjiData = [
     },
     {
       "kanji": "実",
-      "kname": "jitsu-mino(ru)",
+      "name": "jitsu-mino(ru)",
       "kstroke": 8,
       "kmeaning": "real, fruit, nut",
       "kgrade": 3,
@@ -18838,7 +18838,7 @@ export const kanjiData = [
     },
     {
       "kanji": "病",
-      "kname": "yamai",
+      "name": "yamai",
       "kstroke": 10,
       "kmeaning": "illness, disease, sickness",
       "kgrade": 3,
@@ -18895,7 +18895,7 @@ export const kanjiData = [
     },
     {
       "kanji": "治",
-      "kname": "ji-nao(ru)",
+      "name": "ji-nao(ru)",
       "kstroke": 8,
       "kmeaning": "govern, cure, heal",
       "kgrade": 4,
@@ -18952,7 +18952,7 @@ export const kanjiData = [
     },
     {
       "kanji": "校",
-      "kname": "(gak)kou",
+      "name": "(gak)kou",
       "kstroke": 10,
       "kmeaning": "school",
       "kgrade": 1,
@@ -19001,7 +19001,7 @@ export const kanjiData = [
     },
     {
       "kanji": "心",
-      "kname": "kokoro",
+      "name": "kokoro",
       "kstroke": 4,
       "kmeaning": "heart",
       "kgrade": 2,
@@ -19070,7 +19070,7 @@ export const kanjiData = [
     },
     {
       "kanji": "発",
-      "kname": "hatsu-ta(tsu)",
+      "name": "hatsu-ta(tsu)",
       "kstroke": 9,
       "kmeaning": "start, emit",
       "kgrade": 3,
@@ -19135,7 +19135,7 @@ export const kanjiData = [
     },
     {
       "kanji": "番",
-      "kname": "ban(gou)",
+      "name": "ban(gou)",
       "kstroke": 12,
       "kmeaning": "numerical order, watch",
       "kgrade": 2,
@@ -19184,7 +19184,7 @@ export const kanjiData = [
     },
     {
       "kanji": "先",
-      "kname": "sen-saki",
+      "name": "sen-saki",
       "kstroke": 6,
       "kmeaning": "ahead",
       "kgrade": 1,
@@ -19237,7 +19237,7 @@ export const kanjiData = [
     },
     {
       "kanji": "英",
-      "kname": "ei(go)",
+      "name": "ei(go)",
       "kstroke": 8,
       "kmeaning": "distinguished, England",
       "kgrade": 4,
@@ -19282,7 +19282,7 @@ export const kanjiData = [
     },
     {
       "kanji": "文",
-      "kname": "bun-fumi",
+      "name": "bun-fumi",
       "kstroke": 4,
       "kmeaning": "letter, writings, sentence",
       "kgrade": 1,
@@ -19351,7 +19351,7 @@ export const kanjiData = [
     },
     {
       "kanji": "法",
-      "kname": "hou-nori",
+      "name": "hou-nori",
       "kstroke": 8,
       "kmeaning": "law, method",
       "kgrade": 4,
@@ -19404,7 +19404,7 @@ export const kanjiData = [
     },
     {
       "kanji": "練",
-      "kname": "ren(shuu)",
+      "name": "ren(shuu)",
       "kstroke": 14,
       "kmeaning": "train, knead",
       "kgrade": 3,
@@ -19445,7 +19445,7 @@ export const kanjiData = [
     },
     {
       "kanji": "貸",
-      "kname": "tai-ka(su)",
+      "name": "tai-ka(su)",
       "kstroke": 12,
       "kmeaning": "lend",
       "kgrade": 5,
@@ -19490,7 +19490,7 @@ export const kanjiData = [
     },
     {
       "kanji": "森",
-      "kname": "shin-mori",
+      "name": "shin-mori",
       "kstroke": 12,
       "kmeaning": "forest",
       "kgrade": 1,
@@ -19519,7 +19519,7 @@ export const kanjiData = [
     },
     {
       "kanji": "試",
-      "kname": "tame(su)",
+      "name": "tame(su)",
       "kstroke": 13,
       "kmeaning": "try, attempt",
       "kgrade": 4,
@@ -19572,7 +19572,7 @@ export const kanjiData = [
     },
     {
       "kanji": "験",
-      "kname": "(shi)ken(kan)",
+      "name": "(shi)ken(kan)",
       "kstroke": 18,
       "kmeaning": "test",
       "kgrade": 4,
@@ -19613,7 +19613,7 @@ export const kanjiData = [
     },
     {
       "kanji": "題",
-      "kname": "dai(moku)",
+      "name": "dai(moku)",
       "kstroke": 18,
       "kmeaning": "title, topic, problem",
       "kgrade": 3,
@@ -19662,7 +19662,7 @@ export const kanjiData = [
     },
     {
       "kanji": "全",
-      "kname": "matta(ku)",
+      "name": "matta(ku)",
       "kstroke": 6,
       "kmeaning": "whole",
       "kgrade": 3,
@@ -19727,7 +19727,7 @@ export const kanjiData = [
     },
     {
       "kanji": "車",
-      "kname": "kuruma",
+      "name": "kuruma",
       "kstroke": 7,
       "kmeaning": "vehicle, wheel, car",
       "kgrade": 1,
@@ -19776,7 +19776,7 @@ export const kanjiData = [
     },
     {
       "kanji": "部",
-      "kname": "he(ya)",
+      "name": "he(ya)",
       "kstroke": 11,
       "kmeaning": "section",
       "kgrade": 3,
@@ -19841,7 +19841,7 @@ export const kanjiData = [
     },
     {
       "kanji": "目",
-      "kname": "moku-me",
+      "name": "moku-me",
       "kstroke": 5,
       "kmeaning": "eye, item",
       "kgrade": 1,
@@ -19898,7 +19898,7 @@ export const kanjiData = [
     },
     {
       "kanji": "号",
-      "kname": "(ban)gou",
+      "name": "(ban)gou",
       "kstroke": 5,
       "kmeaning": "number, designation, sign",
       "kgrade": 3,
@@ -19943,7 +19943,7 @@ export const kanjiData = [
     },
     {
       "kanji": "研",
-      "kname": "ken-to(gu)",
+      "name": "ken-to(gu)",
       "kstroke": 9,
       "kmeaning": "sand, sharpen",
       "kgrade": 3,
@@ -19988,7 +19988,7 @@ export const kanjiData = [
     },
     {
       "kanji": "究",
-      "kname": "kyuu-kiwa(meru)",
+      "name": "kyuu-kiwa(meru)",
       "kstroke": 7,
       "kmeaning": "study exhaustively",
       "kgrade": 3,
@@ -20029,7 +20029,7 @@ export const kanjiData = [
     },
     {
       "kanji": "室",
-      "kname": "shitsu-muro",
+      "name": "shitsu-muro",
       "kstroke": 9,
       "kmeaning": "room",
       "kgrade": 2,
@@ -20078,7 +20078,7 @@ export const kanjiData = [
     },
     {
       "kanji": "連",
-      "kname": "tsura(naru)",
+      "name": "tsura(naru)",
       "kstroke": 10,
       "kmeaning": "link, in succession, group, accompaniment",
       "kgrade": 4,
@@ -20135,7 +20135,7 @@ export const kanjiData = [
     },
     {
       "kanji": "花",
-      "kname": "hana(bi)",
+      "name": "hana(bi)",
       "kstroke": 7,
       "kmeaning": "flower",
       "kgrade": 1,
@@ -20204,7 +20204,7 @@ export const kanjiData = [
     },
     {
       "kanji": "仕",
-      "kname": "shi(goto)",
+      "name": "shi(goto)",
       "kstroke": 5,
       "kmeaning": "serve, do",
       "kgrade": 3,
@@ -20265,7 +20265,7 @@ export const kanjiData = [
     },
     {
       "kanji": "経",
-      "kname": "kei-he(ru)",
+      "name": "kei-he(ru)",
       "kstroke": 11,
       "kmeaning": "pass through, manage, sutra",
       "kgrade": 5,
@@ -20334,7 +20334,7 @@ export const kanjiData = [
     },
     {
       "kanji": "国",
-      "kname": "kuni",
+      "name": "kuni",
       "kstroke": 8,
       "kmeaning": "country",
       "kgrade": 2,
@@ -20403,7 +20403,7 @@ export const kanjiData = [
     },
     {
       "kanji": "済",
-      "kname": "sai-su(mu)",
+      "name": "sai-su(mu)",
       "kstroke": 11,
       "kmeaning": "settle, relieve, finish",
       "kgrade": 6,
@@ -20452,7 +20452,7 @@ export const kanjiData = [
     },
     {
       "kanji": "的",
-      "kname": "mato",
+      "name": "mato",
       "kstroke": 8,
       "kmeaning": "target, adjectival suffix",
       "kgrade": 4,
@@ -20513,7 +20513,7 @@ export const kanjiData = [
     },
     {
       "kanji": "難",
-      "kname": "muzuka(shii)",
+      "name": "muzuka(shii)",
       "kstroke": 18,
       "kmeaning": "difficult, disaster",
       "kgrade": 6,
@@ -20578,7 +20578,7 @@ export const kanjiData = [
     },
     {
       "kanji": "広",
-      "kname": "kou-hiro(i)",
+      "name": "kou-hiro(i)",
       "kstroke": 5,
       "kmeaning": "wide",
       "kgrade": 2,
@@ -20639,7 +20639,7 @@ export const kanjiData = [
     },
     {
       "kanji": "同",
-      "kname": "ona(ji)",
+      "name": "ona(ji)",
       "kstroke": 6,
       "kmeaning": "same",
       "kgrade": 2,
@@ -20700,7 +20700,7 @@ export const kanjiData = [
     },
     {
       "kanji": "夏",
-      "kname": "natsu",
+      "name": "natsu",
       "kstroke": 10,
       "kmeaning": "summer",
       "kgrade": 2,
@@ -20745,7 +20745,7 @@ export const kanjiData = [
     },
     {
       "kanji": "春",
-      "kname": "haru",
+      "name": "haru",
       "kstroke": 9,
       "kmeaning": "spring",
       "kgrade": 2,
@@ -20782,7 +20782,7 @@ export const kanjiData = [
     },
     {
       "kanji": "必",
-      "kname": "kanara(zu)",
+      "name": "kanara(zu)",
       "kstroke": 5,
       "kmeaning": "without failure, surely",
       "kgrade": 4,
@@ -20831,7 +20831,7 @@ export const kanjiData = [
     },
     {
       "kanji": "要",
-      "kname": "kaname",
+      "name": "kaname",
       "kstroke": 9,
       "kmeaning": "important, summarize, require",
       "kgrade": 4,
@@ -20892,7 +20892,7 @@ export const kanjiData = [
     },
     {
       "kanji": "交",
-      "kname": "maji(waru)",
+      "name": "maji(waru)",
       "kstroke": 6,
       "kmeaning": "intercourse, interchange",
       "kgrade": 2,
@@ -20957,7 +20957,7 @@ export const kanjiData = [
     },
     {
       "kanji": "時",
-      "kname": "ji-toki",
+      "name": "ji-toki",
       "kstroke": 10,
       "kmeaning": "time",
       "kgrade": 2,
@@ -21018,7 +21018,7 @@ export const kanjiData = [
     },
     {
       "kanji": "通",
-      "kname": "too(ru)",
+      "name": "too(ru)",
       "kstroke": 10,
       "kmeaning": "pass, communicate, commute",
       "kgrade": 2,
@@ -21083,7 +21083,7 @@ export const kanjiData = [
     },
     {
       "kanji": "冬",
-      "kname": "fuyu",
+      "name": "fuyu",
       "kstroke": 5,
       "kmeaning": "winter",
       "kgrade": 2,
@@ -21136,7 +21136,7 @@ export const kanjiData = [
     },
     {
       "kanji": "走",
-      "kname": "sou-hashi(ru)",
+      "name": "sou-hashi(ru)",
       "kstroke": 7,
       "kmeaning": "run",
       "kgrade": 2,
@@ -21185,7 +21185,7 @@ export const kanjiData = [
     },
     {
       "kanji": "重",
-      "kname": "juu-omo(ri)",
+      "name": "juu-omo(ri)",
       "kstroke": 9,
       "kmeaning": "heavy",
       "kgrade": 3,
@@ -21254,7 +21254,7 @@ export const kanjiData = [
     },
     {
       "kanji": "卒",
-      "kname": "sotsu(gyou)",
+      "name": "sotsu(gyou)",
       "kstroke": 8,
       "kmeaning": "graduate",
       "kgrade": 4,
@@ -21299,7 +21299,7 @@ export const kanjiData = [
     },
     {
       "kanji": "社",
-      "kname": "yashiro",
+      "name": "yashiro",
       "kstroke": 7,
       "kmeaning": "company, society",
       "kgrade": 2,
@@ -21356,7 +21356,7 @@ export const kanjiData = [
     },
     {
       "kanji": "勤",
-      "kname": "kin-tsuto(meru)",
+      "name": "kin-tsuto(meru)",
       "kstroke": 12,
       "kmeaning": "service",
       "kgrade": 6,
@@ -21417,7 +21417,7 @@ export const kanjiData = [
     },
     {
       "kanji": "屋",
-      "kname": "oku-ya",
+      "name": "oku-ya",
       "kstroke": 9,
       "kmeaning": "house, small shop",
       "kgrade": 3,
@@ -21466,7 +21466,7 @@ export const kanjiData = [
     },
     {
       "kanji": "午",
-      "kname": "(shou)go",
+      "name": "(shou)go",
       "kstroke": 4,
       "kmeaning": "noon",
       "kgrade": 2,
@@ -21499,7 +21499,7 @@ export const kanjiData = [
     },
     {
       "kanji": "机",
-      "kname": "tsukue",
+      "name": "tsukue",
       "kstroke": 6,
       "kmeaning": "desk",
       "kgrade": 6,
@@ -21528,7 +21528,7 @@ export const kanjiData = [
     },
     {
       "kanji": "間",
-      "kname": "aida",
+      "name": "aida",
       "kstroke": 12,
       "kmeaning": "interval, between",
       "kgrade": 2,
@@ -21597,7 +21597,7 @@ export const kanjiData = [
     },
     {
       "kanji": "使",
-      "kname": "shi-tsuka(u)",
+      "name": "shi-tsuka(u)",
       "kstroke": 8,
       "kmeaning": "use, envoy",
       "kgrade": 3,
@@ -21654,7 +21654,7 @@ export const kanjiData = [
     },
     {
       "kanji": "寒",
-      "kname": "samu(i)",
+      "name": "samu(i)",
       "kstroke": 12,
       "kmeaning": "cold",
       "kgrade": 3,
@@ -21691,7 +21691,7 @@ export const kanjiData = [
     },
     {
       "kanji": "暑",
-      "kname": "sho-atsu(i)",
+      "name": "sho-atsu(i)",
       "kstroke": 12,
       "kmeaning": "summer heat, hot",
       "kgrade": 3,
@@ -21736,7 +21736,7 @@ export const kanjiData = [
     },
     {
       "kanji": "冷",
-      "kname": "tsume(tai)",
+      "name": "tsume(tai)",
       "kstroke": 7,
       "kmeaning": "cold",
       "kgrade": 4,
@@ -21801,7 +21801,7 @@ export const kanjiData = [
     },
     {
       "kanji": "誰",
-      "kname": "dare",
+      "name": "dare",
       "kstroke": 15,
       "kmeaning": "who, someone",
       "kgrade": "n/a",
@@ -21830,7 +21830,7 @@ export const kanjiData = [
     },
     {
       "kanji": "急",
-      "kname": "iso(gu)",
+      "name": "iso(gu)",
       "kstroke": 9,
       "kmeaning": "urgent, hurry, sudden",
       "kgrade": 3,
@@ -21883,7 +21883,7 @@ export const kanjiData = [
     },
     {
       "kanji": "用",
-      "kname": "mochi(iru)",
+      "name": "mochi(iru)",
       "kstroke": 5,
       "kmeaning": "employ, things to do",
       "kgrade": 2,
@@ -21944,7 +21944,7 @@ export const kanjiData = [
     },
     {
       "kanji": "頃",
-      "kname": "koro",
+      "name": "koro",
       "kstroke": 11,
       "kmeaning": "time, period",
       "kgrade": "n/a",
@@ -21981,7 +21981,7 @@ export const kanjiData = [
     },
     {
       "kanji": "内",
-      "kname": "nai-uchi",
+      "name": "nai-uchi",
       "kstroke": 4,
       "kmeaning": "inside",
       "kgrade": 2,
@@ -22042,7 +22042,7 @@ export const kanjiData = [
     },
     {
       "kanji": "伝",
-      "kname": "tsuta(waru)",
+      "name": "tsuta(waru)",
       "kstroke": 6,
       "kmeaning": "transmit",
       "kgrade": 4,
@@ -22103,7 +22103,7 @@ export const kanjiData = [
     },
     {
       "kanji": "半",
-      "kname": "han-naka(ba)",
+      "name": "han-naka(ba)",
       "kstroke": 5,
       "kmeaning": "half",
       "kgrade": 2,
@@ -22152,7 +22152,7 @@ export const kanjiData = [
     },
     {
       "kanji": "欲",
-      "kname": "ho(shii)",
+      "name": "ho(shii)",
       "kstroke": 11,
       "kmeaning": "desire, want",
       "kgrade": 6,
@@ -22213,7 +22213,7 @@ export const kanjiData = [
     },
     {
       "kanji": "初",
-      "kname": "sho-haji(me)",
+      "name": "sho-haji(me)",
       "kstroke": 7,
       "kmeaning": "first",
       "kgrade": 4,
@@ -22282,7 +22282,7 @@ export const kanjiData = [
     },
     {
       "kanji": "次",
-      "kname": "tsugi",
+      "name": "tsugi",
       "kstroke": 6,
       "kmeaning": "next",
       "kgrade": 3,
@@ -22335,7 +22335,7 @@ export const kanjiData = [
     },
     {
       "kanji": "最",
-      "kname": "sai-motto(mo)",
+      "name": "sai-motto(mo)",
       "kstroke": 12,
       "kmeaning": "most",
       "kgrade": 4,
@@ -22400,7 +22400,7 @@ export const kanjiData = [
     },
     {
       "kanji": "田",
-      "kname": "den-ta",
+      "name": "den-ta",
       "kstroke": 5,
       "kmeaning": "rice field",
       "kgrade": 1,
@@ -22441,7 +22441,7 @@ export const kanjiData = [
     },
     {
       "kanji": "石",
-      "kname": "ishi",
+      "name": "ishi",
       "kstroke": 5,
       "kmeaning": "stone",
       "kgrade": 1,
@@ -22494,7 +22494,7 @@ export const kanjiData = [
     },
     {
       "kanji": "原",
-      "kname": "gen-hara",
+      "name": "gen-hara",
       "kstroke": 10,
       "kmeaning": "plain, original",
       "kgrade": 2,
@@ -22551,7 +22551,7 @@ export const kanjiData = [
     },
     {
       "kanji": "駅",
-      "kname": "(kaku)eki",
+      "name": "(kaku)eki",
       "kstroke": 14,
       "kmeaning": "station",
       "kgrade": 3,
@@ -22592,7 +22592,7 @@ export const kanjiData = [
     },
     {
       "kanji": "辺",
-      "kname": "hen-ata(ri)",
+      "name": "hen-ata(ri)",
       "kstroke": 5,
       "kmeaning": "vicinity, borderland",
       "kgrade": 4,
@@ -22641,7 +22641,7 @@ export const kanjiData = [
     },
     {
       "kanji": "道",
-      "kname": "dou-michi",
+      "name": "dou-michi",
       "kstroke": 12,
       "kmeaning": "way, street, road",
       "kgrade": 2,
@@ -22702,7 +22702,7 @@ export const kanjiData = [
     },
     {
       "kanji": "分",
-      "kname": "fun-wa(keru)",
+      "name": "fun-wa(keru)",
       "kstroke": 4,
       "kmeaning": "divide, part, minute",
       "kgrade": 2,
@@ -22767,7 +22767,7 @@ export const kanjiData = [
     },
     {
       "kanji": "然",
-      "kname": "(shi)zen",
+      "name": "(shi)zen",
       "kstroke": 12,
       "kmeaning": "modifier forming suffix, as",
       "kgrade": 4,
@@ -22812,7 +22812,7 @@ export const kanjiData = [
     },
     {
       "kanji": "工",
-      "kname": "ku(fuu)",
+      "name": "ku(fuu)",
       "kstroke": 3,
       "kmeaning": "manufacture, construction",
       "kgrade": 2,
@@ -22869,7 +22869,7 @@ export const kanjiData = [
     },
     {
       "kanji": "所",
-      "kname": "(ba)sho",
+      "name": "(ba)sho",
       "kstroke": 8,
       "kmeaning": "place",
       "kgrade": 3,
@@ -22934,7 +22934,7 @@ export const kanjiData = [
     },
     {
       "kanji": "横",
-      "kname": "yoko",
+      "name": "yoko",
       "kstroke": 15,
       "kmeaning": "sideways, side",
       "kgrade": 3,
@@ -22983,7 +22983,7 @@ export const kanjiData = [
     },
     {
       "kanji": "信",
-      "kname": "shin(jiru)",
+      "name": "shin(jiru)",
       "kstroke": 9,
       "kmeaning": "believe, trust, message",
       "kgrade": 4,
@@ -23048,7 +23048,7 @@ export const kanjiData = [
     },
     {
       "kanji": "曲",
-      "kname": "ma(garu)",
+      "name": "ma(garu)",
       "kstroke": 6,
       "kmeaning": "curve, musical composition",
       "kgrade": 3,
@@ -23105,7 +23105,7 @@ export const kanjiData = [
     },
     {
       "kanji": "橋",
-      "kname": "kyou-hashi",
+      "name": "kyou-hashi",
       "kstroke": 16,
       "kmeaning": "bridge",
       "kgrade": 3,
@@ -23142,7 +23142,7 @@ export const kanjiData = [
     },
     {
       "kanji": "向",
-      "kname": "kou-mu(ki)",
+      "name": "kou-mu(ki)",
       "kstroke": 6,
       "kmeaning": "turn toward, face toward",
       "kgrade": 3,
@@ -23203,7 +23203,7 @@ export const kanjiData = [
     },
     {
       "kanji": "地",
-      "kname": "chi(kyuu)",
+      "name": "chi(kyuu)",
       "kstroke": 6,
       "kmeaning": "ground, place, base, earth, land",
       "kgrade": 2,
@@ -23268,7 +23268,7 @@ export const kanjiData = [
     },
     {
       "kanji": "銀",
-      "kname": "gin(za)",
+      "name": "gin(za)",
       "kstroke": 14,
       "kmeaning": "silver",
       "kgrade": 3,
@@ -23305,7 +23305,7 @@ export const kanjiData = [
     },
     {
       "kanji": "月",
-      "kname": "getsu-tsuki",
+      "name": "getsu-tsuki",
       "kstroke": 4,
       "kmeaning": "moon, month",
       "kgrade": 1,
@@ -23362,7 +23362,7 @@ export const kanjiData = [
     },
     {
       "kanji": "角",
-      "kname": "tsuno",
+      "name": "tsuno",
       "kstroke": 7,
       "kmeaning": "angle, horn, corner",
       "kgrade": 2,
@@ -23411,7 +23411,7 @@ export const kanjiData = [
     },
     {
       "kanji": "赤",
-      "kname": "seki-aka",
+      "name": "seki-aka",
       "kstroke": 7,
       "kmeaning": "red",
       "kgrade": 1,
@@ -23476,7 +23476,7 @@ export const kanjiData = [
     },
     {
       "kanji": "祝",
-      "kname": "iwa(u)",
+      "name": "iwa(u)",
       "kstroke": 9,
       "kmeaning": "celebrate",
       "kgrade": 4,
@@ -23517,7 +23517,7 @@ export const kanjiData = [
     },
     {
       "kanji": "相",
-      "kname": "sou-ai",
+      "name": "sou-ai",
       "kstroke": 9,
       "kmeaning": "mutual, phase, minister",
       "kgrade": 3,
@@ -23578,7 +23578,7 @@ export const kanjiData = [
     },
     {
       "kanji": "談",
-      "kname": "dan(wa)",
+      "name": "dan(wa)",
       "kstroke": 15,
       "kmeaning": "talk, conversation",
       "kgrade": 3,
@@ -23623,7 +23623,7 @@ export const kanjiData = [
     },
     {
       "kanji": "接",
-      "kname": "setsu-tsu(gu)",
+      "name": "setsu-tsu(gu)",
       "kstroke": 11,
       "kmeaning": "contact, touch",
       "kgrade": 5,
@@ -23680,7 +23680,7 @@ export const kanjiData = [
     },
     {
       "kanji": "料",
-      "kname": "ryou(ri)",
+      "name": "ryou(ri)",
       "kstroke": 10,
       "kmeaning": "fee, materials",
       "kgrade": 4,
@@ -23737,7 +23737,7 @@ export const kanjiData = [
     },
     {
       "kanji": "払",
-      "kname": "(shi)hara(u)",
+      "name": "(shi)hara(u)",
       "kstroke": 5,
       "kmeaning": "sweep away, pay",
       "kgrade": "n/a",
@@ -23778,7 +23778,7 @@ export const kanjiData = [
     },
     {
       "kanji": "期",
-      "kname": "(yo)ki",
+      "name": "(yo)ki",
       "kstroke": 12,
       "kmeaning": "term, time, expect",
       "kgrade": 3,
@@ -23839,7 +23839,7 @@ export const kanjiData = [
     },
     {
       "kanji": "働",
-      "kname": "hatara(ku)",
+      "name": "hatara(ku)",
       "kstroke": 13,
       "kmeaning": "work",
       "kgrade": 4,
@@ -23880,7 +23880,7 @@ export const kanjiData = [
     },
     {
       "kanji": "火",
-      "kname": "ka-hi",
+      "name": "ka-hi",
       "kstroke": 4,
       "kmeaning": "fire",
       "kgrade": 1,
@@ -23921,7 +23921,7 @@ export const kanjiData = [
     },
     {
       "kanji": "供",
-      "kname": "kyou-sona(eru)",
+      "name": "kyou-sona(eru)",
       "kstroke": 8,
       "kmeaning": "offer, accompany",
       "kgrade": 6,
@@ -23974,7 +23974,7 @@ export const kanjiData = [
     },
     {
       "kanji": "彼",
-      "kname": "kare",
+      "name": "kare",
       "kstroke": 8,
       "kmeaning": "third person pronoun, that",
       "kgrade": "n/a",
@@ -24015,7 +24015,7 @@ export const kanjiData = [
     },
     {
       "kanji": "泣",
-      "kname": "kyuu-na(ku)",
+      "name": "kyuu-na(ku)",
       "kstroke": 8,
       "kmeaning": "cry",
       "kgrade": 4,
@@ -24056,7 +24056,7 @@ export const kanjiData = [
     },
     {
       "kanji": "降",
-      "kname": "kou-fu(ru)",
+      "name": "kou-fu(ru)",
       "kstroke": 10,
       "kmeaning": "descend, fall, get off",
       "kgrade": 6,
@@ -24121,7 +24121,7 @@ export const kanjiData = [
     },
     {
       "kanji": "晴",
-      "kname": "sei-ha(reru)",
+      "name": "sei-ha(reru)",
       "kstroke": 12,
       "kmeaning": "fine weather, clear up",
       "kgrade": 2,
@@ -24166,7 +24166,7 @@ export const kanjiData = [
     },
     {
       "kanji": "曇",
-      "kname": "kumo(ri)",
+      "name": "kumo(ri)",
       "kstroke": 16,
       "kmeaning": "cloudy",
       "kgrade": "n/a",
@@ -24203,7 +24203,7 @@ export const kanjiData = [
     },
     {
       "kanji": "空",
-      "kname": "sora",
+      "name": "sora",
       "kstroke": 8,
       "kmeaning": "sky, air, empty",
       "kgrade": 1,
@@ -24272,7 +24272,7 @@ export const kanjiData = [
     },
     {
       "kanji": "夕",
-      "kname": "seki-yuu",
+      "name": "seki-yuu",
       "kstroke": 3,
       "kmeaning": "evening",
       "kgrade": 1,
@@ -24317,7 +24317,7 @@ export const kanjiData = [
     },
     {
       "kanji": "準",
-      "kname": "(sui)jun",
+      "name": "(sui)jun",
       "kstroke": 13,
       "kmeaning": "standard, semi-",
       "kgrade": 5,
@@ -24362,7 +24362,7 @@ export const kanjiData = [
     },
     {
       "kanji": "備",
-      "kname": "bi-sona(eru)",
+      "name": "bi-sona(eru)",
       "kstroke": 12,
       "kmeaning": "provide, furnish",
       "kgrade": 5,
@@ -24419,7 +24419,7 @@ export const kanjiData = [
     },
     {
       "kanji": "三",
-      "kname": 3,
+      "name": 3,
       "kstroke": 3,
       "kmeaning": "three",
       "kgrade": 1,
@@ -24464,7 +24464,7 @@ export const kanjiData = [
     },
     {
       "kanji": "水",
-      "kname": "mizu",
+      "name": "mizu",
       "kstroke": 4,
       "kmeaning": "water",
       "kgrade": 1,
@@ -24517,7 +24517,7 @@ export const kanjiData = [
     },
     {
       "kanji": "歩",
-      "kname": "aru(ku)",
+      "name": "aru(ku)",
       "kstroke": 8,
       "kmeaning": "walk",
       "kgrade": 2,
@@ -24582,7 +24582,7 @@ export const kanjiData = [
     },
     {
       "kanji": "歌",
-      "kname": "ka-uta",
+      "name": "ka-uta",
       "kstroke": 14,
       "kmeaning": "song",
       "kgrade": 2,
@@ -24635,7 +24635,7 @@ export const kanjiData = [
     },
     {
       "kanji": "足",
-      "kname": "soku-ashi",
+      "name": "soku-ashi",
       "kstroke": 7,
       "kmeaning": "foot, suffice, add",
       "kgrade": 1,
@@ -24688,7 +24688,7 @@ export const kanjiData = [
     },
     {
       "kanji": "口",
-      "kname": "kuchi",
+      "name": "kuchi",
       "kstroke": 3,
       "kmeaning": "mouth",
       "kgrade": 1,
@@ -24749,7 +24749,7 @@ export const kanjiData = [
     },
     {
       "kanji": "世",
-      "kname": "sei-yo",
+      "name": "sei-yo",
       "kstroke": 5,
       "kmeaning": "world, era",
       "kgrade": 3,
@@ -24810,7 +24810,7 @@ export const kanjiData = [
     },
     {
       "kanji": "界",
-      "kname": "(se)kai",
+      "name": "(se)kai",
       "kstroke": 9,
       "kmeaning": "world, boundary",
       "kgrade": 3,
@@ -24863,7 +24863,7 @@ export const kanjiData = [
     },
     {
       "kanji": "医",
-      "kname": "i(gaku)",
+      "name": "i(gaku)",
       "kstroke": 7,
       "kmeaning": "medicine, doctor",
       "kgrade": 3,
@@ -24916,7 +24916,7 @@ export const kanjiData = [
     },
     {
       "kanji": "者",
-      "kname": "sha-mono",
+      "name": "sha-mono",
       "kstroke": 8,
       "kmeaning": "person",
       "kgrade": 3,
@@ -24985,7 +24985,7 @@ export const kanjiData = [
     },
     {
       "kanji": "配",
-      "kname": "kuba(ru)",
+      "name": "kuba(ru)",
       "kstroke": 10,
       "kmeaning": "distribute",
       "kgrade": 3,
@@ -25038,7 +25038,7 @@ export const kanjiData = [
     },
     {
       "kanji": "規",
-      "kname": "ki(bo)",
+      "name": "ki(bo)",
       "kstroke": 11,
       "kmeaning": "regulation, measure",
       "kgrade": 5,
@@ -25087,7 +25087,7 @@ export const kanjiData = [
     },
     {
       "kanji": "木",
-      "kname": "moku-ki",
+      "name": "moku-ki",
       "kstroke": 4,
       "kmeaning": "tree, wood",
       "kgrade": 1,
@@ -25140,7 +25140,7 @@ export const kanjiData = [
     },
     {
       "kanji": "則",
-      "kname": "(hou)soku",
+      "name": "(hou)soku",
       "kstroke": 9,
       "kmeaning": "rule, law",
       "kgrade": 5,
@@ -25189,7 +25189,7 @@ export const kanjiData = [
     },
     {
       "kanji": "正",
-      "kname": "tada(shii)",
+      "name": "tada(shii)",
       "kstroke": 5,
       "kmeaning": "right, correct",
       "kgrade": 1,
@@ -25250,7 +25250,7 @@ export const kanjiData = [
     },
     {
       "kanji": "活",
-      "kname": "(sei)katsu",
+      "name": "(sei)katsu",
       "kstroke": 9,
       "kmeaning": "active, live",
       "kgrade": 2,
@@ -25303,7 +25303,7 @@ export const kanjiData = [
     },
     {
       "kanji": "考",
-      "kname": "kanga(e)",
+      "name": "kanga(e)",
       "kstroke": 6,
       "kmeaning": "think",
       "kgrade": 2,
@@ -25352,7 +25352,7 @@ export const kanjiData = [
     },
     {
       "kanji": "計",
-      "kname": "kei-haka(ru)",
+      "name": "kei-haka(ru)",
       "kstroke": 9,
       "kmeaning": "plan, compute, measure",
       "kgrade": 2,
@@ -25417,7 +25417,7 @@ export const kanjiData = [
     },
     {
       "kanji": "奥",
-      "kname": "(yama)oku",
+      "name": "(yama)oku",
       "kstroke": 12,
       "kmeaning": "inner part",
       "kgrade": "n/a",
@@ -25462,7 +25462,7 @@ export const kanjiData = [
     },
     {
       "kanji": "様",
-      "kname": "sama",
+      "name": "sama",
       "kstroke": 14,
       "kmeaning": "mode, way, formal title, manner",
       "kgrade": 3,
@@ -25523,7 +25523,7 @@ export const kanjiData = [
     },
     {
       "kanji": "眠",
-      "kname": "nemu(i)",
+      "name": "nemu(i)",
       "kstroke": 10,
       "kmeaning": "sleep",
       "kgrade": "n/a",
@@ -25576,7 +25576,7 @@ export const kanjiData = [
     },
     {
       "kanji": "外",
-      "kname": "soto",
+      "name": "soto",
       "kstroke": 5,
       "kmeaning": "outside",
       "kgrade": 2,
@@ -25645,7 +25645,7 @@ export const kanjiData = [
     },
     {
       "kanji": "不",
-      "kname": "fu(man)",
+      "name": "fu(man)",
       "kstroke": 4,
       "kmeaning": "not",
       "kgrade": 4,
@@ -25710,7 +25710,7 @@ export const kanjiData = [
     },
     {
       "kanji": "金",
-      "kname": "kin-kane",
+      "name": "kin-kane",
       "kstroke": 8,
       "kmeaning": "metal, gold, money",
       "kgrade": 1,
@@ -25779,7 +25779,7 @@ export const kanjiData = [
     },
     {
       "kanji": "昔",
-      "kname": "mukashi",
+      "name": "mukashi",
       "kstroke": 8,
       "kmeaning": "former times, antiquity",
       "kgrade": 3,
@@ -25816,7 +25816,7 @@ export const kanjiData = [
     },
     {
       "kanji": "洋",
-      "kname": "you(fuku)",
+      "name": "you(fuku)",
       "kstroke": 9,
       "kmeaning": "ocean, western",
       "kgrade": 3,
@@ -25865,7 +25865,7 @@ export const kanjiData = [
     },
     {
       "kanji": "寄",
-      "kname": "ki-yo(ru)",
+      "name": "ki-yo(ru)",
       "kstroke": 11,
       "kmeaning": "contribute, draw near, approach",
       "kgrade": 5,
@@ -25910,7 +25910,7 @@ export const kanjiData = [
     },
     {
       "kanji": "風",
-      "kname": "kaze",
+      "name": "kaze",
       "kstroke": 9,
       "kmeaning": "wind, manner",
       "kgrade": 2,
@@ -25967,7 +25967,7 @@ export const kanjiData = [
     },
     {
       "kanji": "呼",
-      "kname": "yo(bu)",
+      "name": "yo(bu)",
       "kstroke": 8,
       "kmeaning": "call, invite",
       "kgrade": 6,
@@ -26000,7 +26000,7 @@ export const kanjiData = [
     },
     {
       "kanji": "怒",
-      "kname": "ika(ru)",
+      "name": "ika(ru)",
       "kstroke": 9,
       "kmeaning": "get angry",
       "kgrade": "n/a",
@@ -26049,7 +26049,7 @@ export const kanjiData = [
     },
     {
       "kanji": "宿",
-      "kname": "yado",
+      "name": "yado",
       "kstroke": 11,
       "kmeaning": "lodge",
       "kgrade": 3,
@@ -26102,7 +26102,7 @@ export const kanjiData = [
     },
     {
       "kanji": "渡",
-      "kname": "to-wata(ru)",
+      "name": "to-wata(ru)",
       "kstroke": 12,
       "kmeaning": "cross",
       "kgrade": "n/a",
@@ -26155,7 +26155,7 @@ export const kanjiData = [
     },
     {
       "kanji": "旅",
-      "kname": "ryo-tabi",
+      "name": "ryo-tabi",
       "kstroke": 10,
       "kmeaning": "travel",
       "kgrade": 3,
@@ -26208,7 +26208,7 @@ export const kanjiData = [
     },
     {
       "kanji": "取",
-      "kname": "shu-to(ru)",
+      "name": "shu-to(ru)",
       "kstroke": 8,
       "kmeaning": "take",
       "kgrade": 3,
@@ -26261,7 +26261,7 @@ export const kanjiData = [
     },
     {
       "kanji": "土",
-      "kname": "tsuchi",
+      "name": "tsuchi",
       "kstroke": 3,
       "kmeaning": "soil, earth, ground",
       "kgrade": 1,
@@ -26310,7 +26310,7 @@ export const kanjiData = [
     },
     {
       "kanji": "盗",
-      "kname": "nusu(mu)",
+      "name": "nusu(mu)",
       "kstroke": 11,
       "kmeaning": "steal",
       "kgrade": "n/a",
@@ -26355,7 +26355,7 @@ export const kanjiData = [
     },
     {
       "kanji": "建",
-      "kname": "ken-ta(teru)",
+      "name": "ken-ta(teru)",
       "kstroke": 9,
       "kmeaning": "build",
       "kgrade": 4,
@@ -26412,7 +26412,7 @@ export const kanjiData = [
     },
     {
       "kanji": "宅",
-      "kname": "(o)taku",
+      "name": "(o)taku",
       "kstroke": 6,
       "kmeaning": "house, residence",
       "kgrade": 6,
@@ -26457,7 +26457,7 @@ export const kanjiData = [
     },
     {
       "kanji": "申",
-      "kname": "mou(su)",
+      "name": "mou(su)",
       "kstroke": 5,
       "kmeaning": "report, speak humbly",
       "kgrade": 3,
@@ -26502,7 +26502,7 @@ export const kanjiData = [
     },
     {
       "kanji": "願",
-      "kname": "nega(u)",
+      "name": "nega(u)",
       "kstroke": 19,
       "kmeaning": "wish, ask a favor, request",
       "kgrade": 4,
@@ -26551,7 +26551,7 @@ export const kanjiData = [
     },
     {
       "kanji": "主",
-      "kname": "nushi",
+      "name": "nushi",
       "kstroke": 5,
       "kmeaning": "main, master",
       "kgrade": 3,
@@ -26616,7 +26616,7 @@ export const kanjiData = [
     },
     {
       "kanji": "関",
-      "kname": "kan-seki",
+      "name": "kan-seki",
       "kstroke": 14,
       "kmeaning": "concern, barrier",
       "kgrade": 4,
@@ -26673,7 +26673,7 @@ export const kanjiData = [
     },
     {
       "kanji": "特",
-      "kname": "toku(betsu)",
+      "name": "toku(betsu)",
       "kstroke": 10,
       "kmeaning": "special",
       "kgrade": 4,
@@ -26726,7 +26726,7 @@ export const kanjiData = [
     },
     {
       "kanji": "別",
-      "kname": "betsu-waka(re)",
+      "name": "betsu-waka(re)",
       "kstroke": 7,
       "kmeaning": "separate, another",
       "kgrade": 4,
@@ -26791,7 +26791,7 @@ export const kanjiData = [
     },
     {
       "kanji": "僕",
-      "kname": "boku(ra)",
+      "name": "boku(ra)",
       "kstroke": 14,
       "kmeaning": "I, manservant",
       "kgrade": "n/a",
@@ -26828,7 +26828,7 @@ export const kanjiData = [
     },
     {
       "kanji": "日",
-      "kname": "nichi-hi",
+      "name": "nichi-hi",
       "kstroke": 4,
       "kmeaning": "day, sun, Japan",
       "kgrade": 1,
@@ -26897,7 +26897,7 @@ export const kanjiData = [
     },
     {
       "kanji": "予",
-      "kname": "yo(tei)",
+      "name": "yo(tei)",
       "kstroke": 4,
       "kmeaning": "in advance",
       "kgrade": 3,
@@ -26958,7 +26958,7 @@ export const kanjiData = [
     },
     {
       "kanji": "定",
-      "kname": "sada(meru)",
+      "name": "sada(meru)",
       "kstroke": 8,
       "kmeaning": "fix, determine",
       "kgrade": 3,
@@ -27027,7 +27027,7 @@ export const kanjiData = [
     },
     {
       "kanji": "写",
-      "kname": "sha-utsu(su)",
+      "name": "sha-utsu(su)",
       "kstroke": 5,
       "kmeaning": "copy",
       "kgrade": 3,
@@ -27084,7 +27084,7 @@ export const kanjiData = [
     },
     {
       "kanji": "真",
-      "kname": "(sha)shin",
+      "name": "(sha)shin",
       "kstroke": 10,
       "kmeaning": "true, genuine",
       "kgrade": 3,
@@ -27141,7 +27141,7 @@ export const kanjiData = [
     },
     {
       "kanji": "普",
-      "kname": "fu(dangi)",
+      "name": "fu(dangi)",
       "kstroke": 12,
       "kmeaning": "widespread, general",
       "kgrade": "n/a",
@@ -27178,7 +27178,7 @@ export const kanjiData = [
     },
     {
       "kanji": "意",
-      "kname": "(ketsu)i",
+      "name": "(ketsu)i",
       "kstroke": 13,
       "kmeaning": "mind, meaning, will",
       "kgrade": 3,
@@ -27239,7 +27239,7 @@ export const kanjiData = [
     },
     {
       "kanji": "忘",
-      "kname": "wasu(reru)",
+      "name": "wasu(reru)",
       "kstroke": 7,
       "kmeaning": "forget",
       "kgrade": 6,
@@ -27276,7 +27276,7 @@ export const kanjiData = [
     },
     {
       "kanji": "覚",
-      "kname": "kaku-obo(eru)",
+      "name": "kaku-obo(eru)",
       "kstroke": 12,
       "kmeaning": "perceive, remember, awake",
       "kgrade": 4,
@@ -27329,7 +27329,7 @@ export const kanjiData = [
     },
     {
       "kanji": "席",
-      "kname": "(za)seki",
+      "name": "(za)seki",
       "kstroke": 10,
       "kmeaning": "seat",
       "kgrade": 4,
@@ -27378,7 +27378,7 @@ export const kanjiData = [
     },
     {
       "kanji": "君",
-      "kname": "kimi",
+      "name": "kimi",
       "kstroke": 7,
       "kmeaning": "ruler, familiar title, you",
       "kgrade": 3,
@@ -27431,7 +27431,7 @@ export const kanjiData = [
     },
     {
       "kanji": "百",
-      "kname": "hyaku-momo",
+      "name": "hyaku-momo",
       "kstroke": 6,
       "kmeaning": "hundred",
       "kgrade": 1,
@@ -27480,7 +27480,7 @@ export const kanjiData = [
     },
     {
       "kanji": "熱",
-      "kname": "netsu",
+      "name": "netsu",
       "kstroke": 15,
       "kmeaning": "heat, hot, fever",
       "kgrade": 4,
@@ -27541,7 +27541,7 @@ export const kanjiData = [
     },
     {
       "kanji": "死",
-      "kname": "shi(nu)",
+      "name": "shi(nu)",
       "kstroke": 6,
       "kmeaning": "die, death",
       "kgrade": 3,
@@ -27606,7 +27606,7 @@ export const kanjiData = [
     },
     {
       "kanji": "結",
-      "kname": "musu(bu)",
+      "name": "musu(bu)",
       "kstroke": 12,
       "kmeaning": "tie, conclude",
       "kgrade": 4,
@@ -27667,7 +27667,7 @@ export const kanjiData = [
     },
     {
       "kanji": "婚",
-      "kname": "kon(yaku)",
+      "name": "kon(yaku)",
       "kstroke": 11,
       "kmeaning": "marry",
       "kgrade": "n/a",
@@ -27724,7 +27724,7 @@ export const kanjiData = [
     },
     {
       "kanji": "式",
-      "kname": "(kei)shiki",
+      "name": "(kei)shiki",
       "kstroke": 6,
       "kmeaning": "style, ceremony",
       "kgrade": 3,
@@ -27785,7 +27785,7 @@ export const kanjiData = [
     },
     {
       "kanji": "牛",
-      "kname": "gyuu-ushi",
+      "name": "gyuu-ushi",
       "kstroke": 4,
       "kmeaning": "cattle, cow, ox",
       "kgrade": 2,
@@ -27826,7 +27826,7 @@ export const kanjiData = [
     },
     {
       "kanji": "乳",
-      "kname": "nyuu-chichi",
+      "name": "nyuu-chichi",
       "kstroke": 8,
       "kmeaning": "milk",
       "kgrade": 6,
@@ -27875,7 +27875,7 @@ export const kanjiData = [
     },
     {
       "kanji": "沢",
-      "kname": "taku-sawa",
+      "name": "taku-sawa",
       "kstroke": 7,
       "kmeaning": "marsh",
       "kgrade": "n/a",
@@ -27908,7 +27908,7 @@ export const kanjiData = [
     },
     {
       "kanji": "町",
-      "kname": "chou-machi",
+      "name": "chou-machi",
       "kstroke": 7,
       "kmeaning": "town",
       "kgrade": 1,
@@ -27953,7 +27953,7 @@ export const kanjiData = [
     },
     {
       "kanji": "他",
-      "kname": "ta-hoka",
+      "name": "ta-hoka",
       "kstroke": 5,
       "kmeaning": "other",
       "kgrade": 3,
@@ -27986,7 +27986,7 @@ export const kanjiData = [
     },
     {
       "kanji": "千",
-      "kname": "sen-chi",
+      "name": "sen-chi",
       "kstroke": 3,
       "kmeaning": "thousand",
       "kgrade": 1,
@@ -28027,7 +28027,7 @@ export const kanjiData = [
     },
     {
       "kanji": "飯",
-      "kname": "meshi",
+      "name": "meshi",
       "kstroke": 12,
       "kmeaning": "cooked rice, meal",
       "kgrade": 4,
@@ -28080,7 +28080,7 @@ export const kanjiData = [
     },
     {
       "kanji": "答",
-      "kname": "tou-kota(e)",
+      "name": "tou-kota(e)",
       "kstroke": 12,
       "kmeaning": "answer",
       "kgrade": 2,
@@ -28125,7 +28125,7 @@ export const kanjiData = [
     },
     {
       "kanji": "店",
-      "kname": "mise",
+      "name": "mise",
       "kstroke": 8,
       "kmeaning": "shop, store",
       "kgrade": 2,
@@ -28186,7 +28186,7 @@ export const kanjiData = [
     },
     {
       "kanji": "愛",
-      "kname": "ito(shii)",
+      "name": "ito(shii)",
       "kstroke": 13,
       "kmeaning": "love",
       "kgrade": 4,
@@ -28251,7 +28251,7 @@ export const kanjiData = [
     },
     {
       "kanji": "合",
-      "kname": "gou-a(u)",
+      "name": "gou-a(u)",
       "kstroke": 6,
       "kmeaning": "combine, fit, match",
       "kgrade": 2,
@@ -28320,7 +28320,7 @@ export const kanjiData = [
     },
     {
       "kanji": "悲",
-      "kname": "hi-kana(shii)",
+      "name": "hi-kana(shii)",
       "kstroke": 12,
       "kmeaning": "sad",
       "kgrade": 3,
@@ -28373,7 +28373,7 @@ export const kanjiData = [
     },
     {
       "kanji": "職",
-      "kname": "shoku(gyou)",
+      "name": "shoku(gyou)",
       "kstroke": 18,
       "kmeaning": "employment",
       "kgrade": 5,
@@ -28426,7 +28426,7 @@ export const kanjiData = [
     },
     {
       "kanji": "員",
-      "kname": "(ginkou)in",
+      "name": "(ginkou)in",
       "kstroke": 10,
       "kmeaning": "member",
       "kgrade": 3,
@@ -28487,7 +28487,7 @@ export const kanjiData = [
     },
     {
       "kanji": "幸",
-      "kname": "saiwa(i)",
+      "name": "saiwa(i)",
       "kstroke": 8,
       "kmeaning": "happiness, happy",
       "kgrade": 3,
@@ -28540,7 +28540,7 @@ export const kanjiData = [
     },
     {
       "kanji": "飛",
-      "kname": "hi-to(bu)",
+      "name": "hi-to(bu)",
       "kstroke": 9,
       "kmeaning": "fly",
       "kgrade": 4,
@@ -28593,7 +28593,7 @@ export const kanjiData = [
     },
     {
       "kanji": "今",
-      "kname": "ima",
+      "name": "ima",
       "kstroke": 4,
       "kmeaning": "present, this",
       "kgrade": 2,
@@ -28658,7 +28658,7 @@ export const kanjiData = [
     },
     {
       "kanji": "耳",
-      "kname": "mimi",
+      "name": "mimi",
       "kstroke": 6,
       "kmeaning": "ear",
       "kgrade": 1,
@@ -28691,7 +28691,7 @@ export const kanjiData = [
     },
     {
       "kanji": "嫌",
-      "kname": "kira(u)",
+      "name": "kira(u)",
       "kstroke": 13,
       "kmeaning": "dislike, unpleasant",
       "kgrade": "n/a",
@@ -28744,7 +28744,7 @@ export const kanjiData = [
     },
     {
       "kanji": "窓",
-      "kname": "mado",
+      "name": "mado",
       "kstroke": 11,
       "kmeaning": "window",
       "kgrade": 6,
@@ -28785,7 +28785,7 @@ export const kanjiData = [
     },
     {
       "kanji": "喜",
-      "kname": "ki-yoroko(bu)",
+      "name": "ki-yoroko(bu)",
       "kstroke": 12,
       "kmeaning": "happy, happiness, be glad",
       "kgrade": 4,
@@ -28826,7 +28826,7 @@ export const kanjiData = [
     },
     {
       "kanji": "反",
-      "kname": "han-so(ru)",
+      "name": "han-so(ru)",
       "kstroke": 4,
       "kmeaning": "counter, anti-",
       "kgrade": 3,
@@ -28895,7 +28895,7 @@ export const kanjiData = [
     },
     {
       "kanji": "対",
-      "kname": "(han)tai",
+      "name": "(han)tai",
       "kstroke": 7,
       "kmeaning": "oppose, opposite, against",
       "kgrade": 3,
@@ -28952,7 +28952,7 @@ export const kanjiData = [
     },
     {
       "kanji": "恋",
-      "kname": "ren-koi",
+      "name": "ren-koi",
       "kstroke": 10,
       "kmeaning": "love",
       "kgrade": "n/a",
@@ -29005,7 +29005,7 @@ export const kanjiData = [
     },
     {
       "kanji": "告",
-      "kname": "koku-tsu(geru)",
+      "name": "koku-tsu(geru)",
       "kstroke": 7,
       "kmeaning": "notify, tell, inform",
       "kgrade": 4,
@@ -29070,7 +29070,7 @@ export const kanjiData = [
     },
     {
       "kanji": "許",
-      "kname": "kyo-yuru(su)",
+      "name": "kyo-yuru(su)",
       "kstroke": 11,
       "kmeaning": "permit, allow",
       "kgrade": 5,
@@ -29107,7 +29107,7 @@ export const kanjiData = [
     },
     {
       "kanji": "件",
-      "kname": "(ji)ken",
+      "name": "(ji)ken",
       "kstroke": 6,
       "kmeaning": "matter",
       "kgrade": 5,
@@ -29148,7 +29148,7 @@ export const kanjiData = [
     },
     {
       "kanji": "小",
-      "kname": "chii(sai)",
+      "name": "chii(sai)",
       "kstroke": 3,
       "kmeaning": "small",
       "kgrade": 1,
@@ -29201,7 +29201,7 @@ export const kanjiData = [
     },
     {
       "kanji": "戻",
-      "kname": "modo(ru)",
+      "name": "modo(ru)",
       "kstroke": 7,
       "kmeaning": "return",
       "kgrade": "n/a",
@@ -29246,7 +29246,7 @@ export const kanjiData = [
     },
     {
       "kanji": "服",
-      "kname": "(you)fuku",
+      "name": "(you)fuku",
       "kstroke": 8,
       "kmeaning": "clothes, clothing, submit",
       "kgrade": 3,
@@ -29307,7 +29307,7 @@ export const kanjiData = [
     },
     {
       "kanji": "曜",
-      "kname": "you(bi)",
+      "name": "you(bi)",
       "kstroke": 18,
       "kmeaning": "day of the week",
       "kgrade": 2,
@@ -29360,7 +29360,7 @@ export const kanjiData = [
     },
     {
       "kanji": "品",
-      "kname": "shina",
+      "name": "shina",
       "kstroke": 9,
       "kmeaning": "article, goods",
       "kgrade": 3,
@@ -29429,7 +29429,7 @@ export const kanjiData = [
     },
     {
       "kanji": "未",
-      "kname": "mi(rai)",
+      "name": "mi(rai)",
       "kstroke": 5,
       "kmeaning": "not yet",
       "kgrade": 4,
@@ -29482,7 +29482,7 @@ export const kanjiData = [
     },
     {
       "kanji": "完",
-      "kname": "kan(peki)",
+      "name": "kan(peki)",
       "kstroke": 7,
       "kmeaning": "complete",
       "kgrade": 4,
@@ -29527,7 +29527,7 @@ export const kanjiData = [
     },
     {
       "kanji": "海",
-      "kname": "kai-umi",
+      "name": "kai-umi",
       "kstroke": 9,
       "kmeaning": "sea, ocean",
       "kgrade": 2,
@@ -29584,7 +29584,7 @@ export const kanjiData = [
     },
     {
       "kanji": "島",
-      "kname": "tou-shima",
+      "name": "tou-shima",
       "kstroke": 10,
       "kmeaning": "island",
       "kgrade": 3,
@@ -29637,7 +29637,7 @@ export const kanjiData = [
     },
     {
       "kanji": "級",
-      "kname": "(ni)kyuu",
+      "name": "(ni)kyuu",
       "kstroke": 9,
       "kmeaning": "grade",
       "kgrade": 3,
@@ -29698,7 +29698,7 @@ export const kanjiData = [
     },
     {
       "kanji": "顔",
-      "kname": "kao",
+      "name": "kao",
       "kstroke": 18,
       "kmeaning": "face",
       "kgrade": 2,
@@ -29747,7 +29747,7 @@ export const kanjiData = [
     },
     {
       "kanji": "休",
-      "kname": "yasu(mi)",
+      "name": "yasu(mi)",
       "kstroke": 6,
       "kmeaning": "rest",
       "kgrade": 1,
@@ -29796,7 +29796,7 @@ export const kanjiData = [
     },
     {
       "kanji": "面",
-      "kname": "men-omote",
+      "name": "men-omote",
       "kstroke": 9,
       "kmeaning": "face, mask, surface",
       "kgrade": 3,
@@ -29865,7 +29865,7 @@ export const kanjiData = [
     },
     {
       "kanji": "企",
-      "kname": "kuwada(teru)",
+      "name": "kuwada(teru)",
       "kstroke": 6,
       "kmeaning": "project, plan, attempt",
       "kgrade": "n/a",
@@ -29902,7 +29902,7 @@ export const kanjiData = [
     },
     {
       "kanji": "市",
-      "kname": "shi-ichi",
+      "name": "shi-ichi",
       "kstroke": 5,
       "kmeaning": "city, market",
       "kgrade": 2,
@@ -29963,7 +29963,7 @@ export const kanjiData = [
     },
     {
       "kanji": "頼",
-      "kname": "tayo(ru)",
+      "name": "tayo(ru)",
       "kstroke": 16,
       "kmeaning": "rely on, request",
       "kgrade": "n/a",
@@ -30008,7 +30008,7 @@ export const kanjiData = [
     },
     {
       "kanji": "第",
-      "kname": "dai(ichi)",
+      "name": "dai(ichi)",
       "kstroke": 11,
       "kmeaning": "ordinal number prefix, degree",
       "kgrade": 3,
@@ -30053,7 +30053,7 @@ export const kanjiData = [
     },
     {
       "kanji": "表",
-      "kname": "hyou-omote",
+      "name": "hyou-omote",
       "kstroke": 8,
       "kmeaning": "express, surface, table",
       "kgrade": 3,
@@ -30118,7 +30118,7 @@ export const kanjiData = [
     },
     {
       "kanji": "将",
-      "kname": "shou(gun)",
+      "name": "shou(gun)",
       "kstroke": 10,
       "kmeaning": "general, officer",
       "kgrade": 6,
@@ -30155,7 +30155,7 @@ export const kanjiData = [
     },
     {
       "kanji": "希",
-      "kname": "ki(bou)",
+      "name": "ki(bou)",
       "kstroke": 7,
       "kmeaning": "hope, aspire",
       "kgrade": 4,
@@ -30188,7 +30188,7 @@ export const kanjiData = [
     },
     {
       "kanji": "場",
-      "kname": "jou-ba",
+      "name": "jou-ba",
       "kstroke": 12,
       "kmeaning": "place",
       "kgrade": 2,
@@ -30257,7 +30257,7 @@ export const kanjiData = [
     },
     {
       "kanji": "査",
-      "kname": "(shin)sa",
+      "name": "(shin)sa",
       "kstroke": 9,
       "kmeaning": "look into, investigate",
       "kgrade": 5,
@@ -30298,7 +30298,7 @@ export const kanjiData = [
     },
     {
       "kanji": "学",
-      "kname": "mana(bu)",
+      "name": "mana(bu)",
       "kstroke": 8,
       "kmeaning": "study, educational, institution",
       "kgrade": 1,
@@ -30359,7 +30359,7 @@ export const kanjiData = [
     },
     {
       "kanji": "行",
-      "kname": "i(ku)-gyou",
+      "name": "i(ku)-gyou",
       "kstroke": 6,
       "kmeaning": "go, act, line",
       "kgrade": 2,
@@ -30424,7 +30424,7 @@ export const kanjiData = [
     },
     {
       "kanji": "係",
-      "kname": "kei-kaka(ri)",
+      "name": "kei-kaka(ri)",
       "kstroke": 9,
       "kmeaning": "connect, person in charge",
       "kgrade": 3,
@@ -30469,7 +30469,7 @@ export const kanjiData = [
     },
     {
       "kanji": "訳",
-      "kname": "wake",
+      "name": "wake",
       "kstroke": 11,
       "kmeaning": "translate, sense, reason",
       "kgrade": 6,
@@ -30522,7 +30522,7 @@ export const kanjiData = [
     },
     {
       "kanji": "課",
-      "kname": "(hou)ka(go)",
+      "name": "(hou)ka(go)",
       "kstroke": 15,
       "kmeaning": "section, lesson",
       "kgrade": 4,
@@ -30567,7 +30567,7 @@ export const kanjiData = [
     },
     {
       "kanji": "続",
-      "kname": "tsuzu(ku)",
+      "name": "tsuzu(ku)",
       "kstroke": 13,
       "kmeaning": "continue",
       "kgrade": 4,
@@ -30616,7 +30616,7 @@ export const kanjiData = [
     },
     {
       "kanji": "際",
-      "kname": "sai-kiwa",
+      "name": "sai-kiwa",
       "kstroke": 14,
       "kmeaning": "verge, occasion, edge",
       "kgrade": 5,
@@ -30661,7 +30661,7 @@ export const kanjiData = [
     },
     {
       "kanji": "望",
-      "kname": "bou-nozo(mi)",
+      "name": "bou-nozo(mi)",
       "kstroke": 11,
       "kmeaning": "hope, desire, look after",
       "kgrade": 4,
@@ -30718,7 +30718,7 @@ export const kanjiData = [
     },
     {
       "kanji": "成",
-      "kname": "sei-na(ru)",
+      "name": "sei-na(ru)",
       "kstroke": 6,
       "kmeaning": "form, achieve",
       "kgrade": 4,
@@ -30783,7 +30783,7 @@ export const kanjiData = [
     },
     {
       "kanji": "功",
-      "kname": "(sei)kou",
+      "name": "(sei)kou",
       "kstroke": 5,
       "kmeaning": "merit, success",
       "kgrade": 4,
@@ -30824,7 +30824,7 @@ export const kanjiData = [
     },
     {
       "kanji": "約",
-      "kname": "yaku(soku)",
+      "name": "yaku(soku)",
       "kstroke": 9,
       "kmeaning": "promise, contract, approximately",
       "kgrade": 4,
@@ -30881,7 +30881,7 @@ export const kanjiData = [
     },
     {
       "kanji": "束",
-      "kname": "taba(neru)",
+      "name": "taba(neru)",
       "kstroke": 7,
       "kmeaning": "tie up, bundle",
       "kgrade": 4,
@@ -30930,7 +30930,7 @@ export const kanjiData = [
     },
     {
       "kanji": "家",
-      "kname": "ie",
+      "name": "ie",
       "kstroke": 10,
       "kmeaning": "house, family",
       "kgrade": 2,
@@ -30999,7 +30999,7 @@ export const kanjiData = [
     },
     {
       "kanji": "受",
-      "kname": "ju-u(keru)",
+      "name": "ju-u(keru)",
       "kstroke": 8,
       "kmeaning": "receive",
       "kgrade": 3,
@@ -31056,7 +31056,7 @@ export const kanjiData = [
     },
     {
       "kanji": "有",
-      "kname": "yuu-a(ru)",
+      "name": "yuu-a(ru)",
       "kstroke": 6,
       "kmeaning": "have",
       "kgrade": 3,
@@ -31121,7 +31121,7 @@ export const kanjiData = [
     },
     {
       "kanji": "点",
-      "kname": "ten(suu)",
+      "name": "ten(suu)",
       "kstroke": 9,
       "kmeaning": "point",
       "kgrade": 2,
@@ -31190,7 +31190,7 @@ export const kanjiData = [
     },
     {
       "kanji": "識",
-      "kname": "(nin)shiki",
+      "name": "(nin)shiki",
       "kstroke": 19,
       "kmeaning": "discriminate, knowledge, know",
       "kgrade": 5,
@@ -31235,7 +31235,7 @@ export const kanjiData = [
     },
     {
       "kanji": "感",
-      "kname": "(sekinin)kan",
+      "name": "(sekinin)kan",
       "kstroke": 13,
       "kmeaning": "sense, feel",
       "kgrade": 3,
@@ -31304,7 +31304,7 @@ export const kanjiData = [
     },
     {
       "kanji": "送",
-      "kname": "sou-oku(ru)",
+      "name": "sou-oku(ru)",
       "kstroke": 9,
       "kmeaning": "send",
       "kgrade": 3,
@@ -31361,7 +31361,7 @@ export const kanjiData = [
     },
     {
       "kanji": "数",
-      "kname": "kazo(eru)",
+      "name": "kazo(eru)",
       "kstroke": 13,
       "kmeaning": "number, count",
       "kgrade": 2,
@@ -31430,7 +31430,7 @@ export const kanjiData = [
     },
     {
       "kanji": "球",
-      "kname": "kyuu-tama",
+      "name": "kyuu-tama",
       "kstroke": 11,
       "kmeaning": "ball",
       "kgrade": 3,
@@ -31479,7 +31479,7 @@ export const kanjiData = [
     },
     {
       "kanji": "遊",
-      "kname": "aso(bu)",
+      "name": "aso(bu)",
       "kstroke": 12,
       "kmeaning": "play",
       "kgrade": 3,
@@ -31516,7 +31516,7 @@ export const kanjiData = [
     },
     {
       "kanji": "招",
-      "kname": "mane(ku)",
+      "name": "mane(ku)",
       "kstroke": 8,
       "kmeaning": "invite",
       "kgrade": 5,
@@ -31553,7 +31553,7 @@ export const kanjiData = [
     },
     {
       "kanji": "帰",
-      "kname": "ki-kae(ru)",
+      "name": "ki-kae(ru)",
       "kstroke": 10,
       "kmeaning": "return",
       "kgrade": 2,
@@ -31594,7 +31594,7 @@ export const kanjiData = [
     },
     {
       "kanji": "選",
-      "kname": "sen-era(bu)",
+      "name": "sen-era(bu)",
       "kstroke": 15,
       "kmeaning": "choose, elect",
       "kgrade": 4,
@@ -31647,7 +31647,7 @@ export const kanjiData = [
     },
     {
       "kanji": "講",
-      "kname": "(ju)kou(suru)",
+      "name": "(ju)kou(suru)",
       "kstroke": 17,
       "kmeaning": "lecture",
       "kgrade": 5,
@@ -31704,7 +31704,7 @@ export const kanjiData = [
     },
     {
       "kanji": "義",
-      "kname": "(sei)gi",
+      "name": "(sei)gi",
       "kstroke": 13,
       "kmeaning": "righteousness, meaning, justice",
       "kgrade": 5,
@@ -31765,7 +31765,7 @@ export const kanjiData = [
     },
     {
       "kanji": "役",
-      "kname": "yaku(me)",
+      "name": "yaku(me)",
       "kstroke": 7,
       "kmeaning": "service, role",
       "kgrade": 3,
@@ -31822,7 +31822,7 @@ export const kanjiData = [
     },
     {
       "kanji": "立",
-      "kname": "ritsu-ta(tsu)",
+      "name": "ritsu-ta(tsu)",
       "kstroke": 5,
       "kmeaning": "stand, establish",
       "kgrade": 1,
@@ -31891,7 +31891,7 @@ export const kanjiData = [
     },
     {
       "kanji": "論",
-      "kname": "ron(jiru)",
+      "name": "ron(jiru)",
       "kstroke": 15,
       "kmeaning": "argue, theory, thesis",
       "kgrade": 6,
@@ -31960,7 +31960,7 @@ export const kanjiData = [
     },
     {
       "kanji": "基",
-      "kname": "motoi",
+      "name": "motoi",
       "kstroke": 11,
       "kmeaning": "base, foundation",
       "kgrade": 5,
@@ -32013,7 +32013,7 @@ export const kanjiData = [
     },
     {
       "kanji": "厚",
-      "kname": "kou-atsu(i)",
+      "name": "kou-atsu(i)",
       "kstroke": 9,
       "kmeaning": "thick, kind",
       "kgrade": 5,
@@ -32058,7 +32058,7 @@ export const kanjiData = [
     },
     {
       "kanji": "勧",
-      "kname": "kan-susu(meru)",
+      "name": "kan-susu(meru)",
       "kstroke": 13,
       "kmeaning": "urge, recommend, offer",
       "kgrade": "n/a",
@@ -32091,7 +32091,7 @@ export const kanjiData = [
     },
     {
       "kanji": "般",
-      "kname": "(zen)pan",
+      "name": "(zen)pan",
       "kstroke": 10,
       "kmeaning": "sort, carry, all, general",
       "kgrade": "n/a",
@@ -32124,7 +32124,7 @@ export const kanjiData = [
     },
     {
       "kanji": "近",
-      "kname": "chika(ku)",
+      "name": "chika(ku)",
       "kstroke": 7,
       "kmeaning": "near, recent",
       "kgrade": 2,
@@ -32185,7 +32185,7 @@ export const kanjiData = [
     },
     {
       "kanji": "養",
-      "kname": "yashina(u)",
+      "name": "yashina(u)",
       "kstroke": 15,
       "kmeaning": "foster, rear",
       "kgrade": 4,
@@ -32234,7 +32234,7 @@ export const kanjiData = [
     },
     {
       "kanji": "化",
-      "kname": "ba(keru)",
+      "name": "ba(keru)",
       "kstroke": 4,
       "kmeaning": "change into",
       "kgrade": 3,
@@ -32299,7 +32299,7 @@ export const kanjiData = [
     },
     {
       "kanji": "科",
-      "kname": "(nai)ka",
+      "name": "(nai)ka",
       "kstroke": 9,
       "kmeaning": "subject of study",
       "kgrade": 2,
@@ -32360,7 +32360,7 @@ export const kanjiData = [
     },
     {
       "kanji": "績",
-      "kname": "bou(seki)",
+      "name": "bou(seki)",
       "kstroke": 17,
       "kmeaning": "achievements",
       "kgrade": 5,
@@ -32397,7 +32397,7 @@ export const kanjiData = [
     },
     {
       "kanji": "型",
-      "kname": "(mo)kei",
+      "name": "(mo)kei",
       "kstroke": 9,
       "kmeaning": "type",
       "kgrade": 4,
@@ -32466,7 +32466,7 @@ export const kanjiData = [
     },
     {
       "kanji": "苦",
-      "kname": "niga(i)",
+      "name": "niga(i)",
       "kstroke": 8,
       "kmeaning": "suffering, bitter, painful",
       "kgrade": 3,
@@ -32523,7 +32523,7 @@ export const kanjiData = [
     },
     {
       "kanji": "満",
-      "kname": "man-mi(tasu)",
+      "name": "man-mi(tasu)",
       "kstroke": 12,
       "kmeaning": "full",
       "kgrade": 4,
@@ -32588,7 +32588,7 @@ export const kanjiData = [
     },
     {
       "kanji": "増",
-      "kname": "zou-fu(eru)",
+      "name": "zou-fu(eru)",
       "kstroke": 14,
       "kmeaning": "increase",
       "kgrade": 5,
@@ -32645,7 +32645,7 @@ export const kanjiData = [
     },
     {
       "kanji": "声",
-      "kname": "koe",
+      "name": "koe",
       "kstroke": 7,
       "kmeaning": "voice",
       "kgrade": 2,
@@ -32706,7 +32706,7 @@ export const kanjiData = [
     },
     {
       "kanji": "現",
-      "kname": "gen-arawa(reru)",
+      "name": "gen-arawa(reru)",
       "kstroke": 11,
       "kmeaning": "actual, appear, present",
       "kgrade": 5,
@@ -32771,7 +32771,7 @@ export const kanjiData = [
     },
     {
       "kanji": "父",
-      "kname": "fu-chichi",
+      "name": "fu-chichi",
       "kstroke": 4,
       "kmeaning": "father",
       "kgrade": 2,
@@ -32812,7 +32812,7 @@ export const kanjiData = [
     },
     {
       "kanji": "在",
-      "kname": "zai-a(ru)",
+      "name": "zai-a(ru)",
       "kstroke": 6,
       "kmeaning": "be, exist",
       "kgrade": 5,
@@ -32881,7 +32881,7 @@ export const kanjiData = [
     },
     {
       "kanji": "夢",
-      "kname": "yume",
+      "name": "yume",
       "kstroke": 13,
       "kmeaning": "dream",
       "kgrade": 5,
@@ -32926,7 +32926,7 @@ export const kanjiData = [
     },
     {
       "kanji": "乗",
-      "kname": "jou-no(ru)",
+      "name": "jou-no(ru)",
       "kstroke": 9,
       "kmeaning": "ride, get on",
       "kgrade": 3,
@@ -32987,7 +32987,7 @@ export const kanjiData = [
     },
     {
       "kanji": "放",
-      "kname": "hou-hana(su)",
+      "name": "hou-hana(su)",
       "kstroke": 8,
       "kmeaning": "let go, release",
       "kgrade": 3,
@@ -33048,7 +33048,7 @@ export const kanjiData = [
     },
     {
       "kanji": "協",
-      "kname": "(da)kyou",
+      "name": "(da)kyou",
       "kstroke": 8,
       "kmeaning": "cooperate",
       "kgrade": 4,
@@ -33093,7 +33093,7 @@ export const kanjiData = [
     },
     {
       "kanji": "力",
-      "kname": "chikara",
+      "name": "chikara",
       "kstroke": 2,
       "kmeaning": "power, force",
       "kgrade": 1,
@@ -33162,7 +33162,7 @@ export const kanjiData = [
     },
     {
       "kanji": "賛",
-      "kname": "san(pi)",
+      "name": "san(pi)",
       "kstroke": 15,
       "kmeaning": "praise, agreement",
       "kgrade": 5,
@@ -33211,7 +33211,7 @@ export const kanjiData = [
     },
     {
       "kanji": "説",
-      "kname": "setsu-to(ku)",
+      "name": "setsu-to(ku)",
       "kstroke": 14,
       "kmeaning": "explain, theory, opinion",
       "kgrade": 4,
@@ -33276,7 +33276,7 @@ export const kanjiData = [
     },
     {
       "kanji": "落",
-      "kname": "raku-o(chiru)",
+      "name": "raku-o(chiru)",
       "kstroke": 12,
       "kmeaning": "fall",
       "kgrade": 3,
@@ -33345,7 +33345,7 @@ export const kanjiData = [
     },
     {
       "kanji": "名",
-      "kname": "na(mae)",
+      "name": "na(mae)",
       "kstroke": 6,
       "kmeaning": "name",
       "kgrade": 1,
@@ -33410,7 +33410,7 @@ export const kanjiData = [
     },
     {
       "kanji": "母",
-      "kname": "haha",
+      "name": "haha",
       "kstroke": 5,
       "kmeaning": "mother",
       "kgrade": 2,
@@ -33459,7 +33459,7 @@ export const kanjiData = [
     },
     {
       "kanji": "機",
-      "kname": "hata(ori)",
+      "name": "hata(ori)",
       "kstroke": 16,
       "kmeaning": "machine, opportunity",
       "kgrade": 4,
@@ -33524,7 +33524,7 @@ export const kanjiData = [
     },
     {
       "kanji": "具",
-      "kname": "(dou)gu",
+      "name": "(dou)gu",
       "kstroke": 8,
       "kmeaning": "implement, tool",
       "kgrade": 3,
@@ -33577,7 +33577,7 @@ export const kanjiData = [
     },
     {
       "kanji": "詳",
-      "kname": "kuwa(shii)",
+      "name": "kuwa(shii)",
       "kstroke": 13,
       "kmeaning": "detailed",
       "kgrade": "n/a",
@@ -33606,7 +33606,7 @@ export const kanjiData = [
     },
     {
       "kanji": "解",
-      "kname": "kai-to(ku)",
+      "name": "kai-to(ku)",
       "kstroke": 13,
       "kmeaning": "take apart, dissolve, clarify, untie",
       "kgrade": 5,
@@ -33675,7 +33675,7 @@ export const kanjiData = [
     },
     {
       "kanji": "構",
-      "kname": "kama(eru)",
+      "name": "kama(eru)",
       "kstroke": 14,
       "kmeaning": "construct, mind",
       "kgrade": 5,
@@ -33728,7 +33728,7 @@ export const kanjiData = [
     },
     {
       "kanji": "情",
-      "kname": "nasa(ke)",
+      "name": "nasa(ke)",
       "kstroke": 11,
       "kmeaning": "emotion, actual conditions",
       "kgrade": 5,
@@ -33797,7 +33797,7 @@ export const kanjiData = [
     },
     {
       "kanji": "共",
-      "kname": "tomo(domo)",
+      "name": "tomo(domo)",
       "kstroke": 6,
       "kmeaning": "joint, together, both",
       "kgrade": 4,
@@ -33866,7 +33866,7 @@ export const kanjiData = [
     },
     {
       "kanji": "存",
-      "kname": "son(zai)",
+      "name": "son(zai)",
       "kstroke": 6,
       "kmeaning": "exist, know",
       "kgrade": 6,
@@ -33935,7 +33935,7 @@ export const kanjiData = [
     },
     {
       "kanji": "静",
-      "kname": "shizu(ka)",
+      "name": "shizu(ka)",
       "kstroke": 14,
       "kmeaning": "quiet",
       "kgrade": 4,
@@ -33992,7 +33992,7 @@ export const kanjiData = [
     },
     {
       "kanji": "流",
-      "kname": "ryuu-naga(re)",
+      "name": "ryuu-naga(re)",
       "kstroke": 10,
       "kmeaning": "flow, current, style",
       "kgrade": 3,
@@ -34061,7 +34061,7 @@ export const kanjiData = [
     },
     {
       "kanji": "兄",
-      "kname": "ani",
+      "name": "ani",
       "kstroke": 5,
       "kmeaning": "older brother",
       "kgrade": 2,
@@ -34098,7 +34098,7 @@ export const kanjiData = [
     },
     {
       "kanji": "芸",
-      "kname": "gei(jutsu)",
+      "name": "gei(jutsu)",
       "kstroke": 7,
       "kmeaning": "art, craft",
       "kgrade": 4,
@@ -34155,7 +34155,7 @@ export const kanjiData = [
     },
     {
       "kanji": "術",
-      "kname": "(gei)jutsu",
+      "name": "(gei)jutsu",
       "kstroke": 11,
       "kmeaning": "practical art, technique",
       "kgrade": 5,
@@ -34200,7 +34200,7 @@ export const kanjiData = [
     },
     {
       "kanji": "光",
-      "kname": "hikari",
+      "name": "hikari",
       "kstroke": 6,
       "kmeaning": "light",
       "kgrade": 2,
@@ -34265,7 +34265,7 @@ export const kanjiData = [
     },
     {
       "kanji": "景",
-      "kname": "(fuu)kei",
+      "name": "(fuu)kei",
       "kstroke": 12,
       "kmeaning": "scene",
       "kgrade": 4,
@@ -34318,7 +34318,7 @@ export const kanjiData = [
     },
     {
       "kanji": "驚",
-      "kname": "odoro(ku)",
+      "name": "odoro(ku)",
       "kstroke": 22,
       "kmeaning": "surprise",
       "kgrade": "n/a",
@@ -34359,7 +34359,7 @@ export const kanjiData = [
     },
     {
       "kanji": "助",
-      "kname": "tasu(keru)",
+      "name": "tasu(keru)",
       "kstroke": 7,
       "kmeaning": "help, rescue, assistance",
       "kgrade": 3,
@@ -34424,7 +34424,7 @@ export const kanjiData = [
     },
     {
       "kanji": "求",
-      "kname": "moto(meru)",
+      "name": "moto(meru)",
       "kstroke": 7,
       "kmeaning": "seek, demand",
       "kgrade": 4,
@@ -34477,7 +34477,7 @@ export const kanjiData = [
     },
     {
       "kanji": "留",
-      "kname": "ryuu-to(meru)",
+      "name": "ryuu-to(meru)",
       "kstroke": 10,
       "kmeaning": "keep, stay",
       "kgrade": 5,
@@ -34546,7 +34546,7 @@ export const kanjiData = [
     },
     {
       "kanji": "興",
-      "kname": "kyou-oko(su)",
+      "name": "kyou-oko(su)",
       "kstroke": 16,
       "kmeaning": "prosper, amusement, interest, revive",
       "kgrade": 5,
@@ -34607,7 +34607,7 @@ export const kanjiData = [
     },
     {
       "kanji": "深",
-      "kname": "fuka(i)",
+      "name": "fuka(i)",
       "kstroke": 11,
       "kmeaning": "deep",
       "kgrade": 3,
@@ -34656,7 +34656,7 @@ export const kanjiData = [
     },
     {
       "kanji": "弟",
-      "kname": "otouto",
+      "name": "otouto",
       "kstroke": 7,
       "kmeaning": "younger brother",
       "kgrade": 2,
@@ -34697,7 +34697,7 @@ export const kanjiData = [
     },
     {
       "kanji": "猫",
-      "kname": "neko",
+      "name": "neko",
       "kstroke": 11,
       "kmeaning": "cat",
       "kgrade": "n/a",
@@ -34730,7 +34730,7 @@ export const kanjiData = [
     },
     {
       "kanji": "想",
-      "kname": "(yo)sou",
+      "name": "(yo)sou",
       "kstroke": 13,
       "kmeaning": "conceive, idea, thought",
       "kgrade": 3,
@@ -34787,7 +34787,7 @@ export const kanjiData = [
     },
     {
       "kanji": "像",
-      "kname": "(ga)zou",
+      "name": "(ga)zou",
       "kstroke": 14,
       "kmeaning": "image",
       "kgrade": 5,
@@ -34844,7 +34844,7 @@ export const kanjiData = [
     },
     {
       "kanji": "平",
-      "kname": "tai(ra)",
+      "name": "tai(ra)",
       "kstroke": 5,
       "kmeaning": "flat, calm",
       "kgrade": 3,
@@ -34913,7 +34913,7 @@ export const kanjiData = [
     },
     {
       "kanji": "位",
-      "kname": "kurai",
+      "name": "kurai",
       "kstroke": 7,
       "kmeaning": "rank, position",
       "kgrade": 4,
@@ -34966,7 +34966,7 @@ export const kanjiData = [
     },
     {
       "kanji": "置",
-      "kname": "chi-o(ku)",
+      "name": "chi-o(ku)",
       "kstroke": 13,
       "kmeaning": "place, put",
       "kgrade": 4,
@@ -35015,7 +35015,7 @@ export const kanjiData = [
     },
     {
       "kanji": "進",
-      "kname": "susu(mu)",
+      "name": "susu(mu)",
       "kstroke": 11,
       "kmeaning": "advance, progress",
       "kgrade": 3,
@@ -35080,7 +35080,7 @@ export const kanjiData = [
     },
     {
       "kanji": "越",
-      "kname": "etsu-ko(su)",
+      "name": "etsu-ko(su)",
       "kstroke": 12,
       "kmeaning": "go beyond, exceed",
       "kgrade": "n/a",
@@ -35129,7 +35129,7 @@ export const kanjiData = [
     },
     {
       "kanji": "庭",
-      "kname": "niwa",
+      "name": "niwa",
       "kstroke": 10,
       "kmeaning": "court, garden",
       "kgrade": 3,
@@ -35174,7 +35174,7 @@ export const kanjiData = [
     },
     {
       "kanji": "勢",
-      "kname": "ikio(i)",
+      "name": "ikio(i)",
       "kstroke": 13,
       "kmeaning": "power, force, vigor",
       "kgrade": 5,
@@ -35231,7 +35231,7 @@ export const kanjiData = [
     },
     {
       "kanji": "姉",
-      "kname": "ane",
+      "name": "ane",
       "kstroke": 8,
       "kmeaning": "older sister",
       "kgrade": 2,
@@ -35264,7 +35264,7 @@ export const kanjiData = [
     },
     {
       "kanji": "性",
-      "kname": "(ko)sei",
+      "name": "(ko)sei",
       "kstroke": 8,
       "kmeaning": "nature, sex, -ity, gender",
       "kgrade": 5,
@@ -35329,7 +35329,7 @@ export const kanjiData = [
     },
     {
       "kanji": "団",
-      "kname": "(shuu)dan",
+      "name": "(shuu)dan",
       "kstroke": 6,
       "kmeaning": "body, group",
       "kgrade": 5,
@@ -35378,7 +35378,7 @@ export const kanjiData = [
     },
     {
       "kanji": "弁",
-      "kname": "ben(go)",
+      "name": "ben(go)",
       "kstroke": 5,
       "kmeaning": "speak eloquently, speech, valve, petal",
       "kgrade": 5,
@@ -35447,7 +35447,7 @@ export const kanjiData = [
     },
     {
       "kanji": "護",
-      "kname": "(ben)go",
+      "name": "(ben)go",
       "kstroke": 20,
       "kmeaning": "protect",
       "kgrade": 5,
@@ -35504,7 +35504,7 @@ export const kanjiData = [
     },
     {
       "kanji": "条",
-      "kname": "jou(ken)",
+      "name": "jou(ken)",
       "kstroke": 7,
       "kmeaning": "article, line",
       "kgrade": 5,
@@ -35549,7 +35549,7 @@ export const kanjiData = [
     },
     {
       "kanji": "影",
-      "kname": "ei-kage",
+      "name": "ei-kage",
       "kstroke": 15,
       "kmeaning": "shadow, silhouette",
       "kgrade": "n/a",
@@ -35598,7 +35598,7 @@ export const kanjiData = [
     },
     {
       "kanji": "響",
-      "kname": "hibi(ku)",
+      "name": "hibi(ku)",
       "kstroke": 20,
       "kmeaning": "reverberate, echo, resound, affect",
       "kgrade": "n/a",
@@ -35643,7 +35643,7 @@ export const kanjiData = [
     },
     {
       "kanji": "訪",
-      "kname": "otozu(reru)",
+      "name": "otozu(reru)",
       "kstroke": 11,
       "kmeaning": "visit",
       "kgrade": 6,
@@ -35680,7 +35680,7 @@ export const kanjiData = [
     },
     {
       "kanji": "参",
-      "kname": "san-mai(ru)",
+      "name": "san-mai(ru)",
       "kstroke": 8,
       "kmeaning": "participate, visit a holy place",
       "kgrade": 4,
@@ -35741,7 +35741,7 @@ export const kanjiData = [
     },
     {
       "kanji": "御",
-      "kname": "go(chisou)",
+      "name": "go(chisou)",
       "kstroke": 12,
       "kmeaning": "general honorific term, polite prefix",
       "kgrade": "n/a",
@@ -35810,7 +35810,7 @@ export const kanjiData = [
     },
     {
       "kanji": "妹",
-      "kname": "imouto",
+      "name": "imouto",
       "kstroke": 8,
       "kmeaning": "younger sister",
       "kgrade": 2,
@@ -35843,7 +35843,7 @@ export const kanjiData = [
     },
     {
       "kanji": "果",
-      "kname": "ha(tasu)",
+      "name": "ha(tasu)",
       "kstroke": 8,
       "kmeaning": "fruit",
       "kgrade": 4,
@@ -35896,7 +35896,7 @@ export const kanjiData = [
     },
     {
       "kanji": "慣",
-      "kname": "kan-na(reru)",
+      "name": "kan-na(reru)",
       "kstroke": 14,
       "kmeaning": "habitual practice, get used",
       "kgrade": 5,
@@ -35937,7 +35937,7 @@ export const kanjiData = [
     },
     {
       "kanji": "専",
-      "kname": "moppa(ra)",
+      "name": "moppa(ra)",
       "kstroke": 9,
       "kmeaning": "exclusive",
       "kgrade": 6,
@@ -35974,7 +35974,7 @@ export const kanjiData = [
     },
     {
       "kanji": "攻",
-      "kname": "kou-se(meru)",
+      "name": "kou-se(meru)",
       "kstroke": 7,
       "kmeaning": "attack",
       "kgrade": "n/a",
@@ -36015,7 +36015,7 @@ export const kanjiData = [
     },
     {
       "kanji": "趣",
-      "kname": "omomuki",
+      "name": "omomuki",
       "kstroke": 15,
       "kmeaning": "flavor, taste, elegance",
       "kgrade": "n/a",
@@ -36052,7 +36052,7 @@ export const kanjiData = [
     },
     {
       "kanji": "賞",
-      "kname": "shou(batsu)",
+      "name": "shou(batsu)",
       "kstroke": 15,
       "kmeaning": "prize",
       "kgrade": 4,
@@ -36105,7 +36105,7 @@ export const kanjiData = [
     },
     {
       "kanji": "誌",
-      "kname": "(shuukan)shi",
+      "name": "(shuukan)shi",
       "kstroke": 14,
       "kmeaning": "magazine",
       "kgrade": 6,
@@ -36142,7 +36142,7 @@ export const kanjiData = [
     },
     {
       "kanji": "復",
-      "kname": "fuku(shuu)",
+      "name": "fuku(shuu)",
       "kstroke": 12,
       "kmeaning": "return to, be restored",
       "kgrade": 5,
@@ -36199,7 +36199,7 @@ export const kanjiData = [
     },
     {
       "kanji": "限",
-      "kname": "kagi(ru)",
+      "name": "kagi(ru)",
       "kstroke": 9,
       "kmeaning": "limit",
       "kgrade": 5,
@@ -36256,7 +36256,7 @@ export const kanjiData = [
     },
     {
       "kanji": "確",
-      "kname": "tashi(kameru)",
+      "name": "tashi(kameru)",
       "kstroke": 15,
       "kmeaning": "certain, verify",
       "kgrade": 5,
@@ -36313,7 +36313,7 @@ export const kanjiData = [
     },
     {
       "kanji": "院",
-      "kname": "(byou)in",
+      "name": "(byou)in",
       "kstroke": 10,
       "kmeaning": "institution",
       "kgrade": 3,
@@ -36346,7 +36346,7 @@ export const kanjiData = [
     },
     {
       "kanji": "来",
-      "kname": "rai-ku(ru)",
+      "name": "rai-ku(ru)",
       "kstroke": 7,
       "kmeaning": "come",
       "kgrade": 2,
@@ -36403,7 +36403,7 @@ export const kanjiData = [
     },
     {
       "kanji": "保",
-      "kname": "tamo(tsu)",
+      "name": "tamo(tsu)",
       "kstroke": 9,
       "kmeaning": "preserve",
       "kgrade": 5,
@@ -36460,7 +36460,7 @@ export const kanjiData = [
     },
     {
       "kanji": "証",
-      "kname": "(menkyo)shou",
+      "name": "(menkyo)shou",
       "kstroke": 12,
       "kmeaning": "prove, certificate",
       "kgrade": 5,
@@ -36517,7 +36517,7 @@ export const kanjiData = [
     },
     {
       "kanji": "追",
-      "kname": "tsui-o(u)",
+      "name": "tsui-o(u)",
       "kstroke": 9,
       "kmeaning": "chase, pursue",
       "kgrade": 3,
@@ -36562,7 +36562,7 @@ export const kanjiData = [
     },
     {
       "kanji": "便",
-      "kname": "ben-tayo(ri)",
+      "name": "ben-tayo(ri)",
       "kstroke": 9,
       "kmeaning": "mail, post, convenient, excrement",
       "kgrade": 4,
@@ -36619,7 +36619,7 @@ export const kanjiData = [
     },
     {
       "kanji": "著",
-      "kname": "ichijiru(shii)",
+      "name": "ichijiru(shii)",
       "kstroke": 11,
       "kmeaning": "write, publish, author, remarkable, conspicuous",
       "kgrade": 6,
@@ -36676,7 +36676,7 @@ export const kanjiData = [
     },
     {
       "kanji": "代",
-      "kname": "dai-ka(waru)",
+      "name": "dai-ka(waru)",
       "kstroke": 5,
       "kmeaning": "substitute, generation, charge",
       "kgrade": 3,
@@ -36745,7 +36745,7 @@ export const kanjiData = [
     },
     {
       "kanji": "抜",
-      "kname": "nu(kasu)",
+      "name": "nu(kasu)",
       "kstroke": 7,
       "kmeaning": "pull out, stand out, surpass",
       "kgrade": "n/a",
@@ -36802,7 +36802,7 @@ export const kanjiData = [
     },
     {
       "kanji": "肩",
-      "kname": "ken-kata",
+      "name": "ken-kata",
       "kstroke": 8,
       "kmeaning": "shoulder",
       "kgrade": "n/a",
@@ -36839,7 +36839,7 @@ export const kanjiData = [
     },
     {
       "kanji": "伺",
-      "kname": "shi-ukaga(u)",
+      "name": "shi-ukaga(u)",
       "kstroke": 7,
       "kmeaning": "inquire",
       "kgrade": "n/a",
@@ -36868,7 +36868,7 @@ export const kanjiData = [
     },
     {
       "kanji": "材",
-      "kname": "(moku)zai",
+      "name": "(moku)zai",
       "kstroke": 7,
       "kmeaning": "timber, material",
       "kgrade": 4,
@@ -36917,7 +36917,7 @@ export const kanjiData = [
     },
     {
       "kanji": "起",
-      "kname": "o(kiru)",
+      "name": "o(kiru)",
       "kstroke": 10,
       "kmeaning": "rise, get up",
       "kgrade": 3,
@@ -36962,7 +36962,7 @@ export const kanjiData = [
     },
     {
       "kanji": "残",
-      "kname": "zan-noko(ru)",
+      "name": "zan-noko(ru)",
       "kstroke": 10,
       "kmeaning": "remain, ruthless",
       "kgrade": 4,
@@ -37015,7 +37015,7 @@ export const kanjiData = [
     },
     {
       "kanji": "念",
-      "kname": "(zan)nen",
+      "name": "(zan)nen",
       "kstroke": 8,
       "kmeaning": "thought, desire, attention",
       "kgrade": 4,
@@ -37068,7 +37068,7 @@ export const kanjiData = [
     },
     {
       "kanji": "恥",
-      "kname": "ha(zukashii)",
+      "name": "ha(zukashii)",
       "kstroke": 10,
       "kmeaning": "shame, disgrace, shy",
       "kgrade": "n/a",
@@ -37113,7 +37113,7 @@ export const kanjiData = [
     },
     {
       "kanji": "都",
-      "kname": "to-miyako",
+      "name": "to-miyako",
       "kstroke": 11,
       "kmeaning": "capital (city), metropolis",
       "kgrade": 3,
@@ -37182,7 +37182,7 @@ export const kanjiData = [
     },
     {
       "kanji": "洗",
-      "kname": "sen-ara(u)",
+      "name": "sen-ara(u)",
       "kstroke": 9,
       "kmeaning": "wash",
       "kgrade": 6,
@@ -37235,7 +37235,7 @@ export const kanjiData = [
     },
     {
       "kanji": "州",
-      "kname": "shuu(ritsu)",
+      "name": "shuu(ritsu)",
       "kstroke": 6,
       "kmeaning": "state",
       "kgrade": 3,
@@ -37284,7 +37284,7 @@ export const kanjiData = [
     },
     {
       "kanji": "福",
-      "kname": "(dai)fuku",
+      "name": "(dai)fuku",
       "kstroke": 13,
       "kmeaning": "fortune",
       "kgrade": 3,
@@ -37329,7 +37329,7 @@ export const kanjiData = [
     },
     {
       "kanji": "側",
-      "kname": "soku(men)",
+      "name": "soku(men)",
       "kstroke": 11,
       "kmeaning": "side",
       "kgrade": 4,
@@ -37374,7 +37374,7 @@ export const kanjiData = [
     },
     {
       "kanji": "恐",
-      "kname": "oso(roshii)",
+      "name": "oso(roshii)",
       "kstroke": 10,
       "kmeaning": "fear",
       "kgrade": "n/a",
@@ -37431,7 +37431,7 @@ export const kanjiData = [
     },
     {
       "kanji": "敗",
-      "kname": "hai-yabu(reru)",
+      "name": "hai-yabu(reru)",
       "kstroke": 11,
       "kmeaning": "be defeated",
       "kgrade": 4,
@@ -37480,7 +37480,7 @@ export const kanjiData = [
     },
     {
       "kanji": "毎",
-      "kname": "goto",
+      "name": "goto",
       "kstroke": 6,
       "kmeaning": "every",
       "kgrade": 2,
@@ -37525,7 +37525,7 @@ export const kanjiData = [
     },
     {
       "kanji": "比",
-      "kname": "hi-kura(beru)",
+      "name": "hi-kura(beru)",
       "kstroke": 4,
       "kmeaning": "compare",
       "kgrade": 5,
@@ -37574,7 +37574,7 @@ export const kanjiData = [
     },
     {
       "kanji": "倍",
-      "kname": "bai(ritsu)",
+      "name": "bai(ritsu)",
       "kstroke": 10,
       "kmeaning": "times, double",
       "kgrade": 3,
@@ -37611,7 +37611,7 @@ export const kanjiData = [
     },
     {
       "kanji": "詩",
-      "kname": "(joji)shi",
+      "name": "(joji)shi",
       "kstroke": 13,
       "kmeaning": "poetry, poem",
       "kgrade": 3,
@@ -37660,7 +37660,7 @@ export const kanjiData = [
     },
     {
       "kanji": "素",
-      "kname": "su-moto",
+      "name": "su-moto",
       "kstroke": 10,
       "kmeaning": "element, plain",
       "kgrade": 5,
@@ -37725,7 +37725,7 @@ export const kanjiData = [
     },
     {
       "kanji": "胸",
-      "kname": "kyou-mune",
+      "name": "kyou-mune",
       "kstroke": 10,
       "kmeaning": "chest, breast",
       "kgrade": 6,
@@ -37766,7 +37766,7 @@ export const kanjiData = [
     },
     {
       "kanji": "打",
-      "kname": "da-u(tsu)",
+      "name": "da-u(tsu)",
       "kstroke": 5,
       "kmeaning": "strike, hit",
       "kgrade": 3,
@@ -37819,7 +37819,7 @@ export const kanjiData = [
     },
     {
       "kanji": "厳",
-      "kname": "kibi(shii)",
+      "name": "kibi(shii)",
       "kstroke": 17,
       "kmeaning": "severe, strict, solemn",
       "kgrade": 6,
@@ -37880,7 +37880,7 @@ export const kanjiData = [
     },
     {
       "kanji": "優",
-      "kname": "yuu-yasa(shii)",
+      "name": "yuu-yasa(shii)",
       "kstroke": 17,
       "kmeaning": "superior, actor, gentle, excel",
       "kgrade": 6,
@@ -37949,7 +37949,7 @@ export const kanjiData = [
     },
     {
       "kanji": "可",
-      "kname": "ka(nousei)",
+      "name": "ka(nousei)",
       "kstroke": 5,
       "kmeaning": "",
       "kgrade": 5,
@@ -38006,7 +38006,7 @@ export const kanjiData = [
     },
     {
       "kanji": "形",
-      "kname": "katachi",
+      "name": "katachi",
       "kstroke": 7,
       "kmeaning": "shape",
       "kgrade": 2,
@@ -38071,7 +38071,7 @@ export const kanjiData = [
     },
     {
       "kanji": "朝",
-      "kname": "chou-asa",
+      "name": "chou-asa",
       "kstroke": 12,
       "kmeaning": "morning, dynasty",
       "kgrade": 2,
@@ -38124,7 +38124,7 @@ export const kanjiData = [
     },
     {
       "kanji": "詞",
-      "kname": "(zenchi)shi",
+      "name": "(zenchi)shi",
       "kstroke": 12,
       "kmeaning": "words",
       "kgrade": 6,
@@ -38173,7 +38173,7 @@ export const kanjiData = [
     },
     {
       "kanji": "程",
-      "kname": "hodo",
+      "name": "hodo",
       "kstroke": 12,
       "kmeaning": "extent, established form, degree",
       "kgrade": 5,
@@ -38226,7 +38226,7 @@ export const kanjiData = [
     },
     {
       "kanji": "命",
-      "kname": "inochi",
+      "name": "inochi",
       "kstroke": 8,
       "kmeaning": "order, life",
       "kgrade": 3,
@@ -38287,7 +38287,7 @@ export const kanjiData = [
     },
     {
       "kanji": "令",
-      "kname": "(mei)rei",
+      "name": "(mei)rei",
       "kstroke": 5,
       "kmeaning": "command",
       "kgrade": 4,
@@ -38328,7 +38328,7 @@ export const kanjiData = [
     },
     {
       "kanji": "容",
-      "kname": "(bi)you",
+      "name": "(bi)you",
       "kstroke": 10,
       "kmeaning": "appearance, contain",
       "kgrade": 5,
@@ -38393,7 +38393,7 @@ export const kanjiData = [
     },
     {
       "kanji": "議",
-      "kname": "(fushi)gi",
+      "name": "(fushi)gi",
       "kstroke": 20,
       "kmeaning": "discuss, legislative body, deliberation",
       "kgrade": 4,
@@ -38462,7 +38462,7 @@ export const kanjiData = [
     },
     {
       "kanji": "印",
-      "kname": "in-shirushi",
+      "name": "in-shirushi",
       "kstroke": 6,
       "kmeaning": "mark, seal, stamp",
       "kgrade": 4,
@@ -38515,7 +38515,7 @@ export const kanjiData = [
     },
     {
       "kanji": "象",
-      "kname": "(afurika)zou",
+      "name": "(afurika)zou",
       "kstroke": 12,
       "kmeaning": "phenomenon, elephant",
       "kgrade": 4,
@@ -38572,7 +38572,7 @@ export const kanjiData = [
     },
     {
       "kanji": "句",
-      "kname": "(hai)ku",
+      "name": "(hai)ku",
       "kstroke": 5,
       "kmeaning": "phrase, haiku, verse",
       "kgrade": 5,
@@ -38621,7 +38621,7 @@ export const kanjiData = [
     },
     {
       "kanji": "線",
-      "kname": "(suihei)sen",
+      "name": "(suihei)sen",
       "kstroke": 15,
       "kmeaning": "line",
       "kgrade": 2,
@@ -38690,7 +38690,7 @@ export const kanjiData = [
     },
     {
       "kanji": "晩",
-      "kname": "(kon)ban",
+      "name": "(kon)ban",
       "kstroke": 12,
       "kmeaning": "evening",
       "kgrade": 6,
@@ -38731,7 +38731,7 @@ export const kanjiData = [
     },
     {
       "kanji": "輩",
-      "kname": "(jaku)hai",
+      "name": "(jaku)hai",
       "kstroke": 15,
       "kmeaning": "fellow",
       "kgrade": "n/a",
@@ -38772,7 +38772,7 @@ export const kanjiData = [
     },
     {
       "kanji": "倒",
-      "kname": "tao(su)",
+      "name": "tao(su)",
       "kstroke": 10,
       "kmeaning": "topple, collapse, fall over",
       "kgrade": "n/a",
@@ -38829,7 +38829,7 @@ export const kanjiData = [
     },
     {
       "kanji": "応",
-      "kname": "ou(jiru)",
+      "name": "ou(jiru)",
       "kstroke": 7,
       "kmeaning": "respond, reply",
       "kgrade": 5,
@@ -38886,7 +38886,7 @@ export const kanjiData = [
     },
     {
       "kanji": "募",
-      "kname": "tsuno(ru)",
+      "name": "tsuno(ru)",
       "kstroke": 12,
       "kmeaning": "raise, invite",
       "kgrade": "n/a",
@@ -38931,7 +38931,7 @@ export const kanjiData = [
     },
     {
       "kanji": "制",
-      "kname": "(kan)sei(tou)",
+      "name": "(kan)sei(tou)",
       "kstroke": 8,
       "kmeaning": "system, control",
       "kgrade": 5,
@@ -38992,7 +38992,7 @@ export const kanjiData = [
     },
     {
       "kanji": "量",
-      "kname": "(suu)ryou",
+      "name": "(suu)ryou",
       "kstroke": 12,
       "kmeaning": "quantity, measure, weigh",
       "kgrade": 4,
@@ -39057,7 +39057,7 @@ export const kanjiData = [
     },
     {
       "kanji": "各",
-      "kname": "onoono",
+      "name": "onoono",
       "kstroke": 6,
       "kmeaning": "each",
       "kgrade": 4,
@@ -39098,7 +39098,7 @@ export const kanjiData = [
     },
     {
       "kanji": "評",
-      "kname": "(tei)hyou",
+      "name": "(tei)hyou",
       "kstroke": 12,
       "kmeaning": "comment, criticism",
       "kgrade": 5,
@@ -39155,7 +39155,7 @@ export const kanjiData = [
     },
     {
       "kanji": "判",
-      "kname": "han(ketsu)",
+      "name": "han(ketsu)",
       "kstroke": 7,
       "kmeaning": "stamp, seal, judge",
       "kgrade": 5,
@@ -39212,7 +39212,7 @@ export const kanjiData = [
     },
     {
       "kanji": "換",
-      "kname": "kan-ka(eru)",
+      "name": "kan-ka(eru)",
       "kstroke": 12,
       "kmeaning": "exchange, substitute",
       "kgrade": "n/a",
@@ -39269,7 +39269,7 @@ export const kanjiData = [
     },
     {
       "kanji": "族",
-      "kname": "(ka)zoku",
+      "name": "(ka)zoku",
       "kstroke": 11,
       "kmeaning": "family, tribe",
       "kgrade": 3,
@@ -39306,7 +39306,7 @@ export const kanjiData = [
     },
     {
       "kanji": "競",
-      "kname": "kyou-kiso(u)",
+      "name": "kyou-kiso(u)",
       "kstroke": 20,
       "kmeaning": "compete",
       "kgrade": 4,
@@ -39363,7 +39363,7 @@ export const kanjiData = [
     },
     {
       "kanji": "争",
-      "kname": "sou-araso(u)",
+      "name": "sou-araso(u)",
       "kstroke": 6,
       "kmeaning": "contend, dispute, argue",
       "kgrade": 4,
@@ -39412,7 +39412,7 @@ export const kanjiData = [
     },
     {
       "kanji": "率",
-      "kname": "hiki(iru)",
+      "name": "hiki(iru)",
       "kstroke": 11,
       "kmeaning": "rate, lead, command",
       "kgrade": 5,
@@ -39481,7 +39481,7 @@ export const kanjiData = [
     },
     {
       "kanji": "得",
-      "kname": "toku-e(ru)",
+      "name": "toku-e(ru)",
       "kstroke": 11,
       "kmeaning": "acquire, gain, profit",
       "kgrade": 4,
@@ -39550,7 +39550,7 @@ export const kanjiData = [
     },
     {
       "kanji": "張",
-      "kname": "chou-ha(ru)",
+      "name": "chou-ha(ru)",
       "kstroke": 11,
       "kmeaning": "spread, strain, stretch",
       "kgrade": 5,
@@ -39603,7 +39603,7 @@ export const kanjiData = [
     },
     {
       "kanji": "価",
-      "kname": "ka-atai",
+      "name": "ka-atai",
       "kstroke": 8,
       "kmeaning": "price, value",
       "kgrade": 5,
@@ -39656,7 +39656,7 @@ export const kanjiData = [
     },
     {
       "kanji": "抑",
-      "kname": "yoku-osa(eru)",
+      "name": "yoku-osa(eru)",
       "kstroke": 7,
       "kmeaning": "suppress, control",
       "kgrade": "n/a",
@@ -39697,7 +39697,7 @@ export const kanjiData = [
     },
     {
       "kanji": "弱",
-      "kname": "yowa(i)",
+      "name": "yowa(i)",
       "kstroke": 10,
       "kmeaning": "weak",
       "kgrade": 2,
@@ -39750,7 +39750,7 @@ export const kanjiData = [
     },
     {
       "kanji": "技",
-      "kname": "gi-waza",
+      "name": "gi-waza",
       "kstroke": 7,
       "kmeaning": "skill, technique",
       "kgrade": 5,
@@ -39799,7 +39799,7 @@ export const kanjiData = [
     },
     {
       "kanji": "律",
-      "kname": "(hou)ritsu",
+      "name": "(hou)ritsu",
       "kstroke": 9,
       "kmeaning": "law, rhythm, regulation",
       "kgrade": 6,
@@ -39852,7 +39852,7 @@ export const kanjiData = [
     },
     {
       "kanji": "勉",
-      "kname": "ben(kyou)",
+      "name": "ben(kyou)",
       "kstroke": 10,
       "kmeaning": "endeavor",
       "kgrade": 3,
@@ -39881,7 +39881,7 @@ export const kanjiData = [
     },
     {
       "kanji": "尊",
-      "kname": "son-touto(i)",
+      "name": "son-touto(i)",
       "kstroke": 12,
       "kmeaning": "honor, respect, valuable, noble",
       "kgrade": 6,
@@ -39930,7 +39930,7 @@ export const kanjiData = [
     },
     {
       "kanji": "敬",
-      "kname": "uyama(u)",
+      "name": "uyama(u)",
       "kstroke": 12,
       "kmeaning": "respect",
       "kgrade": 6,
@@ -39991,7 +39991,7 @@ export const kanjiData = [
     },
     {
       "kanji": "観",
-      "kname": "kan(koukyaku)",
+      "name": "kan(koukyaku)",
       "kstroke": 18,
       "kmeaning": "view",
       "kgrade": 4,
@@ -40060,7 +40060,7 @@ export const kanjiData = [
     },
     {
       "kanji": "種",
-      "kname": "tane",
+      "name": "tane",
       "kstroke": 14,
       "kmeaning": "variety, seed, type, kind",
       "kgrade": 4,
@@ -40113,7 +40113,7 @@ export const kanjiData = [
     },
     {
       "kanji": "能",
-      "kname": "nou(ryoku)",
+      "name": "nou(ryoku)",
       "kstroke": 10,
       "kmeaning": "ability, function, Noh play",
       "kgrade": 5,
@@ -40182,7 +40182,7 @@ export const kanjiData = [
     },
     {
       "kanji": "延",
-      "kname": "en-no(biru)",
+      "name": "en-no(biru)",
       "kstroke": 8,
       "kmeaning": "extend, postpone",
       "kgrade": 6,
@@ -40231,7 +40231,7 @@ export const kanjiData = [
     },
     {
       "kanji": "薬",
-      "kname": "kusuri",
+      "name": "kusuri",
       "kstroke": 16,
       "kmeaning": "drug, medicine",
       "kgrade": 3,
@@ -40292,7 +40292,7 @@ export const kanjiData = [
     },
     {
       "kanji": "笑",
-      "kname": "wara(u)",
+      "name": "wara(u)",
       "kstroke": 10,
       "kmeaning": "laugh",
       "kgrade": 4,
@@ -40349,7 +40349,7 @@ export const kanjiData = [
     },
     {
       "kanji": "非",
-      "kname": "(ze)hi",
+      "name": "(ze)hi",
       "kstroke": 8,
       "kmeaning": "is not, mistake, non-, un-",
       "kgrade": 5,
@@ -40410,7 +40410,7 @@ export const kanjiData = [
     },
     {
       "kanji": "常",
-      "kname": "jou-tsune",
+      "name": "jou-tsune",
       "kstroke": 11,
       "kmeaning": "normal, regular, ever-, always",
       "kgrade": 5,
@@ -40471,7 +40471,7 @@ export const kanjiData = [
     },
     {
       "kanji": "強",
-      "kname": "tsuyo(i)",
+      "name": "tsuyo(i)",
       "kstroke": 11,
       "kmeaning": "strong",
       "kgrade": 2,
@@ -40532,7 +40532,7 @@ export const kanjiData = [
     },
     {
       "kanji": "客",
-      "kname": "(rai)kyaku",
+      "name": "(rai)kyaku",
       "kstroke": 9,
       "kmeaning": "visitor, customer, guest",
       "kgrade": 3,
@@ -40581,7 +40581,7 @@ export const kanjiData = [
     },
     {
       "kanji": "届",
-      "kname": "todo(ku)",
+      "name": "todo(ku)",
       "kstroke": 8,
       "kmeaning": "deliver, reach, report, notify",
       "kgrade": 6,
@@ -40622,7 +40622,7 @@ export const kanjiData = [
     },
     {
       "kanji": "舎",
-      "kname": "(chou)sha",
+      "name": "(chou)sha",
       "kstroke": 8,
       "kmeaning": "building, quarters",
       "kgrade": 5,
@@ -40659,7 +40659,7 @@ export const kanjiData = [
     },
     {
       "kanji": "暮",
-      "kname": "bo-ku(rasu)",
+      "name": "bo-ku(rasu)",
       "kstroke": 14,
       "kmeaning": "dusk, live, come to an end",
       "kgrade": 6,
@@ -40708,7 +40708,7 @@ export const kanjiData = [
     },
     {
       "kanji": "怖",
-      "kname": "fu-kowa(i)",
+      "name": "fu-kowa(i)",
       "kstroke": 8,
       "kmeaning": "fearful, scary",
       "kgrade": "n/a",
@@ -40745,7 +40745,7 @@ export const kanjiData = [
     },
     {
       "kanji": "息",
-      "kname": "soku-iki",
+      "name": "soku-iki",
       "kstroke": 10,
       "kmeaning": "breath",
       "kgrade": 3,
@@ -40802,7 +40802,7 @@ export const kanjiData = [
     },
     {
       "kanji": "拾",
-      "kname": "shuu-hiro(u)",
+      "name": "shuu-hiro(u)",
       "kstroke": 9,
       "kmeaning": "pick up, ten (in documents)",
       "kgrade": 3,
@@ -40839,7 +40839,7 @@ export const kanjiData = [
     },
     {
       "kanji": "段",
-      "kname": "(ne)dan",
+      "name": "(ne)dan",
       "kstroke": 9,
       "kmeaning": "step, stairs, rank",
       "kgrade": 6,
@@ -40900,7 +40900,7 @@ export const kanjiData = [
     },
     {
       "kanji": "暇",
-      "kname": "ka-hima",
+      "name": "ka-hima",
       "kstroke": 13,
       "kmeaning": "free time, leisure",
       "kgrade": "n/a",
@@ -40937,7 +40937,7 @@ export const kanjiData = [
     },
     {
       "kanji": "預",
-      "kname": "azu(keru)",
+      "name": "azu(keru)",
       "kstroke": 13,
       "kmeaning": "deposit, entrust",
       "kgrade": 5,
@@ -40970,7 +40970,7 @@ export const kanjiData = [
     },
     {
       "kanji": "昨",
-      "kname": "saku(jitsu)",
+      "name": "saku(jitsu)",
       "kstroke": 9,
       "kmeaning": "yesterday, last",
       "kgrade": 4,
@@ -41011,7 +41011,7 @@ export const kanjiData = [
     },
     {
       "kanji": "断",
-      "kname": "kotowa(ru)",
+      "name": "kotowa(ru)",
       "kstroke": 11,
       "kmeaning": "cut off, decision, refuse",
       "kgrade": 5,
@@ -41080,7 +41080,7 @@ export const kanjiData = [
     },
     {
       "kanji": "承",
-      "kname": "uketamawa(ru)",
+      "name": "uketamawa(ru)",
       "kstroke": 8,
       "kmeaning": "agree to, hear, be told",
       "kgrade": 5,
@@ -41125,7 +41125,7 @@ export const kanjiData = [
     },
     {
       "kanji": "丸",
-      "kname": "maru(meru)",
+      "name": "maru(meru)",
       "kstroke": 3,
       "kmeaning": "round, suffix for names of ships/people",
       "kgrade": 2,
@@ -41190,7 +41190,7 @@ export const kanjiData = [
     },
     {
       "kanji": "謝",
-      "kname": "sha-ayama(ru)",
+      "name": "sha-ayama(ru)",
       "kstroke": 17,
       "kmeaning": "thank, apologize, gratitude",
       "kgrade": 5,
@@ -41243,7 +41243,7 @@ export const kanjiData = [
     },
     {
       "kanji": "敵",
-      "kname": "teki-kataki",
+      "name": "teki-kataki",
       "kstroke": 15,
       "kmeaning": "enemy",
       "kgrade": 5,
@@ -41300,7 +41300,7 @@ export const kanjiData = [
     },
     {
       "kanji": "坊",
-      "kname": "(ne)bou",
+      "name": "(ne)bou",
       "kstroke": 7,
       "kmeaning": "Buddhist priest, boy, colloquial person suffix",
       "kgrade": "n/a",
@@ -41357,7 +41357,7 @@ export const kanjiData = [
     },
     {
       "kanji": "岸",
-      "kname": "kishi",
+      "name": "kishi",
       "kstroke": 8,
       "kmeaning": "shore, bank, coast",
       "kgrade": 3,
@@ -41410,7 +41410,7 @@ export const kanjiData = [
     },
     {
       "kanji": "良",
-      "kname": "ryou-yo(i)",
+      "name": "ryou-yo(i)",
       "kstroke": 7,
       "kmeaning": "good",
       "kgrade": 4,
@@ -41479,7 +41479,7 @@ export const kanjiData = [
     },
     {
       "kanji": "散",
-      "kname": "chi(ru)",
+      "name": "chi(ru)",
       "kstroke": 12,
       "kmeaning": "scatter",
       "kgrade": 4,
@@ -41540,7 +41540,7 @@ export const kanjiData = [
     },
     {
       "kanji": "訓",
-      "kname": "kun(ren)",
+      "name": "kun(ren)",
       "kstroke": 10,
       "kmeaning": "instruct, teaching, precept",
       "kgrade": 4,
@@ -41581,7 +41581,7 @@ export const kanjiData = [
     },
     {
       "kanji": "食",
-      "kname": "ta(beru)",
+      "name": "ta(beru)",
       "kstroke": 9,
       "kmeaning": "eat, food",
       "kgrade": 2,
@@ -41646,7 +41646,7 @@ export const kanjiData = [
     },
     {
       "kanji": "支",
-      "kname": "sasa(eru)",
+      "name": "sasa(eru)",
       "kstroke": 4,
       "kmeaning": "branch, support",
       "kgrade": 5,
@@ -41715,7 +41715,7 @@ export const kanjiData = [
     },
     {
       "kanji": "組",
-      "kname": "kumi",
+      "name": "kumi",
       "kstroke": 11,
       "kmeaning": "organize, assemble, group, class, gang",
       "kgrade": 2,
@@ -41772,7 +41772,7 @@ export const kanjiData = [
     },
     {
       "kanji": "守",
-      "kname": "shu-mamo(ru)",
+      "name": "shu-mamo(ru)",
       "kstroke": 6,
       "kmeaning": "protect, obey, babysitter",
       "kgrade": 3,
@@ -41837,7 +41837,7 @@ export const kanjiData = [
     },
     {
       "kanji": "消",
-      "kname": "ki(eru)",
+      "name": "ki(eru)",
       "kstroke": 10,
       "kmeaning": "extinguish, delete, disappear, erase",
       "kgrade": 3,
@@ -41906,7 +41906,7 @@ export const kanjiData = [
     },
     {
       "kanji": "商",
-      "kname": "akina(u)",
+      "name": "akina(u)",
       "kstroke": 11,
       "kmeaning": "trade, deal",
       "kgrade": 3,
@@ -41963,7 +41963,7 @@ export const kanjiData = [
     },
     {
       "kanji": "似",
-      "kname": "ji-ni(ru)",
+      "name": "ji-ni(ru)",
       "kstroke": 7,
       "kmeaning": "resemble, be similar",
       "kgrade": 5,
@@ -42016,7 +42016,7 @@ export const kanjiData = [
     },
     {
       "kanji": "冒",
-      "kname": "bou-oka(su)",
+      "name": "bou-oka(su)",
       "kstroke": 9,
       "kmeaning": "risk, brave, desecrate",
       "kgrade": "n/a",
@@ -42053,7 +42053,7 @@ export const kanjiData = [
     },
     {
       "kanji": "険",
-      "kname": "ken-kewa(shii)",
+      "name": "ken-kewa(shii)",
       "kstroke": 11,
       "kmeaning": "danger, steep",
       "kgrade": 5,
@@ -42098,7 +42098,7 @@ export const kanjiData = [
     },
     {
       "kanji": "捨",
-      "kname": "sha-su(teru)",
+      "name": "sha-su(teru)",
       "kstroke": 11,
       "kmeaning": "discard, throw away, abandon",
       "kgrade": 6,
@@ -42135,7 +42135,7 @@ export const kanjiData = [
     },
     {
       "kanji": "状",
-      "kname": "(byou)jou",
+      "name": "(byou)jou",
       "kstroke": 7,
       "kmeaning": "form, condition, letter, circumstances",
       "kgrade": 5,
@@ -42204,7 +42204,7 @@ export const kanjiData = [
     },
     {
       "kanji": "年",
-      "kname": "nen-toshi",
+      "name": "nen-toshi",
       "kstroke": 6,
       "kmeaning": "year",
       "kgrade": 1,
@@ -42261,7 +42261,7 @@ export const kanjiData = [
     },
     {
       "kanji": "作",
-      "kname": "saku-tsuku(ru)",
+      "name": "saku-tsuku(ru)",
       "kstroke": 7,
       "kmeaning": "make, work",
       "kgrade": 2,
@@ -42322,7 +42322,7 @@ export const kanjiData = [
     },
     {
       "kanji": "態",
-      "kname": "tai(do)",
+      "name": "tai(do)",
       "kstroke": 14,
       "kmeaning": "state, condition",
       "kgrade": 5,
@@ -42371,7 +42371,7 @@ export const kanjiData = [
     },
     {
       "kanji": "勇",
-      "kname": "isa(mashii)",
+      "name": "isa(mashii)",
       "kstroke": 9,
       "kmeaning": "brave, be spirited, encouraged",
       "kgrade": 4,
@@ -42416,7 +42416,7 @@ export const kanjiData = [
     },
     {
       "kanji": "敢",
-      "kname": "kan-a(ete)",
+      "name": "kan-a(ete)",
       "kstroke": 12,
       "kmeaning": "bold, boldly, daring",
       "kgrade": "n/a",
@@ -42457,7 +42457,7 @@ export const kanjiData = [
     },
     {
       "kanji": "派",
-      "kname": "ha(batsu)",
+      "name": "ha(batsu)",
       "kstroke": 9,
       "kmeaning": "sect, group, dispatch",
       "kgrade": 6,
@@ -42522,7 +42522,7 @@ export const kanjiData = [
     },
     {
       "kanji": "再",
-      "kname": "futata(bi)",
+      "name": "futata(bi)",
       "kstroke": 6,
       "kmeaning": "another time, again, twice",
       "kgrade": 5,
@@ -42583,7 +42583,7 @@ export const kanjiData = [
     },
     {
       "kanji": "与",
-      "kname": "yo-ata(eru)",
+      "name": "yo-ata(eru)",
       "kstroke": 3,
       "kmeaning": "give, grant",
       "kgrade": "n/a",
@@ -42636,7 +42636,7 @@ export const kanjiData = [
     },
     {
       "kanji": "案",
-      "kname": "(gen)an",
+      "name": "(gen)an",
       "kstroke": 10,
       "kmeaning": "proposal, plan",
       "kgrade": 4,
@@ -42705,7 +42705,7 @@ export const kanjiData = [
     },
     {
       "kanji": "美",
-      "kname": "utsuku(shii)",
+      "name": "utsuku(shii)",
       "kstroke": 9,
       "kmeaning": "beautiful, beauty",
       "kgrade": 3,
@@ -42774,7 +42774,7 @@ export const kanjiData = [
     },
     {
       "kanji": "絵",
-      "kname": "kai(ga)",
+      "name": "kai(ga)",
       "kstroke": 12,
       "kmeaning": "picture",
       "kgrade": 2,
@@ -42827,7 +42827,7 @@ export const kanjiData = [
     },
     {
       "kanji": "農",
-      "kname": "nou(gyou)",
+      "name": "nou(gyou)",
       "kstroke": 13,
       "kmeaning": "farming, agriculture",
       "kgrade": 3,
@@ -42884,7 +42884,7 @@ export const kanjiData = [
     },
     {
       "kanji": "読",
-      "kname": "yo(mu)",
+      "name": "yo(mu)",
       "kstroke": 14,
       "kmeaning": "read",
       "kgrade": 2,
@@ -42945,7 +42945,7 @@ export const kanjiData = [
     },
     {
       "kanji": "描",
-      "kname": "byou-ega(ku)",
+      "name": "byou-ega(ku)",
       "kstroke": 11,
       "kmeaning": "depict, draw, paint",
       "kgrade": "n/a",
@@ -42986,7 +42986,7 @@ export const kanjiData = [
     },
     {
       "kanji": "徒",
-      "kname": "to(ho)",
+      "name": "to(ho)",
       "kstroke": 10,
       "kmeaning": "follower, vain, useless, on foot",
       "kgrade": 4,
@@ -43039,7 +43039,7 @@ export const kanjiData = [
     },
     {
       "kanji": "城",
-      "kname": "jou-shiro",
+      "name": "jou-shiro",
       "kstroke": 9,
       "kmeaning": "castle",
       "kgrade": 6,
@@ -43092,7 +43092,7 @@ export const kanjiData = [
     },
     {
       "kanji": "激",
-      "kname": "geki(sen)",
+      "name": "geki(sen)",
       "kstroke": 16,
       "kmeaning": "violent, intense, fierce",
       "kgrade": 6,
@@ -43161,7 +43161,7 @@ export const kanjiData = [
     },
     {
       "kanji": "異",
-      "kname": "koto(naru)",
+      "name": "koto(naru)",
       "kstroke": 11,
       "kmeaning": "different",
       "kgrade": 6,
@@ -43218,7 +43218,7 @@ export const kanjiData = [
     },
     {
       "kanji": "総",
-      "kname": "sou(gousuru)",
+      "name": "sou(gousuru)",
       "kstroke": 14,
       "kmeaning": "total, general, overall",
       "kgrade": 5,
@@ -43271,7 +43271,7 @@ export const kanjiData = [
     },
     {
       "kanji": "注",
-      "kname": "chuu-soso(gu)",
+      "name": "chuu-soso(gu)",
       "kstroke": 8,
       "kmeaning": "pour, concentrate, note",
       "kgrade": 3,
@@ -43328,7 +43328,7 @@ export const kanjiData = [
     },
     {
       "kanji": "改",
-      "kname": "arata(meru)",
+      "name": "arata(meru)",
       "kstroke": 7,
       "kmeaning": "reform",
       "kgrade": 4,
@@ -43385,7 +43385,7 @@ export const kanjiData = [
     },
     {
       "kanji": "革",
-      "kname": "kaku-kawa",
+      "name": "kaku-kawa",
       "kstroke": 9,
       "kmeaning": "leather, reform",
       "kgrade": 6,
@@ -43430,7 +43430,7 @@ export const kanjiData = [
     },
     {
       "kanji": "任",
-      "kname": "nin-maka(su)",
+      "name": "nin-maka(su)",
       "kstroke": 6,
       "kmeaning": "office, duty, responsibility, leave to, entrust",
       "kgrade": 5,
@@ -43499,7 +43499,7 @@ export const kanjiData = [
     },
     {
       "kanji": "週",
-      "kname": "shuu(matsu)",
+      "name": "shuu(matsu)",
       "kstroke": 11,
       "kmeaning": "week",
       "kgrade": 2,
@@ -43540,7 +43540,7 @@ export const kanjiData = [
     },
     {
       "kanji": "抗",
-      "kname": "(tei)kou",
+      "name": "(tei)kou",
       "kstroke": 7,
       "kmeaning": "resist",
       "kgrade": "n/a",
@@ -43585,7 +43585,7 @@ export const kanjiData = [
     },
     {
       "kanji": "身",
-      "kname": "mi(gara)",
+      "name": "mi(gara)",
       "kstroke": 7,
       "kmeaning": "body, oneself",
       "kgrade": 3,
@@ -43654,7 +43654,7 @@ export const kanjiData = [
     },
     {
       "kanji": "門",
-      "kname": "(nyuu)mon",
+      "name": "(nyuu)mon",
       "kstroke": 8,
       "kmeaning": "gate",
       "kgrade": 2,
@@ -43715,7 +43715,7 @@ export const kanjiData = [
     },
     {
       "kanji": "禁",
-      "kname": "kin(shisuru)",
+      "name": "kin(shisuru)",
       "kstroke": 13,
       "kmeaning": "prohibit",
       "kgrade": 5,
@@ -43768,7 +43768,7 @@ export const kanjiData = [
     },
     {
       "kanji": "根",
-      "kname": "kon-ne",
+      "name": "kon-ne",
       "kstroke": 10,
       "kmeaning": "root",
       "kgrade": 3,
@@ -43833,7 +43833,7 @@ export const kanjiData = [
     },
     {
       "kanji": "提",
-      "kname": "tei-sa(geru)",
+      "name": "tei-sa(geru)",
       "kstroke": 12,
       "kmeaning": "present, submit",
       "kgrade": 5,
@@ -43890,7 +43890,7 @@ export const kanjiData = [
     },
     {
       "kanji": "稲",
-      "kname": "ine",
+      "name": "ine",
       "kstroke": 14,
       "kmeaning": "rice plant",
       "kgrade": "n/a",
@@ -43947,7 +43947,7 @@ export const kanjiData = [
     },
     {
       "kanji": "耕",
-      "kname": "tagaya(su)",
+      "name": "tagaya(su)",
       "kstroke": 10,
       "kmeaning": "till, cultivate, plough",
       "kgrade": 5,
@@ -43988,7 +43988,7 @@ export const kanjiData = [
     },
     {
       "kanji": "営",
-      "kname": "itona(mu)",
+      "name": "itona(mu)",
       "kstroke": 12,
       "kmeaning": "manage, barracks, conduct business",
       "kgrade": 5,
@@ -44041,7 +44041,7 @@ export const kanjiData = [
     },
     {
       "kanji": "展",
-      "kname": "ten(jisuru)",
+      "name": "ten(jisuru)",
       "kstroke": 10,
       "kmeaning": "unfold, display, expand",
       "kgrade": 6,
@@ -44090,7 +44090,7 @@ export const kanjiData = [
     },
     {
       "kanji": "回",
-      "kname": "kai-mawa(ru)",
+      "name": "kai-mawa(ru)",
       "kstroke": 6,
       "kmeaning": "turn round, time",
       "kgrade": 2,
@@ -44147,7 +44147,7 @@ export const kanjiData = [
     },
     {
       "kanji": "疑",
-      "kname": "utaga(u)",
+      "name": "utaga(u)",
       "kstroke": 14,
       "kmeaning": "doubt",
       "kgrade": 6,
@@ -44200,7 +44200,7 @@ export const kanjiData = [
     },
     {
       "kanji": "漁",
-      "kname": "gyo(gyou)",
+      "name": "gyo(gyou)",
       "kstroke": 14,
       "kmeaning": "fish, fishing",
       "kgrade": 4,
@@ -44245,7 +44245,7 @@ export const kanjiData = [
     },
     {
       "kanji": "突",
-      "kname": "totsu-tsu(ku)",
+      "name": "totsu-tsu(ku)",
       "kstroke": 8,
       "kmeaning": "dash, thrust, poke, strike",
       "kgrade": "n/a",
@@ -44306,7 +44306,7 @@ export const kanjiData = [
     },
     {
       "kanji": "批",
-      "kname": "hi(han)",
+      "name": "hi(han)",
       "kstroke": 7,
       "kmeaning": "criticize, critique",
       "kgrade": 6,
@@ -44347,7 +44347,7 @@ export const kanjiData = [
     },
     {
       "kanji": "端",
-      "kname": "tan-hashi",
+      "name": "tan-hashi",
       "kstroke": 14,
       "kmeaning": "end, edge, side",
       "kgrade": "n/a",
@@ -44416,7 +44416,7 @@ export const kanjiData = [
     },
     {
       "kanji": "列",
-      "kname": "retsu",
+      "name": "retsu",
       "kstroke": 6,
       "kmeaning": "row",
       "kgrade": 3,
@@ -44473,7 +44473,7 @@ export const kanjiData = [
     },
     {
       "kanji": "即",
-      "kname": "soku(bai)",
+      "name": "soku(bai)",
       "kstroke": 7,
       "kmeaning": "immediate, namely, conform",
       "kgrade": "n/a",
@@ -44526,7 +44526,7 @@ export const kanjiData = [
     },
     {
       "kanji": "指",
-      "kname": "yubi",
+      "name": "yubi",
       "kstroke": 9,
       "kmeaning": "finger, point",
       "kgrade": 3,
@@ -44595,7 +44595,7 @@ export const kanjiData = [
     },
     {
       "kanji": "値",
-      "kname": "atai",
+      "name": "atai",
       "kstroke": 10,
       "kmeaning": "value, price",
       "kgrade": 6,
@@ -44648,7 +44648,7 @@ export const kanjiData = [
     },
     {
       "kanji": "熟",
-      "kname": "juku-u(reru)",
+      "name": "juku-u(reru)",
       "kstroke": 15,
       "kmeaning": "mature, ripen",
       "kgrade": 6,
@@ -44705,7 +44705,7 @@ export const kanjiData = [
     },
     {
       "kanji": "明",
-      "kname": "aka(rui)",
+      "name": "aka(rui)",
       "kstroke": 8,
       "kmeaning": "bright, clear",
       "kgrade": 2,
@@ -44774,7 +44774,7 @@ export const kanjiData = [
     },
     {
       "kanji": "易",
-      "kname": "eki-yasa(shii)",
+      "name": "eki-yasa(shii)",
       "kstroke": 8,
       "kmeaning": "easy, exchange",
       "kgrade": 5,
@@ -44823,7 +44823,7 @@ export const kanjiData = [
     },
     {
       "kanji": "皇",
-      "kname": "kou(taishi)",
+      "name": "kou(taishi)",
       "kstroke": 9,
       "kmeaning": "emperor",
       "kgrade": 6,
@@ -44868,7 +44868,7 @@ export const kanjiData = [
     },
     {
       "kanji": "権",
-      "kname": "ken(ri)",
+      "name": "ken(ri)",
       "kstroke": 15,
       "kmeaning": "right, power, authority",
       "kgrade": 6,
@@ -44937,7 +44937,7 @@ export const kanjiData = [
     },
     {
       "kanji": "神",
-      "kname": "shin-kami",
+      "name": "shin-kami",
       "kstroke": 9,
       "kmeaning": "god, mind",
       "kgrade": 3,
@@ -45006,7 +45006,7 @@ export const kanjiData = [
     },
     {
       "kanji": "免",
-      "kname": "manuga(reru)",
+      "name": "manuga(reru)",
       "kstroke": 8,
       "kmeaning": "exempt, escape, avoid",
       "kgrade": "n/a",
@@ -45059,7 +45059,7 @@ export const kanjiData = [
     },
     {
       "kanji": "逆",
-      "kname": "saka(rau)",
+      "name": "saka(rau)",
       "kstroke": 9,
       "kmeaning": "reverse, be contrary",
       "kgrade": 5,
@@ -45120,7 +45120,7 @@ export const kanjiData = [
     },
     {
       "kanji": "製",
-      "kname": "(te)sei",
+      "name": "(te)sei",
       "kstroke": 14,
       "kmeaning": "manufacture, produce, make",
       "kgrade": 5,
@@ -45173,7 +45173,7 @@ export const kanjiData = [
     },
     {
       "kanji": "偉",
-      "kname": "era(i)",
+      "name": "era(i)",
       "kstroke": 12,
       "kmeaning": "great, eminent, remarkable",
       "kgrade": "n/a",
@@ -45210,7 +45210,7 @@ export const kanjiData = [
     },
     {
       "kanji": "故",
-      "kname": "yue",
+      "name": "yue",
       "kstroke": 9,
       "kmeaning": "old, the late, deceased, reason",
       "kgrade": 5,
@@ -45263,7 +45263,7 @@ export const kanjiData = [
     },
     {
       "kanji": "修",
-      "kname": "shuu(ri)",
+      "name": "shuu(ri)",
       "kstroke": 10,
       "kmeaning": "cultivate, repair, study, master",
       "kgrade": 5,
@@ -45328,7 +45328,7 @@ export const kanjiData = [
     },
     {
       "kanji": "早",
-      "kname": "sou-haya(i)",
+      "name": "sou-haya(i)",
       "kstroke": 6,
       "kmeaning": "early, quick",
       "kgrade": 1,
@@ -45377,7 +45377,7 @@ export const kanjiData = [
     },
     {
       "kanji": "街",
-      "kname": "gai-machi",
+      "name": "gai-machi",
       "kstroke": 12,
       "kmeaning": "city quarter, street",
       "kgrade": 4,
@@ -45434,7 +45434,7 @@ export const kanjiData = [
     },
     {
       "kanji": "停",
-      "kname": "tei(shisuru)",
+      "name": "tei(shisuru)",
       "kstroke": 11,
       "kmeaning": "halt, stop",
       "kgrade": 4,
@@ -45491,7 +45491,7 @@ export const kanjiData = [
     },
     {
       "kanji": "路",
-      "kname": "(tsuu)ro",
+      "name": "(tsuu)ro",
       "kstroke": 13,
       "kmeaning": "road, way, street",
       "kgrade": 3,
@@ -45548,7 +45548,7 @@ export const kanjiData = [
     },
     {
       "kanji": "章",
-      "kname": "(kun)shou",
+      "name": "(kun)shou",
       "kstroke": 11,
       "kmeaning": "chapter, badge",
       "kgrade": 3,
@@ -45589,7 +45589,7 @@ export const kanjiData = [
     },
     {
       "kanji": "政",
-      "kname": "(gyou)sei",
+      "name": "(gyou)sei",
       "kstroke": 9,
       "kmeaning": "political administration, government, rule",
       "kgrade": 5,
@@ -45658,7 +45658,7 @@ export const kanjiData = [
     },
     {
       "kanji": "府",
-      "kname": "(souri)fu",
+      "name": "(souri)fu",
       "kstroke": 8,
       "kmeaning": "urban prefecture, government office, capital city",
       "kgrade": 4,
@@ -45715,7 +45715,7 @@ export const kanjiData = [
     },
     {
       "kanji": "堅",
-      "kname": "ken-kata(i)",
+      "name": "ken-kata(i)",
       "kstroke": 12,
       "kmeaning": "firm, hard, solid",
       "kgrade": "n/a",
@@ -45764,7 +45764,7 @@ export const kanjiData = [
     },
     {
       "kanji": "担",
-      "kname": "tan-nina(u)",
+      "name": "tan-nina(u)",
       "kstroke": 8,
       "kmeaning": "bear on shoulder, undertake",
       "kgrade": 6,
@@ -45817,7 +45817,7 @@ export const kanjiData = [
     },
     {
       "kanji": "産",
-      "kname": "san-u(mu)",
+      "name": "san-u(mu)",
       "kstroke": 11,
       "kmeaning": "give birth, produce",
       "kgrade": 4,
@@ -45886,7 +45886,7 @@ export const kanjiData = [
     },
     {
       "kanji": "省",
-      "kname": "habu(ku)",
+      "name": "habu(ku)",
       "kstroke": 9,
       "kmeaning": "ministry, save, reflect on, omit",
       "kgrade": 4,
@@ -45939,7 +45939,7 @@ export const kanjiData = [
     },
     {
       "kanji": "昼",
-      "kname": "hiru",
+      "name": "hiru",
       "kstroke": 9,
       "kmeaning": "daytime",
       "kgrade": 2,
@@ -45988,7 +45988,7 @@ export const kanjiData = [
     },
     {
       "kanji": "輪",
-      "kname": "rin-wa",
+      "name": "rin-wa",
       "kstroke": 15,
       "kmeaning": "wheel, ring, circle",
       "kgrade": 4,
@@ -46041,7 +46041,7 @@ export const kanjiData = [
     },
     {
       "kanji": "老",
-      "kname": "o(iru)",
+      "name": "o(iru)",
       "kstroke": 6,
       "kmeaning": "old, grow old",
       "kgrade": 4,
@@ -46086,7 +46086,7 @@ export const kanjiData = [
     },
     {
       "kanji": "荷",
-      "kname": "ni(motsu)",
+      "name": "ni(motsu)",
       "kstroke": 10,
       "kmeaning": "load, cargo, baggage",
       "kgrade": 3,
@@ -46139,7 +46139,7 @@ export const kanjiData = [
     },
     {
       "kanji": "貧",
-      "kname": "mazu(shii)",
+      "name": "mazu(shii)",
       "kstroke": 11,
       "kmeaning": "poor",
       "kgrade": 5,
@@ -46192,7 +46192,7 @@ export const kanjiData = [
     },
     {
       "kanji": "乏",
-      "kname": "tobo(shii)",
+      "name": "tobo(shii)",
       "kstroke": 4,
       "kmeaning": "scanty, meager, scarce",
       "kgrade": "n/a",
@@ -46225,7 +46225,7 @@ export const kanjiData = [
     },
     {
       "kanji": "記",
-      "kname": "ki-shiru(su)",
+      "name": "ki-shiru(su)",
       "kstroke": 10,
       "kmeaning": "write down",
       "kgrade": 2,
@@ -46294,7 +46294,7 @@ export const kanjiData = [
     },
     {
       "kanji": "清",
-      "kname": "kiyo(i)",
+      "name": "kiyo(i)",
       "kstroke": 11,
       "kmeaning": "clear, purify, pure",
       "kgrade": 4,
@@ -46351,7 +46351,7 @@ export const kanjiData = [
     },
     {
       "kanji": "給",
-      "kname": "kyuu(yu)",
+      "name": "kyuu(yu)",
       "kstroke": 12,
       "kmeaning": "supply, pay",
       "kgrade": 4,
@@ -46404,7 +46404,7 @@ export const kanjiData = [
     },
     {
       "kanji": "費",
-      "kname": "tsui(yasu)",
+      "name": "tsui(yasu)",
       "kstroke": 12,
       "kmeaning": "expense, spend, waste",
       "kgrade": 4,
@@ -46469,7 +46469,7 @@ export const kanjiData = [
     },
     {
       "kanji": "刺",
-      "kname": "sa(saru)",
+      "name": "sa(saru)",
       "kstroke": 8,
       "kmeaning": "stab, pierce",
       "kgrade": "n/a",
@@ -46526,7 +46526,7 @@ export const kanjiData = [
     },
     {
       "kanji": "才",
-      "kname": "(nan)sai",
+      "name": "(nan)sai",
       "kstroke": 3,
       "kmeaning": "talent, counter for age",
       "kgrade": 2,
@@ -46567,7 +46567,7 @@ export const kanjiData = [
     },
     {
       "kanji": "紹",
-      "kname": "shou(kaisuru)",
+      "name": "shou(kaisuru)",
       "kstroke": 11,
       "kmeaning": "introduce",
       "kgrade": "n/a",
@@ -46600,7 +46600,7 @@ export const kanjiData = [
     },
     {
       "kanji": "介",
-      "kname": "(bai)kai",
+      "name": "(bai)kai",
       "kstroke": 4,
       "kmeaning": "mediate, be in between",
       "kgrade": "n/a",
@@ -46645,7 +46645,7 @@ export const kanjiData = [
     },
     {
       "kanji": "責",
-      "kname": "seki-se(meru)",
+      "name": "seki-se(meru)",
       "kstroke": 11,
       "kmeaning": "responsibility, blame, condemn",
       "kgrade": 5,
@@ -46698,7 +46698,7 @@ export const kanjiData = [
     },
     {
       "kanji": "誤",
-      "kname": "go(sa)",
+      "name": "go(sa)",
       "kstroke": 14,
       "kmeaning": "mistake, err",
       "kgrade": 6,
@@ -46743,7 +46743,7 @@ export const kanjiData = [
     },
     {
       "kanji": "益",
-      "kname": "eki-ma(su)",
+      "name": "eki-ma(su)",
       "kstroke": 10,
       "kmeaning": "benefit, profit, advantage",
       "kgrade": 5,
@@ -46800,7 +46800,7 @@ export const kanjiData = [
     },
     {
       "kanji": "毒",
-      "kname": "(chuu)doku",
+      "name": "(chuu)doku",
       "kstroke": 8,
       "kmeaning": "poison",
       "kgrade": 4,
@@ -46857,7 +46857,7 @@ export const kanjiData = [
     },
     {
       "kanji": "骨",
-      "kname": "hone",
+      "name": "hone",
       "kstroke": 10,
       "kmeaning": "bone",
       "kgrade": 6,
@@ -46922,7 +46922,7 @@ export const kanjiData = [
     },
     {
       "kanji": "健",
-      "kname": "suko(yaka)",
+      "name": "suko(yaka)",
       "kstroke": 11,
       "kmeaning": "robust, healthy",
       "kgrade": 4,
@@ -46971,7 +46971,7 @@ export const kanjiData = [
     },
     {
       "kanji": "康",
-      "kname": "(ken)kou",
+      "name": "(ken)kou",
       "kstroke": 11,
       "kmeaning": "healthy, composure",
       "kgrade": 4,
@@ -47004,7 +47004,7 @@ export const kanjiData = [
     },
     {
       "kanji": "快",
-      "kname": "kokoroyo(i)",
+      "name": "kokoroyo(i)",
       "kstroke": 7,
       "kmeaning": "pleasant",
       "kgrade": 5,
@@ -47073,7 +47073,7 @@ export const kanjiData = [
     },
     {
       "kanji": "本",
-      "kname": "hon-moto",
+      "name": "hon-moto",
       "kstroke": 5,
       "kmeaning": "basis, book, this",
       "kgrade": 1,
@@ -47142,7 +47142,7 @@ export const kanjiData = [
     },
     {
       "kanji": "積",
-      "kname": "tsu(moru)",
+      "name": "tsu(moru)",
       "kstroke": 16,
       "kmeaning": "accumulate",
       "kgrade": 4,
@@ -47207,7 +47207,7 @@ export const kanjiData = [
     },
     {
       "kanji": "極",
-      "kname": "kyoku-kiwa(mi)",
+      "name": "kyoku-kiwa(mi)",
       "kstroke": 13,
       "kmeaning": "extreme, pole",
       "kgrade": 4,
@@ -47276,7 +47276,7 @@ export const kanjiData = [
     },
     {
       "kanji": "哲",
-      "kname": "tetsu(gaku)",
+      "name": "tetsu(gaku)",
       "kstroke": 10,
       "kmeaning": "sagacious, philosophy",
       "kgrade": "n/a",
@@ -47313,7 +47313,7 @@ export const kanjiData = [
     },
     {
       "kanji": "公",
-      "kname": "ooyake",
+      "name": "ooyake",
       "kstroke": 4,
       "kmeaning": "public, official",
       "kgrade": 2,
@@ -47382,7 +47382,7 @@ export const kanjiData = [
     },
     {
       "kanji": "等",
-      "kname": "(byou)dou",
+      "name": "(byou)dou",
       "kstroke": 12,
       "kmeaning": "equal, class",
       "kgrade": 3,
@@ -47443,7 +47443,7 @@ export const kanjiData = [
     },
     {
       "kanji": "節",
-      "kname": "fushi",
+      "name": "fushi",
       "kstroke": 13,
       "kmeaning": "joint, season of the year, section, melody",
       "kgrade": 4,
@@ -47512,7 +47512,7 @@ export const kanjiData = [
     },
     {
       "kanji": "独",
-      "kname": "doku(ritsu)",
+      "name": "doku(ritsu)",
       "kstroke": 9,
       "kmeaning": "alone, Germany",
       "kgrade": 5,
@@ -47581,7 +47581,7 @@ export const kanjiData = [
     },
     {
       "kanji": "迎",
-      "kname": "(kan)gei",
+      "name": "(kan)gei",
       "kstroke": 7,
       "kmeaning": "welcome, go to meet, pick up",
       "kgrade": "n/a",
@@ -47626,7 +47626,7 @@ export const kanjiData = [
     },
     {
       "kanji": "輸",
-      "kname": "yu(ketsu)",
+      "name": "yu(ketsu)",
       "kstroke": 16,
       "kmeaning": "transport",
       "kgrade": 5,
@@ -47675,7 +47675,7 @@ export const kanjiData = [
     },
     {
       "kanji": "片",
-      "kname": "hen-kata",
+      "name": "hen-kata",
       "kstroke": 4,
       "kmeaning": "fragment, one (of two), part",
       "kgrade": 6,
@@ -47744,7 +47744,7 @@ export const kanjiData = [
     },
     {
       "kanji": "冊",
-      "kname": "(nan)satsu",
+      "name": "(nan)satsu",
       "kstroke": 5,
       "kmeaning": "counter for books",
       "kgrade": 6,
@@ -47781,7 +47781,7 @@ export const kanjiData = [
     },
     {
       "kanji": "狭",
-      "kname": "sema(i)",
+      "name": "sema(i)",
       "kstroke": 9,
       "kmeaning": "narrow",
       "kgrade": "n/a",
@@ -47834,7 +47834,7 @@ export const kanjiData = [
     },
     {
       "kanji": "差",
-      "kname": "(ji)sa",
+      "name": "(ji)sa",
       "kstroke": 10,
       "kmeaning": "difference",
       "kgrade": 4,
@@ -47895,7 +47895,7 @@ export const kanjiData = [
     },
     {
       "kanji": "刷",
-      "kname": "(in)satsu",
+      "name": "(in)satsu",
       "kstroke": 8,
       "kmeaning": "print",
       "kgrade": 4,
@@ -47936,7 +47936,7 @@ export const kanjiData = [
     },
     {
       "kanji": "利",
-      "kname": "ri(yousuru)",
+      "name": "ri(yousuru)",
       "kstroke": 7,
       "kmeaning": "advantage, profit, be effective",
       "kgrade": 4,
@@ -48005,7 +48005,7 @@ export const kanjiData = [
     },
     {
       "kanji": "拡",
-      "kname": "kaku(daisuru)",
+      "name": "kaku(daisuru)",
       "kstroke": 8,
       "kmeaning": "enlarge, extend, expand",
       "kgrade": 6,
@@ -48046,7 +48046,7 @@ export const kanjiData = [
     },
     {
       "kanji": "陸",
-      "kname": "riku",
+      "name": "riku",
       "kstroke": 11,
       "kmeaning": "land",
       "kgrade": 4,
@@ -48103,7 +48103,7 @@ export const kanjiData = [
     },
     {
       "kanji": "末",
-      "kname": "matsu-sue",
+      "name": "matsu-sue",
       "kstroke": 5,
       "kmeaning": "last part, end",
       "kgrade": 4,
@@ -48172,7 +48172,7 @@ export const kanjiData = [
     },
     {
       "kanji": "燃",
-      "kname": "mo(yasu)",
+      "name": "mo(yasu)",
       "kstroke": 16,
       "kmeaning": "burn",
       "kgrade": 5,
@@ -48229,7 +48229,7 @@ export const kanjiData = [
     },
     {
       "kanji": "馬",
-      "kname": "uma",
+      "name": "uma",
       "kstroke": 10,
       "kmeaning": "horse",
       "kgrade": 2,
@@ -48290,7 +48290,7 @@ export const kanjiData = [
     },
     {
       "kanji": "鹿",
-      "kname": "shika",
+      "name": "shika",
       "kstroke": 11,
       "kmeaning": "deer",
       "kgrade": "n/a",
@@ -48327,7 +48327,7 @@ export const kanjiData = [
     },
     {
       "kanji": "生",
-      "kname": "u(mu)",
+      "name": "u(mu)",
       "kstroke": 5,
       "kmeaning": "life, be born, student",
       "kgrade": 1,
@@ -48392,7 +48392,7 @@ export const kanjiData = [
     },
     {
       "kanji": "枚",
-      "kname": "(nan)mai",
+      "name": "(nan)mai",
       "kstroke": 8,
       "kmeaning": "counter for flat things",
       "kgrade": 6,
@@ -48425,7 +48425,7 @@ export const kanjiData = [
     },
     {
       "kanji": "負",
-      "kname": "fu(tan)",
+      "name": "fu(tan)",
       "kstroke": 9,
       "kmeaning": "bear, lose, defeat, owe",
       "kgrade": 3,
@@ -48486,7 +48486,7 @@ export const kanjiData = [
     },
     {
       "kanji": "渉",
-      "kname": "shou(gaibu)",
+      "name": "shou(gaibu)",
       "kstroke": 11,
       "kmeaning": "have relation with, cross over",
       "kgrade": "n/a",
@@ -48519,7 +48519,7 @@ export const kanjiData = [
     },
     {
       "kanji": "卓",
-      "kname": "(den)taku",
+      "name": "(den)taku",
       "kstroke": 8,
       "kmeaning": "table, prominent",
       "kgrade": "n/a",
@@ -48572,7 +48572,7 @@ export const kanjiData = [
     },
     {
       "kanji": "適",
-      "kname": "teki(dona)",
+      "name": "teki(dona)",
       "kstroke": 14,
       "kmeaning": "suitable, fit, suit, appropriate",
       "kgrade": 5,
@@ -48641,7 +48641,7 @@ export const kanjiData = [
     },
     {
       "kanji": "創",
-      "kname": "sou(ritsu)",
+      "name": "sou(ritsu)",
       "kstroke": 12,
       "kmeaning": "create",
       "kgrade": 6,
@@ -48702,7 +48702,7 @@ export const kanjiData = [
     },
     {
       "kanji": "精",
-      "kname": "sei(mitsuna)",
+      "name": "sei(mitsuna)",
       "kstroke": 14,
       "kmeaning": "refine, essence, spirit, energy",
       "kgrade": 5,
@@ -48771,7 +48771,7 @@ export const kanjiData = [
     },
     {
       "kanji": "認",
-      "kname": "mito(meru)",
+      "name": "mito(meru)",
       "kstroke": 14,
       "kmeaning": "recognize",
       "kgrade": 6,
@@ -48824,7 +48824,7 @@ export const kanjiData = [
     },
     {
       "kanji": "導",
-      "kname": "michibi(ku)",
+      "name": "michibi(ku)",
       "kstroke": 15,
       "kmeaning": "guide, lead",
       "kgrade": 5,
@@ -48873,7 +48873,7 @@ export const kanjiData = [
     },
     {
       "kanji": "固",
-      "kname": "kata(mari)",
+      "name": "kata(mari)",
       "kstroke": 8,
       "kmeaning": "solid, firm, hard",
       "kgrade": 4,
@@ -48938,7 +48938,7 @@ export const kanjiData = [
     },
     {
       "kanji": "隣",
-      "kname": "tona(ri)",
+      "name": "tona(ri)",
       "kstroke": 16,
       "kmeaning": "neighbor",
       "kgrade": "n/a",
@@ -48991,7 +48991,7 @@ export const kanjiData = [
     },
     {
       "kanji": "台",
-      "kname": "dai(za)",
+      "name": "dai(za)",
       "kstroke": 5,
       "kmeaning": "stand, counter for machinery",
       "kgrade": 2,
@@ -49044,7 +49044,7 @@ export const kanjiData = [
     },
     {
       "kanji": "戦",
-      "kname": "ikusa",
+      "name": "ikusa",
       "kstroke": 13,
       "kmeaning": "war, fight, battle",
       "kgrade": 4,
@@ -49113,7 +49113,7 @@ export const kanjiData = [
     },
     {
       "kanji": "和",
-      "kname": "yawa(ragu)",
+      "name": "yawa(ragu)",
       "kstroke": 8,
       "kmeaning": "harmony, peace, Japan",
       "kgrade": 3,
@@ -49182,7 +49182,7 @@ export const kanjiData = [
     },
     {
       "kanji": "忠",
-      "kname": "chuu(koku)",
+      "name": "chuu(koku)",
       "kstroke": 8,
       "kmeaning": "loyalty, faithfulness",
       "kgrade": 6,
@@ -49219,7 +49219,7 @@ export const kanjiData = [
     },
     {
       "kanji": "混",
-      "kname": "kon-ma(zeru)",
+      "name": "kon-ma(zeru)",
       "kstroke": 11,
       "kmeaning": "mix",
       "kgrade": 5,
@@ -49284,7 +49284,7 @@ export const kanjiData = [
     },
     {
       "kanji": "鉄",
-      "kname": "tetsu(dou)",
+      "name": "tetsu(dou)",
       "kstroke": 13,
       "kmeaning": "iron",
       "kgrade": 3,
@@ -49337,7 +49337,7 @@ export const kanjiData = [
     },
     {
       "kanji": "喫",
-      "kname": "kitsu(ensuru)",
+      "name": "kitsu(ensuru)",
       "kstroke": 12,
       "kmeaning": "ingest, drink, smoke",
       "kgrade": "n/a",
@@ -49370,7 +49370,7 @@ export const kanjiData = [
     },
     {
       "kanji": "座",
-      "kname": "za-suwa(ru)",
+      "name": "za-suwa(ru)",
       "kstroke": 10,
       "kmeaning": "seat, sit",
       "kgrade": 6,
@@ -49435,7 +49435,7 @@ export const kanjiData = [
     },
     {
       "kanji": "鼻",
-      "kname": "bi-hana",
+      "name": "bi-hana",
       "kstroke": 14,
       "kmeaning": "nose",
       "kgrade": 3,
@@ -49480,7 +49480,7 @@ export const kanjiData = [
     },
     {
       "kanji": "首",
-      "kname": "shu-kubi",
+      "name": "shu-kubi",
       "kstroke": 9,
       "kmeaning": "head, neck, leader",
       "kgrade": 2,
@@ -49549,7 +49549,7 @@ export const kanjiData = [
     },
     {
       "kanji": "震",
-      "kname": "furu(eru)",
+      "name": "furu(eru)",
       "kstroke": 15,
       "kmeaning": "quake, shake, tremble",
       "kgrade": "n/a",
@@ -49606,7 +49606,7 @@ export const kanjiData = [
     },
     {
       "kanji": "個",
-      "kname": "ko(sei)",
+      "name": "ko(sei)",
       "kstroke": 10,
       "kmeaning": "individual, general counter",
       "kgrade": 5,
@@ -49651,7 +49651,7 @@ export const kanjiData = [
     },
     {
       "kanji": "災",
-      "kname": "sai(nan)",
+      "name": "sai(nan)",
       "kstroke": 7,
       "kmeaning": "calamity, disaster, misfortune",
       "kgrade": 5,
@@ -49708,7 +49708,7 @@ export const kanjiData = [
     },
     {
       "kanji": "焦",
-      "kname": "ko(geru)",
+      "name": "ko(geru)",
       "kstroke": 12,
       "kmeaning": "scorch, be impatient, yearn for",
       "kgrade": "n/a",
@@ -49761,7 +49761,7 @@ export const kanjiData = [
     },
     {
       "kanji": "破",
-      "kname": "ha(kaisuru)",
+      "name": "ha(kaisuru)",
       "kstroke": 10,
       "kmeaning": "break, tear",
       "kgrade": 5,
@@ -49830,7 +49830,7 @@ export const kanjiData = [
     },
     {
       "kanji": "壊",
-      "kname": "kai-kowa(su)",
+      "name": "kai-kowa(su)",
       "kstroke": 16,
       "kmeaning": "break down, destroy, damage",
       "kgrade": "n/a",
@@ -49879,7 +49879,7 @@ export const kanjiData = [
     },
     {
       "kanji": "造",
-      "kname": "zou-tsuku(ru)",
+      "name": "zou-tsuku(ru)",
       "kstroke": 10,
       "kmeaning": "make, produce, build",
       "kgrade": 5,
@@ -49940,7 +49940,7 @@ export const kanjiData = [
     },
     {
       "kanji": "我",
-      "kname": "ga-ware",
+      "name": "ga-ware",
       "kstroke": 7,
       "kmeaning": "self, I, my, our",
       "kgrade": 6,
@@ -50001,7 +50001,7 @@ export const kanjiData = [
     },
     {
       "kanji": "去",
-      "kname": "kyo-sa(ru)",
+      "name": "kyo-sa(ru)",
       "kstroke": 5,
       "kmeaning": "go away, leave",
       "kgrade": 3,
@@ -50046,7 +50046,7 @@ export const kanjiData = [
     },
     {
       "kanji": "巨",
-      "kname": "kyo(daina)",
+      "name": "kyo(daina)",
       "kstroke": 5,
       "kmeaning": "huge, gigantic, large",
       "kgrade": "n/a",
@@ -50083,7 +50083,7 @@ export const kanjiData = [
     },
     {
       "kanji": "並",
-      "kname": "hei-nara(bu)",
+      "name": "hei-nara(bu)",
       "kstroke": 8,
       "kmeaning": "line up, ordinary",
       "kgrade": 6,
@@ -50148,7 +50148,7 @@ export const kanjiData = [
     },
     {
       "kanji": "坂",
-      "kname": "saka",
+      "name": "saka",
       "kstroke": 7,
       "kmeaning": "slope, hill",
       "kgrade": 3,
@@ -50189,7 +50189,7 @@ export const kanjiData = [
     },
     {
       "kanji": "匹",
-      "kname": "(nan)hiki",
+      "name": "(nan)hiki",
       "kstroke": 4,
       "kmeaning": "counter for animals",
       "kgrade": "n/a",
@@ -50238,7 +50238,7 @@ export const kanjiData = [
     },
     {
       "kanji": "緑",
-      "kname": "ryoku-midori",
+      "name": "ryoku-midori",
       "kstroke": 14,
       "kmeaning": "green",
       "kgrade": 3,
@@ -50283,7 +50283,7 @@ export const kanjiData = [
     },
     {
       "kanji": "植",
-      "kname": "u(waru)",
+      "name": "u(waru)",
       "kstroke": 12,
       "kmeaning": "plant",
       "kgrade": 3,
@@ -50344,7 +50344,7 @@ export const kanjiData = [
     },
     {
       "kanji": "脈",
-      "kname": "myaku",
+      "name": "myaku",
       "kstroke": 10,
       "kmeaning": "vein, pulse",
       "kgrade": 4,
@@ -50405,7 +50405,7 @@ export const kanjiData = [
     },
     {
       "kanji": "設",
-      "kname": "(ken)setsu",
+      "name": "(ken)setsu",
       "kstroke": 11,
       "kmeaning": "set up, establish",
       "kgrade": 5,
@@ -50470,7 +50470,7 @@ export const kanjiData = [
     },
     {
       "kanji": "築",
-      "kname": "kizu(ku)",
+      "name": "kizu(ku)",
       "kstroke": 16,
       "kmeaning": "construct, build",
       "kgrade": 5,
@@ -50531,7 +50531,7 @@ export const kanjiData = [
     },
     {
       "kanji": "局",
-      "kname": "(yuubin)kyoku",
+      "name": "(yuubin)kyoku",
       "kstroke": 7,
       "kmeaning": "bureau, limited part, office",
       "kgrade": 3,
@@ -50600,7 +50600,7 @@ export const kanjiData = [
     },
     {
       "kanji": "温",
-      "kname": "on(sen)",
+      "name": "on(sen)",
       "kstroke": 12,
       "kmeaning": "warm",
       "kgrade": 3,
@@ -50669,7 +50669,7 @@ export const kanjiData = [
     },
     {
       "kanji": "華",
-      "kname": "(gou)ka",
+      "name": "(gou)ka",
       "kstroke": 10,
       "kmeaning": "magnificent, flower, brilliant, China",
       "kgrade": "n/a",
@@ -50730,7 +50730,7 @@ export const kanjiData = [
     },
     {
       "kanji": "氏",
-      "kname": "shi-uji",
+      "name": "shi-uji",
       "kstroke": 4,
       "kmeaning": "courtesy title, family name, lineage",
       "kgrade": 4,
@@ -50787,7 +50787,7 @@ export const kanjiData = [
     },
     {
       "kanji": "算",
-      "kname": "san(suu)",
+      "name": "san(suu)",
       "kstroke": 14,
       "kmeaning": "calculate",
       "kgrade": 2,
@@ -50848,7 +50848,7 @@ export const kanjiData = [
     },
     {
       "kanji": "円",
-      "kname": "en-maru",
+      "name": "en-maru",
       "kstroke": 4,
       "kmeaning": "circle, yen",
       "kgrade": 1,
@@ -50893,7 +50893,7 @@ export const kanjiData = [
     },
     {
       "kanji": "邪",
-      "kname": "ja(akuna)",
+      "name": "ja(akuna)",
       "kstroke": 8,
       "kmeaning": "evil, wrong",
       "kgrade": "n/a",
@@ -50942,7 +50942,7 @@ export const kanjiData = [
     },
     {
       "kanji": "軽",
-      "kname": "karu(i)",
+      "name": "karu(i)",
       "kstroke": 12,
       "kmeaning": "light",
       "kgrade": 3,
@@ -51011,7 +51011,7 @@ export const kanjiData = [
     },
     {
       "kanji": "絡",
-      "kname": "kara(maru)",
+      "name": "kara(maru)",
       "kstroke": 12,
       "kmeaning": "interlink, entwine, get entangled",
       "kgrade": "n/a",
@@ -51056,7 +51056,7 @@ export const kanjiData = [
     },
     {
       "kanji": "毛",
-      "kname": "mou(fu)",
+      "name": "mou(fu)",
       "kstroke": 4,
       "kmeaning": "hair, fur, feather, down",
       "kgrade": 2,
@@ -51121,7 +51121,7 @@ export const kanjiData = [
     },
     {
       "kanji": "布",
-      "kname": "nuno",
+      "name": "nuno",
       "kstroke": 5,
       "kmeaning": "cloth, spread",
       "kgrade": 5,
@@ -51186,7 +51186,7 @@ export const kanjiData = [
     },
     {
       "kanji": "仮",
-      "kname": "ka(men)",
+      "name": "ka(men)",
       "kstroke": 6,
       "kmeaning": "temporary, tentative",
       "kgrade": 5,
@@ -51251,7 +51251,7 @@ export const kanjiData = [
     },
     {
       "kanji": "狂",
-      "kname": "kuru(u)",
+      "name": "kuru(u)",
       "kstroke": 7,
       "kmeaning": "crazy, go mad",
       "kgrade": "n/a",
@@ -51304,7 +51304,7 @@ export const kanjiData = [
     },
     {
       "kanji": "障",
-      "kname": "shou-sawa(ru)",
+      "name": "shou-sawa(ru)",
       "kstroke": 14,
       "kmeaning": "hindrance, interfere with",
       "kgrade": 6,
@@ -51361,7 +51361,7 @@ export const kanjiData = [
     },
     {
       "kanji": "害",
-      "kname": "(hei)gai",
+      "name": "(hei)gai",
       "kstroke": 10,
       "kmeaning": "harm, damage",
       "kgrade": 4,
@@ -51430,7 +51430,7 @@ export const kanjiData = [
     },
     {
       "kanji": "演",
-      "kname": "en(geki)",
+      "name": "en(geki)",
       "kstroke": 14,
       "kmeaning": "perform",
       "kgrade": 5,
@@ -51495,7 +51495,7 @@ export const kanjiData = [
     },
     {
       "kanji": "安",
-      "kname": "yasu(i)",
+      "name": "yasu(i)",
       "kstroke": 6,
       "kmeaning": "peaceful, inexpensive",
       "kgrade": 3,
@@ -51552,7 +51552,7 @@ export const kanjiData = [
     },
     {
       "kanji": "劇",
-      "kname": "(en)geki",
+      "name": "(en)geki",
       "kstroke": 15,
       "kmeaning": "drama, play",
       "kgrade": 6,
@@ -51613,7 +51613,7 @@ export const kanjiData = [
     },
     {
       "kanji": "葉",
-      "kname": "(ochi)ba",
+      "name": "(ochi)ba",
       "kstroke": 12,
       "kmeaning": "leaf、foliage",
       "kgrade": 3,
@@ -51674,7 +51674,7 @@ export const kanjiData = [
     },
     {
       "kanji": "板",
-      "kname": "ita",
+      "name": "ita",
       "kstroke": 8,
       "kmeaning": "board, plate",
       "kgrade": 3,
@@ -51723,7 +51723,7 @@ export const kanjiData = [
     },
     {
       "kanji": "階",
-      "kname": "(chi)kai",
+      "name": "(chi)kai",
       "kstroke": 12,
       "kmeaning": "floor, rank, stair, level",
       "kgrade": 3,
@@ -51780,7 +51780,7 @@ export const kanjiData = [
     },
     {
       "kanji": "芝",
-      "kname": "shiba(fu)",
+      "name": "shiba(fu)",
       "kstroke": 6,
       "kmeaning": "lawn",
       "kgrade": "n/a",
@@ -51817,7 +51817,7 @@ export const kanjiData = [
     },
     {
       "kanji": "居",
-      "kname": "kyo-i(ru)",
+      "name": "kyo-i(ru)",
       "kstroke": 8,
       "kmeaning": "reside, exist",
       "kgrade": 5,
@@ -51886,7 +51886,7 @@ export const kanjiData = [
     },
     {
       "kanji": "移",
-      "kname": "i-utsu(su)",
+      "name": "i-utsu(su)",
       "kstroke": 11,
       "kmeaning": "shift, move, transfer",
       "kgrade": 5,
@@ -51943,7 +51943,7 @@ export const kanjiData = [
     },
     {
       "kanji": "努",
-      "kname": "do-tsuto(meru)",
+      "name": "do-tsuto(meru)",
       "kstroke": 7,
       "kmeaning": "exert, make efforts, strive",
       "kgrade": 4,
@@ -51980,7 +51980,7 @@ export const kanjiData = [
     },
     {
       "kanji": "折",
-      "kname": "setsu-o(reru)",
+      "name": "setsu-o(reru)",
       "kstroke": 7,
       "kmeaning": "break off, fold, bend",
       "kgrade": 4,
@@ -52041,7 +52041,7 @@ export const kanjiData = [
     },
     {
       "kanji": "欠",
-      "kname": "ketsu-ka(keru)",
+      "name": "ketsu-ka(keru)",
       "kstroke": 4,
       "kmeaning": "lack",
       "kgrade": 4,
@@ -52110,7 +52110,7 @@ export const kanjiData = [
     },
     {
       "kanji": "買",
-      "kname": "bai-ka(u)",
+      "name": "bai-ka(u)",
       "kstroke": 12,
       "kmeaning": "buy",
       "kgrade": 2,
@@ -52155,7 +52155,7 @@ export const kanjiData = [
     },
     {
       "kanji": "皆",
-      "kname": "mina",
+      "name": "mina",
       "kstroke": 9,
       "kmeaning": "all",
       "kgrade": "n/a",
@@ -52200,7 +52200,7 @@ export const kanjiData = [
     },
     {
       "kanji": "虫",
-      "kname": "mushi",
+      "name": "mushi",
       "kstroke": 6,
       "kmeaning": "insect, bug",
       "kgrade": 1,
@@ -52269,7 +52269,7 @@ export const kanjiData = [
     },
     {
       "kanji": "歯",
-      "kname": "shi-ha",
+      "name": "shi-ha",
       "kstroke": 12,
       "kmeaning": "tooth",
       "kgrade": 3,
@@ -52330,7 +52330,7 @@ export const kanjiData = [
     },
     {
       "kanji": "圧",
-      "kname": "atsu(ryoku)",
+      "name": "atsu(ryoku)",
       "kstroke": 5,
       "kmeaning": "pressure",
       "kgrade": 5,
@@ -52395,7 +52395,7 @@ export const kanjiData = [
     },
     {
       "kanji": "転",
-      "kname": "koro(bu)",
+      "name": "koro(bu)",
       "kstroke": 11,
       "kmeaning": "turn, roll over, fall down",
       "kgrade": 3,
@@ -52464,7 +52464,7 @@ export const kanjiData = [
     },
     {
       "kanji": "遺",
-      "kname": "yui(gon)",
+      "name": "yui(gon)",
       "kstroke": 15,
       "kmeaning": "leave behind",
       "kgrade": 6,
@@ -52521,7 +52521,7 @@ export const kanjiData = [
     },
     {
       "kanji": "冗",
-      "kname": "jou(chouna)",
+      "name": "jou(chouna)",
       "kstroke": 4,
       "kmeaning": "redundant, superfluous",
       "kgrade": "n/a",
@@ -52550,7 +52550,7 @@ export const kanjiData = [
     },
     {
       "kanji": "皮",
-      "kname": "hi-kawa",
+      "name": "hi-kawa",
       "kstroke": 5,
       "kmeaning": "skin, hide, rind, leather, bark",
       "kgrade": 3,
@@ -52603,7 +52603,7 @@ export const kanjiData = [
     },
     {
       "kanji": "肉",
-      "kname": "niku",
+      "name": "niku",
       "kstroke": 6,
       "kmeaning": "flesh, meat",
       "kgrade": 2,
@@ -52672,7 +52672,7 @@ export const kanjiData = [
     },
     {
       "kanji": "怪",
-      "kname": "aya(shimu)",
+      "name": "aya(shimu)",
       "kstroke": 8,
       "kmeaning": "mysterious, strange, doubt",
       "kgrade": "n/a",
@@ -52729,7 +52729,7 @@ export const kanjiData = [
     },
     {
       "kanji": "売",
-      "kname": "bai-u(ru)",
+      "name": "bai-u(ru)",
       "kstroke": 7,
       "kmeaning": "sell",
       "kgrade": 2,
@@ -52778,7 +52778,7 @@ export const kanjiData = [
     },
     {
       "kanji": "系",
-      "kname": "kei(retsu)",
+      "name": "kei(retsu)",
       "kstroke": 7,
       "kmeaning": "system, lineage",
       "kgrade": 6,
@@ -52827,7 +52827,7 @@ export const kanjiData = [
     },
     {
       "kanji": "統",
-      "kname": "tou(itsu)",
+      "name": "tou(itsu)",
       "kstroke": 12,
       "kmeaning": "unite, interconnected system, govern, control",
       "kgrade": 5,
@@ -52896,7 +52896,7 @@ export const kanjiData = [
     },
     {
       "kanji": "鳥",
-      "kname": "(haku)chou",
+      "name": "(haku)chou",
       "kstroke": 11,
       "kmeaning": "bird, fowl, poultry",
       "kgrade": 2,
@@ -52957,7 +52957,7 @@ export const kanjiData = [
     },
     {
       "kanji": "県",
-      "kname": "ken(chiji)",
+      "name": "ken(chiji)",
       "kstroke": 9,
       "kmeaning": "prefecture",
       "kgrade": 3,
@@ -53006,7 +53006,7 @@ export const kanjiData = [
     },
     {
       "kanji": "尺",
-      "kname": "(is)shaku",
+      "name": "(is)shaku",
       "kstroke": 4,
       "kmeaning": "shaku (unit of length, about 30 cm), measure",
       "kgrade": 6,
@@ -53047,7 +53047,7 @@ export const kanjiData = [
     },
     {
       "kanji": "収",
-      "kname": "shuu(nousuru)",
+      "name": "shuu(nousuru)",
       "kstroke": 4,
       "kmeaning": "take in, obtain, collect",
       "kgrade": 6,
@@ -53116,7 +53116,7 @@ export const kanjiData = [
     },
     {
       "kanji": "穫",
-      "kname": "(shuu)kaku",
+      "name": "(shuu)kaku",
       "kstroke": 18,
       "kmeaning": "harvest",
       "kgrade": "n/a",
@@ -53149,7 +53149,7 @@ export const kanjiData = [
     },
     {
       "kanji": "肥",
-      "kname": "ko(yasu)",
+      "name": "ko(yasu)",
       "kstroke": 8,
       "kmeaning": "fatten, fertilize",
       "kgrade": 5,
@@ -53202,7 +53202,7 @@ export const kanjiData = [
     },
     {
       "kanji": "草",
-      "kname": "kusa(ki)",
+      "name": "kusa(ki)",
       "kstroke": 9,
       "kmeaning": "grass",
       "kgrade": 1,
@@ -53271,7 +53271,7 @@ export const kanjiData = [
     },
     {
       "kanji": "泳",
-      "kname": "oyo(gu)",
+      "name": "oyo(gu)",
       "kstroke": 8,
       "kmeaning": "swim",
       "kgrade": 3,
@@ -53312,7 +53312,7 @@ export const kanjiData = [
     },
     {
       "kanji": "犬",
-      "kname": "inu",
+      "name": "inu",
       "kstroke": 4,
       "kmeaning": "dog",
       "kgrade": 1,
@@ -53353,7 +53353,7 @@ export const kanjiData = [
     },
     {
       "kanji": "亡",
-      "kname": "bou(mei)",
+      "name": "bou(mei)",
       "kstroke": 3,
       "kmeaning": "decease, dead",
       "kgrade": 6,
@@ -53418,7 +53418,7 @@ export const kanjiData = [
     },
     {
       "kanji": "豊",
-      "kname": "hou-yuta(kana)",
+      "name": "hou-yuta(kana)",
       "kstroke": 13,
       "kmeaning": "plentiful, abundant, rich",
       "kgrade": 5,
@@ -53463,7 +53463,7 @@ export const kanjiData = [
     },
     {
       "kanji": "寮",
-      "kname": "(gakusei)ryou",
+      "name": "(gakusei)ryou",
       "kstroke": 15,
       "kmeaning": "dormitory",
       "kgrade": "n/a",
@@ -53508,7 +53508,7 @@ export const kanjiData = [
     },
     {
       "kanji": "飽",
-      "kname": "hou-a(kiru)",
+      "name": "hou-a(kiru)",
       "kstroke": 13,
       "kmeaning": "satiated, get tired of",
       "kgrade": "n/a",
@@ -53553,7 +53553,7 @@ export const kanjiData = [
     },
     {
       "kanji": "油",
-      "kname": "yu-abura",
+      "name": "yu-abura",
       "kstroke": 8,
       "kmeaning": "oil",
       "kgrade": 3,
@@ -53606,7 +53606,7 @@ export const kanjiData = [
     },
     {
       "kanji": "菜",
-      "kname": "(ya)sai",
+      "name": "(ya)sai",
       "kstroke": 11,
       "kmeaning": "vegetable, greens",
       "kgrade": 4,
@@ -53667,7 +53667,7 @@ export const kanjiData = [
     },
     {
       "kanji": "玉",
-      "kname": "gyoku-tama",
+      "name": "gyoku-tama",
       "kstroke": 5,
       "kmeaning": "gem, jewel, ball",
       "kgrade": 1,
@@ -53724,7 +53724,7 @@ export const kanjiData = [
     },
     {
       "kanji": "減",
-      "kname": "he(rasu)",
+      "name": "he(rasu)",
       "kstroke": 12,
       "kmeaning": "decrease",
       "kgrade": 5,
@@ -53785,7 +53785,7 @@ export const kanjiData = [
     },
     {
       "kanji": "皿",
-      "kname": "sara",
+      "name": "sara",
       "kstroke": 5,
       "kmeaning": "plate, dish, saucer",
       "kgrade": 3,
@@ -53834,7 +53834,7 @@ export const kanjiData = [
     },
     {
       "kanji": "湯",
-      "kname": "(o)yu",
+      "name": "(o)yu",
       "kstroke": 12,
       "kmeaning": "hot water",
       "kgrade": 3,
@@ -53891,7 +53891,7 @@ export const kanjiData = [
     },
     {
       "kanji": "子",
-      "kname": "shi-ko",
+      "name": "shi-ko",
       "kstroke": 3,
       "kmeaning": "child, noun suffix",
       "kgrade": 1,
@@ -53960,7 +53960,7 @@ export const kanjiData = [
     },
     {
       "kanji": "除",
-      "kname": "jo-nozo(ku)",
+      "name": "jo-nozo(ku)",
       "kstroke": 10,
       "kmeaning": "rid of, exclude",
       "kgrade": 6,
@@ -54025,7 +54025,7 @@ export const kanjiData = [
     },
     {
       "kanji": "控",
-      "kname": "hika(eru)",
+      "name": "hika(eru)",
       "kstroke": 11,
       "kmeaning": "hold back, refrain from, wait",
       "kgrade": "n/a",
@@ -54066,7 +54066,7 @@ export const kanjiData = [
     },
     {
       "kanji": "蔵",
-      "kname": "zou-kura",
+      "name": "zou-kura",
       "kstroke": 15,
       "kmeaning": "store, warehouse",
       "kgrade": 6,
@@ -54123,7 +54123,7 @@ export const kanjiData = [
     },
     {
       "kanji": "庫",
-      "kname": "(hou)ko",
+      "name": "(hou)ko",
       "kstroke": 10,
       "kmeaning": "storage chamber, storehouse",
       "kgrade": 3,
@@ -54176,7 +54176,7 @@ export const kanjiData = [
     },
     {
       "kanji": "器",
-      "kname": "utsuwa",
+      "name": "utsuwa",
       "kstroke": 15,
       "kmeaning": "vessel, instrument, container, capacity",
       "kgrade": 4,
@@ -54245,7 +54245,7 @@ export const kanjiData = [
     },
     {
       "kanji": "凍",
-      "kname": "kogo(eru)",
+      "name": "kogo(eru)",
       "kstroke": 10,
       "kmeaning": "freeze",
       "kgrade": "n/a",
@@ -54294,7 +54294,7 @@ export const kanjiData = [
     },
     {
       "kanji": "聖",
-      "kname": "sei(kadai)",
+      "name": "sei(kadai)",
       "kstroke": 13,
       "kmeaning": "holy, saint",
       "kgrade": 6,
@@ -54343,7 +54343,7 @@ export const kanjiData = [
     },
     {
       "kanji": "豚",
-      "kname": "buta",
+      "name": "buta",
       "kstroke": 11,
       "kmeaning": "pig",
       "kgrade": "n/a",
@@ -54388,7 +54388,7 @@ export const kanjiData = [
     },
     {
       "kanji": "絶",
-      "kname": "ta(yasu)",
+      "name": "ta(yasu)",
       "kstroke": 12,
       "kmeaning": "break off, come to an end",
       "kgrade": 5,
@@ -54457,7 +54457,7 @@ export const kanjiData = [
     },
     {
       "kanji": "牧",
-      "kname": "boku(jou)",
+      "name": "boku(jou)",
       "kstroke": 8,
       "kmeaning": "pasture",
       "kgrade": 4,
@@ -54506,7 +54506,7 @@ export const kanjiData = [
     },
     {
       "kanji": "私",
-      "kname": "watashi",
+      "name": "watashi",
       "kstroke": 7,
       "kmeaning": "I, private",
       "kgrade": 6,
@@ -54539,7 +54539,7 @@ export const kanjiData = [
     },
     {
       "kanji": "万",
-      "kname": "(nan)man",
+      "name": "(nan)man",
       "kstroke": 3,
       "kmeaning": "ten thousand",
       "kgrade": 2,
@@ -54584,7 +54584,7 @@ export const kanjiData = [
     },
     {
       "kanji": "民",
-      "kname": "tami",
+      "name": "tami",
       "kstroke": 5,
       "kmeaning": "people",
       "kgrade": 4,
@@ -54653,7 +54653,7 @@ export const kanjiData = [
     },
     {
       "kanji": "誇",
-      "kname": "hoko(ru)",
+      "name": "hoko(ru)",
       "kstroke": 13,
       "kmeaning": "boast, be proud of",
       "kgrade": "n/a",
@@ -54698,7 +54698,7 @@ export const kanjiData = [
     },
     {
       "kanji": "仏",
-      "kname": "hotoke",
+      "name": "hotoke",
       "kstroke": 4,
       "kmeaning": "Buddha, France",
       "kgrade": 5,
@@ -54763,7 +54763,7 @@ export const kanjiData = [
     },
     {
       "kanji": "殺",
-      "kname": "koro(su)",
+      "name": "koro(su)",
       "kstroke": 10,
       "kmeaning": "kill",
       "kgrade": 4,
@@ -54832,7 +54832,7 @@ export const kanjiData = [
     },
     {
       "kanji": "含",
-      "kname": "fuku(mu)",
+      "name": "fuku(mu)",
       "kstroke": 7,
       "kmeaning": "contain, include",
       "kgrade": "n/a",
@@ -54873,7 +54873,7 @@ export const kanjiData = [
     },
     {
       "kanji": "緊",
-      "kname": "kin(kyuuna)",
+      "name": "kin(kyuuna)",
       "kstroke": 15,
       "kmeaning": "tight, exigent, tense, hard",
       "kgrade": "n/a",
@@ -54910,7 +54910,7 @@ export const kanjiData = [
     },
     {
       "kanji": "吸",
-      "kname": "su(u)",
+      "name": "su(u)",
       "kstroke": 6,
       "kmeaning": "suck, breathe in, inhale, smoke",
       "kgrade": 6,
@@ -54967,7 +54967,7 @@ export const kanjiData = [
     },
     {
       "kanji": "筋",
-      "kname": "suji",
+      "name": "suji",
       "kstroke": 12,
       "kmeaning": "muscle, threadlike structure, line, plot",
       "kgrade": 6,
@@ -55020,7 +55020,7 @@ export const kanjiData = [
     },
     {
       "kanji": "奨",
-      "kname": "shou(reisuru)",
+      "name": "shou(reisuru)",
       "kstroke": 13,
       "kmeaning": "encourage, urge",
       "kgrade": "n/a",
@@ -55057,7 +55057,7 @@ export const kanjiData = [
     },
     {
       "kanji": "衛",
-      "kname": "(bou)ei",
+      "name": "(bou)ei",
       "kstroke": 16,
       "kmeaning": "guard, defend, protect",
       "kgrade": 5,
@@ -55106,7 +55106,7 @@ export const kanjiData = [
     },
     {
       "kanji": "語",
-      "kname": "kata(ru)",
+      "name": "kata(ru)",
       "kstroke": 14,
       "kmeaning": "language, word, tell",
       "kgrade": 2,
@@ -55163,7 +55163,7 @@ export const kanjiData = [
     },
     {
       "kanji": "迷",
-      "kname": "mayo(u)",
+      "name": "mayo(u)",
       "kstroke": 9,
       "kmeaning": "perplexed, get lost",
       "kgrade": 5,
@@ -55216,7 +55216,7 @@ export const kanjiData = [
     },
     {
       "kanji": "充",
-      "kname": "juu-a(teru)",
+      "name": "juu-a(teru)",
       "kstroke": 6,
       "kmeaning": "fill, allocate, assign",
       "kgrade": "n/a",
@@ -55265,7 +55265,7 @@ export const kanjiData = [
     },
     {
       "kanji": "礎",
-      "kname": "ishizue",
+      "name": "ishizue",
       "kstroke": 18,
       "kmeaning": "foundation stone, cornerstone",
       "kgrade": "n/a",
@@ -55302,7 +55302,7 @@ export const kanjiData = [
     },
     {
       "kanji": "標",
-      "kname": "hyou(shiki)",
+      "name": "hyou(shiki)",
       "kstroke": 15,
       "kmeaning": "mark, sign",
       "kgrade": 4,
@@ -55371,7 +55371,7 @@ export const kanjiData = [
     },
     {
       "kanji": "推",
-      "kname": "sui(soku)",
+      "name": "sui(soku)",
       "kstroke": 11,
       "kmeaning": "infer, deduce, recommend",
       "kgrade": 6,
@@ -55432,7 +55432,7 @@ export const kanjiData = [
     },
     {
       "kanji": "到",
-      "kname": "tou(tatsusuru)",
+      "name": "tou(tatsusuru)",
       "kstroke": 8,
       "kmeaning": "arrive, reach",
       "kgrade": "n/a",
@@ -55481,7 +55481,7 @@ export const kanjiData = [
     },
     {
       "kanji": "否",
-      "kname": "hi-ina",
+      "name": "hi-ina",
       "kstroke": 7,
       "kmeaning": "say no, not",
       "kgrade": 6,
@@ -55538,7 +55538,7 @@ export const kanjiData = [
     },
     {
       "kanji": "労",
-      "kname": "rou(dou)",
+      "name": "rou(dou)",
       "kstroke": 7,
       "kmeaning": "labor, toil",
       "kgrade": 4,
@@ -55595,7 +55595,7 @@ export const kanjiData = [
     },
     {
       "kanji": "範",
-      "kname": "(mo)han",
+      "name": "(mo)han",
       "kstroke": 15,
       "kmeaning": "model, example",
       "kgrade": "n/a",
@@ -55632,7 +55632,7 @@ export const kanjiData = [
     },
     {
       "kanji": "囲",
-      "kname": "kako(mu)",
+      "name": "kako(mu)",
       "kstroke": 7,
       "kmeaning": "enclose, surround",
       "kgrade": 4,
@@ -55685,7 +55685,7 @@ export const kanjiData = [
     },
     {
       "kanji": "東",
-      "kname": "higashi",
+      "name": "higashi",
       "kstroke": 8,
       "kmeaning": "east",
       "kgrade": 2,
@@ -55738,7 +55738,7 @@ export const kanjiData = [
     },
     {
       "kanji": "征",
-      "kname": "sei(batsusuru)",
+      "name": "sei(batsusuru)",
       "kstroke": 8,
       "kmeaning": "conquer",
       "kgrade": "n/a",
@@ -55775,7 +55775,7 @@ export const kanjiData = [
     },
     {
       "kanji": "伏",
-      "kname": "(ki)fuku",
+      "name": "(ki)fuku",
       "kstroke": 6,
       "kmeaning": "prostrate, bend down, lie down, hide",
       "kgrade": "n/a",
@@ -55828,7 +55828,7 @@ export const kanjiData = [
     },
     {
       "kanji": "抵",
-      "kname": "tei(kousuru)",
+      "name": "tei(kousuru)",
       "kstroke": 8,
       "kmeaning": "resist",
       "kgrade": "n/a",
@@ -55869,7 +55869,7 @@ export const kanjiData = [
     },
     {
       "kanji": "従",
-      "kname": "shitaga(u)",
+      "name": "shitaga(u)",
       "kstroke": 10,
       "kmeaning": "follow, obey, conquer",
       "kgrade": 6,
@@ -55938,7 +55938,7 @@ export const kanjiData = [
     },
     {
       "kanji": "射",
-      "kname": "sha(geki)",
+      "name": "sha(geki)",
       "kstroke": 10,
       "kmeaning": "shoot",
       "kgrade": 6,
@@ -56003,7 +56003,7 @@ export const kanjiData = [
     },
     {
       "kanji": "乱",
-      "kname": "mida(su)",
+      "name": "mida(su)",
       "kstroke": 7,
       "kmeaning": "disordered, riot, confusion",
       "kgrade": 6,
@@ -56072,7 +56072,7 @@ export const kanjiData = [
     },
     {
       "kanji": "暴",
-      "kname": "aba(reru)",
+      "name": "aba(reru)",
       "kstroke": 15,
       "kmeaning": "violent, rage, expose",
       "kgrade": 5,
@@ -56141,7 +56141,7 @@ export const kanjiData = [
     },
     {
       "kanji": "概",
-      "kname": "gai(nen)",
+      "name": "gai(nen)",
       "kstroke": 14,
       "kmeaning": "general, approximate",
       "kgrade": "n/a",
@@ -56190,7 +56190,7 @@ export const kanjiData = [
     },
     {
       "kanji": "焼",
-      "kname": "shou-ya(ku)",
+      "name": "shou-ya(ku)",
       "kstroke": 12,
       "kmeaning": "burn, roast, broil, bake",
       "kgrade": 4,
@@ -56255,7 +56255,7 @@ export const kanjiData = [
     },
     {
       "kanji": "編",
-      "kname": "a(mu)",
+      "name": "a(mu)",
       "kstroke": 15,
       "kmeaning": "compile, knit, edit",
       "kgrade": 5,
@@ -56312,7 +56312,7 @@ export const kanjiData = [
     },
     {
       "kanji": "京",
-      "kname": "kyou(to)",
+      "name": "kyou(to)",
       "kstroke": 8,
       "kmeaning": "capital",
       "kgrade": 2,
@@ -56361,7 +56361,7 @@ export const kanjiData = [
     },
     {
       "kanji": "雲",
-      "kname": "kumo",
+      "name": "kumo",
       "kstroke": 12,
       "kmeaning": "cloud",
       "kgrade": 2,
@@ -56418,7 +56418,7 @@ export const kanjiData = [
     },
     {
       "kanji": "偏",
-      "kname": "katayo(ru)",
+      "name": "katayo(ru)",
       "kstroke": 11,
       "kmeaning": "one-sided, lean, incline, partial",
       "kgrade": "n/a",
@@ -56479,7 +56479,7 @@ export const kanjiData = [
     },
     {
       "kanji": "甘",
-      "kname": "ama(i)",
+      "name": "ama(i)",
       "kstroke": 5,
       "kmeaning": "sweet",
       "kgrade": "n/a",
@@ -56524,7 +56524,7 @@ export const kanjiData = [
     },
     {
       "kanji": "衣",
-      "kname": "koromo",
+      "name": "koromo",
       "kstroke": 6,
       "kmeaning": "garment, clothes",
       "kgrade": 4,
@@ -56573,7 +56573,7 @@ export const kanjiData = [
     },
     {
       "kanji": "騒",
-      "kname": "sawa(gu)",
+      "name": "sawa(gu)",
       "kstroke": 18,
       "kmeaning": "clamor, make noise",
       "kgrade": "n/a",
@@ -56622,7 +56622,7 @@ export const kanjiData = [
     },
     {
       "kanji": "悟",
-      "kname": "go-sato(ru)",
+      "name": "go-sato(ru)",
       "kstroke": 10,
       "kmeaning": "awake to, perceive, be enlightened",
       "kgrade": "n/a",
@@ -56655,7 +56655,7 @@ export const kanjiData = [
     },
     {
       "kanji": "避",
-      "kname": "hi-sa(keru)",
+      "name": "hi-sa(keru)",
       "kstroke": 16,
       "kmeaning": "avoid",
       "kgrade": "n/a",
@@ -56708,7 +56708,7 @@ export const kanjiData = [
     },
     {
       "kanji": "乾",
-      "kname": "kan-kawa(ku)",
+      "name": "kan-kawa(ku)",
       "kstroke": 11,
       "kmeaning": "dry",
       "kgrade": "n/a",
@@ -56761,7 +56761,7 @@ export const kanjiData = [
     },
     {
       "kanji": "杯",
-      "kname": "(man)pai",
+      "name": "(man)pai",
       "kstroke": 8,
       "kmeaning": "cup, sake cup",
       "kgrade": "n/a",
@@ -56814,7 +56814,7 @@ export const kanjiData = [
     },
     {
       "kanji": "途",
-      "kname": "to(chuu)",
+      "name": "to(chuu)",
       "kstroke": 10,
       "kmeaning": "way, road",
       "kgrade": "n/a",
@@ -56859,7 +56859,7 @@ export const kanjiData = [
     },
     {
       "kanji": "育",
-      "kname": "soda(tsu)",
+      "name": "soda(tsu)",
       "kstroke": 8,
       "kmeaning": "raise",
       "kgrade": 3,
@@ -56900,7 +56900,7 @@ export const kanjiData = [
     },
     {
       "kanji": "祈",
-      "kname": "ino(ru)",
+      "name": "ino(ru)",
       "kstroke": 8,
       "kmeaning": "pray",
       "kgrade": "n/a",
@@ -56937,7 +56937,7 @@ export const kanjiData = [
     },
     {
       "kanji": "互",
-      "kname": "go-taga(i)",
+      "name": "go-taga(i)",
       "kstroke": 4,
       "kmeaning": "reciprocal, mutual, each other",
       "kgrade": "n/a",
@@ -56982,7 +56982,7 @@ export const kanjiData = [
     },
     {
       "kanji": "賢",
-      "kname": "kashiko(i)",
+      "name": "kashiko(i)",
       "kstroke": 16,
       "kmeaning": "wise, intelligent",
       "kgrade": "n/a",
@@ -57027,7 +57027,7 @@ export const kanjiData = [
     },
     {
       "kanji": "鳴",
-      "kname": "mei-na(ru)",
+      "name": "mei-na(ru)",
       "kstroke": 14,
       "kmeaning": "cry, sound, ring, sing, howl",
       "kgrade": 2,
@@ -57080,7 +57080,7 @@ export const kanjiData = [
     },
     {
       "kanji": "純",
-      "kname": "jun(kin)",
+      "name": "jun(kin)",
       "kstroke": 10,
       "kmeaning": "pure",
       "kgrade": 6,
@@ -57141,7 +57141,7 @@ export const kanjiData = [
     },
     {
       "kanji": "辛",
-      "kname": "kara(i)",
+      "name": "kara(i)",
       "kstroke": 7,
       "kmeaning": "pungent, hard, spicy",
       "kgrade": "n/a",
@@ -57202,7 +57202,7 @@ export const kanjiData = [
     },
     {
       "kanji": "管",
-      "kname": "kuda",
+      "name": "kuda",
       "kstroke": 14,
       "kmeaning": "pipe, exercise control, wind instrument, tube",
       "kgrade": 4,
@@ -57267,7 +57267,7 @@ export const kanjiData = [
     },
     {
       "kanji": "暗",
-      "kname": "kura(i)",
+      "name": "kura(i)",
       "kstroke": 13,
       "kmeaning": "dark, dim",
       "kgrade": 3,
@@ -57328,7 +57328,7 @@ export const kanjiData = [
     },
     {
       "kanji": "娘",
-      "kname": "musume",
+      "name": "musume",
       "kstroke": 10,
       "kmeaning": "daughter, girl",
       "kgrade": "n/a",
@@ -57369,7 +57369,7 @@ export const kanjiData = [
     },
     {
       "kanji": "侮",
-      "kname": "anado(ru)",
+      "name": "anado(ru)",
       "kstroke": 8,
       "kmeaning": "insult, despise, scorn",
       "kgrade": "n/a",
@@ -57406,7 +57406,7 @@ export const kanjiData = [
     },
     {
       "kanji": "住",
-      "kname": "juu-su(mu)",
+      "name": "juu-su(mu)",
       "kstroke": 7,
       "kmeaning": "live",
       "kgrade": 3,
@@ -57451,7 +57451,7 @@ export const kanjiData = [
     },
     {
       "kanji": "辱",
-      "kname": "hazukashi(meru)",
+      "name": "hazukashi(meru)",
       "kstroke": 10,
       "kmeaning": "humiliate, disgrace",
       "kgrade": "n/a",
@@ -57492,7 +57492,7 @@ export const kanjiData = [
     },
     {
       "kanji": "弾",
-      "kname": "hazu(mu)",
+      "name": "hazu(mu)",
       "kstroke": 12,
       "kmeaning": "bullet, spring back, bounce, play",
       "kgrade": "n/a",
@@ -57553,7 +57553,7 @@ export const kanjiData = [
     },
     {
       "kanji": "王",
-      "kname": "ou(sama)",
+      "name": "ou(sama)",
       "kstroke": 4,
       "kmeaning": "king",
       "kgrade": 1,
@@ -57614,7 +57614,7 @@ export const kanjiData = [
     },
     {
       "kanji": "貝",
-      "kname": "kai(gara)",
+      "name": "kai(gara)",
       "kstroke": 7,
       "kmeaning": "shellfish, shell",
       "kgrade": 1,
@@ -57647,7 +57647,7 @@ export const kanjiData = [
     },
     {
       "kanji": "糸",
-      "kname": "ito",
+      "name": "ito",
       "kstroke": 6,
       "kmeaning": "thread",
       "kgrade": 1,
@@ -57696,7 +57696,7 @@ export const kanjiData = [
     },
     {
       "kanji": "竹",
-      "kname": "chiku-take",
+      "name": "chiku-take",
       "kstroke": 6,
       "kmeaning": "bamboo",
       "kgrade": 1,
@@ -57741,7 +57741,7 @@ export const kanjiData = [
     },
     {
       "kanji": "林",
-      "kname": "hayashi",
+      "name": "hayashi",
       "kstroke": 8,
       "kmeaning": "woods, forest",
       "kgrade": 1,
@@ -57790,7 +57790,7 @@ export const kanjiData = [
     },
     {
       "kanji": "羽",
-      "kname": "hane",
+      "name": "hane",
       "kstroke": 6,
       "kmeaning": "feather, wing",
       "kgrade": 2,
@@ -57839,7 +57839,7 @@ export const kanjiData = [
     },
     {
       "kanji": "園",
-      "kname": "(tei)en",
+      "name": "(tei)en",
       "kstroke": 13,
       "kmeaning": "garden",
       "kgrade": 2,
@@ -57904,7 +57904,7 @@ export const kanjiData = [
     },
     {
       "kanji": "岩",
-      "kname": "gan-iwa",
+      "name": "gan-iwa",
       "kstroke": 8,
       "kmeaning": "rock",
       "kgrade": 2,
@@ -57945,7 +57945,7 @@ export const kanjiData = [
     },
     {
       "kanji": "両",
-      "kname": "ryou(shin)",
+      "name": "ryou(shin)",
       "kstroke": 6,
       "kmeaning": "both",
       "kgrade": 3,
@@ -57986,7 +57986,7 @@ export const kanjiData = [
     },
     {
       "kanji": "汽",
-      "kname": "ki(teki)",
+      "name": "ki(teki)",
       "kstroke": 7,
       "kmeaning": "steam",
       "kgrade": 2,
@@ -58019,7 +58019,7 @@ export const kanjiData = [
     },
     {
       "kanji": "弓",
-      "kname": "yumi",
+      "name": "yumi",
       "kstroke": 3,
       "kmeaning": "bow",
       "kgrade": 2,
@@ -58064,7 +58064,7 @@ export const kanjiData = [
     },
     {
       "kanji": "魚",
-      "kname": "uo",
+      "name": "uo",
       "kstroke": 11,
       "kmeaning": "fish",
       "kgrade": 2,
@@ -58133,7 +58133,7 @@ export const kanjiData = [
     },
     {
       "kanji": "戸",
-      "kname": "ko-to",
+      "name": "ko-to",
       "kstroke": 4,
       "kmeaning": "door, household",
       "kgrade": 2,
@@ -58190,7 +58190,7 @@ export const kanjiData = [
     },
     {
       "kanji": "黄",
-      "kname": "ki(iro)",
+      "name": "ki(iro)",
       "kstroke": 11,
       "kmeaning": "yellow",
       "kgrade": 2,
@@ -58243,7 +58243,7 @@ export const kanjiData = [
     },
     {
       "kanji": "谷",
-      "kname": "tani",
+      "name": "tani",
       "kstroke": 7,
       "kmeaning": "valley",
       "kgrade": 2,
@@ -58284,7 +58284,7 @@ export const kanjiData = [
     },
     {
       "kanji": "細",
-      "kname": "hoso(i)",
+      "name": "hoso(i)",
       "kstroke": 11,
       "kmeaning": "slender, minute, narrow, fine, detailed",
       "kgrade": 2,
@@ -58345,7 +58345,7 @@ export const kanjiData = [
     },
     {
       "kanji": "矢",
-      "kname": "shi-ya",
+      "name": "shi-ya",
       "kstroke": 5,
       "kmeaning": "arrow",
       "kgrade": 2,
@@ -58386,7 +58386,7 @@ export const kanjiData = [
     },
     {
       "kanji": "寺",
-      "kname": "tera",
+      "name": "tera",
       "kstroke": 6,
       "kmeaning": "Buddhist temple",
       "kgrade": 2,
@@ -58439,7 +58439,7 @@ export const kanjiData = [
     },
     {
       "kanji": "星",
-      "kname": "hoshi",
+      "name": "hoshi",
       "kstroke": 9,
       "kmeaning": "star",
       "kgrade": 2,
@@ -58500,7 +58500,7 @@ export const kanjiData = [
     },
     {
       "kanji": "親",
-      "kname": "shita(shii)",
+      "name": "shita(shii)",
       "kstroke": 16,
       "kmeaning": "parent, relatives, intimate",
       "kgrade": 2,
@@ -58557,7 +58557,7 @@ export const kanjiData = [
     },
     {
       "kanji": "船",
-      "kname": "sen-fune",
+      "name": "sen-fune",
       "kstroke": 11,
       "kmeaning": "ship, boat, vessel",
       "kgrade": 2,
@@ -58618,7 +58618,7 @@ export const kanjiData = [
     },
     {
       "kanji": "池",
-      "kname": "ike",
+      "name": "ike",
       "kstroke": 6,
       "kmeaning": "pond",
       "kgrade": 2,
@@ -58659,7 +58659,7 @@ export const kanjiData = [
     },
     {
       "kanji": "刀",
-      "kname": "katana",
+      "name": "katana",
       "kstroke": 2,
       "kmeaning": "sword",
       "kgrade": 2,
@@ -58708,7 +58708,7 @@ export const kanjiData = [
     },
     {
       "kanji": "麦",
-      "kname": "mugi",
+      "name": "mugi",
       "kstroke": 7,
       "kmeaning": "wheat",
       "kgrade": 2,
@@ -58765,7 +58765,7 @@ export const kanjiData = [
     },
     {
       "kanji": "米",
-      "kname": "kome",
+      "name": "kome",
       "kstroke": 6,
       "kmeaning": "rice, America",
       "kgrade": 2,
@@ -58834,7 +58834,7 @@ export const kanjiData = [
     },
     {
       "kanji": "里",
-      "kname": "ri-sato",
+      "name": "ri-sato",
       "kstroke": 7,
       "kmeaning": "countryside, league, hometown, village, town",
       "kgrade": 2,
@@ -58879,7 +58879,7 @@ export const kanjiData = [
     },
     {
       "kanji": "委",
-      "kname": "i(ninsuru)",
+      "name": "i(ninsuru)",
       "kstroke": 8,
       "kmeaning": "commit, entrust",
       "kgrade": 3,
@@ -58920,7 +58920,7 @@ export const kanjiData = [
     },
     {
       "kanji": "央",
-      "kname": "(chuu)ou(sen)",
+      "name": "(chuu)ou(sen)",
       "kstroke": 5,
       "kmeaning": "center, middle",
       "kgrade": 3,
@@ -58953,7 +58953,7 @@ export const kanjiData = [
     },
     {
       "kanji": "宮",
-      "kname": "miya",
+      "name": "miya",
       "kstroke": 10,
       "kmeaning": "royal palace, Shinto shrine",
       "kgrade": 3,
@@ -59018,7 +59018,7 @@ export const kanjiData = [
     },
     {
       "kanji": "区",
-      "kname": "ku(iki)",
+      "name": "ku(iki)",
       "kstroke": 4,
       "kmeaning": "district, ward",
       "kgrade": 3,
@@ -59087,7 +59087,7 @@ export const kanjiData = [
     },
     {
       "kanji": "南",
-      "kname": "minami",
+      "name": "minami",
       "kstroke": 9,
       "kmeaning": "south",
       "kgrade": 2,
@@ -59132,7 +59132,7 @@ export const kanjiData = [
     },
     {
       "kanji": "血",
-      "kname": "ketsu-chi",
+      "name": "ketsu-chi",
       "kstroke": 6,
       "kmeaning": "blood",
       "kgrade": 3,
@@ -59201,7 +59201,7 @@ export const kanjiData = [
     },
     {
       "kanji": "湖",
-      "kname": "mizuumi",
+      "name": "mizuumi",
       "kstroke": 12,
       "kmeaning": "lake",
       "kgrade": 3,
@@ -59246,7 +59246,7 @@ export const kanjiData = [
     },
     {
       "kanji": "港",
-      "kname": "kou-minato",
+      "name": "kou-minato",
       "kstroke": 12,
       "kmeaning": "port, harbor",
       "kgrade": 3,
@@ -59299,7 +59299,7 @@ export const kanjiData = [
     },
     {
       "kanji": "祭",
-      "kname": "matsuri",
+      "name": "matsuri",
       "kstroke": 11,
       "kmeaning": "festival",
       "kgrade": 3,
@@ -59352,7 +59352,7 @@ export const kanjiData = [
     },
     {
       "kanji": "酒",
-      "kname": "shu-sake",
+      "name": "shu-sake",
       "kstroke": 10,
       "kmeaning": "alcoholic drink, sake, alcohol, liquor",
       "kgrade": 3,
@@ -59421,7 +59421,7 @@ export const kanjiData = [
     },
     {
       "kanji": "昭",
-      "kname": "shou(washi)",
+      "name": "shou(washi)",
       "kstroke": 9,
       "kmeaning": "luminous, bright, clear",
       "kgrade": 3,
@@ -59450,7 +59450,7 @@ export const kanjiData = [
     },
     {
       "kanji": "勝",
-      "kname": "shou-masa(ru)",
+      "name": "shou-masa(ru)",
       "kstroke": 12,
       "kmeaning": "win, excel, be superior",
       "kgrade": 3,
@@ -59519,7 +59519,7 @@ export const kanjiData = [
     },
     {
       "kanji": "整",
-      "kname": "sei-totono(u)",
+      "name": "sei-totono(u)",
       "kstroke": 16,
       "kmeaning": "put in order, organize, prepared",
       "kgrade": 3,
@@ -59580,7 +59580,7 @@ export const kanjiData = [
     },
     {
       "kanji": "速",
-      "kname": "soku-haya(i)",
+      "name": "soku-haya(i)",
       "kstroke": 10,
       "kmeaning": "quick, fast, prompt",
       "kgrade": 3,
@@ -59649,7 +59649,7 @@ export const kanjiData = [
     },
     {
       "kanji": "炭",
-      "kname": "tan-sumi",
+      "name": "tan-sumi",
       "kstroke": 9,
       "kmeaning": "coal, charcoal",
       "kgrade": 3,
@@ -59710,7 +59710,7 @@ export const kanjiData = [
     },
     {
       "kanji": "北",
-      "kname": "kita",
+      "name": "kita",
       "kstroke": 5,
       "kmeaning": "north",
       "kgrade": 2,
@@ -59767,7 +59767,7 @@ export const kanjiData = [
     },
     {
       "kanji": "柱",
-      "kname": "hashira",
+      "name": "hashira",
       "kstroke": 9,
       "kmeaning": "pillar, pole",
       "kgrade": 3,
@@ -59812,7 +59812,7 @@ export const kanjiData = [
     },
     {
       "kanji": "丁",
-      "kname": "tei(neina)",
+      "name": "tei(neina)",
       "kstroke": 2,
       "kmeaning": "town subsection, miscellaneous counter, even number",
       "kgrade": 3,
@@ -59873,7 +59873,7 @@ export const kanjiData = [
     },
     {
       "kanji": "帳",
-      "kname": "(nikki)chou",
+      "name": "(nikki)chou",
       "kstroke": 11,
       "kmeaning": "notebook",
       "kgrade": 3,
@@ -59926,7 +59926,7 @@ export const kanjiData = [
     },
     {
       "kanji": "笛",
-      "kname": "fue",
+      "name": "fue",
       "kstroke": 11,
       "kmeaning": "flute, whistle",
       "kgrade": 3,
@@ -59975,7 +59975,7 @@ export const kanjiData = [
     },
     {
       "kanji": "投",
-      "kname": "tou-na(geru)",
+      "name": "tou-na(geru)",
       "kstroke": 7,
       "kmeaning": "throw, send in",
       "kgrade": 3,
@@ -60044,7 +60044,7 @@ export const kanjiData = [
     },
     {
       "kanji": "豆",
-      "kname": "mame",
+      "name": "mame",
       "kstroke": 7,
       "kmeaning": "bean, pea, miniature",
       "kgrade": 3,
@@ -60097,7 +60097,7 @@ export const kanjiData = [
     },
     {
       "kanji": "登",
-      "kname": "tou-nobo(ru)",
+      "name": "tou-nobo(ru)",
       "kstroke": 12,
       "kmeaning": "climb",
       "kgrade": 3,
@@ -60150,7 +60150,7 @@ export const kanjiData = [
     },
     {
       "kanji": "童",
-      "kname": "warabe",
+      "name": "warabe",
       "kstroke": 12,
       "kmeaning": "child",
       "kgrade": 3,
@@ -60203,7 +60203,7 @@ export const kanjiData = [
     },
     {
       "kanji": "波",
-      "kname": "(on)pa",
+      "name": "(on)pa",
       "kstroke": 8,
       "kmeaning": "wave",
       "kgrade": 3,
@@ -60272,7 +60272,7 @@ export const kanjiData = [
     },
     {
       "kanji": "箱",
-      "kname": "(su)bako",
+      "name": "(su)bako",
       "kstroke": 15,
       "kmeaning": "box",
       "kgrade": 3,
@@ -60325,7 +60325,7 @@ export const kanjiData = [
     },
     {
       "kanji": "古",
-      "kname": "furu(i)",
+      "name": "furu(i)",
       "kstroke": 5,
       "kmeaning": "old",
       "kgrade": 2,
@@ -60362,7 +60362,7 @@ export const kanjiData = [
     },
     {
       "kanji": "西",
-      "kname": "nishi",
+      "name": "nishi",
       "kstroke": 6,
       "kmeaning": "west",
       "kgrade": 2,
@@ -60407,7 +60407,7 @@ export const kanjiData = [
     },
     {
       "kanji": "畑",
-      "kname": "(ta)hata",
+      "name": "(ta)hata",
       "kstroke": 9,
       "kmeaning": "field, cultivated field",
       "kgrade": 3,
@@ -60448,7 +60448,7 @@ export const kanjiData = [
     },
     {
       "kanji": "筆",
-      "kname": "fude",
+      "name": "fude",
       "kstroke": 12,
       "kmeaning": "brush, writing",
       "kgrade": 3,
@@ -60517,7 +60517,7 @@ export const kanjiData = [
     },
     {
       "kanji": "氷",
-      "kname": "hyou-koori",
+      "name": "hyou-koori",
       "kstroke": 5,
       "kmeaning": "ice",
       "kgrade": 3,
@@ -60582,7 +60582,7 @@ export const kanjiData = [
     },
     {
       "kanji": "羊",
-      "kname": "you-hitsuji",
+      "name": "you-hitsuji",
       "kstroke": 6,
       "kmeaning": "sheep",
       "kgrade": 3,
@@ -60631,7 +60631,7 @@ export const kanjiData = [
     },
     {
       "kanji": "陽",
-      "kname": "you(kina)",
+      "name": "you(kina)",
       "kstroke": 12,
       "kmeaning": "sun, positive",
       "kgrade": 3,
@@ -60676,7 +60676,7 @@ export const kanjiData = [
     },
     {
       "kanji": "胃",
-      "kname": "i(bukuro)",
+      "name": "i(bukuro)",
       "kstroke": 9,
       "kmeaning": "stomach",
       "kgrade": 4,
@@ -60725,7 +60725,7 @@ export const kanjiData = [
     },
     {
       "kanji": "栄",
-      "kname": "saka(eru)",
+      "name": "saka(eru)",
       "kstroke": 9,
       "kmeaning": "flourish, glory, honor, prosper",
       "kgrade": 4,
@@ -60786,7 +60786,7 @@ export const kanjiData = [
     },
     {
       "kanji": "塩",
-      "kname": "en-shio",
+      "name": "en-shio",
       "kstroke": 13,
       "kmeaning": "salt",
       "kgrade": 4,
@@ -60843,7 +60843,7 @@ export const kanjiData = [
     },
     {
       "kanji": "億",
-      "kname": "(ichi)oku",
+      "name": "(ichi)oku",
       "kstroke": 15,
       "kmeaning": "hundred million",
       "kgrade": 4,
@@ -60872,7 +60872,7 @@ export const kanjiData = [
     },
     {
       "kanji": "加",
-      "kname": "kuwa(eru)",
+      "name": "kuwa(eru)",
       "kstroke": 5,
       "kmeaning": "add, append, join",
       "kgrade": 4,
@@ -60941,7 +60941,7 @@ export const kanjiData = [
     },
     {
       "kanji": "漢",
-      "kname": "kan(ji)",
+      "name": "kan(ji)",
       "kstroke": 13,
       "kmeaning": "Chinese, fellow",
       "kgrade": 3,
@@ -60978,7 +60978,7 @@ export const kanjiData = [
     },
     {
       "kanji": "貨",
-      "kname": "ka(motsu)",
+      "name": "ka(motsu)",
       "kstroke": 11,
       "kmeaning": "money, goods, property, freight",
       "kgrade": 4,
@@ -61027,7 +61027,7 @@ export const kanjiData = [
     },
     {
       "kanji": "芽",
-      "kname": "ga-me",
+      "name": "ga-me",
       "kstroke": 8,
       "kmeaning": "bud, sprout",
       "kgrade": 4,
@@ -61072,7 +61072,7 @@ export const kanjiData = [
     },
     {
       "kanji": "械",
-      "kname": "(ki)kai(kou)",
+      "name": "(ki)kai(kou)",
       "kstroke": 11,
       "kmeaning": "mechanical contrivance, machine",
       "kgrade": 4,
@@ -61113,7 +61113,7 @@ export const kanjiData = [
     },
     {
       "kanji": "官",
-      "kname": "(saiban)kan",
+      "name": "(saiban)kan",
       "kstroke": 8,
       "kmeaning": "government, government official, authorities",
       "kgrade": 4,
@@ -61166,7 +61166,7 @@ export const kanjiData = [
     },
     {
       "kanji": "季",
-      "kname": "ki(go)",
+      "name": "ki(go)",
       "kstroke": 8,
       "kmeaning": "season",
       "kgrade": 4,
@@ -61219,7 +61219,7 @@ export const kanjiData = [
     },
     {
       "kanji": "紀",
-      "kname": "ki(genzen)",
+      "name": "ki(genzen)",
       "kstroke": 9,
       "kmeaning": "era",
       "kgrade": 4,
@@ -61264,7 +61264,7 @@ export const kanjiData = [
     },
     {
       "kanji": "旗",
-      "kname": "hata(age)",
+      "name": "hata(age)",
       "kstroke": 14,
       "kmeaning": "flag, banner",
       "kgrade": 4,
@@ -61317,7 +61317,7 @@ export const kanjiData = [
     },
     {
       "kanji": "救",
-      "kname": "kyuu-suku(u)",
+      "name": "kyuu-suku(u)",
       "kstroke": 11,
       "kmeaning": "save, rescue, aid",
       "kgrade": 4,
@@ -61378,7 +61378,7 @@ export const kanjiData = [
     },
     {
       "kanji": "挙",
-      "kname": "kyo-a(geru)",
+      "name": "kyo-a(geru)",
       "kstroke": 10,
       "kmeaning": "nominate, noteworthy act, raise",
       "kgrade": 4,
@@ -61443,7 +61443,7 @@ export const kanjiData = [
     },
     {
       "kanji": "鏡",
-      "kname": "kyou-kagami",
+      "name": "kyou-kagami",
       "kstroke": 19,
       "kmeaning": "mirror, optical instrument",
       "kgrade": 4,
@@ -61496,7 +61496,7 @@ export const kanjiData = [
     },
     {
       "kanji": "字",
-      "kname": "ji-aza",
+      "name": "ji-aza",
       "kstroke": 6,
       "kmeaning": "character",
       "kgrade": 1,
@@ -61553,7 +61553,7 @@ export const kanjiData = [
     },
     {
       "kanji": "軍",
-      "kname": "gun(tai)",
+      "name": "gun(tai)",
       "kstroke": 9,
       "kmeaning": "army",
       "kgrade": 4,
@@ -61618,7 +61618,7 @@ export const kanjiData = [
     },
     {
       "kanji": "郡",
-      "kname": "(tokushimaken-awa)gun",
+      "name": "(tokushimaken-awa)gun",
       "kstroke": 10,
       "kmeaning": "county",
       "kgrade": 4,
@@ -61651,7 +61651,7 @@ export const kanjiData = [
     },
     {
       "kanji": "径",
-      "kname": "(han)kei",
+      "name": "(han)kei",
       "kstroke": 8,
       "kmeaning": "path, diameter",
       "kgrade": 4,
@@ -61692,7 +61692,7 @@ export const kanjiData = [
     },
     {
       "kanji": "候",
-      "kname": "sourou",
+      "name": "sourou",
       "kstroke": 10,
       "kmeaning": "season, seasonal weather",
       "kgrade": 4,
@@ -61745,7 +61745,7 @@ export const kanjiData = [
     },
     {
       "kanji": "航",
-      "kname": "kou(kuuki)",
+      "name": "kou(kuuki)",
       "kstroke": 10,
       "kmeaning": "navigate, sail",
       "kgrade": 4,
@@ -61798,7 +61798,7 @@ export const kanjiData = [
     },
     {
       "kanji": "札",
-      "kname": "satsu-fuda",
+      "name": "satsu-fuda",
       "kstroke": 5,
       "kmeaning": "tag, bill, paper money, label",
       "kgrade": 4,
@@ -61867,7 +61867,7 @@ export const kanjiData = [
     },
     {
       "kanji": "察",
-      "kname": "(kei)satsu",
+      "name": "(kei)satsu",
       "kstroke": 14,
       "kmeaning": "inspect, guess, surmise, judge",
       "kgrade": 4,
@@ -61932,7 +61932,7 @@ export const kanjiData = [
     },
     {
       "kanji": "士",
-      "kname": "(riki)shi",
+      "name": "(riki)shi",
       "kstroke": 3,
       "kmeaning": "military man, profession suffix",
       "kgrade": 4,
@@ -62001,7 +62001,7 @@ export const kanjiData = [
     },
     {
       "kanji": "史",
-      "kname": "(sekai)shi",
+      "name": "(sekai)shi",
       "kstroke": 5,
       "kmeaning": "history",
       "kgrade": 4,
@@ -62058,7 +62058,7 @@ export const kanjiData = [
     },
     {
       "kanji": "司",
-      "kname": "(su)shi",
+      "name": "(su)shi",
       "kstroke": 5,
       "kmeaning": "officiate, administer",
       "kgrade": 4,
@@ -62111,7 +62111,7 @@ export const kanjiData = [
     },
     {
       "kanji": "好",
-      "kname": "kou-su(ki)",
+      "name": "kou-su(ki)",
       "kstroke": 6,
       "kmeaning": "like, favorable",
       "kgrade": 4,
@@ -62164,7 +62164,7 @@ export const kanjiData = [
     },
     {
       "kanji": "児",
-      "kname": "(nyuu)ji",
+      "name": "(nyuu)ji",
       "kstroke": 7,
       "kmeaning": "child",
       "kgrade": 4,
@@ -62225,7 +62225,7 @@ export const kanjiData = [
     },
     {
       "kanji": "辞",
-      "kname": "ji-ya(meru)",
+      "name": "ji-ya(meru)",
       "kstroke": 13,
       "kmeaning": "word, resign, quit",
       "kgrade": 4,
@@ -62282,7 +62282,7 @@ export const kanjiData = [
     },
     {
       "kanji": "周",
-      "kname": "shuu-mawa(ri)",
+      "name": "shuu-mawa(ri)",
       "kstroke": 8,
       "kmeaning": "lap, periphery, circumference",
       "kgrade": 4,
@@ -62343,7 +62343,7 @@ export const kanjiData = [
     },
     {
       "kanji": "順",
-      "kname": "jun(ban)",
+      "name": "jun(ban)",
       "kstroke": 12,
       "kmeaning": "order, obey, sequence",
       "kgrade": 4,
@@ -62412,7 +62412,7 @@ export const kanjiData = [
     },
     {
       "kanji": "松",
-      "kname": "shou-matsu",
+      "name": "shou-matsu",
       "kstroke": 8,
       "kmeaning": "pine",
       "kgrade": 4,
@@ -62457,7 +62457,7 @@ export const kanjiData = [
     },
     {
       "kanji": "唱",
-      "kname": "(banzaisan)shou",
+      "name": "(banzaisan)shou",
       "kstroke": 11,
       "kmeaning": "sing",
       "kgrade": 4,
@@ -62506,7 +62506,7 @@ export const kanjiData = [
     },
     {
       "kanji": "照",
-      "kname": "te(rasu)",
+      "name": "te(rasu)",
       "kstroke": 13,
       "kmeaning": "illuminate, shine",
       "kgrade": 4,
@@ -62571,7 +62571,7 @@ export const kanjiData = [
     },
     {
       "kanji": "臣",
-      "kname": "(chuu)shin(gura)",
+      "name": "(chuu)shin(gura)",
       "kstroke": 7,
       "kmeaning": "retainer",
       "kgrade": 4,
@@ -62616,7 +62616,7 @@ export const kanjiData = [
     },
     {
       "kanji": "浅",
-      "kname": "asa(i)",
+      "name": "asa(i)",
       "kstroke": 9,
       "kmeaning": "shallow",
       "kgrade": 4,
@@ -62669,7 +62669,7 @@ export const kanjiData = [
     },
     {
       "kanji": "倉",
-      "kname": "sou-kura",
+      "name": "sou-kura",
       "kstroke": 10,
       "kmeaning": "storehouse, warehouse, depository",
       "kgrade": 4,
@@ -62714,7 +62714,7 @@ export const kanjiData = [
     },
     {
       "kanji": "終",
-      "kname": "o(waru)",
+      "name": "o(waru)",
       "kstroke": 11,
       "kmeaning": "end",
       "kgrade": 3,
@@ -62763,7 +62763,7 @@ export const kanjiData = [
     },
     {
       "kanji": "巣",
-      "kname": "sou-su",
+      "name": "sou-su",
       "kstroke": 11,
       "kmeaning": "nest",
       "kgrade": 4,
@@ -62816,7 +62816,7 @@ export const kanjiData = [
     },
     {
       "kanji": "孫",
-      "kname": "mago",
+      "name": "mago",
       "kstroke": 10,
       "kmeaning": "grandchild",
       "kgrade": 4,
@@ -62861,7 +62861,7 @@ export const kanjiData = [
     },
     {
       "kanji": "帯",
-      "kname": "obi",
+      "name": "obi",
       "kstroke": 10,
       "kmeaning": "belt, wear, zone",
       "kgrade": 4,
@@ -62930,7 +62930,7 @@ export const kanjiData = [
     },
     {
       "kanji": "隊",
-      "kname": "(gun)tai",
+      "name": "(gun)tai",
       "kstroke": 12,
       "kmeaning": "party, squad, unit",
       "kgrade": 4,
@@ -62999,7 +62999,7 @@ export const kanjiData = [
     },
     {
       "kanji": "仲",
-      "kname": "(koi)naka",
+      "name": "(koi)naka",
       "kstroke": 6,
       "kmeaning": "intermediary, personal relations, relation",
       "kgrade": 4,
@@ -63064,7 +63064,7 @@ export const kanjiData = [
     },
     {
       "kanji": "貯",
-      "kname": "cho(kin)",
+      "name": "cho(kin)",
       "kstroke": 12,
       "kmeaning": "lay-up, storage, store",
       "kgrade": 4,
@@ -63105,7 +63105,7 @@ export const kanjiData = [
     },
     {
       "kanji": "兆",
-      "kname": "chou-kiza(shi)",
+      "name": "chou-kiza(shi)",
       "kstroke": 6,
       "kmeaning": "omen, trillion",
       "kgrade": 4,
@@ -63154,7 +63154,7 @@ export const kanjiData = [
     },
     {
       "kanji": "腸",
-      "kname": "(mou)chou",
+      "name": "(mou)chou",
       "kstroke": 13,
       "kmeaning": "intestines",
       "kgrade": 4,
@@ -63203,7 +63203,7 @@ export const kanjiData = [
     },
     {
       "kanji": "底",
-      "kname": "tei-soko",
+      "name": "tei-soko",
       "kstroke": 8,
       "kmeaning": "bottom",
       "kgrade": 4,
@@ -63268,7 +63268,7 @@ export const kanjiData = [
     },
     {
       "kanji": "典",
-      "kname": "(shiki)ten",
+      "name": "(shiki)ten",
       "kstroke": 8,
       "kmeaning": "standard work, canon, law code, ceremony",
       "kgrade": 4,
@@ -63333,7 +63333,7 @@ export const kanjiData = [
     },
     {
       "kanji": "始",
-      "kname": "haji(maru)",
+      "name": "haji(maru)",
       "kstroke": 8,
       "kmeaning": "begin",
       "kgrade": 3,
@@ -63378,7 +63378,7 @@ export const kanjiData = [
     },
     {
       "kanji": "灯",
-      "kname": "(keikou)tou",
+      "name": "(keikou)tou",
       "kstroke": 6,
       "kmeaning": "lamp, light",
       "kgrade": 4,
@@ -63435,7 +63435,7 @@ export const kanjiData = [
     },
     {
       "kanji": "梅",
-      "kname": "ume(boshi)",
+      "name": "ume(boshi)",
       "kstroke": 10,
       "kmeaning": "Japanese apricot, plum",
       "kgrade": 4,
@@ -63496,7 +63496,7 @@ export const kanjiData = [
     },
     {
       "kanji": "博",
-      "kname": "haku(shiki)",
+      "name": "haku(shiki)",
       "kstroke": 12,
       "kmeaning": "extensive, doctor, broad",
       "kgrade": 4,
@@ -63553,7 +63553,7 @@ export const kanjiData = [
     },
     {
       "kanji": "票",
-      "kname": "(toku)hyou",
+      "name": "(toku)hyou",
       "kstroke": 11,
       "kmeaning": "vote, slip, ballot",
       "kgrade": 4,
@@ -63614,7 +63614,7 @@ export const kanjiData = [
     },
     {
       "kanji": "夫",
-      "kname": "otto",
+      "name": "otto",
       "kstroke": 4,
       "kmeaning": "husband, man laborer",
       "kgrade": 4,
@@ -63671,7 +63671,7 @@ export const kanjiData = [
     },
     {
       "kanji": "付",
-      "kname": "fu-tsu(ku)",
+      "name": "fu-tsu(ku)",
       "kstroke": 5,
       "kmeaning": "attach, belong, apply",
       "kgrade": 4,
@@ -63740,7 +63740,7 @@ export const kanjiData = [
     },
     {
       "kanji": "副",
-      "kname": "fuku(sayou)",
+      "name": "fuku(sayou)",
       "kstroke": 11,
       "kmeaning": "secondary, assistant, accompany, supplement",
       "kgrade": 4,
@@ -63793,7 +63793,7 @@ export const kanjiData = [
     },
     {
       "kanji": "粉",
-      "kname": "fun-kona",
+      "name": "fun-kona",
       "kstroke": 10,
       "kmeaning": "powder",
       "kgrade": 4,
@@ -63862,7 +63862,7 @@ export const kanjiData = [
     },
     {
       "kanji": "兵",
-      "kname": "hei(tai)",
+      "name": "hei(tai)",
       "kstroke": 7,
       "kmeaning": "soldier",
       "kgrade": 4,
@@ -63919,7 +63919,7 @@ export const kanjiData = [
     },
     {
       "kanji": "包",
-      "kname": "tsutsu(mu)",
+      "name": "tsutsu(mu)",
       "kstroke": 5,
       "kmeaning": "wrap, encompass",
       "kgrade": 4,
@@ -63984,7 +63984,7 @@ export const kanjiData = [
     },
     {
       "kanji": "大",
-      "kname": "oo(kii)",
+      "name": "oo(kii)",
       "kstroke": 3,
       "kmeaning": "big",
       "kgrade": 1,
@@ -64045,7 +64045,7 @@ export const kanjiData = [
     },
     {
       "kanji": "浴",
-      "kname": "a(biru)",
+      "name": "a(biru)",
       "kstroke": 10,
       "kmeaning": "bathe, pour over, shower",
       "kgrade": 4,
@@ -64106,7 +64106,7 @@ export const kanjiData = [
     },
     {
       "kanji": "類",
-      "kname": "(jin)rui",
+      "name": "(jin)rui",
       "kstroke": 18,
       "kmeaning": "kind, type, genus",
       "kgrade": 4,
@@ -64171,7 +64171,7 @@ export const kanjiData = [
     },
     {
       "kanji": "例",
-      "kname": "tato(eru)",
+      "name": "tato(eru)",
       "kstroke": 8,
       "kmeaning": "example",
       "kgrade": 4,
@@ -64240,7 +64240,7 @@ export const kanjiData = [
     },
     {
       "kanji": "歴",
-      "kname": "(gaku)reki",
+      "name": "(gaku)reki",
       "kstroke": 14,
       "kmeaning": "personal history, passing of time",
       "kgrade": 4,
@@ -64301,7 +64301,7 @@ export const kanjiData = [
     },
     {
       "kanji": "録",
-      "kname": "(moku)roku",
+      "name": "(moku)roku",
       "kstroke": 16,
       "kmeaning": "record",
       "kgrade": 4,
@@ -64358,7 +64358,7 @@ export const kanjiData = [
     },
     {
       "kanji": "因",
-      "kname": "in(nen)",
+      "name": "in(nen)",
       "kstroke": 6,
       "kmeaning": "cause, depend, be limited",
       "kgrade": 5,
@@ -64407,7 +64407,7 @@ export const kanjiData = [
     },
     {
       "kanji": "永",
-      "kname": "ei(kyuu)",
+      "name": "ei(kyuu)",
       "kstroke": 5,
       "kmeaning": "eternal, long, forever",
       "kgrade": 5,
@@ -64460,7 +64460,7 @@ export const kanjiData = [
     },
     {
       "kanji": "液",
-      "kname": "eki(tai)",
+      "name": "eki(tai)",
       "kstroke": 11,
       "kmeaning": "liquid, fluid",
       "kgrade": 5,
@@ -64517,7 +64517,7 @@ export const kanjiData = [
     },
     {
       "kanji": "往",
-      "kname": "ou(fukusuru)",
+      "name": "ou(fukusuru)",
       "kstroke": 8,
       "kmeaning": "go on, proceed",
       "kgrade": 5,
@@ -64566,7 +64566,7 @@ export const kanjiData = [
     },
     {
       "kanji": "桜",
-      "kname": "sakura(nbou)",
+      "name": "sakura(nbou)",
       "kstroke": 10,
       "kmeaning": "cherry",
       "kgrade": 5,
@@ -64607,7 +64607,7 @@ export const kanjiData = [
     },
     {
       "kanji": "四",
-      "kname": 4,
+      "name": 4,
       "kstroke": 5,
       "kmeaning": "four",
       "kgrade": 1,
@@ -64664,7 +64664,7 @@ export const kanjiData = [
     },
     {
       "kanji": "恩",
-      "kname": "on(shi)",
+      "name": "on(shi)",
       "kstroke": 10,
       "kmeaning": "grace, favor, debt of gratitude",
       "kgrade": 5,
@@ -64717,7 +64717,7 @@ export const kanjiData = [
     },
     {
       "kanji": "河",
-      "kname": "(uo)ga(shi)",
+      "name": "(uo)ga(shi)",
       "kstroke": 8,
       "kmeaning": "river",
       "kgrade": 5,
@@ -64778,7 +64778,7 @@ export const kanjiData = [
     },
     {
       "kanji": "過",
-      "kname": "su(giru)",
+      "name": "su(giru)",
       "kstroke": 12,
       "kmeaning": "pass by, exceed, spend (time), err",
       "kgrade": 5,
@@ -64847,7 +64847,7 @@ export const kanjiData = [
     },
     {
       "kanji": "賀",
-      "kname": "(nen)ga(jou)",
+      "name": "(nen)ga(jou)",
       "kstroke": 12,
       "kmeaning": "congratulate",
       "kgrade": 5,
@@ -64880,7 +64880,7 @@ export const kanjiData = [
     },
     {
       "kanji": "格",
-      "kname": "kaku(tougi)",
+      "name": "kaku(tougi)",
       "kstroke": 10,
       "kmeaning": "norm, status, rank, standard",
       "kgrade": 5,
@@ -64949,7 +64949,7 @@ export const kanjiData = [
     },
     {
       "kanji": "額",
-      "kname": "hitai",
+      "name": "hitai",
       "kstroke": 18,
       "kmeaning": "amount, forehead",
       "kgrade": 5,
@@ -65014,7 +65014,7 @@ export const kanjiData = [
     },
     {
       "kanji": "刊",
-      "kname": "(sou)kan(gou)",
+      "name": "(sou)kan(gou)",
       "kstroke": 5,
       "kmeaning": "publish",
       "kgrade": 5,
@@ -65067,7 +65067,7 @@ export const kanjiData = [
     },
     {
       "kanji": "幹",
-      "kname": "miki",
+      "name": "miki",
       "kstroke": 13,
       "kmeaning": "tree trunk, main part",
       "kgrade": 5,
@@ -65116,7 +65116,7 @@ export const kanjiData = [
     },
     {
       "kanji": "眼",
-      "kname": "manako",
+      "name": "manako",
       "kstroke": 11,
       "kmeaning": "eye",
       "kgrade": 5,
@@ -65185,7 +65185,7 @@ export const kanjiData = [
     },
     {
       "kanji": "久",
-      "kname": "hisa(shii)",
+      "name": "hisa(shii)",
       "kstroke": 3,
       "kmeaning": "of long duration, long time",
       "kgrade": 5,
@@ -65242,7 +65242,7 @@ export const kanjiData = [
     },
     {
       "kanji": "五",
-      "kname": 5,
+      "name": 5,
       "kstroke": 4,
       "kmeaning": "five",
       "kgrade": 1,
@@ -65287,7 +65287,7 @@ export const kanjiData = [
     },
     {
       "kanji": "旧",
-      "kname": "kyuu(heina)",
+      "name": "kyuu(heina)",
       "kstroke": 5,
       "kmeaning": "former, old",
       "kgrade": 5,
@@ -65348,7 +65348,7 @@ export const kanjiData = [
     },
     {
       "kanji": "境",
-      "kname": "kyou-sakai",
+      "name": "kyou-sakai",
       "kstroke": 14,
       "kmeaning": "boundary, situation, border",
       "kgrade": 5,
@@ -65417,7 +65417,7 @@ export const kanjiData = [
     },
     {
       "kanji": "均",
-      "kname": "(hei)kin",
+      "name": "(hei)kin",
       "kstroke": 7,
       "kmeaning": "even, equal",
       "kgrade": 5,
@@ -65462,7 +65462,7 @@ export const kanjiData = [
     },
     {
       "kanji": "群",
-      "kname": "gun-mura",
+      "name": "gun-mura",
       "kstroke": 13,
       "kmeaning": "group, herd, crowd, flock",
       "kgrade": 5,
@@ -65515,7 +65515,7 @@ export const kanjiData = [
     },
     {
       "kanji": "潔",
-      "kname": "isagiyo(i)",
+      "name": "isagiyo(i)",
       "kstroke": 15,
       "kmeaning": "immaculate, pure, righteous",
       "kgrade": 5,
@@ -65568,7 +65568,7 @@ export const kanjiData = [
     },
     {
       "kanji": "券",
-      "kname": "(ryo)ken",
+      "name": "(ryo)ken",
       "kstroke": 8,
       "kmeaning": "ticket, certificate",
       "kgrade": 5,
@@ -65637,7 +65637,7 @@ export const kanjiData = [
     },
     {
       "kanji": "検",
-      "kname": "ken(sa)",
+      "name": "ken(sa)",
       "kstroke": 12,
       "kmeaning": "examine, investigate, inspect",
       "kgrade": 5,
@@ -65706,7 +65706,7 @@ export const kanjiData = [
     },
     {
       "kanji": "効",
-      "kname": "(yak)kou",
+      "name": "(yak)kou",
       "kstroke": 8,
       "kmeaning": "effect, be effective",
       "kgrade": 5,
@@ -65775,7 +65775,7 @@ export const kanjiData = [
     },
     {
       "kanji": "鉱",
-      "kname": "kou(myaku)",
+      "name": "kou(myaku)",
       "kstroke": 13,
       "kmeaning": "ore, mine",
       "kgrade": 5,
@@ -65824,7 +65824,7 @@ export const kanjiData = [
     },
     {
       "kanji": "妻",
-      "kname": "sai-tsuma",
+      "name": "sai-tsuma",
       "kstroke": 8,
       "kmeaning": "wife",
       "kgrade": 5,
@@ -65885,7 +65885,7 @@ export const kanjiData = [
     },
     {
       "kanji": "六",
-      "kname": 6,
+      "name": 6,
       "kstroke": 4,
       "kmeaning": "six",
       "kgrade": 1,
@@ -65938,7 +65938,7 @@ export const kanjiData = [
     },
     {
       "kanji": "秒",
-      "kname": "(ichi)byou",
+      "name": "(ichi)byou",
       "kstroke": 9,
       "kmeaning": "second (of time)",
       "kgrade": 3,
@@ -65979,7 +65979,7 @@ export const kanjiData = [
     },
     {
       "kanji": "採",
-      "kname": "sai-to(ru)",
+      "name": "sai-to(ru)",
       "kstroke": 11,
       "kmeaning": "pick, gather, take, accept, employ",
       "kgrade": 5,
@@ -66040,7 +66040,7 @@ export const kanjiData = [
     },
     {
       "kanji": "財",
-      "kname": "zai(san)",
+      "name": "zai(san)",
       "kstroke": 10,
       "kmeaning": "wealth, property, money",
       "kgrade": 5,
@@ -66109,7 +66109,7 @@ export const kanjiData = [
     },
     {
       "kanji": "罪",
-      "kname": "tsumi",
+      "name": "tsumi",
       "kstroke": 13,
       "kmeaning": "crime, sin, guilt",
       "kgrade": 5,
@@ -66178,7 +66178,7 @@ export const kanjiData = [
     },
     {
       "kanji": "雑",
-      "kname": "zatsu(na)",
+      "name": "zatsu(na)",
       "kstroke": 14,
       "kmeaning": "miscellaneous, mixed",
       "kgrade": 5,
@@ -66247,7 +66247,7 @@ export const kanjiData = [
     },
     {
       "kanji": "酸",
-      "kname": "san-sui",
+      "name": "san-sui",
       "kstroke": 14,
       "kmeaning": "acid, oxygen",
       "kgrade": 5,
@@ -66316,7 +66316,7 @@ export const kanjiData = [
     },
     {
       "kanji": "志",
-      "kname": "kokoroza(su)",
+      "name": "kokoroza(su)",
       "kstroke": 7,
       "kmeaning": "ambition, will, intention, aim",
       "kgrade": 5,
@@ -66377,7 +66377,7 @@ export const kanjiData = [
     },
     {
       "kanji": "師",
-      "kname": "(kyou)shi",
+      "name": "(kyou)shi",
       "kstroke": 10,
       "kmeaning": "master, teacher",
       "kgrade": 5,
@@ -66446,7 +66446,7 @@ export const kanjiData = [
     },
     {
       "kanji": "枝",
-      "kname": "eda",
+      "name": "eda",
       "kstroke": 8,
       "kmeaning": "branch",
       "kgrade": 5,
@@ -66491,7 +66491,7 @@ export const kanjiData = [
     },
     {
       "kanji": "資",
-      "kname": "shi(honka)",
+      "name": "shi(honka)",
       "kstroke": 13,
       "kmeaning": "resources, capital, funds",
       "kgrade": 5,

@@ -1,23 +1,24 @@
 import React, {Component} from 'react';
-import {Text, View, FlatList} from 'react-native';
+import {Text, View, FlatList, TouchableOpacity} from 'react-native';
 import CharacterGroup from '../Learning/CharacterGroup';
 import {defaultCharacterGroups} from './../../storage/defaultCharacterGroups';
-import {initData, getData} from './../../storage/initData';
+import {getAllGroups, initData, getData} from '../../storage/asyncDataHandler';
+import AsyncStorage from '@react-native-community/async-storage';
 
 export default class LearnTab extends Component {
   render() {
-    if (getData('dataIsStored') == null) {
-      initData();
-    } else {
-      console.warn('data is already stored');
-    }
-    // initData();
-    // getData('Hiragana');
     return (
       <View>
         <FlatList
           data={defaultCharacterGroups}
-          renderItem={({item}) => <CharacterGroup name={item.name} />}
+          renderItem={({item}) => (
+            <TouchableOpacity
+              onPress={() => {
+                console.warn(item.name);
+              }}>
+              <CharacterGroup name={item.name} />
+            </TouchableOpacity>
+          )}
         />
       </View>
     );
