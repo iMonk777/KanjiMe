@@ -11,12 +11,20 @@ import {View, Text} from 'react-native';
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import Home from './src/components/Home';
+import CharacterList from './src/components/Learning/CharacterList';
 
-const AppNavigator = createStackNavigator({
-  Home: {
-    screen: Home,
+const AppNavigator = createStackNavigator(
+  {
+    Home: Home,
+    CharacterList: CharacterList,
   },
-});
+  {
+    initialRouteName: 'Home',
+    defaultNavigationOptions: {
+      headerShown: false,
+    },
+  },
+);
 
 const AppContainer = createAppContainer(AppNavigator);
 

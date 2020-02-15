@@ -4,8 +4,9 @@ import CharacterGroup from '../Learning/CharacterGroup';
 import {defaultCharacterGroups} from './../../storage/defaultCharacterGroups';
 import {getAllGroups, initData, getData} from '../../storage/asyncDataHandler';
 import AsyncStorage from '@react-native-community/async-storage';
+import {withNavigation} from 'react-navigation';
 
-export default class LearnTab extends Component {
+class LearnTab extends Component {
   render() {
     return (
       <View>
@@ -13,9 +14,11 @@ export default class LearnTab extends Component {
           data={defaultCharacterGroups}
           renderItem={({item}) => (
             <TouchableOpacity
-              onPress={() => {
-                console.warn(item.name);
-              }}>
+              onPress={() =>
+                this.props.navigation.navigate('CharacterList', {
+                  characterList: item.name,
+                })
+              }>
               <CharacterGroup name={item.name} />
             </TouchableOpacity>
           )}
@@ -24,3 +27,5 @@ export default class LearnTab extends Component {
     );
   }
 }
+
+export default withNavigation(LearnTab);
