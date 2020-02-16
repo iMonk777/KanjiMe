@@ -15,7 +15,7 @@ export default class CharacterList extends Component {
         this.props.navigation.getParam('characterList', 'defaultValue')
       );
     })[0].characters;
-
+    console.log(color);
     return (
       <View style={styles.container}>
         <FlatList
@@ -23,14 +23,7 @@ export default class CharacterList extends Component {
           columnWrapperStyle={styles.columnStyle}
           numColumns={5}
           renderItem={({item}) => (
-            <Tile
-              name={item.name}
-              id={item.id}
-              reading={item.reading}
-              type={this.props.navigation.getParam(
-                'characterList',
-                'defaultValue',
-              )}></Tile>
+            <Tile name={item.name} reading={item.reading}></Tile>
           )}
         />
       </View>
@@ -40,10 +33,7 @@ export default class CharacterList extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    paddingLeft: 2.5,
-    paddingRight: 2.5,
-    paddingTop: 2.5,
-    flex: 1,
+    padding: '1%',
   },
   columnStyle: {
     flex: 1,

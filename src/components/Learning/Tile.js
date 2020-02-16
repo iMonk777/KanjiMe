@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import {Text, View, TouchableOpacity, StyleSheet, Button} from 'react-native';
 import {color} from './../../Styles/Color';
-import {withNavigation} from 'react-navigation';
 
-class Tile extends Component {
+export default class Tile extends Component {
   state = {
     face: this.props.name,
   };
@@ -19,11 +18,6 @@ class Tile extends Component {
     }
     console.log(this.state.face);
   };
-  showKanjiDetails = () => {
-    this.props.navigation.navigate('KanjiDetailedView', {
-      kanjiId: this.props.id,
-    });
-  };
   render() {
     return (
       <View
@@ -32,11 +26,7 @@ class Tile extends Component {
             ? styles.characterTilesBlank
             : styles.characterTiles
         }>
-        <TouchableOpacity
-          onPress={
-            this.props.type == 'Kanji' ? this.showKanjiDetails : this.flipTile
-          }
-          style={styles.touchableStyle}>
+        <TouchableOpacity onPress={this.flipTile} style={styles.touchableStyle}>
           <Text
             style={
               this.state.face == this.props.reading
@@ -52,8 +42,6 @@ class Tile extends Component {
   }
 }
 
-export default withNavigation(Tile);
-
 const styles = StyleSheet.create({
   characterTiles: {
     flex: 1,
@@ -61,7 +49,7 @@ const styles = StyleSheet.create({
     aspectRatio: 1,
     borderRadius: 7,
     elevation: 5,
-    backgroundColor: color.tiles,
+    backgroundColor: color[0].tiles,
   },
   characterTilesBlank: {
     flex: 1,

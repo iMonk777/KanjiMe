@@ -12,13 +12,11 @@ import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import Home from './src/components/Home';
 import CharacterList from './src/components/Learning/CharacterList';
-import KanjiDetailedView from './src/components/Learning/KanjiDetailedView';
 
 const AppNavigator = createStackNavigator(
   {
     Home: Home,
     CharacterList: CharacterList,
-    KanjiDetailedView: KanjiDetailedView,
   },
   {
     initialRouteName: 'Home',
