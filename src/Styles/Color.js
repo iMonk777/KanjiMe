@@ -1,4 +1,4 @@
-export const color = [
+const colors = [
   {
     name: 'green',
     background: '#ffffff',
@@ -9,5 +9,10 @@ export const color = [
     tiles: '#E0ECDE',
     tileText: '#ffffff',
     tileIcon: '#2D6974',
+    bigKanji: '#2D6974',
+    bigKanjiContainer: '#ffffff',
+    grid: '#2D6974',
   },
 ];
+
+export const color = colors[0];
