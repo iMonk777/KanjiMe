@@ -16,7 +16,7 @@ export default class CharacterGroup extends Component {
 
 const styles = StyleSheet.create({
   characterGroupContainer: {
-    backgroundColor: color[0].tiles,
+    backgroundColor: color.tiles,
     marginLeft: 8,
     marginRight: 8,
     marginTop: 8,
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     fontSize: 32,
-    color: color[0].tileIcon,
+    color: color.tileIcon,
     flex: 1,
   },
   characterGroupText: {
