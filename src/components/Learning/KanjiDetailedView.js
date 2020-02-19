@@ -4,13 +4,14 @@ import {kanjiData} from './../../storage/kanjiData';
 import {Icon} from 'native-base';
 import BigKanji from './BigKanji';
 import {color} from '../../Styles/Color';
+import BigKanjiInfo from './BigKanjiInfo';
 
-const getKanjiData = kanjiId => {
-  let kanji = kanjiData.filter(obj => {
-    return obj.id == kanjiId;
-  })[0];
-  return kanji;
-};
+// const getKanjiData = kanjiId => {
+//   let kanji = kanjiData.filter(obj => {
+//     return obj.id == kanjiId;
+//   })[0];
+//   return kanji;
+// };
 
 export default class KanjiDetailedView extends Component {
   state = {
@@ -66,7 +67,7 @@ export default class KanjiDetailedView extends Component {
           </View>
           <View style={styles.bigKanjiContainer}>
             <BigKanji
-              kanji={getKanjiData(this.state.currentKanjiId).name}
+              kanji={kanjiData[this.state.currentKanjiId - 1].name}
               isGridActive={this.state.grid}></BigKanji>
           </View>
           <View style={styles.rightbuttonsContainer}>
@@ -86,10 +87,37 @@ export default class KanjiDetailedView extends Component {
           </View>
         </View>
         <View style={styles.bodyContainer}>
-          <View style={styles.infoGroup}></View>
-          <View style={styles.infoGroup}></View>
-          <View style={styles.infoGroup}></View>
-          <View style={styles.infoGroup}></View>
+          <BigKanjiInfo
+            type={'kun.'}
+            jpInfo={kanjiData[this.state.currentKanjiId - 1].kunyomi_ja}
+            enInfo={
+              kanjiData[this.state.currentKanjiId - 1].kunyomi
+            }></BigKanjiInfo>
+          <BigKanjiInfo
+            type={'on.'}
+            jpInfo={kanjiData[this.state.currentKanjiId - 1].onyomi_ja}
+            enInfo={
+              kanjiData[this.state.currentKanjiId - 1].onyomi
+            }></BigKanjiInfo>
+          <BigKanjiInfo
+            type={'meaning'}
+            jpInfo={null}
+            enInfo={
+              kanjiData[this.state.currentKanjiId - 1].kmeaning
+            }></BigKanjiInfo>
+
+          <BigKanjiInfo
+            type={'example'}
+            jpInfo={
+              JSON.parse(
+                kanjiData[this.state.currentKanjiId - 1].examples,
+              )[0][0]
+            }
+            enInfo={
+              JSON.parse(
+                kanjiData[this.state.currentKanjiId - 1].examples,
+              )[0][1]
+            }></BigKanjiInfo>
         </View>
       </View>
     );
@@ -146,12 +174,9 @@ const styles = StyleSheet.create({
     borderColor: 'purple',
     borderWidth: 2,
     flex: 1,
-  },
-  infoGroup: {
-    borderColor: 'grey',
-    borderWidth: 2,
-    height: 47,
-    margin: 5,
+    alignItems: 'center',
+    flexDirection: 'column',
+    padding: 7,
   },
 });
 

@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   bigKanji: {
-    fontSize: 110,
+    fontSize: 100,
     textAlign: 'center',
     color: color.bigKanji,
   },
