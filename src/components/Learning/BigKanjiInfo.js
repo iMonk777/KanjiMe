@@ -25,7 +25,7 @@ export default class BigKanjiInfo extends Component {
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    marginBottom: 7,
+    marginTop: 8,
     minHeight: 60,
     borderRadius: 16,
     backgroundColor: color.tiles,
@@ -49,10 +49,14 @@ const styles = StyleSheet.create({
     color: color.headerIcon,
   },
   infoTextContainer: {
+    borderColor: 'red',
     width: '85%',
+    flexDirection: 'column',
     justifyContent: 'center',
+    flex: 1,
   },
   infoText: {
     fontSize: 20,
+    justifyContent: 'center',
   },
 });

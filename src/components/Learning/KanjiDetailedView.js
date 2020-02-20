@@ -1,5 +1,12 @@
 import React, {Component} from 'react';
-import {Text, View, Button, StyleSheet, TouchableOpacity} from 'react-native';
+import {
+  Text,
+  View,
+  Button,
+  StyleSheet,
+  TouchableOpacity,
+  ScrollView,
+} from 'react-native';
 import {kanjiData} from './../../storage/kanjiData';
 import {Icon} from 'native-base';
 import BigKanji from './BigKanji';
@@ -87,37 +94,34 @@ export default class KanjiDetailedView extends Component {
           </View>
         </View>
         <View style={styles.bodyContainer}>
-          <BigKanjiInfo
-            type={'kun.'}
-            jpInfo={kanjiData[this.state.currentKanjiId - 1].kunyomi_ja}
-            enInfo={
-              kanjiData[this.state.currentKanjiId - 1].kunyomi
-            }></BigKanjiInfo>
-          <BigKanjiInfo
-            type={'on.'}
-            jpInfo={kanjiData[this.state.currentKanjiId - 1].onyomi_ja}
-            enInfo={
-              kanjiData[this.state.currentKanjiId - 1].onyomi
-            }></BigKanjiInfo>
-          <BigKanjiInfo
-            type={'meaning'}
-            jpInfo={null}
-            enInfo={
-              kanjiData[this.state.currentKanjiId - 1].kmeaning
-            }></BigKanjiInfo>
+          <ScrollView style={{flex: 1, width: '100%'}}>
+            <BigKanjiInfo
+              type={'kun.'}
+              jpInfo={kanjiData[this.state.currentKanjiId - 1].kunyomi_ja}
+              // enInfo={kanjiData[this.state.currentKanjiId - 1].kunyomi}
+            ></BigKanjiInfo>
+            <BigKanjiInfo
+              type={'on.'}
+              jpInfo={kanjiData[this.state.currentKanjiId - 1].onyomi_ja}
+              // enInfo={kanjiData[this.state.currentKanjiId - 1].onyomi}
+            ></BigKanjiInfo>
+            <BigKanjiInfo
+              type={'meaning'}
+              jpInfo={null}
+              enInfo={
+                kanjiData[this.state.currentKanjiId - 1].kmeaning
+              }></BigKanjiInfo>
 
-          <BigKanjiInfo
-            type={'example'}
-            jpInfo={
-              JSON.parse(
-                kanjiData[this.state.currentKanjiId - 1].examples,
-              )[0][0]
-            }
-            enInfo={
-              JSON.parse(
-                kanjiData[this.state.currentKanjiId - 1].examples,
-              )[0][1]
-            }></BigKanjiInfo>
+            {JSON.parse(kanjiData[this.state.currentKanjiId - 1].examples).map(
+              (example, index) => (
+                <BigKanjiInfo
+                  key={index}
+                  type={`example ${index + 1}`}
+                  jpInfo={example[0]}
+                  enInfo={example[1]}></BigKanjiInfo>
+              ),
+            )}
+          </ScrollView>
         </View>
       </View>
     );
@@ -176,7 +180,8 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     flexDirection: 'column',
-    padding: 7,
+    paddingLeft: 8,
+    paddingRight: 8,
   },
 });
 
