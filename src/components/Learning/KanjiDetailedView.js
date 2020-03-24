@@ -13,6 +13,8 @@ import BigKanji from './BigKanji';
 import {color} from '../../Styles/Color';
 import BigKanjiInfo from './BigKanjiInfo';
 
+// import Videos from './../../storage/videos/(afurika)zou_00.mp4'
+
 // const getKanjiData = kanjiId => {
 //   let kanji = kanjiData.filter(obj => {
 //     return obj.id == kanjiId;
@@ -26,6 +28,7 @@ export default class KanjiDetailedView extends Component {
       this.props.navigation.getParam('kanjiId', 'defaultValue'),
     ),
     grid: true,
+    paused: false,
   };
 
   showNextKanji = () => {
@@ -43,6 +46,10 @@ export default class KanjiDetailedView extends Component {
     this.setState({
       grid: !this.state.grid,
     });
+  };
+
+  videoError = error => {
+    console.log(error);
   };
 
   render() {
@@ -75,7 +82,9 @@ export default class KanjiDetailedView extends Component {
           <View style={styles.bigKanjiContainer}>
             <BigKanji
               kanji={kanjiData[this.state.currentKanjiId - 1].name}
-              isGridActive={this.state.grid}></BigKanji>
+              isGridActive={this.state.grid}
+              videoName={kanjiData[this.state.currentKanjiId - 1].kData}
+              video={kanjiData[this.state.currentKanjiId - 1].video}></BigKanji>
           </View>
           <View style={styles.rightbuttonsContainer}>
             <View style={styles.rightButtons}></View>
