@@ -1,4 +1,4 @@
-[
+export const kanjiData = [
   {
     id: '0',
     kData: '1',

@@ -81,10 +81,10 @@ export default class KanjiDetailedView extends Component {
           </View>
           <View style={styles.bigKanjiContainer}>
             <BigKanji
-              kanji={kanjiData[this.state.currentKanjiId - 1].name}
+              kanji={kanjiData[this.state.currentKanjiId].name}
               isGridActive={this.state.grid}
-              videoName={kanjiData[this.state.currentKanjiId - 1].kData}
-              video={kanjiData[this.state.currentKanjiId - 1].video}></BigKanji>
+              videoName={kanjiData[this.state.currentKanjiId].kData}
+              video={kanjiData[this.state.currentKanjiId].kVideo}></BigKanji>
           </View>
           <View style={styles.rightbuttonsContainer}>
             <View style={styles.rightButtons}></View>
@@ -106,22 +106,22 @@ export default class KanjiDetailedView extends Component {
           <ScrollView style={{flex: 1, width: '100%'}}>
             <BigKanjiInfo
               type={'kun.'}
-              jpInfo={kanjiData[this.state.currentKanjiId - 1].kunyomi_ja}
+              jpInfo={kanjiData[this.state.currentKanjiId].kunyomi_ja}
               // enInfo={kanjiData[this.state.currentKanjiId - 1].kunyomi}
             ></BigKanjiInfo>
             <BigKanjiInfo
               type={'on.'}
-              jpInfo={kanjiData[this.state.currentKanjiId - 1].onyomi_ja}
+              jpInfo={kanjiData[this.state.currentKanjiId].onyomi_ja}
               // enInfo={kanjiData[this.state.currentKanjiId - 1].onyomi}
             ></BigKanjiInfo>
             <BigKanjiInfo
               type={'meaning'}
               jpInfo={null}
               enInfo={
-                kanjiData[this.state.currentKanjiId - 1].kmeaning
+                kanjiData[this.state.currentKanjiId].kmeaning
               }></BigKanjiInfo>
 
-            {JSON.parse(kanjiData[this.state.currentKanjiId - 1].examples).map(
+            {JSON.parse(kanjiData[this.state.currentKanjiId].examples).map(
               (example, index) => (
                 <BigKanjiInfo
                   key={index}
