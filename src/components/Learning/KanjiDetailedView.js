@@ -29,16 +29,20 @@ export default class KanjiDetailedView extends Component {
     ),
     grid: true,
     paused: false,
+    showVideo: false,
+    paused: false,
   };
 
   showNextKanji = () => {
     this.setState({
       currentKanjiId: this.state.currentKanjiId + 1,
+      showVideo: false,
     });
   };
   showPreviousKanji = () => {
     this.setState({
       currentKanjiId: this.state.currentKanjiId - 1,
+      showVideo: false,
     });
   };
 
@@ -50,6 +54,18 @@ export default class KanjiDetailedView extends Component {
 
   videoError = error => {
     console.log(error);
+  };
+
+  playAnimation = () => {
+    this.setState({
+      showVideo: true,
+    });
+  };
+
+  stopAnimation = () => {
+    this.setState({
+      showVideo: false,
+    });
   };
 
   render() {
@@ -84,21 +100,36 @@ export default class KanjiDetailedView extends Component {
               kanji={kanjiData[this.state.currentKanjiId].name}
               isGridActive={this.state.grid}
               videoName={kanjiData[this.state.currentKanjiId].kData}
-              video={kanjiData[this.state.currentKanjiId].kVideo}></BigKanji>
+              video={kanjiData[this.state.currentKanjiId].kVideo}
+              showVideo={this.state.showVideo}></BigKanji>
           </View>
           <View style={styles.rightbuttonsContainer}>
-            <View style={styles.rightButtons}></View>
+            <View style={styles.rightButtons}>
+              {this.state.showVideo == true ? (
+                <TouchableOpacity>
+                  <Icon
+                    name={'format-text'}
+                    type={'MaterialCommunityIcons'}
+                    style={styles.icons}
+                    onPress={this.stopAnimation}
+                  />
+                </TouchableOpacity>
+              ) : null}
+            </View>
             <View style={styles.rightButtons}>
               <TouchableOpacity onPress={this.showNextKanji}>
                 <Icon name={'right'} type={'AntDesign'} style={styles.icons} />
               </TouchableOpacity>
             </View>
             <View style={styles.rightButtons}>
-              <Icon
-                name={'play-circle-outline'}
-                type={'MaterialIcons'}
-                style={styles.icons}
-              />
+              <TouchableOpacity>
+                <Icon
+                  name={'play-circle-outline'}
+                  type={'MaterialIcons'}
+                  style={styles.icons}
+                  onPress={this.playAnimation}
+                />
+              </TouchableOpacity>
             </View>
           </View>
         </View>
@@ -184,8 +215,6 @@ const styles = StyleSheet.create({
     borderWidth: 2,
   },
   bodyContainer: {
-    borderColor: 'purple',
-    borderWidth: 2,
     flex: 1,
     alignItems: 'center',
     flexDirection: 'column',
