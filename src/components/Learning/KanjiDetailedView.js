@@ -158,7 +158,13 @@ export default class KanjiDetailedView extends Component {
                   key={index}
                   type={`example ${index + 1}`}
                   jpInfo={example[0]}
-                  enInfo={example[1]}></BigKanjiInfo>
+                  enInfo={example[1]}
+                  audioFile={
+                    'audio_' +
+                    kanjiData[this.state.currentKanjiId].kAudio +
+                    '_06_' +
+                    String.fromCharCode(97 + index)
+                  }></BigKanjiInfo>
               ),
             )}
           </ScrollView>
