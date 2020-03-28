@@ -1,14 +1,36 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet} from 'react-native';
+import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 import {color} from '../../Styles/Color';
+import {Icon} from 'native-base';
+import SoundPlayer from 'react-native-sound-player';
 
 export default class BigKanjiInfo extends Component {
+  playSound = () => {
+    console.log(this.props.audioFile);
+    try {
+      SoundPlayer.playSoundFile(this.props.audioFile, 'mp3');
+    } catch (e) {
+      console.log(`cannot play the sound file`, e);
+    }
+  };
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.infoLabelContainer}>
           <Text style={styles.infoLabelText}>{this.props.type}</Text>
         </View>
+        {this.props.audioFile ? (
+          <TouchableOpacity style={styles.audioButton} onPress={this.playSound}>
+            <Icon
+              style={styles.audioIcon}
+              name={'headphones'}
+              type={'MaterialCommunityIcons'}
+              // style={styles.icons}
+              onPress={null}
+            />
+          </TouchableOpacity>
+        ) : null}
+
         <View style={styles.infoTextContainer}>
           {this.props.jpInfo != null ? (
             <Text style={styles.infoText}> {this.props.jpInfo} </Text>
@@ -49,7 +71,8 @@ const styles = StyleSheet.create({
     color: color.headerIcon,
   },
   infoTextContainer: {
-    borderColor: 'red',
+    // borderColor: 'red',
+    // borderWidth: 1,
     width: '85%',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -58,5 +81,16 @@ const styles = StyleSheet.create({
   infoText: {
     fontSize: 20,
     justifyContent: 'center',
+  },
+  audioButton: {
+    position: 'absolute',
+    alignSelf: 'flex-end',
+    right: 5,
+    top: 13,
+    padding: 13,
+    // borderWidth: 1,
+  },
+  audioIcon: {
+    color: color.header,
   },
 });
