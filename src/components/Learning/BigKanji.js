@@ -19,7 +19,6 @@ export default class BigKanji extends Component {
             onError={this.videoError} // Callback when video cannot be loaded
             style={styles.kanjiVideo}
             autoPlay={true}
-            // repeat={true}
             resizeMode={'contain'}
             onEnd={null}
           />
