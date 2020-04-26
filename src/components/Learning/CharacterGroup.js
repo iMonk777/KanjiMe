@@ -7,8 +7,15 @@ export default class CharacterGroup extends Component {
   render() {
     return (
       <View pressHandle={null} style={styles.characterGroupContainer}>
+        {this.props.name == 'Favorites' ? (
+          <Icon name={'star-o'} type={'FontAwesome'} style={styles.icon} />
+        ) : (
+          <Text style={styles.displayCharacter}>
+            {this.props.displayCharacter}
+          </Text>
+        )}
+
         <Text style={styles.characterGroupText}> {this.props.name} </Text>
-        <Icon name={'right'} type={'AntDesign'} style={styles.icon} />
       </View>
     );
   }
@@ -17,23 +24,35 @@ export default class CharacterGroup extends Component {
 const styles = StyleSheet.create({
   characterGroupContainer: {
     backgroundColor: color.tiles,
-    marginLeft: 8,
-    marginRight: 8,
-    marginTop: 8,
-    height: 54,
+    height: '100%',
+    width: '100%',
     alignItems: 'center',
-    flexDirection: 'row',
-    // elevation: 5,
+    flexDirection: 'column',
+    borderRadius: 15,
   },
   icon: {
-    fontSize: 32,
+    fontSize: 120,
     color: color.tileIcon,
     flex: 1,
+    // borderWidth: 1,
+    flex: 7,
+    textAlignVertical: 'center',
   },
   characterGroupText: {
     fontFamily: 'Lato',
     fontSize: 24,
-    width: 173,
     flex: 8,
+    // borderWidth: 1,
+    flex: 2,
+    color: color.header,
+  },
+  displayCharacter: {
+    fontFamily: 'Lato',
+    fontSize: 110,
+    flex: 8,
+    // borderWidth: 1,
+    flex: 7,
+    textAlignVertical: 'center',
+    color: color.header,
   },
 });

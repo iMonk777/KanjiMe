@@ -8,7 +8,8 @@ class Home extends Component {
   render() {
     return (
       <Container>
-        <Tabs renderTabBar={() => <ScrollableTab />}>
+        <LearnTab />
+        {/* <Tabs renderTabBar={() => <ScrollableTab />}>
           <Tab heading="Learn">
             <LearnTab />
           </Tab>
@@ -18,7 +19,7 @@ class Home extends Component {
           <Tab heading="Chalange">
             <ChalangeTab />
           </Tab>
-        </Tabs>
+        </Tabs> */}
       </Container>
     );
   }
