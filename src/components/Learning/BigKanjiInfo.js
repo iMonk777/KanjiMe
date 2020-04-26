@@ -15,7 +15,12 @@ export default class BigKanjiInfo extends Component {
   };
   render() {
     return (
-      <View style={styles.container}>
+      <View
+        style={
+          this.props.type == 'meaning'
+            ? styles.meaningContainer
+            : styles.container
+        }>
         <View style={styles.infoLabelContainer}>
           <Text style={styles.infoLabelText}>{this.props.type}</Text>
         </View>
@@ -47,11 +52,21 @@ export default class BigKanjiInfo extends Component {
 const styles = StyleSheet.create({
   container: {
     width: '100%',
+    marginBottom: 8,
+    minHeight: 40,
+    borderRadius: 16,
+    backgroundColor: color.tiles,
+    padding: 8,
+    elevation: 2,
+  },
+  meaningContainer: {
+    flex: 9,
     marginTop: 8,
     minHeight: 60,
     borderRadius: 16,
     backgroundColor: color.tiles,
     padding: 8,
+    elevation: 2,
   },
   infoLabelContainer: {
     borderBottomLeftRadius: 16,
