@@ -17,10 +17,10 @@ export default class DrawingCanvas extends Component {
       isColorList: !this.state.isColorList,
     });
   };
-  changeColor = () => {
+  changeColor = newColor => {
     this.setState({
       isColorList: !this.state.isColorList,
-      color: 'red',
+      color: newColor,
     });
   };
 
@@ -55,14 +55,15 @@ export default class DrawingCanvas extends Component {
               // borderWidth: 1,
               marginBottom: 8,
             }}>
-            <CrayonButton
-              onPress={this.changeColor}
-              size={1}
-              iconName={'pencil'}
-              iconType={'FontAwesome'}
-              rotation={45}
-              color={'red'}
-            />
+            {color.crayons.map(prop => {
+              return (
+                <CrayonButton
+                  onPress={this.changeColor}
+                  color={prop}
+                  key={prop}
+                />
+              );
+            })}
           </View>
         ) : (
           <View

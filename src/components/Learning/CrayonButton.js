@@ -4,11 +4,14 @@ import {color} from '../../Styles/Color';
 import {Icon} from 'native-base';
 
 export default class CrayonButton extends Component {
+  changecolor = () => {
+    this.props.onPress(this.props.color);
+  };
   render() {
     return (
       <TouchableOpacity
         style={{
-          flex: this.props.size,
+          flex: 1,
           margin: 4,
           minHeight: 60,
           borderRadius: 16,
@@ -19,10 +22,10 @@ export default class CrayonButton extends Component {
           alignItems: 'center',
           elevation: 2,
         }}
-        onPress={this.props.onPress}>
+        onPress={this.changecolor}>
         <Icon
-          name={this.props.iconName}
-          type={this.props.iconType}
+          name={'pencil'}
+          type={'FontAwesome'}
           style={{
             alignSelf: 'center',
             fontSize: 40,

@@ -12,6 +12,15 @@ const colors = [
     bigKanji: '#2D6974',
     bigKanjiContainer: '#ffffff',
     grid: '#2D6974',
+    crayons: [
+      '#de7119',
+      '#fcbf1e',
+      '#862a5c',
+      '#d8345f',
+      '#116979',
+      '#302a77',
+      '#035aa6',
+    ],
   },
 ];
 
