@@ -1,34 +1,40 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet} from 'react-native';
+import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 import {Icon} from 'native-base';
 import {color} from './../../Styles/Color';
 
 export default class CharacterGroup extends Component {
+  navigationHandler = () => {
+    this.props.onPress(this.props.characterListNumber);
+  };
   render() {
     return (
-      <View pressHandle={null} style={styles.characterGroupContainer}>
-        {this.props.name == 'Favorites' ? (
-          <Icon name={'star-o'} type={'FontAwesome'} style={styles.icon} />
-        ) : (
-          <Text style={styles.displayCharacter}>
-            {this.props.displayCharacter}
-          </Text>
-        )}
+      <View style={styles.characterGroupContainer}>
+        <TouchableOpacity
+          style={styles.touchable}
+          onPress={this.navigationHandler}>
+          {this.props.name == 'Favorites' ? (
+            <Icon name={'star-o'} type={'FontAwesome'} style={styles.icon} />
+          ) : (
+            <Text style={styles.displayCharacter}>
+              {this.props.displayCharacter}
+            </Text>
+          )}
 
-        <Text style={styles.characterGroupText}> {this.props.name} </Text>
+          <Text style={styles.characterGroupText}> {this.props.name} </Text>
+        </TouchableOpacity>
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  characterGroupContainer: {
-    backgroundColor: color.tiles,
+  touchable: {
     height: '100%',
     width: '100%',
     alignItems: 'center',
     flexDirection: 'column',
-    borderRadius: 15,
+    // borderWidth: 1,
   },
   icon: {
     fontSize: 120,
@@ -54,5 +60,14 @@ const styles = StyleSheet.create({
     flex: 7,
     textAlignVertical: 'center',
     color: color.header,
+  },
+  characterGroupContainer: {
+    // borderWidth: 1,
+    flex: 1,
+    padding: 6,
+    elevation: 7,
+    backgroundColor: color.tiles,
+    borderRadius: 15,
+    margin: 6,
   },
 });
