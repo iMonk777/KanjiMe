@@ -30,7 +30,8 @@ export default class CharacterList extends Component {
               type={this.props.navigation.getParam(
                 'characterList',
                 'defaultValue',
-              )}></Tile>
+              )}
+            />
           )}
         />
       </View>
@@ -44,6 +45,7 @@ const styles = StyleSheet.create({
     paddingRight: 2.5,
     paddingTop: 2.5,
     flex: 1,
+    // borderWidth: 5,
   },
   columnStyle: {
     flex: 1,
