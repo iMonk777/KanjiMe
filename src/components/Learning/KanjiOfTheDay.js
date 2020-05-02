@@ -3,17 +3,75 @@ import {Text, View, StyleSheet} from 'react-native';
 import {color} from './../../Styles/Color';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import {withNavigation} from 'react-navigation';
-import {kanjiData} from '../../storage/kanjiData';
+import {kanjiData, fullKanjiIdList} from '../../storage/kanjiData';
+import AsyncStorage from '@react-native-community/async-storage';
 
 class KanjiOfTheDay extends Component {
-  showKanjiDetails = () => {
-    this.props.navigation.navigate('KanjiDetailedView', {
-      kanjiId: this.kanjiOfTheDayId,
-    });
+  state = {
+    data: null,
   };
-  kanjiOfTheDayId = Math.round(Math.random() * 1234);
+
+  showKanjiDetails = () => {
+    if (this.state.data) {
+      this.props.navigation.navigate('KanjiDetailedView', {
+        kanjiId: this.state.data,
+      });
+    }
+  };
+
+  getData = async () => {
+    try {
+      const kanjiListAsyncStorage = await AsyncStorage.getItem('kanjiIdList');
+      let kanjiIdList = JSON.parse(kanjiListAsyncStorage);
+
+      const pastDateListAsyncStorage = await AsyncStorage.getItem(
+        'pastDateList',
+      );
+      const pastDateList = JSON.parse(pastDateListAsyncStorage);
+
+      let todaysKanji = await AsyncStorage.getItem('todaysKanji');
+      let today = Math.floor(Date.now() / (1000 * 3600 * 24));
+      if (kanjiIdList === null || kanjiIdList.length === 0) {
+        this.storeData('kanjiIdList', fullKanjiIdList);
+        this.storeData('pastDateList', `[${today}]`);
+        this.storeData('todaysKanji', '5');
+        return 5;
+      } else {
+        let randomKanji = Math.floor(Math.random() * kanjiIdList.length);
+
+        if (pastDateList.indexOf(Number(today)) === -1) {
+          todaysKanji = kanjiIdList[randomKanji];
+          pastDateList.push(today);
+          kanjiIdList.splice(kanjiIdList.indexOf(todaysKanji), 1);
+
+          this.storeData('kanjiIdList', JSON.stringify(kanjiIdList));
+          this.storeData('pastDateList', JSON.stringify(pastDateList));
+          this.storeData('todaysKanji', JSON.stringify(todaysKanji));
+        }
+        return String(todaysKanji);
+      }
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  storeData = async (name, value) => {
+    try {
+      await AsyncStorage.setItem(name, value);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  async componentDidMount() {
+    const data = await this.getData();
+    if (data) {
+      this.setState({data});
+    }
+  }
+
   render() {
-    console.warn(this.kanjiOfTheDayId);
+    const {data} = this.state;
     return (
       <View style={styles.container}>
         <TouchableOpacity
@@ -23,9 +81,9 @@ class KanjiOfTheDay extends Component {
             <Text style={styles.labelText}>Kanji of the day</Text>
           </View>
           <View style={styles.kanjiContainer}>
-            <Text style={styles.kanjiText}>
-              {kanjiData[this.kanjiOfTheDayId].name}
-            </Text>
+            {data ? (
+              <Text style={styles.kanjiText}>{kanjiData[data].name}</Text>
+            ) : null}
           </View>
         </TouchableOpacity>
       </View>
