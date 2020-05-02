@@ -19414,3 +19414,9 @@ export const kanjiData = [
       '[ [ "弾丸（だんがん）", "bullet, shot, shell" ], [ "弾薬（だんやく）", "ammunition" ], [ "爆弾（ばくだん）", "bomb [n.]" ], [ "銃弾（じゅうだん）", "bullet" ], [ "連弾（れんだん）", "four handed performance (piano)" ], [ "弾力性（だんりょくせい）", "elasticity, resilience, flexibility" ], [ "弾圧する（だんあつする）", "oppress, suppress" ], [ "弾く（ひく）", "snap" ], [ "弾む（はずむ）", "spring, bounce, become lively" ], [ "弾（たま）", "bullet, shot, shell" ] ]',
   },
 ];
+
+let list = [];
+for (let i = 0; i < 1234; i++) {
+  list.push(i);
+}
+export const fullKanjiIdList = JSON.stringify(list);
