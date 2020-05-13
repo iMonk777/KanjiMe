@@ -34,8 +34,8 @@ class KanjiOfTheDay extends Component {
       if (kanjiIdList === null || kanjiIdList.length === 0) {
         this.storeData('kanjiIdList', fullKanjiIdList);
         this.storeData('pastDateList', `[${today}]`);
-        this.storeData('todaysKanji', '5');
-        return 5;
+        this.storeData('todaysKanji', '50');
+        return 50;
       } else {
         let randomKanji = Math.floor(Math.random() * kanjiIdList.length);
 

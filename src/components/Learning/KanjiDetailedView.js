@@ -13,39 +13,82 @@ import BigKanji from './BigKanji';
 import {color} from '../../Styles/Color';
 import BigKanjiInfo from './BigKanjiInfo';
 import DrawingCanvas from './DrawingCanvas';
-
-// import Videos from './../../storage/videos/(afurika)zou_00.mp4'
-
-// const getKanjiData = kanjiId => {
-//   let kanji = kanjiData.filter(obj => {
-//     return obj.id == kanjiId;
-//   })[0];
-//   return kanji;
-// };
+import AsyncStorage from '@react-native-community/async-storage';
 
 export default class KanjiDetailedView extends Component {
   state = {
     currentKanjiId: Number(
       this.props.navigation.getParam('kanjiId', 'defaultValue'),
     ),
+    favPosition: null,
     grid: true,
     paused: false,
     showVideo: false,
     paused: false,
     isPractice: false,
     scrollViewHeight: '100%',
+    favoritesKanji: false,
+    isPrevious: true,
+    isNext: true,
   };
 
   showNextKanji = () => {
+    let favoritePosition = this.state.favoritesKanji.indexOf(
+      this.state.currentKanjiId,
+    );
+    if (
+      this.props.navigation.getParam('listType', 'test') == 'Favorites' &&
+      this.state.favoritesKanji[favoritePosition + 2] == undefined
+    ) {
+      this.setState({
+        isNext: false,
+      });
+    } else if (
+      this.props.navigation.getParam('listType', 'test') == 'Kanji' &&
+      this.state.currentKanjiId === 1233
+    ) {
+      this.setState({
+        isNext: false,
+      });
+    }
+
     this.setState({
-      currentKanjiId: this.state.currentKanjiId + 1,
+      currentKanjiId:
+        this.props.navigation.getParam('listType', 'test') === 'Favorites'
+          ? this.state.favoritesKanji[favoritePosition + 1]
+          : this.state.currentKanjiId + 1,
       showVideo: false,
+      isPrevious: true,
     });
   };
+
   showPreviousKanji = () => {
+    let favoritePosition = this.state.favoritesKanji.indexOf(
+      this.state.currentKanjiId,
+    );
+    if (
+      this.props.navigation.getParam('listType', 'test') == 'Favorites' &&
+      this.state.favoritesKanji[favoritePosition - 2] == undefined
+    ) {
+      this.setState({
+        isPrevious: false,
+      });
+    } else if (
+      this.props.navigation.getParam('listType', 'test') == 'Kanji' &&
+      this.state.currentKanjiId === 1
+    ) {
+      this.setState({
+        isPrevious: false,
+      });
+    }
+
     this.setState({
-      currentKanjiId: this.state.currentKanjiId - 1,
+      currentKanjiId:
+        this.props.navigation.getParam('listType', 'test') === 'Favorites'
+          ? this.state.favoritesKanji[favoritePosition - 1]
+          : this.state.currentKanjiId - 1,
       showVideo: false,
+      isNext: true,
     });
   };
 
@@ -85,23 +128,180 @@ export default class KanjiDetailedView extends Component {
     });
   };
 
+  getFavorites = async () => {
+    try {
+      const favoriteKanjiList = await AsyncStorage.getItem('favoriteKanjiList');
+      const parsedFavoriteKanjiList = JSON.parse(favoriteKanjiList);
+      return parsedFavoriteKanjiList;
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  setFavorite = async () => {
+    if (this.state.favoritesKanji.indexOf(this.state.currentKanjiId) === -1) {
+      let newFavoriteKanjiList = this.state.favoritesKanji;
+      newFavoriteKanjiList.push(this.state.currentKanjiId);
+      try {
+        await AsyncStorage.setItem(
+          'favoriteKanjiList',
+          JSON.stringify(newFavoriteKanjiList),
+        );
+        this.setState({
+          favoritesKanji: newFavoriteKanjiList,
+        });
+      } catch (e) {
+        console.log(e);
+      }
+    }
+    if (this.props.navigation.getParam('listType', 'test') == 'Favorites') {
+      this.setState({
+        isNext: false,
+        isPrevious: true,
+      });
+    }
+  };
+
+  removeFavorite = async () => {
+    let favoritePosition = this.state.favoritesKanji.indexOf(
+      this.state.currentKanjiId,
+    );
+
+    if (this.state.favoritesKanji.indexOf(this.state.currentKanjiId) !== -1) {
+      let newFavoriteKanjiList = [...this.state.favoritesKanji];
+      newFavoriteKanjiList.splice(
+        newFavoriteKanjiList.indexOf(this.state.currentKanjiId),
+        1,
+      );
+      try {
+        await AsyncStorage.setItem(
+          'favoriteKanjiList',
+          JSON.stringify(newFavoriteKanjiList),
+        );
+
+        if (this.props.navigation.getParam('listType', 'test') == 'Favorites') {
+          if (this.state.favoritesKanji.length == 1) {
+            this.props.navigation.goBack();
+          } else if (
+            favoritePosition ===
+            this.state.favoritesKanji.length - 1
+          ) {
+            this.setState({
+              currentKanjiId: this.state.favoritesKanji[favoritePosition - 1],
+              favoritesKanji: newFavoriteKanjiList,
+              isNext: false,
+            });
+          } else if (
+            favoritePosition ===
+            this.state.favoritesKanji.length - 2
+          ) {
+            this.setState({
+              currentKanjiId: this.state.favoritesKanji[favoritePosition + 1],
+              favoritesKanji: newFavoriteKanjiList,
+              isNext: false,
+            });
+          } else {
+            this.setState({
+              currentKanjiId: this.state.favoritesKanji[favoritePosition + 1],
+              favoritesKanji: newFavoriteKanjiList,
+            });
+          }
+
+          if (this.state.favoritesKanji.length === 1) {
+            this.setState({
+              isNext: false,
+              isPrevious: false,
+            });
+          }
+        } else {
+          this.setState({
+            favoritesKanji: newFavoriteKanjiList,
+          });
+        }
+      } catch (e) {
+        console.log(e);
+      }
+    }
+  };
+
+  async componentDidMount() {
+    const favorites = await this.getFavorites();
+    if (favorites) {
+      let favoritePosition = favorites.indexOf(this.state.currentKanjiId);
+      if (
+        this.props.navigation.getParam('listType', 'test') == 'Favorites' &&
+        favorites.length === 1
+      ) {
+        this.setState({
+          favoritesKanji: favorites,
+          isPrevious: false,
+          isNext: false,
+        });
+      } else if (
+        this.props.navigation.getParam('listType', 'test') == 'Favorites' &&
+        favoritePosition === 0
+      ) {
+        this.setState({favoritesKanji: favorites, isPrevious: false});
+      } else if (
+        this.props.navigation.getParam('listType', 'test') == 'Favorites' &&
+        favoritePosition === favorites.length - 1
+      ) {
+        this.setState({favoritesKanji: favorites, isNext: false});
+      } else if (
+        this.props.navigation.getParam('listType', 'test') == 'Kanji' &&
+        this.state.currentKanjiId === 1234
+      ) {
+        this.setState({favoritesKanji: favorites, isNext: false});
+      } else if (
+        this.props.navigation.getParam('listType', 'test') == 'Kanji' &&
+        this.state.currentKanjiId === 0
+      ) {
+        this.setState({favoritesKanji: favorites, isPrevious: false});
+      } else {
+        this.setState({favoritesKanji: favorites});
+      }
+    }
+    console.log(this.state.favoritesKanji);
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.headerContainer}>
           <View style={styles.leftButtonsContainer}>
+            {this.state.favoritesKanji ===
+            false ? null : this.state.favoritesKanji.indexOf(
+                this.state.currentKanjiId,
+              ) === -1 ? (
+              <View style={styles.leftButtons}>
+                <TouchableOpacity onPress={this.setFavorite}>
+                  <Icon
+                    name={'star-border'}
+                    type={'MaterialIcons'}
+                    style={styles.icons}
+                  />
+                </TouchableOpacity>
+              </View>
+            ) : (
+              <View style={styles.leftButtons}>
+                <TouchableOpacity onPress={this.removeFavorite}>
+                  <Icon
+                    name={'star'}
+                    type={'MaterialIcons'}
+                    style={styles.icons}
+                  />
+                </TouchableOpacity>
+              </View>
+            )}
+
             <View style={styles.leftButtons}>
-              <Icon
-                name={'star-border'}
-                type={'MaterialIcons'}
-                style={styles.icons}
-              />
+              {this.state.isPrevious === false ? null : (
+                <TouchableOpacity onPress={this.showPreviousKanji}>
+                  <Icon name={'left'} type={'AntDesign'} style={styles.icons} />
+                </TouchableOpacity>
+              )}
             </View>
-            <View style={styles.leftButtons}>
-              <TouchableOpacity onPress={this.showPreviousKanji}>
-                <Icon name={'left'} type={'AntDesign'} style={styles.icons} />
-              </TouchableOpacity>
-            </View>
+
             <View style={styles.leftButtons}>
               <TouchableOpacity onPress={this.toggleGrid}>
                 <Icon
@@ -135,9 +335,15 @@ export default class KanjiDetailedView extends Component {
               ) : null}
             </View>
             <View style={styles.rightButtons}>
-              <TouchableOpacity onPress={this.showNextKanji}>
-                <Icon name={'right'} type={'AntDesign'} style={styles.icons} />
-              </TouchableOpacity>
+              {this.state.isNext === false ? null : (
+                <TouchableOpacity onPress={this.showNextKanji}>
+                  <Icon
+                    name={'right'}
+                    type={'AntDesign'}
+                    style={styles.icons}
+                  />
+                </TouchableOpacity>
+              )}
             </View>
             <View style={styles.rightButtons}>
               <TouchableOpacity>
@@ -194,12 +400,10 @@ export default class KanjiDetailedView extends Component {
                   <BigKanjiInfo
                     type={'kun.'}
                     jpInfo={kanjiData[this.state.currentKanjiId].kunyomi_ja}
-                    // enInfo={kanjiData[this.state.currentKanjiId - 1].kunyomi}
                   />
                   <BigKanjiInfo
                     type={'on.'}
                     jpInfo={kanjiData[this.state.currentKanjiId].onyomi_ja}
-                    // enInfo={kanjiData[this.state.currentKanjiId - 1].onyomi}
                   />
 
                   {JSON.parse(

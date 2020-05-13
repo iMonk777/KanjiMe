@@ -14,6 +14,31 @@ class LearnTab extends Component {
     });
   };
 
+  storeData = async (name, value) => {
+    try {
+      await AsyncStorage.setItem(name, value);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  getFavorites = async () => {
+    try {
+      const favoriteKanjiList = await AsyncStorage.getItem('favoriteKanjiList');
+      return favoriteKanjiList;
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  async componentDidMount() {
+    const favorites = await this.getFavorites();
+    if (favorites === null) {
+      this.storeData('favoriteKanjiList', '[]');
+      console.warn('stored favorites empty list');
+    }
+  }
+
   render() {
     return (
       <View style={{padding: 6}}>

@@ -22,6 +22,7 @@ class Tile extends Component {
   showKanjiDetails = () => {
     this.props.navigation.navigate('KanjiDetailedView', {
       kanjiId: this.props.id,
+      listType: this.props.type,
     });
   };
   render() {
@@ -34,7 +35,9 @@ class Tile extends Component {
         }>
         <TouchableOpacity
           onPress={
-            this.props.type == 'Kanji' ? this.showKanjiDetails : this.flipTile
+            this.props.type == 'Kanji' || this.props.type == 'Favorites'
+              ? this.showKanjiDetails
+              : this.flipTile
           }
           style={styles.touchableStyle}>
           <Text

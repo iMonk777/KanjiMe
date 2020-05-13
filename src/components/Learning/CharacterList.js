@@ -3,11 +3,38 @@ import {Text, View, FlatList, TouchableOpacity, StyleSheet} from 'react-native';
 import {defaultCharacterGroups} from './../../storage/defaultCharacterGroups';
 import {color} from './../../Styles/Color';
 import Tile from './Tile';
+import AsyncStorage from '@react-native-community/async-storage';
+import {kanjiData} from './../../storage/kanjiData';
 
 export default class CharacterList extends Component {
   state = {
     tilecontent: 'name',
+    favoriteKanjiList: null,
   };
+
+  getFavorites = async () => {
+    try {
+      const favoriteKanjiList = await AsyncStorage.getItem('favoriteKanjiList');
+      const parsedFavoriteKanjiList = JSON.parse(favoriteKanjiList);
+      let favorites = [];
+      for (let i = 0; i < parsedFavoriteKanjiList.length; i++) {
+        favorites.push(kanjiData[parsedFavoriteKanjiList[i]]);
+      }
+
+      return favorites;
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  async componentDidMount() {
+    const favorites = await this.getFavorites();
+    if (favorites) {
+      this.setState({favoriteKanjiList: favorites});
+      console.warn('Component Moutedddd');
+    }
+  }
+
   render() {
     let characterss = defaultCharacterGroups.filter(obj => {
       return (
@@ -19,7 +46,11 @@ export default class CharacterList extends Component {
     return (
       <View style={styles.container}>
         <FlatList
-          data={characterss}
+          data={
+            this.props.navigation.getParam('characterList') === 'Favorites'
+              ? this.state.favoriteKanjiList
+              : characterss
+          }
           columnWrapperStyle={styles.columnStyle}
           numColumns={5}
           renderItem={({item}) => (
