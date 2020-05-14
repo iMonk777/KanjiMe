@@ -30,6 +30,10 @@ export default class DrawingCanvas extends Component {
     });
   };
 
+  clearCanvas = () => {
+    this.refs.sketchRef.clearSketch();
+  };
+
   render() {
     return (
       <View style={{flex: 1}}>
