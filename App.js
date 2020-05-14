@@ -24,6 +24,13 @@ const AppNavigator = createStackNavigator(
     initialRouteName: 'Home',
     defaultNavigationOptions: {
       headerShown: false,
+      // animationEnabled: false,
+      // transitionConfig: () => ({
+      //   transitionSpec: {
+      //     duration:0,
+      //     timing: 0,
+      //   },
+      // })
     },
   },
 );
@@ -31,7 +38,7 @@ const AppNavigator = createStackNavigator(
 const AppContainer = createAppContainer(AppNavigator);
 
 const App: () => React$Node = () => {
-  return <AppContainer></AppContainer>;
+  return <AppContainer />;
 };
 
 export default App;

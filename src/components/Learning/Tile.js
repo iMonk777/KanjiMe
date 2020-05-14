@@ -29,13 +29,15 @@ class Tile extends Component {
     return (
       <View
         style={
-          this.state.face == ''
+          this.state.face == '' || this.props.id >= 2000
             ? styles.characterTilesBlank
             : styles.characterTiles
         }>
         <TouchableOpacity
           onPress={
-            this.props.type == 'Kanji' || this.props.type == 'Favorites'
+            this.props.id >= 2000
+              ? null
+              : this.props.type == 'Kanji' || this.props.type == 'Favorites'
               ? this.showKanjiDetails
               : this.flipTile
           }
