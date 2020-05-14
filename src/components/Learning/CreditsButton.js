@@ -14,14 +14,16 @@ const CreditsButton = props => {
 
 const styles = StyleSheet.create({
   container: {
-    height: 40,
-    margin: 6,
-    // borderWidth: 1,
+    height: 50,
+    width: '100%',
     elevation: 7,
     backgroundColor: color.tiles,
     borderRadius: 15,
     justifyContent: 'center',
     alignItems: 'center',
+    position: 'absolute',
+    bottom: 6,
+    alignSelf: 'center',
   },
   creditsText: {
     fontFamily: 'Lato',

@@ -17,7 +17,6 @@ class LearnTab extends Component {
 
   navigateToCredits = () => {
     this.props.navigation.navigate('Credits');
-    console.warn('test');
   };
 
   storeData = async (name, value) => {
@@ -47,7 +46,7 @@ class LearnTab extends Component {
 
   render() {
     return (
-      <View style={{padding: 6}}>
+      <View style={{padding: 6, flex: 1}}>
         <View style={styles.groupContainer}>
           <CharacterGroup
             name={'Hiragana'}
@@ -77,7 +76,9 @@ class LearnTab extends Component {
           />
         </View>
         <KanjiOfTheDay />
-        <CreditsButton onPressHandler={this.navigateToCredits} />
+        <View style={{flex: 1, padding: 6}}>
+          <CreditsButton onPressHandler={this.navigateToCredits} />
+        </View>
       </View>
     );
   }
