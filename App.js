@@ -13,24 +13,19 @@ import {createStackNavigator} from 'react-navigation-stack';
 import Home from './src/components/Home';
 import CharacterList from './src/components/Learning/CharacterList';
 import KanjiDetailedView from './src/components/Learning/KanjiDetailedView';
+import Credits from './src/components/Learning/Credits';
 
 const AppNavigator = createStackNavigator(
   {
     Home: Home,
     CharacterList: CharacterList,
     KanjiDetailedView: KanjiDetailedView,
+    Credits: Credits,
   },
   {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
       headerShown: false,
-      // animationEnabled: false,
-      // transitionConfig: () => ({
-      //   transitionSpec: {
-      //     duration:0,
-      //     timing: 0,
-      //   },
-      // })
     },
   },
 );

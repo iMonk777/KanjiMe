@@ -60,6 +60,7 @@ export default class KanjiDetailedView extends Component {
       showVideo: false,
       isPrevious: true,
     });
+    this.state.isPractice ? this.refs.canvas.clearCanvas() : null;
   };
 
   showPreviousKanji = () => {
@@ -90,6 +91,7 @@ export default class KanjiDetailedView extends Component {
       showVideo: false,
       isNext: true,
     });
+    this.state.isPractice ? this.refs.canvas.clearCanvas() : null;
   };
 
   toggleGrid = () => {
@@ -213,6 +215,7 @@ export default class KanjiDetailedView extends Component {
               isPrevious: false,
             });
           }
+          this.state.isPractice ? this.refs.canvas.clearCanvas() : null;
         } else {
           this.setState({
             favoritesKanji: newFavoriteKanjiList,
@@ -429,6 +432,7 @@ export default class KanjiDetailedView extends Component {
           {this.state.isPractice ? (
             <View style={styles.drawingContainer}>
               <DrawingCanvas
+                ref="canvas"
                 kanji={kanjiData[this.state.currentKanjiId].name}
               />
             </View>

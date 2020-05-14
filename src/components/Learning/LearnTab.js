@@ -6,12 +6,18 @@ import {getAllGroups, initData, getData} from '../../storage/asyncDataHandler';
 import AsyncStorage from '@react-native-community/async-storage';
 import {withNavigation} from 'react-navigation';
 import KanjiOfTheDay from './KanjiOfTheDay';
+import CreditsButton from './CreditsButton';
 
 class LearnTab extends Component {
   navigateToCharacterlist = charList => {
     this.props.navigation.navigate('CharacterList', {
       characterList: defaultCharacterGroups[charList].name,
     });
+  };
+
+  navigateToCredits = () => {
+    this.props.navigation.navigate('Credits');
+    console.warn('test');
   };
 
   storeData = async (name, value) => {
@@ -71,6 +77,7 @@ class LearnTab extends Component {
           />
         </View>
         <KanjiOfTheDay />
+        <CreditsButton onPressHandler={this.navigateToCredits} />
       </View>
     );
   }
