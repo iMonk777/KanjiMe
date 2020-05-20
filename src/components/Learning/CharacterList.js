@@ -13,20 +13,13 @@ import Tile from './Tile';
 import AsyncStorage from '@react-native-community/async-storage';
 import {kanjiData} from './../../storage/kanjiData';
 import {withNavigation} from 'react-navigation';
-// import SearchInput, {createFilter} from 'react-native-search-filter';
-// const KEYS_TO_FILTERS = ['name', 'kmeaning'];
 
 export default class CharacterList extends Component {
   state = {
     tilecontent: 'name',
     favoriteKanjiList: null,
     isEmptyState: false,
-    // searchTerm: 'yama',
   };
-
-  // searchUpdated(term) {
-  //   this.setState({searchTerm: term});
-  // }
 
   getFavorites = async () => {
     try {
@@ -79,10 +72,6 @@ export default class CharacterList extends Component {
   }
 
   render() {
-    // const filteredCharacters = kanjiData.filter(
-    //   createFilter((this.state.searchTerm, KEYS_TO_FILTERS)),
-    // );
-
     let characterss = defaultCharacterGroups.filter(obj => {
       return (
         obj.name ==
@@ -104,35 +93,26 @@ export default class CharacterList extends Component {
             />
           </View>
         ) : (
-          <View>
-            {/* <SearchInput
-              onChangeText={term => {
-                this.searchUpdated(term);
-              }}
-              style={styles.searchInput}
-              placeholder="Type a message to search"
-            /> */}
-            <FlatList
-              data={
-                this.props.navigation.getParam('characterList') === 'Favorites'
-                  ? this.state.favoriteKanjiList
-                  : characterss
-              }
-              columnWrapperStyle={styles.columnStyle}
-              numColumns={5}
-              renderItem={({item}) => (
-                <Tile
-                  name={item.name}
-                  id={item.id}
-                  reading={item.reading}
-                  type={this.props.navigation.getParam(
-                    'characterList',
-                    'defaultValue',
-                  )}
-                />
-              )}
-            />
-          </View>
+          <FlatList
+            data={
+              this.props.navigation.getParam('characterList') === 'Favorites'
+                ? this.state.favoriteKanjiList
+                : characterss
+            }
+            columnWrapperStyle={styles.columnStyle}
+            numColumns={5}
+            renderItem={({item}) => (
+              <Tile
+                name={item.name}
+                id={item.id}
+                reading={item.reading}
+                type={this.props.navigation.getParam(
+                  'characterList',
+                  'defaultValue',
+                )}
+              />
+            )}
+          />
         )}
       </View>
     );
