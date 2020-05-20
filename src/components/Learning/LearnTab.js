@@ -47,7 +47,7 @@ class LearnTab extends Component {
   render() {
     return (
       <View style={{padding: 6, flex: 1}}>
-        <View style={styles.groupContainer}>
+        {/* <View style={styles.groupContainer}>
           <CharacterGroup
             name={'Hiragana'}
             displayCharacter={'あ'}
@@ -60,7 +60,7 @@ class LearnTab extends Component {
             onPress={this.navigateToCharacterlist}
             characterListNumber={1}
           />
-        </View>
+        </View> */}
         <View style={styles.groupContainer}>
           <CharacterGroup
             name={'Kanji'}
