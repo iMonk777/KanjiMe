@@ -81,7 +81,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   characterGroupText: {
-    fontSize: 30,
+    fontSize: 35,
+    color: color.header,
   },
   smallerFontSize: {
     fontSize: 30,
