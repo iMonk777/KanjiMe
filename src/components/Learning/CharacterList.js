@@ -6,12 +6,16 @@ import {
   TouchableOpacity,
   StyleSheet,
   Image,
+  TextInput,
+  Keyboard,
+  KeyboardAvoidingView,
 } from 'react-native';
 import {defaultCharacterGroups} from './../../storage/defaultCharacterGroups';
 import {color} from './../../Styles/Color';
 import Tile from './Tile';
 import AsyncStorage from '@react-native-community/async-storage';
 import {kanjiData} from './../../storage/kanjiData';
+import SearchAndFilters from './SearchAndFilters';
 import {withNavigation} from 'react-navigation';
 
 export default class CharacterList extends Component {
@@ -19,6 +23,92 @@ export default class CharacterList extends Component {
     tilecontent: 'name',
     favoriteKanjiList: null,
     isEmptyState: false,
+    characters: null,
+    gradeFilter: -1, // -1 means all grades
+    meaningFilter: true,
+    readingFilter: true,
+    exampleFilter: false,
+    searchTerm: null,
+  };
+
+  setGradeFilter = async grade => {
+    await this.setState({
+      gradeFilter: grade,
+    });
+    this.searchHandler(this.state.searchTerm ? this.state.searchTerm : -1);
+  };
+
+  setMeaningFilter = async () => {
+    await this.setState({
+      meaningFilter: !this.state.meaningFilter,
+    });
+    this.state.searchTerm ? this.searchHandler(this.state.searchTerm) : null;
+  };
+
+  setReadingFilter = async () => {
+    await this.setState({
+      readingFilter: !this.state.readingFilter,
+    });
+    this.state.searchTerm ? this.searchHandler(this.state.searchTerm) : null;
+  };
+
+  setExampleFilter = async () => {
+    await this.setState({
+      exampleFilter: !this.state.exampleFilter,
+    });
+    this.state.searchTerm ? this.searchHandler(this.state.searchTerm) : null;
+  };
+
+  searchHandler = term => {
+    let foundcharacters = [];
+    for (let i = 0; i < kanjiData.length; i++) {
+      if (term === -1) {
+        if (
+          this.state.gradeFilter == -1 ||
+          kanjiData[i].kgrade == this.state.gradeFilter
+        ) {
+          foundcharacters.push(kanjiData[i]);
+        }
+      } else if (
+        (!!this.state.meaningFilter &&
+          !!kanjiData[i].kmeaning &&
+          kanjiData[i].kmeaning.indexOf(term) !== -1) ||
+        (this.state.readingFilter &&
+          !!kanjiData[i].kunyomi &&
+          kanjiData[i].kunyomi.indexOf(term) !== -1) ||
+        (this.state.readingFilter &&
+          !!kanjiData[i].onyomi &&
+          kanjiData[i].onyomi.indexOf(term) !== -1) ||
+        (this.state.exampleFilter &&
+          !!kanjiData[i].examples &&
+          kanjiData[i].examples.indexOf(term) !== -1)
+      ) {
+        if (
+          this.state.gradeFilter == -1 ||
+          kanjiData[i].kgrade == this.state.gradeFilter
+        ) {
+          foundcharacters.push(kanjiData[i]);
+        }
+      }
+    }
+
+    if (foundcharacters.length !== 0) {
+      let emptyTiles = [];
+      for (let i = 0; i < 5 - ([...foundcharacters].length % 5); i++) {
+        emptyTiles.push({id: 2000 + i});
+      }
+      foundcharacters = foundcharacters.concat(emptyTiles);
+
+      this.setState({
+        characters: [...foundcharacters],
+        searchTerm: term,
+      });
+    } else {
+      this.setState({
+        characters: false,
+        searchTerm: term,
+      });
+    }
   };
 
   getFavorites = async () => {
@@ -65,20 +155,18 @@ export default class CharacterList extends Component {
     this.focusListener = navigation.addListener('didFocus', () => {
       this.onFocusHandler();
     });
+
+    this.searchHandler(-1); // -1 means all grades
   }
 
   componentWillUnmount() {
     this.focusListener.remove();
   }
 
+  keyboardDismisser = () => {
+    Keyboard.dismiss();
+  };
   render() {
-    let characterss = defaultCharacterGroups.filter(obj => {
-      return (
-        obj.name ==
-        this.props.navigation.getParam('characterList', 'defaultValue')
-      );
-    })[0].characters;
-
     return (
       <View style={styles.container}>
         {this.state.isEmptyState ? (
@@ -88,31 +176,58 @@ export default class CharacterList extends Component {
               Kanji section and look for the pointy star.
             </Text>
             <Image
-              style={styles.emptyStateImage}
-              source={require('../../storage/emptystate.jpg')}
+              style={styles.favoriteEmptyStateImage}
+              source={require('../../storage/favoritesemptystate.jpg')}
             />
           </View>
         ) : (
-          <FlatList
-            data={
-              this.props.navigation.getParam('characterList') === 'Favorites'
-                ? this.state.favoriteKanjiList
-                : characterss
-            }
-            columnWrapperStyle={styles.columnStyle}
-            numColumns={5}
-            renderItem={({item}) => (
-              <Tile
-                name={item.name}
-                id={item.id}
-                reading={item.reading}
-                type={this.props.navigation.getParam(
-                  'characterList',
-                  'defaultValue',
-                )}
+          <View>
+            {this.props.navigation.getParam('characterList') ===
+            'Favorites' ? null : (
+              <SearchAndFilters
+                searchHandler={term => this.searchHandler(term)}
+                gradeFilter={this.state.gradeFilter} // -1 means all grades
+                meaningFilter={this.state.meaningFilter}
+                exampleFilter={this.state.exampleFilter}
+                readingFilter={this.state.readingFilter}
+                setGradeFilter={grade => this.setGradeFilter(grade)}
+                setMeaningFilter={this.setMeaningFilter}
+                setReadingFilter={this.setReadingFilter}
+                setExampleFilter={this.setExampleFilter}
+                searchTerm={this.state.searchTerm}
               />
             )}
-          />
+            {!!this.state.characters ? (
+              <FlatList
+                data={
+                  this.props.navigation.getParam('characterList') ===
+                  'Favorites'
+                    ? this.state.favoriteKanjiList
+                    : this.state.characters
+                }
+                columnWrapperStyle={styles.columnStyle}
+                numColumns={5}
+                onTouchStart={this.keyboardDismisser}
+                keyboardShouldPersistTaps={'handled'}
+                renderItem={({item}) => (
+                  <Tile
+                    name={item.name}
+                    id={item.id}
+                    reading={item.reading}
+                    type={this.props.navigation.getParam(
+                      'characterList',
+                      'defaultValue',
+                    )}
+                  />
+                )}
+              />
+            ) : (
+              <Image
+                style={styles.searchEmptyStateImage}
+                source={require('../../storage/searchemptystate.png')}
+              />
+            )}
+          </View>
         )}
       </View>
     );
@@ -125,9 +240,8 @@ const styles = StyleSheet.create({
     paddingRight: 2.5,
     paddingTop: 2.5,
     flex: 1,
-    // borderWidth: 5,
     alignContent: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
   },
   columnStyle: {
     flex: 1,
@@ -139,17 +253,18 @@ const styles = StyleSheet.create({
     color: color.header,
     textAlign: 'justify',
     margin: 15,
-    // borderWidth: 5,
     textAlignVertical: 'center',
   },
-  emptyStateImage: {
-    // resizeMode: 'contain',
+  favoriteEmptyStateImage: {
     height: '80%',
     width: '80%',
     alignSelf: 'center',
-    // borderWidth: 5,
-    // borderColor: 'red',
-    // borderRadius: 70,
+  },
+  searchEmptyStateImage: {
+    alignSelf: 'center',
+    width: '90%',
+    height: 400,
+    resizeMode: 'contain',
   },
   searchInput: {
     width: '100%',
@@ -157,5 +272,3 @@ const styles = StyleSheet.create({
     marginTop: 60,
   },
 });
-
-// this.props.navigation.getParam('characterList', 'defaultValue')
