@@ -23,6 +23,13 @@ export default class SearchAndFilters extends Component {
     this.setState({
       isFilter: !this.state.isFilter,
     });
+    console.log(this.props.searchTerm.length);
+  };
+
+  clearTextInput = () => {
+    // console.warn('test');
+    this.textInput.clear();
+    this.props.searchHandler(-1);
   };
 
   setGradeAll = () => {
@@ -49,22 +56,23 @@ export default class SearchAndFilters extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      <View>
         <View style={styles.containerSearchAndFilter}>
           <View style={styles.containerSearchAndDelete}>
             <TextInput
+              ref={input => {
+                this.textInput = input;
+              }}
               placeholder={'Type here to search'}
               style={styles.searchBar}
-              defaultValue={''}
               onChangeText={term => this.props.searchHandler(term)}
             />
-            {this.props.searchTerm != -1 || this.props.searchTerm == '' ? (
+            {this.props.searchTerm && this.props.searchTerm.length ? (
               <Icon
-                // hitSlop={{top: 8, left: 8, right: 8, bottom: 8}}
                 name={'x'}
                 type={'Feather'}
                 style={styles.deleteButton}
-                onPress={this.showFilters}
+                onPress={this.clearTextInput}
               />
             ) : null}
           </View>
@@ -73,7 +81,6 @@ export default class SearchAndFilters extends Component {
             style={styles.filterButton}
             onPress={this.showFilters}>
             <Icon
-              // hitSlop={{top: 20, left: 20, right: 20, bottom: 20}}
               name={'md-options'}
               type={'Ionicons'}
               style={styles.filters}
@@ -194,9 +201,6 @@ export default class SearchAndFilters extends Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    // justifyContent: 10,
-  },
   containerSearchAndFilter: {
     flexDirection: 'row',
     justifyContent: 'center',
@@ -209,7 +213,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   searchBar: {
-    // flex: 7,
+    paddingLeft: 10,
+    paddingRight: 45,
     height: 46,
     borderWidth: 2,
     borderRadius: 12,
@@ -218,9 +223,10 @@ const styles = StyleSheet.create({
   deleteButton: {
     position: 'absolute',
     alignSelf: 'flex-end',
-    right: 15,
+    right: 5,
     fontSize: 20,
-    // borderWidth: 1,
+    height: 40,
+    width: 40,
     textAlignVertical: 'center',
     textAlign: 'center',
     color: color.header,
@@ -236,29 +242,23 @@ const styles = StyleSheet.create({
     marginRight: 4,
   },
   searchOptions: {
-    // borderWidth: 1,
     margin: 4,
     flexDirection: 'row',
   },
   label: {
-    // borderWidth: 1,
     height: 36,
     textAlignVertical: 'center',
     width: '20%',
     fontSize: 14,
   },
   optionContainer: {
-    // flex: 4,
     width: '80%',
     flexDirection: 'row',
     borderRadius: 18,
-    // borderWidth: 2,
-    // borderColor: color.header,
     overflow: 'hidden',
     elevation: 4,
   },
   optionUnactive: {
-    // borderWidth: 1,
     height: 36,
     flex: 1,
     fontSize: 14,
@@ -267,7 +267,6 @@ const styles = StyleSheet.create({
     backgroundColor: color.tiles,
   },
   optionActive: {
-    // borderWidth: 1,
     color: color.tileText,
     height: 36,
     flex: 1,
