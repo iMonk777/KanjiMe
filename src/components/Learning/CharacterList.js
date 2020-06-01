@@ -128,8 +128,6 @@ export default class CharacterList extends Component {
 
   onFocusHandler = async () => {
     let favorites = await this.getFavorites();
-    console.log(favorites);
-    console.log(favorites.length);
     if (favorites) {
       let emptyTiles = [];
       for (let i = 0; i < 5 - ([...favorites].length % 5); i++) {
@@ -145,7 +143,6 @@ export default class CharacterList extends Component {
           isEmptyState: true,
         });
       }
-      console.log(favorites);
       this.setState({favoriteKanjiList: favorites});
     }
   };

@@ -17,7 +17,6 @@ class Tile extends Component {
         face: this.props.name,
       });
     }
-    console.log(this.state.face);
   };
   showKanjiDetails = () => {
     this.props.navigation.navigate('KanjiDetailedView', {

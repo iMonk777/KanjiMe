@@ -40,7 +40,6 @@ class LearnTab extends Component {
     const favorites = await this.getFavorites();
     if (favorites === null) {
       this.storeData('favoriteKanjiList', '[]');
-      console.warn('stored favorites empty list');
     }
   }
 

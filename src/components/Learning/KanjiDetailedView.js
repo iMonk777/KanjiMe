@@ -264,7 +264,6 @@ export default class KanjiDetailedView extends Component {
         this.setState({favoritesKanji: favorites});
       }
     }
-    console.log(this.state.favoritesKanji);
   }
 
   render() {

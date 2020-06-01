@@ -6,7 +6,6 @@ import SoundPlayer from 'react-native-sound-player';
 
 export default class BigKanjiInfo extends Component {
   playSound = () => {
-    console.log(this.props.audioFile);
     try {
       SoundPlayer.playSoundFile(this.props.audioFile, 'mp3');
     } catch (e) {

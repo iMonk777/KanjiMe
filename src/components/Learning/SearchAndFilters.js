@@ -23,11 +23,9 @@ export default class SearchAndFilters extends Component {
     this.setState({
       isFilter: !this.state.isFilter,
     });
-    console.log(this.props.searchTerm.length);
   };
 
   clearTextInput = () => {
-    // console.warn('test');
     this.textInput.clear();
     this.props.searchHandler(-1);
   };
@@ -256,6 +254,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     borderRadius: 18,
     overflow: 'hidden',
+    backgroundColor: color.tiles,
     elevation: 4,
   },
   optionUnactive: {

@@ -6,9 +6,6 @@ import Video from 'react-native-video';
 
 export default class BigKanji extends Component {
   render() {
-    let videoUrl = `./../../storage/videos/${this.props.videoName}_00.mp4`;
-    console.log(videoUrl);
-
     return (
       <View style={styles.container}>
         {this.props.showVideo === false ? (
@@ -25,7 +22,7 @@ export default class BigKanji extends Component {
         )}
 
         {this.props.isGridActive == true ? (
-          <CustomGrid style={{position: 'absolute'}}></CustomGrid>
+          <CustomGrid style={{position: 'absolute'}} />
         ) : null}
       </View>
     );
