@@ -26,6 +26,8 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   creditsText: {
+    width: '100%',
+    textAlign: 'center',
     fontFamily: 'Lato',
     fontSize: 24,
     color: color.header,

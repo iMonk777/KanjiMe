@@ -496,8 +496,6 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     paddingLeft: 8,
     paddingRight: 8,
-    // borderWidth: 1,
-    // borderColor: 'red',
   },
   practiceButtonContainer: {
     display: 'flex',
@@ -518,6 +516,8 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   practiceButtonText: {
+    width: '120%',
+    textAlign: 'center',
     color: color.header,
     fontWeight: 'bold',
   },
@@ -529,18 +529,9 @@ const styles = StyleSheet.create({
   scrollView: {
     flex: 1,
     width: '100%',
-    // borderWidth: 1,
   },
   drawingContainer: {
-    // borderWidth: 2,
-    // borderColor: 'pink',
     width: '100%',
     flex: 1,
   },
 });
-
-// <View>
-//   <Text> {getKanjiData(this.state.currentKanjiId).name} </Text>
-//   <Button title={'Next'} onPress={this.showNextKanji}></Button>
-//   <Button title={'Previous'} onPress={this.showPreviousKanji}></Button>
-// </View>
