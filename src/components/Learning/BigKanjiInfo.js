@@ -77,6 +77,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   infoLabelText: {
+    // borderWidth: 1,
+    width: '90%',
+    textAlign: 'center',
     fontSize: 10,
     height: 16,
     marginLeft: 13,
@@ -85,8 +88,6 @@ const styles = StyleSheet.create({
     color: color.headerIcon,
   },
   infoTextContainer: {
-    // borderColor: 'red',
-    // borderWidth: 1,
     width: '85%',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -102,7 +103,6 @@ const styles = StyleSheet.create({
     right: 5,
     top: 13,
     padding: 13,
-    // borderWidth: 1,
   },
   audioIcon: {
     color: color.header,

@@ -47,6 +47,8 @@ const styles = StyleSheet.create({
   practiceButtonText: {
     color: color.header,
     fontWeight: 'bold',
+    width: '100%',
+    textAlign: 'center',
   },
   practiceButtonIcon: {
     alignSelf: 'center',

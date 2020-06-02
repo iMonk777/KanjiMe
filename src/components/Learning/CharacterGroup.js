@@ -43,6 +43,8 @@ const styles = StyleSheet.create({
     textAlignVertical: 'center',
   },
   characterGroupText: {
+    width: '100%',
+    textAlign: 'center',
     fontFamily: 'Lato',
     fontSize: 24,
     flex: 2,
