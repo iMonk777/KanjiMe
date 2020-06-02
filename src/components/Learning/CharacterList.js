@@ -61,6 +61,8 @@ export default class CharacterList extends Component {
 
   searchHandler = term => {
     let foundcharacters = [];
+    let lowerCaseTerm = String(term).toLowerCase();
+    console.log(lowerCaseTerm);
     for (let i = 0; i < kanjiData.length; i++) {
       if (term === -1) {
         if (
@@ -72,16 +74,19 @@ export default class CharacterList extends Component {
       } else if (
         (!!this.state.meaningFilter &&
           !!kanjiData[i].kmeaning &&
-          kanjiData[i].kmeaning.indexOf(term) !== -1) ||
+          (kanjiData[i].kmeaning.indexOf(lowerCaseTerm) !== -1 ||
+            kanjiData[i].kmeaning.toLowerCase().indexOf(lowerCaseTerm) !==
+              -1)) ||
         (this.state.readingFilter &&
           !!kanjiData[i].kunyomi &&
-          kanjiData[i].kunyomi.indexOf(term) !== -1) ||
+          kanjiData[i].kunyomi.indexOf(lowerCaseTerm) !== -1) ||
         (this.state.readingFilter &&
           !!kanjiData[i].onyomi &&
-          kanjiData[i].onyomi.indexOf(term) !== -1) ||
+          kanjiData[i].onyomi.indexOf(lowerCaseTerm) !== -1) ||
         (this.state.exampleFilter &&
           !!kanjiData[i].examples &&
-          kanjiData[i].examples.indexOf(term) !== -1)
+          (kanjiData[i].examples.indexOf(lowerCaseTerm) !== -1 ||
+            kanjiData[i].examples.toLowerCase().indexOf(lowerCaseTerm) !== -1))
       ) {
         if (
           this.state.gradeFilter == -1 ||
