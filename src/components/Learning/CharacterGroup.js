@@ -45,13 +45,13 @@ const styles = StyleSheet.create({
   characterGroupText: {
     width: '100%',
     textAlign: 'center',
-    fontFamily: 'Lato',
+    // fontFamily: 'Lato',
     fontSize: 24,
     flex: 2,
     color: color.header,
   },
   displayCharacter: {
-    fontFamily: 'Lato',
+    // fontFamily: 'Lato',
     fontSize: 110,
     flex: 7,
     textAlignVertical: 'center',

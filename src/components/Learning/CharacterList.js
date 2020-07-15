@@ -250,7 +250,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
   },
   emptyStateText: {
-    fontFamily: 'Lato',
+    // fontFamily: 'Lato',
     fontSize: 24,
     color: color.header,
     textAlign: 'justify',
