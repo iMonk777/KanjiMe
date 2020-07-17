@@ -14,6 +14,10 @@ import {color} from '../../Styles/Color';
 import BigKanjiInfo from './BigKanjiInfo';
 import DrawingCanvas from './DrawingCanvas';
 import AsyncStorage from '@react-native-community/async-storage';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
 export default class KanjiDetailedView extends Component {
   state = {
@@ -448,7 +452,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   headerContainer: {
-    height: 160,
+    height: hp('21%'),
     flexDirection: 'row',
     backgroundColor: color.header,
   },
@@ -459,7 +463,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   leftButtons: {
-    height: 40,
+    height: hp('6%'),
     aspectRatio: 1,
     alignContent: 'center',
     justifyContent: 'center',
@@ -476,20 +480,16 @@ const styles = StyleSheet.create({
   },
   rightButtons: {
     aspectRatio: 1,
-    height: 40,
+    height: hp('6%'),
     alignContent: 'center',
     justifyContent: 'center',
   },
   icons: {
     alignSelf: 'center',
-    fontSize: 30,
+    fontSize: hp('4%'),
     color: color.headerIcon,
   },
 
-  strokes: {
-    borderColor: 'teal',
-    borderWidth: 2,
-  },
   bodyContainer: {
     flex: 1,
     alignItems: 'center',

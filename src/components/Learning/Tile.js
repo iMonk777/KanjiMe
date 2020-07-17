@@ -2,6 +2,10 @@ import React, {Component} from 'react';
 import {Text, View, TouchableOpacity, StyleSheet, Button} from 'react-native';
 import {color} from './../../Styles/Color';
 import {withNavigation} from 'react-navigation';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
 class Tile extends Component {
   state = {
@@ -55,7 +59,6 @@ class Tile extends Component {
     );
   }
 }
-
 export default withNavigation(Tile);
 
 const styles = StyleSheet.create({
@@ -63,7 +66,7 @@ const styles = StyleSheet.create({
     flex: 1,
     margin: 5,
     aspectRatio: 1,
-    borderRadius: 7,
+    borderRadius: wp('2%'),
     elevation: 5,
     backgroundColor: color.tiles,
   },
@@ -80,7 +83,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   characterGroupText: {
-    fontSize: 35,
+    fontSize: wp('10%'),
     color: color.header,
   },
   smallerFontSize: {

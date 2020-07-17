@@ -3,6 +3,10 @@ import {Text, View, StyleSheet} from 'react-native';
 import {color} from '../../Styles/Color';
 import CustomGrid from './CustomGrid';
 import Video from 'react-native-video';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
 export default class BigKanji extends Component {
   render() {
@@ -31,21 +35,24 @@ export default class BigKanji extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    height: '90%',
+    height: hp('19%'),
     aspectRatio: 1,
     alignSelf: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
     backgroundColor: color.bigKanjiContainer,
-    borderRadius: 10,
+    borderRadius: hp('1%'),
+    padding: 0,
   },
   bigKanji: {
-    fontSize: 100,
-    textAlign: 'center',
+    fontSize: hp('14%'),
+    lineHeight: hp('16%'),
+    letterSpacing: -30,
     color: color.bigKanji,
   },
   kanjiVideo: {
-    height: '80%',
-    width: '80%',
+    height: hp('14%'),
+    width: hp('14%'),
     alignSelf: 'center',
   },
 });

@@ -11,19 +11,6 @@ const goToLink = source => {
 const Credits = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Created by:</Text>
-      <TouchableOpacity
-        onPress={() => {
-          goToLink('https://www.linkedin.com/in/andrei-cirstea-115676b2/');
-        }}
-        style={styles.touchable}>
-        <Text style={styles.text}>Andrei Cirstea</Text>
-        <Icon
-          name={'linkedin-square'}
-          type={'FontAwesome'}
-          style={styles.icon}
-        />
-      </TouchableOpacity>
       <Text style={styles.title}>Special thanks to:</Text>
       <Text />
       <TouchableOpacity
@@ -48,36 +35,6 @@ const Credits = () => {
         </Text>
         <Icon name={'hand-spock'} type={'FontAwesome5'} style={styles.icon} />
       </TouchableOpacity>
-      <TouchableOpacity
-        onPress={() => {
-          goToLink('https://www.linkedin.com/in/bogdandemeny/');
-        }}
-        style={styles.touchable}>
-        <Text style={styles.text}>
-          Bogdan Demeny for all the help given. Find out more about Bogdan on
-          LinkedIn
-        </Text>
-        <Icon
-          name={'linkedin-square'}
-          type={'FontAwesome'}
-          style={styles.icon}
-        />
-      </TouchableOpacity>
-      <TouchableOpacity
-        onPress={() => {
-          goToLink('https://www.linkedin.com/in/laura-pana-755373131/');
-        }}
-        style={styles.touchable}>
-        <Text style={styles.text}>
-          Laura Pana for the landing page design. Find out more about Laura on
-          LinkedIn
-        </Text>
-        <Icon
-          name={'linkedin-square'}
-          type={'FontAwesome'}
-          style={styles.iconPink}
-        />
-      </TouchableOpacity>
     </View>
   );
 };
@@ -91,7 +48,7 @@ const styles = StyleSheet.create({
   title: {
     textAlign: 'center',
     fontSize: 25,
-    fontFamily: 'roboto',
+    // fontFamily: 'roboto',
     fontWeight: 'bold',
   },
   icon: {
@@ -100,13 +57,6 @@ const styles = StyleSheet.create({
     flex: 1,
     textAlign: 'right',
   },
-  iconPink: {
-    fontSize: 70,
-    color: '#e76eb1',
-    flex: 1,
-    textAlign: 'right',
-  },
-  section: {},
   text: {
     flex: 3,
     textAlignVertical: 'center',

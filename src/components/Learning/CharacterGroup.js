@@ -2,6 +2,10 @@ import React, {Component} from 'react';
 import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 import {Icon} from 'native-base';
 import {color} from './../../Styles/Color';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
 export default class CharacterGroup extends Component {
   navigationHandler = () => {
@@ -14,11 +18,15 @@ export default class CharacterGroup extends Component {
           style={styles.touchable}
           onPress={this.navigationHandler}>
           {this.props.name == 'Favorites' ? (
-            <Icon name={'star-o'} type={'FontAwesome'} style={styles.icon} />
+            <View style={styles.characterGroupTextContainer}>
+              <Icon name={'star-o'} type={'FontAwesome'} style={styles.icon} />
+            </View>
           ) : (
-            <Text style={styles.displayCharacter}>
-              {this.props.displayCharacter}
-            </Text>
+            <View style={styles.characterGroupTextContainer}>
+              <Text style={styles.displayCharacter}>
+                {this.props.displayCharacter}
+              </Text>
+            </View>
           )}
 
           <Text style={styles.characterGroupText}> {this.props.name} </Text>
@@ -34,36 +42,34 @@ const styles = StyleSheet.create({
     width: '100%',
     alignItems: 'center',
     flexDirection: 'column',
-    // borderWidth: 1,
+    justifyContent: 'flex-end',
+    alignItems: 'center',
   },
   icon: {
-    fontSize: 120,
+    fontSize: wp('30%'),
     color: color.tileIcon,
-    flex: 7,
     textAlignVertical: 'center',
   },
+  characterGroupTextContainer: {
+    flex: 7,
+    justifyContent: 'flex-end',
+  },
   characterGroupText: {
-    width: '100%',
-    textAlign: 'center',
-    // fontFamily: 'Lato',
-    fontSize: 24,
+    // fontSize: 24,
+    fontSize: wp('6%'),
     flex: 2,
     color: color.header,
   },
   displayCharacter: {
-    // fontFamily: 'Lato',
-    fontSize: 110,
-    flex: 7,
-    textAlignVertical: 'center',
+    fontSize: wp('28%'),
     color: color.header,
   },
   characterGroupContainer: {
-    // borderWidth: 1,
     flex: 1,
     padding: 6,
     elevation: 7,
     backgroundColor: color.tiles,
-    borderRadius: 15,
+    borderRadius: hp('1.5%'),
     margin: 6,
   },
 });
