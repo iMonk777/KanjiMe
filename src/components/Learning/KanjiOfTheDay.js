@@ -5,6 +5,10 @@ import {TouchableOpacity} from 'react-native-gesture-handler';
 import {withNavigation} from 'react-navigation';
 import {kanjiData, fullKanjiIdList} from '../../storage/kanjiData';
 import AsyncStorage from '@react-native-community/async-storage';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
 class KanjiOfTheDay extends Component {
   state = {
@@ -95,12 +99,12 @@ export default withNavigation(KanjiOfTheDay);
 
 const styles = StyleSheet.create({
   container: {
-    height: 200,
+    height: wp('48%'),
     margin: 6,
     // borderWidth: 1,
     elevation: 7,
     backgroundColor: color.tiles,
-    borderRadius: 15,
+    borderRadius: hp('1.5%'),
   },
   touchable: {
     flexDirection: 'row',
@@ -108,35 +112,29 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   textContainer: {
-    // borderWidth: 1,
     height: '100%',
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
   },
   kanjiContainer: {
-    // borderWidth: 1,
-    // height: '100%',
     flex: 1,
     justifyContent: 'center',
     margin: 15,
     backgroundColor: color.background,
-    borderRadius: 15,
+    borderRadius: hp('1.5%'),
   },
   labelText: {
-    // borderWidth: 1,
     textAlign: 'center',
     textAlignVertical: 'center',
-    fontSize: 35,
-    width: 150,
+    fontSize: wp('9%'),
+    width: wp('37%'),
     color: color.header,
-    // fontWeight: 'bold',
   },
   kanjiText: {
-    // borderWidth: 1,
     textAlign: 'center',
     textAlignVertical: 'center',
-    fontSize: 110,
+    fontSize: wp('30%'),
     color: color.header,
   },
 });

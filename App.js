@@ -14,6 +14,7 @@ import Home from './src/components/Home';
 import CharacterList from './src/components/Learning/CharacterList';
 import KanjiDetailedView from './src/components/Learning/KanjiDetailedView';
 import Credits from './src/components/Learning/Credits';
+import {getStatusBarHeight} from 'react-native-status-bar-height';
 
 const AppNavigator = createStackNavigator(
   {
@@ -33,7 +34,11 @@ const AppNavigator = createStackNavigator(
 const AppContainer = createAppContainer(AppNavigator);
 
 const App: () => React$Node = () => {
-  return <AppContainer />;
+  return (
+    <View style={{flex: 1, paddingTop: getStatusBarHeight()}}>
+      <AppContainer />
+    </View>
+  );
 };
 
 export default App;

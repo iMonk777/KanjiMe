@@ -7,6 +7,10 @@ import AsyncStorage from '@react-native-community/async-storage';
 import {withNavigation} from 'react-navigation';
 import KanjiOfTheDay from './KanjiOfTheDay';
 import CreditsButton from './CreditsButton';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
 class LearnTab extends Component {
   navigateToCharacterlist = charList => {
@@ -85,9 +89,8 @@ class LearnTab extends Component {
 
 const styles = StyleSheet.create({
   groupContainer: {
-    // borderWidth: 1,
     flexDirection: 'row',
-    height: 200,
+    height: wp('48%'),
   },
   touchable: {flex: 1, padding: 6},
 });

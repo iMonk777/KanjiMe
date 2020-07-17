@@ -3,6 +3,10 @@ import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 import {color} from '../../Styles/Color';
 import {Icon} from 'native-base';
 import SoundPlayer from 'react-native-sound-player';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
 export default class BigKanjiInfo extends Component {
   playSound = () => {
@@ -51,11 +55,11 @@ export default class BigKanjiInfo extends Component {
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    marginBottom: 8,
-    minHeight: 40,
-    borderRadius: 16,
+    marginBottom: hp('0.9%'),
+    minHeight: hp('4.4%'),
+    borderRadius: hp('1.7%'),
     backgroundColor: color.tiles,
-    padding: 8,
+    padding: hp('0.9%'),
     elevation: 2,
   },
   meaningContainer: {
@@ -68,8 +72,8 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   infoLabelContainer: {
-    borderBottomLeftRadius: 16,
-    borderTopRightRadius: 16,
+    borderBottomLeftRadius: hp('1.7%'),
+    borderTopRightRadius: hp('1.7%'),
     backgroundColor: color.header,
     position: 'absolute',
     alignSelf: 'flex-end',
@@ -77,7 +81,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   infoLabelText: {
-    // borderWidth: 1,
     width: '90%',
     textAlign: 'center',
     fontSize: 10,

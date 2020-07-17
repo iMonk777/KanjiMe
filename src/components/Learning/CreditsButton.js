@@ -1,6 +1,10 @@
 import React from 'react';
 import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import {color} from '../../Styles/Color';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
 const CreditsButton = props => {
   return (
@@ -14,11 +18,12 @@ const CreditsButton = props => {
 
 const styles = StyleSheet.create({
   container: {
-    height: 50,
+    height: hp('6.5%'),
     width: '100%',
     elevation: 7,
     backgroundColor: color.tiles,
-    borderRadius: 15,
+    borderRadius: hp('1.5%'),
+
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
@@ -29,7 +34,7 @@ const styles = StyleSheet.create({
     width: '100%',
     textAlign: 'center',
     // fontFamily: 'Lato',
-    fontSize: 24,
+    fontSize: hp('3%'),
     color: color.header,
   },
   touchable: {
