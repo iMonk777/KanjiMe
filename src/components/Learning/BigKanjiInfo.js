@@ -7,15 +7,21 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
+import {Player} from '@react-native-community/audio-toolkit';
 
 export default class BigKanjiInfo extends Component {
-  playSound = () => {
+  playSoundAndroid = () => {
     try {
       SoundPlayer.playSoundFile(this.props.audioFile, 'mp3');
     } catch (e) {
       console.log(`cannot play the sound file`, e);
     }
   };
+
+  playSoundIos = () => {
+    new Player('audio__afurika_zou_06_a.mp3').play();
+  };
+
   render() {
     return (
       <View
@@ -28,7 +34,13 @@ export default class BigKanjiInfo extends Component {
           <Text style={styles.infoLabelText}>{this.props.type}</Text>
         </View>
         {this.props.audioFile ? (
-          <TouchableOpacity style={styles.audioButton} onPress={this.playSound}>
+          <TouchableOpacity
+            style={styles.audioButton}
+            onPress={
+              Platform.OS == 'android'
+                ? this.playSoundAndroid
+                : this.playSoundIos
+            }>
             <Icon
               style={styles.audioIcon}
               name={'headphones'}
