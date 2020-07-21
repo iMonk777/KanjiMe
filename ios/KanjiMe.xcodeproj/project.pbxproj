@@ -18,9 +18,7 @@
 		78407BCCDBFE2F2923E6C40E /* libPods-KanjiMe-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5320D286B52F42DD6C76AC /* libPods-KanjiMe-tvOSTests.a */; };
 		9258055BFC3B30DB13B5D274 /* libPods-KanjiMeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56606919BB6465783A57285A /* libPods-KanjiMeTests.a */; };
 		97EA50D5312DC3CA7248FF96 /* libPods-KanjiMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE7E550EFD4AA643A7C321B /* libPods-KanjiMe.a */; };
-		A8E0946F24C73ED500FF2D67 /* audio__afurika_zou_06_b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8E0946C24C73ED400FF2D67 /* audio__afurika_zou_06_b.mp3 */; };
-		A8E0947024C73ED500FF2D67 /* audio__afurika_zou_06_c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8E0946D24C73ED500FF2D67 /* audio__afurika_zou_06_c.mp3 */; };
-		A8E0947124C73ED500FF2D67 /* audio__afurika_zou_06_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8E0946E24C73ED500FF2D67 /* audio__afurika_zou_06_a.mp3 */; };
+		A86912EA24C75773005171E0 /* AudioFiles in Resources */ = {isa = PBXBuildFile; fileRef = A86912E924C75773005171E0 /* AudioFiles */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,10 +72,8 @@
 		9C5320D286B52F42DD6C76AC /* libPods-KanjiMe-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KanjiMe-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C87C311B3134B238B5A9230 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		9F1B1EDDBD2949A094B5D571 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		A86912E924C75773005171E0 /* AudioFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AudioFiles; path = ../../../AudioFiles; sourceTree = "<group>"; };
 		A89D349224BF5FF400B09695 /* project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = project.xcworkspace; path = KanjiMe.xcodeproj/project.xcworkspace; sourceTree = "<group>"; };
-		A8E0946C24C73ED400FF2D67 /* audio__afurika_zou_06_b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = audio__afurika_zou_06_b.mp3; path = ../android/app/src/main/res/raw/audio__afurika_zou_06_b.mp3; sourceTree = "<group>"; };
-		A8E0946D24C73ED500FF2D67 /* audio__afurika_zou_06_c.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = audio__afurika_zou_06_c.mp3; path = ../android/app/src/main/res/raw/audio__afurika_zou_06_c.mp3; sourceTree = "<group>"; };
-		A8E0946E24C73ED500FF2D67 /* audio__afurika_zou_06_a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = audio__afurika_zou_06_a.mp3; path = ../android/app/src/main/res/raw/audio__afurika_zou_06_a.mp3; sourceTree = "<group>"; };
 		A90B09AA2A004C1294E36EC6 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		B15509E2214F7C9B9960FDBC /* Pods-KanjiMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanjiMeTests.release.xcconfig"; path = "Target Support Files/Pods-KanjiMeTests/Pods-KanjiMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6C3279CE6D88678FF47BAC8 /* Pods-KanjiMe-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanjiMe-tvOS.release.xcconfig"; path = "Target Support Files/Pods-KanjiMe-tvOS/Pods-KanjiMe-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,9 +160,7 @@
 		13B07FAE1A68108700A75B9A /* KanjiMe */ = {
 			isa = PBXGroup;
 			children = (
-				A8E0946E24C73ED500FF2D67 /* audio__afurika_zou_06_a.mp3 */,
-				A8E0946C24C73ED400FF2D67 /* audio__afurika_zou_06_b.mp3 */,
-				A8E0946D24C73ED500FF2D67 /* audio__afurika_zou_06_c.mp3 */,
+				A86912E924C75773005171E0 /* AudioFiles */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -404,9 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E0947024C73ED500FF2D67 /* audio__afurika_zou_06_c.mp3 in Resources */,
-				A8E0946F24C73ED500FF2D67 /* audio__afurika_zou_06_b.mp3 in Resources */,
-				A8E0947124C73ED500FF2D67 /* audio__afurika_zou_06_a.mp3 in Resources */,
+				A86912EA24C75773005171E0 /* AudioFiles in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
