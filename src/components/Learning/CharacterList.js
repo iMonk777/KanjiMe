@@ -17,6 +17,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 import {kanjiData} from './../../storage/kanjiData';
 import SearchAndFilters from './SearchAndFilters';
 import {withNavigation} from 'react-navigation';
+import {getStatusBarHeight} from 'react-native-status-bar-height';
 
 export default class CharacterList extends Component {
   state = {
@@ -240,7 +241,7 @@ const styles = StyleSheet.create({
   container: {
     paddingLeft: 2.5,
     paddingRight: 2.5,
-    paddingTop: 2.5,
+    // paddingTop: Platform.OS == 'ios' ? getStatusBarHeight() : 2.5,
     flex: 1,
     alignContent: 'center',
     justifyContent: 'flex-start',
