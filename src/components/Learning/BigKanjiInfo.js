@@ -10,6 +10,9 @@ import {
 import {Player} from '@react-native-community/audio-toolkit';
 
 export default class BigKanjiInfo extends Component {
+  state = {
+    isPlaying: false,
+  };
   playSoundAndroid = () => {
     try {
       SoundPlayer.playSoundFile(this.props.audioFile, 'mp3');
@@ -19,7 +22,7 @@ export default class BigKanjiInfo extends Component {
   };
 
   playSoundIos = () => {
-    new Player('audio__afurika_zou_06_a.mp3').play();
+    new Player(`./AudioFiles/${this.props.audioFile}.mp3`).play();
   };
 
   render() {
@@ -41,13 +44,15 @@ export default class BigKanjiInfo extends Component {
                 ? this.playSoundAndroid
                 : this.playSoundIos
             }>
-            <Icon
-              style={styles.audioIcon}
-              name={'headphones'}
-              type={'MaterialCommunityIcons'}
-              // style={styles.icons}
-              onPress={null}
-            />
+            {Player.isPlaying == true ? null : (
+              <Icon
+                style={styles.audioIcon}
+                name={'headphones'}
+                type={'MaterialCommunityIcons'}
+                // style={styles.icons}
+                onPress={null}
+              />
+            )}
           </TouchableOpacity>
         ) : null}
 
