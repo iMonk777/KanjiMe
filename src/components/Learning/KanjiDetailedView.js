@@ -18,6 +18,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
+import {getStatusBarHeight} from 'react-native-status-bar-height';
 
 export default class KanjiDetailedView extends Component {
   state = {
@@ -273,6 +274,7 @@ export default class KanjiDetailedView extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <View style={styles.ribbon} />
         <View style={styles.headerContainer}>
           <View style={styles.leftButtonsContainer}>
             {this.state.favoritesKanji ===
@@ -450,6 +452,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'white',
+  },
+  ribbon: {
+    // height: getStatusBarHeight(),
+    backgroundColor: color.header,
   },
   headerContainer: {
     height: hp('21%'),

@@ -16,7 +16,7 @@ import {
 
 export default class SearchAndFilters extends Component {
   state = {
-    isFilter: true,
+    isFilter: false,
     exampleFilter: this.props.exampleFilter,
     meaningFilter: this.props.meaningFilter,
     kunyomiFilter: this.props.kunyomiFilter,

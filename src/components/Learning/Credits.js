@@ -3,6 +3,7 @@ import {View, Text, Linking, StyleSheet, TouchableOpacity} from 'react-native';
 import {withNavigation} from 'react-navigation';
 import {Icon} from 'native-base';
 import {color} from './../../Styles/Color';
+import {getStatusBarHeight} from 'react-native-status-bar-height';
 
 const goToLink = source => {
   Linking.openURL(source);
@@ -44,6 +45,7 @@ export default withNavigation(Credits);
 const styles = StyleSheet.create({
   container: {
     padding: 10,
+    // paddingTop: Platform.OS == 'ios' ? getStatusBarHeight() : 2.5,
   },
   title: {
     textAlign: 'center',

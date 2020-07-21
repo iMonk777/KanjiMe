@@ -11,6 +11,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
+import {getStatusBarHeight} from 'react-native-status-bar-height';
 
 class LearnTab extends Component {
   navigateToCharacterlist = charList => {
@@ -49,21 +50,12 @@ class LearnTab extends Component {
 
   render() {
     return (
-      <View style={{padding: 6, flex: 1}}>
-        {/* <View style={styles.groupContainer}>
-          <CharacterGroup
-            name={'Hiragana'}
-            displayCharacter={'あ'}
-            onPress={this.navigateToCharacterlist}
-            characterListNumber={0}
-          />
-          <CharacterGroup
-            name={'Katakana'}
-            displayCharacter={'ア'}
-            onPress={this.navigateToCharacterlist}
-            characterListNumber={1}
-          />
-        </View> */}
+      <View
+        style={{
+          padding: 6,
+          // paddingTop: Platform.OS == 'ios' ? getStatusBarHeight() : 0,
+          flex: 1,
+        }}>
         <View style={styles.groupContainer}>
           <CharacterGroup
             name={'Kanji'}

@@ -7,14 +7,13 @@
  */
 
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View} from 'react-native';
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import Home from './src/components/Home';
 import CharacterList from './src/components/Learning/CharacterList';
 import KanjiDetailedView from './src/components/Learning/KanjiDetailedView';
 import Credits from './src/components/Learning/Credits';
-import {getStatusBarHeight} from 'react-native-status-bar-height';
 
 const AppNavigator = createStackNavigator(
   {
@@ -26,7 +25,8 @@ const AppNavigator = createStackNavigator(
   {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
-      headerShown: false,
+      headerShown: true,
+      gestureEnabled: false,
     },
   },
 );
@@ -35,7 +35,7 @@ const AppContainer = createAppContainer(AppNavigator);
 
 const App: () => React$Node = () => {
   return (
-    <View style={{flex: 1, paddingTop: getStatusBarHeight()}}>
+    <View style={{flex: 1}}>
       <AppContainer />
     </View>
   );

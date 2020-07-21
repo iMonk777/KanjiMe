@@ -4,10 +4,15 @@ import {Text, View, StyleSheet} from 'react-native';
 import {color} from '../../Styles/Color';
 import CanvasButton from '../Learning/CanvasButton';
 import CrayonButton from '../Learning/CrayonButton';
+import {SketchCanvas} from '@terrylinla/react-native-sketch-canvas';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
 export default class DrawingCanvas extends Component {
   state = {
-    color: color.header,
+    color: '#de7119',
     isPreview: true,
     isColorList: false,
   };
@@ -31,7 +36,7 @@ export default class DrawingCanvas extends Component {
   };
 
   clearCanvas = () => {
-    this.refs.sketchRef.clearSketch();
+    this.refs.sketchRef.clear();
   };
 
   render() {
@@ -43,6 +48,13 @@ export default class DrawingCanvas extends Component {
               <Text style={styles.PreviewText}>{this.props.kanji}</Text>
             </View>
           ) : null}
+
+          <SketchCanvas
+            ref="sketchRef"
+            style={styles.canvas}
+            strokeColor={this.state.color}
+            strokeWidth={13}
+          />
 
           {/* <SketchDraw
             style={styles.canvas}
@@ -102,9 +114,7 @@ export default class DrawingCanvas extends Component {
               iconType={'MaterialIcons'}
             />
             <CanvasButton
-              onPress={() => {
-                this.refs.sketchRef.clearSketch();
-              }}
+              onPress={this.clearCanvas}
               text={'Delete'}
               size={2}
               iconName={'md-trash'}
@@ -127,6 +137,7 @@ const styles = StyleSheet.create({
   },
   PreviewText: {
     fontSize: 300,
+    fontSize: hp('35%'),
     textAlign: 'center',
     color: 'black',
   },
