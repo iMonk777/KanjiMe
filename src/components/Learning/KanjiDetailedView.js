@@ -424,7 +424,7 @@ export default class KanjiDetailedView extends Component {
                         'audio_' +
                         kanjiData[this.state.currentKanjiId].kAudio +
                         '_06_' +
-                        String.fromCharCode(97 + index)
+                        String.fromCharCode(97 + index + '.mp3')
                       }
                     />
                   ))}

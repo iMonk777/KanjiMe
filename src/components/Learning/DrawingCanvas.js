@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Text, View, StyleSheet} from 'react-native';
-import SketchDraw from 'react-native-sketch-draw';
+// import SketchDraw from 'react-native-sketch-draw';
 import {color} from '../../Styles/Color';
 import CanvasButton from '../Learning/CanvasButton';
 import CrayonButton from '../Learning/CrayonButton';
@@ -44,12 +44,12 @@ export default class DrawingCanvas extends Component {
             </View>
           ) : null}
 
-          <SketchDraw
+          {/* <SketchDraw
             style={styles.canvas}
             ref="sketchRef"
             selectedTool={0}
             toolColor={this.state.color} //Yelow Example! you can changIT!
-          />
+          /> */}
         </View>
 
         {this.state.isColorList ? (

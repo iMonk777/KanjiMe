@@ -36,6 +36,8 @@ target 'KanjiMe' do
 
   pod 'RNSketchCanvas', :path => '../node_modules/@terrylinla/react-native-sketch-canvas'
 
+  pod 'ReactNativeAudioToolkit', :path => '../node_modules/@react-native-community/audio-toolkit'
+
   target 'KanjiMeTests' do
     inherit! :search_paths
     # Pods for testing
