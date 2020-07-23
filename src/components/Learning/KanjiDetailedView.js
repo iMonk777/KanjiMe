@@ -29,6 +29,8 @@ export default class KanjiDetailedView extends Component {
     grid: true,
     paused: false,
     showVideo: false,
+    isVideoLayer1: false,
+
     paused: false,
     isPractice: false,
     scrollViewHeight: '100%',
@@ -109,10 +111,17 @@ export default class KanjiDetailedView extends Component {
     console.log(error);
   };
 
-  playAnimation = () => {
-    this.setState({
-      showVideo: true,
-    });
+  playAnimation = async () => {
+    this.state.showVideo == false
+      ? await this.setState({
+          showVideo: true,
+        })
+      : (await this.setState({
+          showVideo: false,
+        }),
+        await this.setState({
+          showVideo: true,
+        }));
   };
 
   stopAnimation = () => {
@@ -327,6 +336,7 @@ export default class KanjiDetailedView extends Component {
               videoName={kanjiData[this.state.currentKanjiId].kData}
               video={kanjiData[this.state.currentKanjiId].kVideo}
               showVideo={this.state.showVideo}
+              isVideoLayer1={this.state.isVideoLayer1}
             />
           </View>
           <View style={styles.rightbuttonsContainer}>
@@ -408,10 +418,19 @@ export default class KanjiDetailedView extends Component {
                   <BigKanjiInfo
                     type={'kun.'}
                     jpInfo={kanjiData[this.state.currentKanjiId].kunyomi_ja}
+                    jpInfo={
+                      kanjiData[this.state.currentKanjiId].kunyomi_ja
+                        ? kanjiData[this.state.currentKanjiId].kunyomi_ja
+                        : '-'
+                    }
                   />
                   <BigKanjiInfo
                     type={'on.'}
-                    jpInfo={kanjiData[this.state.currentKanjiId].onyomi_ja}
+                    jpInfo={
+                      kanjiData[this.state.currentKanjiId].onyomi_ja
+                        ? kanjiData[this.state.currentKanjiId].onyomi_ja
+                        : '-'
+                    }
                   />
 
                   {JSON.parse(
@@ -454,7 +473,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   ribbon: {
-    // height: getStatusBarHeight(),
+    height: getStatusBarHeight(),
     backgroundColor: color.header,
   },
   headerContainer: {

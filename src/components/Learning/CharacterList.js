@@ -241,7 +241,7 @@ const styles = StyleSheet.create({
   container: {
     paddingLeft: 2.5,
     paddingRight: 2.5,
-    // paddingTop: Platform.OS == 'ios' ? getStatusBarHeight() : 2.5,
+    paddingTop: Platform.OS == 'ios' ? getStatusBarHeight() : 2.5,
     flex: 1,
     alignContent: 'center',
     justifyContent: 'flex-start',

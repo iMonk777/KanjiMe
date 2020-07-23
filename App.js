@@ -14,6 +14,7 @@ import Home from './src/components/Home';
 import CharacterList from './src/components/Learning/CharacterList';
 import KanjiDetailedView from './src/components/Learning/KanjiDetailedView';
 import Credits from './src/components/Learning/Credits';
+import UserUITraining from './src/components/Learning/UserUITraining';
 
 const AppNavigator = createStackNavigator(
   {
@@ -21,12 +22,13 @@ const AppNavigator = createStackNavigator(
     CharacterList: CharacterList,
     KanjiDetailedView: KanjiDetailedView,
     Credits: Credits,
+    UserUITraining: UserUITraining,
   },
   {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
-      headerShown: true,
-      gestureEnabled: false,
+      headerShown: false,
+      gestureEnabled: true,
     },
   },
 );

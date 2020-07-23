@@ -45,7 +45,7 @@ export default withNavigation(Credits);
 const styles = StyleSheet.create({
   container: {
     padding: 10,
-    // paddingTop: Platform.OS == 'ios' ? getStatusBarHeight() : 2.5,
+    paddingTop: Platform.OS == 'ios' ? getStatusBarHeight() : 2.5,
   },
   title: {
     textAlign: 'center',

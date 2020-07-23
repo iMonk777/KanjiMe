@@ -69,6 +69,7 @@ export default class SearchAndFilters extends Component {
               placeholder={'Type here to search'}
               style={styles.searchBar}
               onChangeText={term => this.props.searchHandler(term)}
+              autoCorrect={false}
             />
             {this.props.searchTerm && this.props.searchTerm.length ? (
               <Icon
