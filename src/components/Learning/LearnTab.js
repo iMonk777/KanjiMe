@@ -41,10 +41,24 @@ class LearnTab extends Component {
     }
   };
 
+  getTraning = async () => {
+    try {
+      const didShowTraining = await AsyncStorage.getItem('didShowTraining');
+      return didShowTraining;
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   async componentDidMount() {
     const favorites = await this.getFavorites();
     if (favorites === null) {
       this.storeData('favoriteKanjiList', '[]');
+    }
+    const didShowTraining = await this.getTraning();
+    if (didShowTraining === null) {
+      this.props.navigation.navigate('UserUITraining');
+      this.storeData('didShowTraining', 'true');
     }
   }
 
@@ -53,7 +67,7 @@ class LearnTab extends Component {
       <View
         style={{
           padding: 6,
-          // paddingTop: Platform.OS == 'ios' ? getStatusBarHeight() : 0,
+          paddingTop: Platform.OS == 'ios' ? getStatusBarHeight() : 0,
           flex: 1,
         }}>
         <View style={styles.groupContainer}>
