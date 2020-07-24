@@ -1,6 +1,9 @@
 {
-  "info": {
-    "version": 2,
-    "author": "xcode"
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "compression-type" : "automatic"
   }
 }

@@ -63,7 +63,6 @@ export default class CharacterList extends Component {
   searchHandler = term => {
     let foundcharacters = [];
     let lowerCaseTerm = String(term).toLowerCase();
-    console.log(lowerCaseTerm);
     for (let i = 0; i < kanjiData.length; i++) {
       if (term === -1) {
         if (

@@ -11,14 +11,17 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* KanjiMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* KanjiMeTests.m */; };
 		47FC95E051EBC0178F50AA4D /* libPods-KanjiMe-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AFC56978C26BF112FCFB54 /* libPods-KanjiMe-tvOS.a */; };
 		78407BCCDBFE2F2923E6C40E /* libPods-KanjiMe-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5320D286B52F42DD6C76AC /* libPods-KanjiMe-tvOSTests.a */; };
 		9258055BFC3B30DB13B5D274 /* libPods-KanjiMeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56606919BB6465783A57285A /* libPods-KanjiMeTests.a */; };
 		97EA50D5312DC3CA7248FF96 /* libPods-KanjiMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE7E550EFD4AA643A7C321B /* libPods-KanjiMe.a */; };
-		A86912EA24C75773005171E0 /* AudioFiles in Resources */ = {isa = PBXBuildFile; fileRef = A86912E924C75773005171E0 /* AudioFiles */; };
+		A85F096324CB0AEC005AA30D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		A85F096424CB0B2A005AA30D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		A88CA1FF24CB2AD500FA72C7 /* project.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = A89D349224BF5FF400B09695 /* project.xcworkspace */; };
+		A88CA20024CB2CA900FA72C7 /* project.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = A89D349224BF5FF400B09695 /* project.xcworkspace */; };
+		A8E3160024CAFC4900571A3F /* AudioFiles in Resources */ = {isa = PBXBuildFile; fileRef = A8E315FE24CAFC4900571A3F /* AudioFiles */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,7 @@
 		00E356F21AD99517003FC87E /* KanjiMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KanjiMeTests.m; sourceTree = "<group>"; };
 		11DE8786B363FE0D28985DBE /* Pods-KanjiMe-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanjiMe-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-KanjiMe-tvOSTests/Pods-KanjiMe-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1381C23421514969B5527AD2 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* KanjiMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanjiMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* KanJisho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanJisho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KanjiMe/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = KanjiMe/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -72,8 +75,8 @@
 		9C5320D286B52F42DD6C76AC /* libPods-KanjiMe-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KanjiMe-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C87C311B3134B238B5A9230 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		9F1B1EDDBD2949A094B5D571 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		A86912E924C75773005171E0 /* AudioFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AudioFiles; path = ../../../AudioFiles; sourceTree = "<group>"; };
 		A89D349224BF5FF400B09695 /* project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = project.xcworkspace; path = KanjiMe.xcodeproj/project.xcworkspace; sourceTree = "<group>"; };
+		A8E315FE24CAFC4900571A3F /* AudioFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AudioFiles; sourceTree = "<group>"; };
 		A90B09AA2A004C1294E36EC6 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		B15509E2214F7C9B9960FDBC /* Pods-KanjiMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanjiMeTests.release.xcconfig"; path = "Target Support Files/Pods-KanjiMeTests/Pods-KanjiMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6C3279CE6D88678FF47BAC8 /* Pods-KanjiMe-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanjiMe-tvOS.release.xcconfig"; path = "Target Support Files/Pods-KanjiMe-tvOS/Pods-KanjiMe-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,7 +163,7 @@
 		13B07FAE1A68108700A75B9A /* KanjiMe */ = {
 			isa = PBXGroup;
 			children = (
-				A86912E924C75773005171E0 /* AudioFiles */,
+				A8E315FE24CAFC4900571A3F /* AudioFiles */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -213,7 +216,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* KanjiMe.app */,
+				13B07F961A680F5B00A75B9A /* KanJisho.app */,
 				00E356EE1AD99517003FC87E /* KanjiMeTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* KanjiMe-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* KanjiMe-tvOSTests.xctest */,
@@ -294,7 +297,7 @@
 			);
 			name = KanjiMe;
 			productName = KanjiMe;
-			productReference = 13B07F961A680F5B00A75B9A /* KanjiMe.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* KanJisho.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* KanjiMe-tvOS */ = {
@@ -391,6 +394,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88CA20024CB2CA900FA72C7 /* project.xcworkspace in Resources */,
+				A85F096424CB0B2A005AA30D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +403,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A86912EA24C75773005171E0 /* AudioFiles in Resources */,
+				A88CA1FF24CB2AD500FA72C7 /* project.xcworkspace in Resources */,
+				A8E3160024CAFC4900571A3F /* AudioFiles in Resources */,
+				A85F096324CB0AEC005AA30D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +413,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,7 +715,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanjiMe.app/KanjiMe";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanJisho.app/KanJisho";
 			};
 			name = Debug;
 		};
@@ -732,7 +738,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanjiMe.app/KanjiMe";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanJisho.app/KanJisho";
 			};
 			name = Release;
 		};
@@ -740,12 +746,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80D5FC1C4D00B07492D39957 /* Pods-KanjiMe.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = KanjiMe;
 				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JA5TNM5HKH;
+				ENABLE_TESTABILITY = YES;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = KanjiMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -753,7 +761,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = KanjiMe;
+				PRODUCT_NAME = KanJisho;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -762,19 +770,21 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C61ECA198925BBD16B73169E /* Pods-KanjiMe.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = KanjiMe;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JA5TNM5HKH;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = KanjiMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = KanjiMe;
+				PRODUCT_NAME = KanJisho;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

@@ -13,7 +13,7 @@ import {
 export default class DrawingCanvas extends Component {
   state = {
     color: '#de7119',
-    isPreview: true,
+    isPreview: false,
     isColorList: false,
   };
 
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
   },
   PreviewText: {
     fontSize: 300,
-    fontSize: hp('35%'),
+    fontSize: wp('80%'),
     textAlign: 'center',
     color: 'black',
   },
