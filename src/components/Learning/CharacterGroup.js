@@ -52,7 +52,8 @@ const styles = StyleSheet.create({
   },
   characterGroupTextContainer: {
     flex: 7,
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
+    // borderWidth: 1,
   },
   characterGroupText: {
     // fontSize: 24,
@@ -63,6 +64,8 @@ const styles = StyleSheet.create({
   displayCharacter: {
     fontSize: wp('28%'),
     color: color.header,
+    // borderWidth: 1,
+    textAlignVertical: 'bottom',
   },
   characterGroupContainer: {
     flex: 1,

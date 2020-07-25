@@ -46,8 +46,11 @@ const styles = StyleSheet.create({
   },
   bigKanji: {
     fontSize: hp('14%'),
-    lineHeight: hp('16%'),
-    letterSpacing: -30,
+    // lineHeight: hp('16%'),
+    // letterSpacing: -30,
+    textAlignVertical: 'center',
+    textAlign: 'center',
+    width: '100%',
     color: color.bigKanji,
   },
   kanjiVideo: {

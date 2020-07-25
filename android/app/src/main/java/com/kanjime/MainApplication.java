@@ -6,7 +6,7 @@ import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.reactnativecommunity.rctaudiotoolkit.AudioPackage;
 import com.terrylinla.rnsketchcanvas.SketchCanvasPackage;
-import com.reactlibrary.RNSketchViewPackage;
+// import com.reactlibrary.RNSketchViewPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
