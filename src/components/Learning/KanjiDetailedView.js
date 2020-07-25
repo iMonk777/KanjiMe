@@ -6,6 +6,7 @@ import {
   StyleSheet,
   TouchableOpacity,
   ScrollView,
+  Platform,
 } from 'react-native';
 import {kanjiData} from './../../storage/kanjiData';
 import {Icon} from 'native-base';
@@ -283,7 +284,7 @@ export default class KanjiDetailedView extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.ribbon} />
+        {Platform.OS == 'ios' ? <View style={styles.ribbon} /> : null}
         <View style={styles.headerContainer}>
           <View style={styles.leftButtonsContainer}>
             {this.state.favoritesKanji ===

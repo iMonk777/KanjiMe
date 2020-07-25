@@ -55,10 +55,13 @@ class LearnTab extends Component {
     if (favorites === null) {
       this.storeData('favoriteKanjiList', '[]');
     }
-    const didShowTraining = await this.getTraning();
-    if (didShowTraining === null) {
-      this.props.navigation.navigate('UserUITraining');
-      this.storeData('didShowTraining', 'true');
+
+    if (Platform.OS == 'ios') {
+      const didShowTraining = await this.getTraning();
+      if (didShowTraining === null) {
+        this.props.navigation.navigate('UserUITraining');
+        this.storeData('didShowTraining', 'true');
+      }
     }
   }
 
